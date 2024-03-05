@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e160dd3eddb06c9a07d41540cf1a256 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0e160dd3eddb06c9a07d41540cf1a256" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0e160dd3eddb06c9a07d41540cf1a256 = L.map(
+                "map_0e160dd3eddb06c9a07d41540cf1a256",
+                {
+                    center: [56.739413, 38.856236],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9e0786048dbdfaa48e9297fd2101e98 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var marker_1e0d49b78e2804e9c382cb63ad5bac6d = L.marker(
+                [56.739413, 38.856236],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_580170d5099bb88f8b5e0529c842566e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e0d49b78e2804e9c382cb63ad5bac6d.setIcon(icon_580170d5099bb88f8b5e0529c842566e);
+        
+    
+        var popup_e13ef69cc7867bf218569e0ef5314fee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9000cba35c1a9e5906dba8b36219c6de = $(`<div id="html_9000cba35c1a9e5906dba8b36219c6de" style="width: 100.0%; height: 100.0%;">Альтаир<br>Ярославская область, Переславль-Залесский, Ростовская улица, 4А</div>`)[0];
+            popup_e13ef69cc7867bf218569e0ef5314fee.setContent(html_9000cba35c1a9e5906dba8b36219c6de);
+        
+
+        marker_1e0d49b78e2804e9c382cb63ad5bac6d.bindPopup(popup_e13ef69cc7867bf218569e0ef5314fee)
+        ;
+
+        
+    
+    
+            var marker_53dc1350b1bcdb89b447ee3e2627364b = L.marker(
+                [56.739215, 38.85884],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_57d8887b54f94026c47f65fc58847019 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53dc1350b1bcdb89b447ee3e2627364b.setIcon(icon_57d8887b54f94026c47f65fc58847019);
+        
+    
+        var popup_d8a6bb91fc085137989f455d45f94ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d55df5e0a7593ce764cc0f955df460d = $(`<div id="html_9d55df5e0a7593ce764cc0f955df460d" style="width: 100.0%; height: 100.0%;">Здравсити<br>Ярославская область, Переславль-Залесский, улица Свободы, 7</div>`)[0];
+            popup_d8a6bb91fc085137989f455d45f94ea7.setContent(html_9d55df5e0a7593ce764cc0f955df460d);
+        
+
+        marker_53dc1350b1bcdb89b447ee3e2627364b.bindPopup(popup_d8a6bb91fc085137989f455d45f94ea7)
+        ;
+
+        
+    
+    
+            var marker_6b7c34c92c7fcf02cdefa5132bd2c44f = L.marker(
+                [56.739168, 38.856593],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_9f55b917f414083f156fb24df58dcbb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b7c34c92c7fcf02cdefa5132bd2c44f.setIcon(icon_9f55b917f414083f156fb24df58dcbb2);
+        
+    
+        var popup_3636641b26a5d8bf61e2021b2f97337a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05a8462ad1f2dfe1d12f1e8fd1e340c3 = $(`<div id="html_05a8462ad1f2dfe1d12f1e8fd1e340c3" style="width: 100.0%; height: 100.0%;">ВИТА Экспресс<br>Ярославская область, Переславль-Залесский, Ростовская улица, 4</div>`)[0];
+            popup_3636641b26a5d8bf61e2021b2f97337a.setContent(html_05a8462ad1f2dfe1d12f1e8fd1e340c3);
+        
+
+        marker_6b7c34c92c7fcf02cdefa5132bd2c44f.bindPopup(popup_3636641b26a5d8bf61e2021b2f97337a)
+        ;
+
+        
+    
+    
+            var marker_c06bfb3db1f7eb35556c7253ea56eb3b = L.marker(
+                [56.75777, 38.8754],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_42f758dce751f5014e7fed2b932ceeef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c06bfb3db1f7eb35556c7253ea56eb3b.setIcon(icon_42f758dce751f5014e7fed2b932ceeef);
+        
+    
+        var popup_e20eb6fdbf27a42acf213d3ed0884312 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cab67b7adb1093afc47bcfb404dfc2a4 = $(`<div id="html_cab67b7adb1093afc47bcfb404dfc2a4" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Ярославская область, Переславль-Залесский, улица Менделеева, 21</div>`)[0];
+            popup_e20eb6fdbf27a42acf213d3ed0884312.setContent(html_cab67b7adb1093afc47bcfb404dfc2a4);
+        
+
+        marker_c06bfb3db1f7eb35556c7253ea56eb3b.bindPopup(popup_e20eb6fdbf27a42acf213d3ed0884312)
+        ;
+
+        
+    
+    
+            var marker_5acfba0a17ad8ec44ce94d5046bb0046 = L.marker(
+                [56.717942, 38.819121],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_c9f93ab80535273ac16aa1b6247ec240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5acfba0a17ad8ec44ce94d5046bb0046.setIcon(icon_c9f93ab80535273ac16aa1b6247ec240);
+        
+    
+        var popup_8224d1d9ef911fdecdface8ecb409c07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_385cde8b2fdeb8944a989837afaab18f = $(`<div id="html_385cde8b2fdeb8944a989837afaab18f" style="width: 100.0%; height: 100.0%;">Альтаир<br>Ярославская область, Переславль-Залесский, микрорайон Чкаловский, 45</div>`)[0];
+            popup_8224d1d9ef911fdecdface8ecb409c07.setContent(html_385cde8b2fdeb8944a989837afaab18f);
+        
+
+        marker_5acfba0a17ad8ec44ce94d5046bb0046.bindPopup(popup_8224d1d9ef911fdecdface8ecb409c07)
+        ;
+
+        
+    
+    
+            var marker_42b0e37b8f3d99fb5dac7cfb401b2bdc = L.marker(
+                [56.749747, 38.880909],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_ad48a731454016881d6e2c5f7d47f29c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_42b0e37b8f3d99fb5dac7cfb401b2bdc.setIcon(icon_ad48a731454016881d6e2c5f7d47f29c);
+        
+    
+        var popup_1e20d0a37fa01fef6c882ed2e0688821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ae3783853539e6803a7ee928762f233 = $(`<div id="html_9ae3783853539e6803a7ee928762f233" style="width: 100.0%; height: 100.0%;">ВИТА Экспресс<br>Ярославская область, Переславль-Залесский, улица Строителей, 30</div>`)[0];
+            popup_1e20d0a37fa01fef6c882ed2e0688821.setContent(html_9ae3783853539e6803a7ee928762f233);
+        
+
+        marker_42b0e37b8f3d99fb5dac7cfb401b2bdc.bindPopup(popup_1e20d0a37fa01fef6c882ed2e0688821)
+        ;
+
+        
+    
+    
+            var marker_a30b765d7bd1e2cc860e8e2e99420fca = L.marker(
+                [56.753217, 38.865198],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_211099ef60ba6f3f021274de92d99c67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a30b765d7bd1e2cc860e8e2e99420fca.setIcon(icon_211099ef60ba6f3f021274de92d99c67);
+        
+    
+        var popup_2ecb9d287a9f46bcbe31bcf1e728372a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2afb4ec22535652390826f66061e8fe6 = $(`<div id="html_2afb4ec22535652390826f66061e8fe6" style="width: 100.0%; height: 100.0%;">Трика<br>Ярославская область, Переславль-Залесский, улица Урицкого, 52</div>`)[0];
+            popup_2ecb9d287a9f46bcbe31bcf1e728372a.setContent(html_2afb4ec22535652390826f66061e8fe6);
+        
+
+        marker_a30b765d7bd1e2cc860e8e2e99420fca.bindPopup(popup_2ecb9d287a9f46bcbe31bcf1e728372a)
+        ;
+
+        
+    
+    
+            var marker_524dc0893a535193b6db8f8bff8ec237 = L.marker(
+                [56.716988, 38.819441],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_33faadb5710353e4e5f915dc6b1c92f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_524dc0893a535193b6db8f8bff8ec237.setIcon(icon_33faadb5710353e4e5f915dc6b1c92f0);
+        
+    
+        var popup_5acb5f72f2715de2f9dead14337c6fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d4bff3df196b196227501865aaf6348 = $(`<div id="html_3d4bff3df196b196227501865aaf6348" style="width: 100.0%; height: 100.0%;">Забота<br>Ярославская область, Переславль-Залесский, микрорайон Чкаловский, 47А</div>`)[0];
+            popup_5acb5f72f2715de2f9dead14337c6fc5.setContent(html_3d4bff3df196b196227501865aaf6348);
+        
+
+        marker_524dc0893a535193b6db8f8bff8ec237.bindPopup(popup_5acb5f72f2715de2f9dead14337c6fc5)
+        ;
+
+        
+    
+    
+            var marker_fdcabc5a3895abab85a987d34779449c = L.marker(
+                [56.749597, 38.880297],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_682ca8e438c0db6679a7f58c84844dc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fdcabc5a3895abab85a987d34779449c.setIcon(icon_682ca8e438c0db6679a7f58c84844dc4);
+        
+    
+        var popup_0c2badb4018b0ca2c23252bd8a0e99ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63c80a357d0c197d112d789566bed368 = $(`<div id="html_63c80a357d0c197d112d789566bed368" style="width: 100.0%; height: 100.0%;">Альтаир<br>Ярославская область, Переславль-Залесский, улица Строителей, 30</div>`)[0];
+            popup_0c2badb4018b0ca2c23252bd8a0e99ab.setContent(html_63c80a357d0c197d112d789566bed368);
+        
+
+        marker_fdcabc5a3895abab85a987d34779449c.bindPopup(popup_0c2badb4018b0ca2c23252bd8a0e99ab)
+        ;
+
+        
+    
+    
+            var marker_2c54168a0dbf53f4e868b8b1f1a5ad45 = L.marker(
+                [56.739056, 38.855838],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_72fcaea671aa2fa6749dd750ae41d8f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c54168a0dbf53f4e868b8b1f1a5ad45.setIcon(icon_72fcaea671aa2fa6749dd750ae41d8f3);
+        
+    
+        var popup_dd83a4bf75c5b508637ddd9668f249d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db74843468fb47d492d140e8d74ffcf3 = $(`<div id="html_db74843468fb47d492d140e8d74ffcf3" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Ярославская область, Переславль-Залесский, Ростовская улица, 1</div>`)[0];
+            popup_dd83a4bf75c5b508637ddd9668f249d1.setContent(html_db74843468fb47d492d140e8d74ffcf3);
+        
+
+        marker_2c54168a0dbf53f4e868b8b1f1a5ad45.bindPopup(popup_dd83a4bf75c5b508637ddd9668f249d1)
+        ;
+
+        
+    
+    
+            var marker_0c37aff1670e7e7b2892e0a59744b87e = L.marker(
+                [56.750098, 38.874196],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_4869e0506b17238bfa4cab74048cfe5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0c37aff1670e7e7b2892e0a59744b87e.setIcon(icon_4869e0506b17238bfa4cab74048cfe5d);
+        
+    
+        var popup_8f277646d7e5fb753976ebc5ba879718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2fb44be73bab4ecc5b42992d0d16ed0 = $(`<div id="html_f2fb44be73bab4ecc5b42992d0d16ed0" style="width: 100.0%; height: 100.0%;">Альтаир<br>Ярославская область, Переславль-Залесский, Кооперативная улица, 62</div>`)[0];
+            popup_8f277646d7e5fb753976ebc5ba879718.setContent(html_f2fb44be73bab4ecc5b42992d0d16ed0);
+        
+
+        marker_0c37aff1670e7e7b2892e0a59744b87e.bindPopup(popup_8f277646d7e5fb753976ebc5ba879718)
+        ;
+
+        
+    
+    
+            var marker_a82e740a5c27b867afa4b5cc7a0d5f3a = L.marker(
+                [56.750026, 38.873943],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_ea8be7f98916ee6010d6b171e1a370e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a82e740a5c27b867afa4b5cc7a0d5f3a.setIcon(icon_ea8be7f98916ee6010d6b171e1a370e3);
+        
+    
+        var popup_ed79d8b7ed59e5ee591154c3a32d2e8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36131e46a22eab84f7412da7d5151eef = $(`<div id="html_36131e46a22eab84f7412da7d5151eef" style="width: 100.0%; height: 100.0%;">ВИТА Экспресс<br>Ярославская область, Переславль-Залесский, Кооперативная улица, 62</div>`)[0];
+            popup_ed79d8b7ed59e5ee591154c3a32d2e8d.setContent(html_36131e46a22eab84f7412da7d5151eef);
+        
+
+        marker_a82e740a5c27b867afa4b5cc7a0d5f3a.bindPopup(popup_ed79d8b7ed59e5ee591154c3a32d2e8d)
+        ;
+
+        
+    
+    
+            var marker_852493e2dc6619368a52eddcbbfb60b6 = L.marker(
+                [56.750505, 38.881787],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_98650f7b077f4a5a378d7fe4146fec6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_852493e2dc6619368a52eddcbbfb60b6.setIcon(icon_98650f7b077f4a5a378d7fe4146fec6a);
+        
+    
+        var popup_50475163b1876092eebb226128ff8b5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86a530ef29942639e75fb80a66f26e3f = $(`<div id="html_86a530ef29942639e75fb80a66f26e3f" style="width: 100.0%; height: 100.0%;">Здравсити<br>Ярославская область, Переславль-Залесский, улица Строителей, 41</div>`)[0];
+            popup_50475163b1876092eebb226128ff8b5f.setContent(html_86a530ef29942639e75fb80a66f26e3f);
+        
+
+        marker_852493e2dc6619368a52eddcbbfb60b6.bindPopup(popup_50475163b1876092eebb226128ff8b5f)
+        ;
+
+        
+    
+    
+            var marker_62b3d97f27e7e97209b478ef1f78972f = L.marker(
+                [56.745816, 38.882355],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_92d59f2d77670c03fb74704258f0ee95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62b3d97f27e7e97209b478ef1f78972f.setIcon(icon_92d59f2d77670c03fb74704258f0ee95);
+        
+    
+        var popup_ca71e55be25b7588ab4a63bd036d007b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0c0f5ae32d8fbc2607c4b78f91bb80f = $(`<div id="html_c0c0f5ae32d8fbc2607c4b78f91bb80f" style="width: 100.0%; height: 100.0%;">Мицар<br>Ярославская область, Переславль-Залесский, Октябрьская улица, 35</div>`)[0];
+            popup_ca71e55be25b7588ab4a63bd036d007b.setContent(html_c0c0f5ae32d8fbc2607c4b78f91bb80f);
+        
+
+        marker_62b3d97f27e7e97209b478ef1f78972f.bindPopup(popup_ca71e55be25b7588ab4a63bd036d007b)
+        ;
+
+        
+    
+    
+            var marker_135bf5d6b4c6e18f1533067b3624d33a = L.marker(
+                [56.740566, 38.869585],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_0e73a2df57763f550b1ba9613c78fac2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_135bf5d6b4c6e18f1533067b3624d33a.setIcon(icon_0e73a2df57763f550b1ba9613c78fac2);
+        
+    
+        var popup_49202258903d2c6c1e332be157759733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d3f11bc27145c30e76b4fab227ff1b7 = $(`<div id="html_0d3f11bc27145c30e76b4fab227ff1b7" style="width: 100.0%; height: 100.0%;">Апрель<br>Ярославская область, Переславль-Залесский, Полевая улица, 47</div>`)[0];
+            popup_49202258903d2c6c1e332be157759733.setContent(html_0d3f11bc27145c30e76b4fab227ff1b7);
+        
+
+        marker_135bf5d6b4c6e18f1533067b3624d33a.bindPopup(popup_49202258903d2c6c1e332be157759733)
+        ;
+
+        
+    
+    
+            var marker_d0bbfb2d5f672f95338ece5043532104 = L.marker(
+                [56.75061, 38.884762],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_7f4c01262345a7b84a0f46c98346179b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d0bbfb2d5f672f95338ece5043532104.setIcon(icon_7f4c01262345a7b84a0f46c98346179b);
+        
+    
+        var popup_2a7e2b4766ed181de4baf675b43915bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54683111d9a3eb25b4a2689eb5b764bb = $(`<div id="html_54683111d9a3eb25b4a2689eb5b764bb" style="width: 100.0%; height: 100.0%;">Алоэ<br>Ярославская область, Переславль-Залесский, Октябрьская улица, 34</div>`)[0];
+            popup_2a7e2b4766ed181de4baf675b43915bb.setContent(html_54683111d9a3eb25b4a2689eb5b764bb);
+        
+
+        marker_d0bbfb2d5f672f95338ece5043532104.bindPopup(popup_2a7e2b4766ed181de4baf675b43915bb)
+        ;
+
+        
+    
+    
+            var marker_f224163bb1fc9c9d67f1d54ae47dc6d9 = L.marker(
+                [56.757539, 38.875187],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_f25a8cfeb9f8ded637915ee0afb2ec1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f224163bb1fc9c9d67f1d54ae47dc6d9.setIcon(icon_f25a8cfeb9f8ded637915ee0afb2ec1f);
+        
+    
+        var popup_033b9b05db216948abfc741e4f851c14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61ffe700d14ec16bb925e155961d7b4a = $(`<div id="html_61ffe700d14ec16bb925e155961d7b4a" style="width: 100.0%; height: 100.0%;">Ригла<br>Ярославская область, Переславль-Залесский, улица Менделеева, 21</div>`)[0];
+            popup_033b9b05db216948abfc741e4f851c14.setContent(html_61ffe700d14ec16bb925e155961d7b4a);
+        
+
+        marker_f224163bb1fc9c9d67f1d54ae47dc6d9.bindPopup(popup_033b9b05db216948abfc741e4f851c14)
+        ;
+
+        
+    
+    
+            var marker_55d8af042a19b1d524cb31ec5fd85464 = L.marker(
+                [56.724725, 38.83642],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_1ea6cd748d1f16ee979a4d0eecc596da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55d8af042a19b1d524cb31ec5fd85464.setIcon(icon_1ea6cd748d1f16ee979a4d0eecc596da);
+        
+    
+        var popup_c53a2a00a9726d1468f0dff6a70f9c5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98e41ae45c05c8b6d9c02cfc4051e3d6 = $(`<div id="html_98e41ae45c05c8b6d9c02cfc4051e3d6" style="width: 100.0%; height: 100.0%;">Здравсити<br>Ярославская область, Переславль-Залесский, улица Кардовского, 70</div>`)[0];
+            popup_c53a2a00a9726d1468f0dff6a70f9c5a.setContent(html_98e41ae45c05c8b6d9c02cfc4051e3d6);
+        
+
+        marker_55d8af042a19b1d524cb31ec5fd85464.bindPopup(popup_c53a2a00a9726d1468f0dff6a70f9c5a)
+        ;
+
+        
+    
+    
+            var marker_5cb96b012a704d62fb7bc932267135c5 = L.marker(
+                [56.740915, 38.882718],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_8997e4ade88dd4e6d00e70fc56117eb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5cb96b012a704d62fb7bc932267135c5.setIcon(icon_8997e4ade88dd4e6d00e70fc56117eb6);
+        
+    
+        var popup_0ff749a246f773c992fff2b31cdd86c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ce6affc462e8b944e0887a6f130ded8 = $(`<div id="html_7ce6affc462e8b944e0887a6f130ded8" style="width: 100.0%; height: 100.0%;">Гелиос<br>Ярославская область, Переславль-Залесский, улица Свободы, 64А</div>`)[0];
+            popup_0ff749a246f773c992fff2b31cdd86c8.setContent(html_7ce6affc462e8b944e0887a6f130ded8);
+        
+
+        marker_5cb96b012a704d62fb7bc932267135c5.bindPopup(popup_0ff749a246f773c992fff2b31cdd86c8)
+        ;
+
+        
+    
+    
+            var marker_28b81689d46f84599d9aae464d19c066 = L.marker(
+                [56.755748, 38.877026],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_e570009ec9e535792dc31625314683b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_28b81689d46f84599d9aae464d19c066.setIcon(icon_e570009ec9e535792dc31625314683b1);
+        
+    
+        var popup_d6c585eff6e341db72fa4fab24ae1ffc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0653c7bcdc1b1ff6d173802ef8be40f8 = $(`<div id="html_0653c7bcdc1b1ff6d173802ef8be40f8" style="width: 100.0%; height: 100.0%;">Мицар<br>Ярославская область, Переславль-Залесский, улица Менделеева, 25</div>`)[0];
+            popup_d6c585eff6e341db72fa4fab24ae1ffc.setContent(html_0653c7bcdc1b1ff6d173802ef8be40f8);
+        
+
+        marker_28b81689d46f84599d9aae464d19c066.bindPopup(popup_d6c585eff6e341db72fa4fab24ae1ffc)
+        ;
+
+        
+    
+    
+            var marker_d6eba9bf834abeea3c406bb59ec3a93d = L.marker(
+                [56.725459, 38.838294],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_f5f64ff268e8379c2485ea3185a389ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d6eba9bf834abeea3c406bb59ec3a93d.setIcon(icon_f5f64ff268e8379c2485ea3185a389ea);
+        
+    
+        var popup_48c11993faba83d6bbbf6efe494f1130 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bc32d16bcaf6791bd8ee5cb57d19ca7 = $(`<div id="html_9bc32d16bcaf6791bd8ee5cb57d19ca7" style="width: 100.0%; height: 100.0%;">Титан<br>Ярославская область, Переславль-Залесский, улица Кардовского, 58</div>`)[0];
+            popup_48c11993faba83d6bbbf6efe494f1130.setContent(html_9bc32d16bcaf6791bd8ee5cb57d19ca7);
+        
+
+        marker_d6eba9bf834abeea3c406bb59ec3a93d.bindPopup(popup_48c11993faba83d6bbbf6efe494f1130)
+        ;
+
+        
+    
+    
+            var marker_9f2ccb62aba791ab66ac9e595270caf3 = L.marker(
+                [56.749613, 38.880367],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_356b14d8588eeec4cfa5a99e0689f047 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9f2ccb62aba791ab66ac9e595270caf3.setIcon(icon_356b14d8588eeec4cfa5a99e0689f047);
+        
+    
+        var popup_b13fbdda2feaeb4e118eadf3d6371361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df3587001330a6415869d115981444a2 = $(`<div id="html_df3587001330a6415869d115981444a2" style="width: 100.0%; height: 100.0%;">Забота<br>Ярославская область, Переславль-Залесский, улица Строителей, 30</div>`)[0];
+            popup_b13fbdda2feaeb4e118eadf3d6371361.setContent(html_df3587001330a6415869d115981444a2);
+        
+
+        marker_9f2ccb62aba791ab66ac9e595270caf3.bindPopup(popup_b13fbdda2feaeb4e118eadf3d6371361)
+        ;
+
+        
+    
+    
+            var marker_45659643d4c4af4d7f24ea82355c0e3e = L.marker(
+                [56.755787, 38.873663],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_da802725de94a0841d29d3a84e6c023e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_45659643d4c4af4d7f24ea82355c0e3e.setIcon(icon_da802725de94a0841d29d3a84e6c023e);
+        
+    
+        var popup_92f65948284ac840bd2a14ff12adc3b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cad3c327f16721ef99b8e1afd6da253b = $(`<div id="html_cad3c327f16721ef99b8e1afd6da253b" style="width: 100.0%; height: 100.0%;">Апрель<br>Ярославская область, Переславль-Залесский, улица Менделеева, 20</div>`)[0];
+            popup_92f65948284ac840bd2a14ff12adc3b3.setContent(html_cad3c327f16721ef99b8e1afd6da253b);
+        
+
+        marker_45659643d4c4af4d7f24ea82355c0e3e.bindPopup(popup_92f65948284ac840bd2a14ff12adc3b3)
+        ;
+
+        
+    
+    
+            var marker_b99dd04302384e78bc30ae9fcc8a0294 = L.marker(
+                [56.74909, 38.876775],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_ebd791ca8f3e15710491b493d0ace5f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b99dd04302384e78bc30ae9fcc8a0294.setIcon(icon_ebd791ca8f3e15710491b493d0ace5f4);
+        
+    
+        var popup_aeb3e06a85de6d4b839764c6aaff5f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_553334abf85296c53882ad54e49b8a82 = $(`<div id="html_553334abf85296c53882ad54e49b8a82" style="width: 100.0%; height: 100.0%;">Апрель<br>Ярославская область, Переславль-Залесский, улица Строителей, 31</div>`)[0];
+            popup_aeb3e06a85de6d4b839764c6aaff5f08.setContent(html_553334abf85296c53882ad54e49b8a82);
+        
+
+        marker_b99dd04302384e78bc30ae9fcc8a0294.bindPopup(popup_aeb3e06a85de6d4b839764c6aaff5f08)
+        ;
+
+        
+    
+    
+            var marker_efcc210f9f0146b86dac848a42c04602 = L.marker(
+                [56.750473, 38.881053],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_c246e88a932ee30afb847f66cc46c6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_efcc210f9f0146b86dac848a42c04602.setIcon(icon_c246e88a932ee30afb847f66cc46c6f9);
+        
+    
+        var popup_977d23825f9bd0a55425fac62c69d682 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95e8b8ae6f43f6b5cad7be7ae706c2cb = $(`<div id="html_95e8b8ae6f43f6b5cad7be7ae706c2cb" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Ярославская область, Переславль-Залесский, улица Строителей, 41</div>`)[0];
+            popup_977d23825f9bd0a55425fac62c69d682.setContent(html_95e8b8ae6f43f6b5cad7be7ae706c2cb);
+        
+
+        marker_efcc210f9f0146b86dac848a42c04602.bindPopup(popup_977d23825f9bd0a55425fac62c69d682)
+        ;
+
+        
+    
+    
+            var marker_3fb0fa4a3b7829567f528f5f48875c38 = L.marker(
+                [56.752469, 38.882434],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_b8e758cefa97d7fad58d64bd604b6b2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3fb0fa4a3b7829567f528f5f48875c38.setIcon(icon_b8e758cefa97d7fad58d64bd604b6b2a);
+        
+    
+        var popup_8bfe2f31cd2ae69bfc3a35a884adfe48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21a85b113b8f5033b89fb1369421ce61 = $(`<div id="html_21a85b113b8f5033b89fb1369421ce61" style="width: 100.0%; height: 100.0%;">Апрель<br>Ярославская область, Переславль-Залесский, улица Менделеева, 52</div>`)[0];
+            popup_8bfe2f31cd2ae69bfc3a35a884adfe48.setContent(html_21a85b113b8f5033b89fb1369421ce61);
+        
+
+        marker_3fb0fa4a3b7829567f528f5f48875c38.bindPopup(popup_8bfe2f31cd2ae69bfc3a35a884adfe48)
+        ;
+
+        
+    
+    
+            var marker_e3f26aa2deedee6a4d2b955f3686002a = L.marker(
+                [56.752502, 38.882426],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_b4662b441ecc6744fec4fefa22e30fa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e3f26aa2deedee6a4d2b955f3686002a.setIcon(icon_b4662b441ecc6744fec4fefa22e30fa0);
+        
+    
+        var popup_b463eedf079837fa0303c23bb9aab609 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aca7a182ecc37b9d3c1dd69c2c5c2e8 = $(`<div id="html_0aca7a182ecc37b9d3c1dd69c2c5c2e8" style="width: 100.0%; height: 100.0%;">Аптека<br>Ярославская область, Переславль-Залесский, улица Менделеева, 52</div>`)[0];
+            popup_b463eedf079837fa0303c23bb9aab609.setContent(html_0aca7a182ecc37b9d3c1dd69c2c5c2e8);
+        
+
+        marker_e3f26aa2deedee6a4d2b955f3686002a.bindPopup(popup_b463eedf079837fa0303c23bb9aab609)
+        ;
+
+        
+    
+    
+            var marker_a20ea4751c4d3c3fbf7e8b6a0393b4c1 = L.marker(
+                [56.750473, 38.881055],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_56a9b66dac54c463ccc9a4ee37ef7fcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a20ea4751c4d3c3fbf7e8b6a0393b4c1.setIcon(icon_56a9b66dac54c463ccc9a4ee37ef7fcc);
+        
+    
+        var popup_31b9f44015fac312d91ef10b68efda70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ccfb68994468d18b21be32c54b41745 = $(`<div id="html_8ccfb68994468d18b21be32c54b41745" style="width: 100.0%; height: 100.0%;">Столички<br>Ярославская область, Переславль-Залесский, улица Строителей, 41</div>`)[0];
+            popup_31b9f44015fac312d91ef10b68efda70.setContent(html_8ccfb68994468d18b21be32c54b41745);
+        
+
+        marker_a20ea4751c4d3c3fbf7e8b6a0393b4c1.bindPopup(popup_31b9f44015fac312d91ef10b68efda70)
+        ;
+
+        
+    
+    
+            var marker_bb21fdc92f2ebd567b8de77f8b1e26d3 = L.marker(
+                [56.749747, 38.880909],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_39a8c92089e611f322058afae4356191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb21fdc92f2ebd567b8de77f8b1e26d3.setIcon(icon_39a8c92089e611f322058afae4356191);
+        
+    
+        var popup_fb76d6f28d2128e20baf72683e809e6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18905dd8bdebd90048c8cd38879ed3c4 = $(`<div id="html_18905dd8bdebd90048c8cd38879ed3c4" style="width: 100.0%; height: 100.0%;">Сеть аптек Альтаир<br>Ярославская область, Переславль-Залесский, улица Строителей, 30</div>`)[0];
+            popup_fb76d6f28d2128e20baf72683e809e6b.setContent(html_18905dd8bdebd90048c8cd38879ed3c4);
+        
+
+        marker_bb21fdc92f2ebd567b8de77f8b1e26d3.bindPopup(popup_fb76d6f28d2128e20baf72683e809e6b)
+        ;
+
+        
+    
+    
+            var marker_ce8576e5a85d2f46789b5ac53b318331 = L.marker(
+                [56.744475, 38.881722],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_73e8f8fcbc43878a9fabc9b52aef3883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ce8576e5a85d2f46789b5ac53b318331.setIcon(icon_73e8f8fcbc43878a9fabc9b52aef3883);
+        
+    
+        var popup_091e637214181ae145fc59c1e3216ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d22e9570287d0a6eeb1b72f42ea2f743 = $(`<div id="html_d22e9570287d0a6eeb1b72f42ea2f743" style="width: 100.0%; height: 100.0%;">Karlos<br>Ярославская область, Переславль-Залесский, 4-й микрорайон</div>`)[0];
+            popup_091e637214181ae145fc59c1e3216ef8.setContent(html_d22e9570287d0a6eeb1b72f42ea2f743);
+        
+
+        marker_ce8576e5a85d2f46789b5ac53b318331.bindPopup(popup_091e637214181ae145fc59c1e3216ef8)
+        ;
+
+        
+    
+    
+            var marker_c07733da5a82b4ed5fc82d63db23ef58 = L.marker(
+                [56.7395, 38.869267],
+                {}
+            ).addTo(map_0e160dd3eddb06c9a07d41540cf1a256);
+        
+    
+            var icon_58e228704b69510c9bdade0c492fa33b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c07733da5a82b4ed5fc82d63db23ef58.setIcon(icon_58e228704b69510c9bdade0c492fa33b);
+        
+    
+        var popup_9badecbf8eed649b8d79bd1286947156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bbddc6eee62e28781261fb2515e6760 = $(`<div id="html_7bbddc6eee62e28781261fb2515e6760" style="width: 100.0%; height: 100.0%;">ОблФарм<br>Ярославская область, Переславль-Залесский, улица Свободы, 42А</div>`)[0];
+            popup_9badecbf8eed649b8d79bd1286947156.setContent(html_7bbddc6eee62e28781261fb2515e6760);
+        
+
+        marker_c07733da5a82b4ed5fc82d63db23ef58.bindPopup(popup_9badecbf8eed649b8d79bd1286947156)
+        ;
+
+        
+    
+</script>
+</html>

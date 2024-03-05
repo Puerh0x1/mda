@@ -1,0 +1,3693 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_92d128d738fc3030aee45c5e2c08c39e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_92d128d738fc3030aee45c5e2c08c39e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_92d128d738fc3030aee45c5e2c08c39e = L.map(
+                "map_92d128d738fc3030aee45c5e2c08c39e",
+                {
+                    center: [55.919922, 37.974143],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7e33ee4810304fc75760a5a877eb115 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var marker_e0302ab1954182029e617c6bd4b399f7 = L.marker(
+                [55.919922, 37.974143],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_9db0f0add9f3a51fe4b4cb8468d923a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e0302ab1954182029e617c6bd4b399f7.setIcon(icon_9db0f0add9f3a51fe4b4cb8468d923a7);
+        
+    
+        var popup_d72d21def3b6b5e7a48abee05df4135c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb1917c3b33b189e54f57893bc02e4b2 = $(`<div id="html_bb1917c3b33b189e54f57893bc02e4b2" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Щёлково, улица Пушкина, 2</div>`)[0];
+            popup_d72d21def3b6b5e7a48abee05df4135c.setContent(html_bb1917c3b33b189e54f57893bc02e4b2);
+        
+
+        marker_e0302ab1954182029e617c6bd4b399f7.bindPopup(popup_d72d21def3b6b5e7a48abee05df4135c)
+        ;
+
+        
+    
+    
+            var marker_1b2d9bbf2898b54a8ec61a3106dac51f = L.marker(
+                [55.928199, 37.998725],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_09e49e0c53e4f2e3c80c754d6f5d19f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b2d9bbf2898b54a8ec61a3106dac51f.setIcon(icon_09e49e0c53e4f2e3c80c754d6f5d19f3);
+        
+    
+        var popup_ee2ba773a02806f0901056c7d0d30018 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8fe86d7081e99b1ab4f743fd94b0833 = $(`<div id="html_a8fe86d7081e99b1ab4f743fd94b0833" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Щёлково, Космодемьянская улица, 11/9</div>`)[0];
+            popup_ee2ba773a02806f0901056c7d0d30018.setContent(html_a8fe86d7081e99b1ab4f743fd94b0833);
+        
+
+        marker_1b2d9bbf2898b54a8ec61a3106dac51f.bindPopup(popup_ee2ba773a02806f0901056c7d0d30018)
+        ;
+
+        
+    
+    
+            var marker_d4ad2aea8f00abf19601d129a7b960a6 = L.marker(
+                [55.940386, 37.97657],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_32c38f6f8386dc6dfa09b4a5d95ad56d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4ad2aea8f00abf19601d129a7b960a6.setIcon(icon_32c38f6f8386dc6dfa09b4a5d95ad56d);
+        
+    
+        var popup_fb749896ede49dc3c4449f3e83d44f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c87d6cc806ddefbc216c54095f3e1e7b = $(`<div id="html_c87d6cc806ddefbc216c54095f3e1e7b" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Щёлково, микрорайон Богородский, 10, корп. 2</div>`)[0];
+            popup_fb749896ede49dc3c4449f3e83d44f09.setContent(html_c87d6cc806ddefbc216c54095f3e1e7b);
+        
+
+        marker_d4ad2aea8f00abf19601d129a7b960a6.bindPopup(popup_fb749896ede49dc3c4449f3e83d44f09)
+        ;
+
+        
+    
+    
+            var marker_da1ec1ea76071e9e753cd8a34d0e13f7 = L.marker(
+                [55.919115, 37.974536],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_4388238da0f4c6f94ca04bc8601c5c41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da1ec1ea76071e9e753cd8a34d0e13f7.setIcon(icon_4388238da0f4c6f94ca04bc8601c5c41);
+        
+    
+        var popup_d2eaa037033fa24a9f39ddad38986a89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d1d209eb379b04793f514a7435d60b0 = $(`<div id="html_3d1d209eb379b04793f514a7435d60b0" style="width: 100.0%; height: 100.0%;">ЕАПТЕКА<br>Московская область, Щёлково, Первомайская улица, 16Б</div>`)[0];
+            popup_d2eaa037033fa24a9f39ddad38986a89.setContent(html_3d1d209eb379b04793f514a7435d60b0);
+        
+
+        marker_da1ec1ea76071e9e753cd8a34d0e13f7.bindPopup(popup_d2eaa037033fa24a9f39ddad38986a89)
+        ;
+
+        
+    
+    
+            var marker_6e82a5e8e24c58d759b42e8f588dcac2 = L.marker(
+                [55.916881, 38.003615],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_775302f87c210dceba20ed005c7baab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e82a5e8e24c58d759b42e8f588dcac2.setIcon(icon_775302f87c210dceba20ed005c7baab2);
+        
+    
+        var popup_597a5aeb0bdfee041b9bd44f2d1e037d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38809b07ba4ff7082251e56379164357 = $(`<div id="html_38809b07ba4ff7082251e56379164357" style="width: 100.0%; height: 100.0%;">Государственная аптека<br>Московская область, Щёлково, Краснознаменская улица, 17, корп. 4</div>`)[0];
+            popup_597a5aeb0bdfee041b9bd44f2d1e037d.setContent(html_38809b07ba4ff7082251e56379164357);
+        
+
+        marker_6e82a5e8e24c58d759b42e8f588dcac2.bindPopup(popup_597a5aeb0bdfee041b9bd44f2d1e037d)
+        ;
+
+        
+    
+    
+            var marker_a51923bae9618bac37dedc8bc0a15eef = L.marker(
+                [55.922136, 37.973619],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_503c0e37985231912e5a5c019e873f69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a51923bae9618bac37dedc8bc0a15eef.setIcon(icon_503c0e37985231912e5a5c019e873f69);
+        
+    
+        var popup_a1d612e2352a189c861446993d92b831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b63d4eb21430135b7bf8904c782b52b = $(`<div id="html_1b63d4eb21430135b7bf8904c782b52b" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Щёлково, Центральная улица, 49</div>`)[0];
+            popup_a1d612e2352a189c861446993d92b831.setContent(html_1b63d4eb21430135b7bf8904c782b52b);
+        
+
+        marker_a51923bae9618bac37dedc8bc0a15eef.bindPopup(popup_a1d612e2352a189c861446993d92b831)
+        ;
+
+        
+    
+    
+            var marker_e0b62c014ea0e7529653488532515e4b = L.marker(
+                [55.929606, 38.003807],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_1d6e924b841a8ab488f87c363ed89b53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e0b62c014ea0e7529653488532515e4b.setIcon(icon_1d6e924b841a8ab488f87c363ed89b53);
+        
+    
+        var popup_6806df2494df586dd6c89d40c4de63a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92769d28a0328e85ac250344b468019b = $(`<div id="html_92769d28a0328e85ac250344b468019b" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Щёлково, Пролетарский проспект, 18</div>`)[0];
+            popup_6806df2494df586dd6c89d40c4de63a1.setContent(html_92769d28a0328e85ac250344b468019b);
+        
+
+        marker_e0b62c014ea0e7529653488532515e4b.bindPopup(popup_6806df2494df586dd6c89d40c4de63a1)
+        ;
+
+        
+    
+    
+            var marker_fa113f0124427e9e3b4d331b4c3c4336 = L.marker(
+                [55.914744, 37.998378],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_9bc4990e058f3670fe9075894b75b97e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa113f0124427e9e3b4d331b4c3c4336.setIcon(icon_9bc4990e058f3670fe9075894b75b97e);
+        
+    
+        var popup_52180302fdacd22475ecb2a9c89f500d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53dcd4b0fc2943a70caf1b264ee61884 = $(`<div id="html_53dcd4b0fc2943a70caf1b264ee61884" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Щёлково, Краснознаменская улица, 12</div>`)[0];
+            popup_52180302fdacd22475ecb2a9c89f500d.setContent(html_53dcd4b0fc2943a70caf1b264ee61884);
+        
+
+        marker_fa113f0124427e9e3b4d331b4c3c4336.bindPopup(popup_52180302fdacd22475ecb2a9c89f500d)
+        ;
+
+        
+    
+    
+            var marker_c5b79bfb44a406aac6a123d8616ca501 = L.marker(
+                [55.925527, 37.997522],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_a2e14d0630b3a556ce76feb97ea3d2c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c5b79bfb44a406aac6a123d8616ca501.setIcon(icon_a2e14d0630b3a556ce76feb97ea3d2c7);
+        
+    
+        var popup_05a74936438f3856148379df4060d114 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91c4520dd90d64f76faa69dcaa22942c = $(`<div id="html_91c4520dd90d64f76faa69dcaa22942c" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Щёлково, Талсинская улица, 2</div>`)[0];
+            popup_05a74936438f3856148379df4060d114.setContent(html_91c4520dd90d64f76faa69dcaa22942c);
+        
+
+        marker_c5b79bfb44a406aac6a123d8616ca501.bindPopup(popup_05a74936438f3856148379df4060d114)
+        ;
+
+        
+    
+    
+            var marker_ba56b37bfa51fed8ed30931bec526e0a = L.marker(
+                [55.902338, 38.049724],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_ea1407e7092ca76c22170b26b42f29db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba56b37bfa51fed8ed30931bec526e0a.setIcon(icon_ea1407e7092ca76c22170b26b42f29db);
+        
+    
+        var popup_f8ddb5d1bf2612aa5257706ae6ef6e86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd9b6339281626b25fc010c1ed058290 = $(`<div id="html_bd9b6339281626b25fc010c1ed058290" style="width: 100.0%; height: 100.0%;">Леофарм<br>Московская область, Щёлково, микрорайон Щёлково-3, Институтская улица, вл5</div>`)[0];
+            popup_f8ddb5d1bf2612aa5257706ae6ef6e86.setContent(html_bd9b6339281626b25fc010c1ed058290);
+        
+
+        marker_ba56b37bfa51fed8ed30931bec526e0a.bindPopup(popup_f8ddb5d1bf2612aa5257706ae6ef6e86)
+        ;
+
+        
+    
+    
+            var marker_f2f20960ed60de6a687cb7071f2980e2 = L.marker(
+                [55.925328, 38.003323],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_88413a6b8fe524dfb3063f064ca57c9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2f20960ed60de6a687cb7071f2980e2.setIcon(icon_88413a6b8fe524dfb3063f064ca57c9f);
+        
+    
+        var popup_6d46f15f1c27d90436be9db8b4500b23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0acdfa231732e164b7ceef20b5afe16f = $(`<div id="html_0acdfa231732e164b7ceef20b5afe16f" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Щёлково, Пролетарский проспект, 12Б</div>`)[0];
+            popup_6d46f15f1c27d90436be9db8b4500b23.setContent(html_0acdfa231732e164b7ceef20b5afe16f);
+        
+
+        marker_f2f20960ed60de6a687cb7071f2980e2.bindPopup(popup_6d46f15f1c27d90436be9db8b4500b23)
+        ;
+
+        
+    
+    
+            var marker_22634bb28c4b04434b1af763a824ee11 = L.marker(
+                [55.919932, 37.996823],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_f8e83e042d36b576c9cd8fdd10622d05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22634bb28c4b04434b1af763a824ee11.setIcon(icon_f8e83e042d36b576c9cd8fdd10622d05);
+        
+    
+        var popup_b5cd067a4b736accb7a119ae1f147652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cb976b5d27ef651f30d33ebe368821d = $(`<div id="html_3cb976b5d27ef651f30d33ebe368821d" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, Пролетарский проспект, 9</div>`)[0];
+            popup_b5cd067a4b736accb7a119ae1f147652.setContent(html_3cb976b5d27ef651f30d33ebe368821d);
+        
+
+        marker_22634bb28c4b04434b1af763a824ee11.bindPopup(popup_b5cd067a4b736accb7a119ae1f147652)
+        ;
+
+        
+    
+    
+            var marker_d432841d0c12bbb5177c942d2e5d79ec = L.marker(
+                [55.939776, 37.977365],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_a8edc9417e8012d360cb2bac27dd41b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d432841d0c12bbb5177c942d2e5d79ec.setIcon(icon_a8edc9417e8012d360cb2bac27dd41b5);
+        
+    
+        var popup_0b4dec13e691268acdd5ed7537eed583 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52d0a9b4a4d781cf813c9d145a05abcb = $(`<div id="html_52d0a9b4a4d781cf813c9d145a05abcb" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Щёлково, микрорайон Богородский, 10, корп. 2</div>`)[0];
+            popup_0b4dec13e691268acdd5ed7537eed583.setContent(html_52d0a9b4a4d781cf813c9d145a05abcb);
+        
+
+        marker_d432841d0c12bbb5177c942d2e5d79ec.bindPopup(popup_0b4dec13e691268acdd5ed7537eed583)
+        ;
+
+        
+    
+    
+            var marker_e208caa371cad3f1da59ba7966320ed0 = L.marker(
+                [55.919549, 37.975057],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_a0120dd05cb7b23f96372bc3ec3d9370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e208caa371cad3f1da59ba7966320ed0.setIcon(icon_a0120dd05cb7b23f96372bc3ec3d9370);
+        
+    
+        var popup_108f119cc5b5bdd409cd08a65773a139 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc7671649e2660eb4bdcd447e4762359 = $(`<div id="html_dc7671649e2660eb4bdcd447e4762359" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, улица Пушкина, 1/16</div>`)[0];
+            popup_108f119cc5b5bdd409cd08a65773a139.setContent(html_dc7671649e2660eb4bdcd447e4762359);
+        
+
+        marker_e208caa371cad3f1da59ba7966320ed0.bindPopup(popup_108f119cc5b5bdd409cd08a65773a139)
+        ;
+
+        
+    
+    
+            var marker_f831743730006831771f6ac873dec9e9 = L.marker(
+                [55.913299, 37.994221],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_5d0b95f0c73890fa85f1dc81d37349cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f831743730006831771f6ac873dec9e9.setIcon(icon_5d0b95f0c73890fa85f1dc81d37349cf);
+        
+    
+        var popup_da371ed3b17db12260694b5d36638af3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81a5dc52f5c73257c4f1c24adcf57f00 = $(`<div id="html_81a5dc52f5c73257c4f1c24adcf57f00" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, Советская улица, 16, стр. 1</div>`)[0];
+            popup_da371ed3b17db12260694b5d36638af3.setContent(html_81a5dc52f5c73257c4f1c24adcf57f00);
+        
+
+        marker_f831743730006831771f6ac873dec9e9.bindPopup(popup_da371ed3b17db12260694b5d36638af3)
+        ;
+
+        
+    
+    
+            var marker_68aef5516daecc5a1570724bc619e569 = L.marker(
+                [55.927841, 37.983449],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_bd4edc87aeefffd41d752e94d2442422 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68aef5516daecc5a1570724bc619e569.setIcon(icon_bd4edc87aeefffd41d752e94d2442422);
+        
+    
+        var popup_710925f4677b3d1ac193404d8351d97c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_654397a67fe116d67287effa42181325 = $(`<div id="html_654397a67fe116d67287effa42181325" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, Талсинская улица, 24А</div>`)[0];
+            popup_710925f4677b3d1ac193404d8351d97c.setContent(html_654397a67fe116d67287effa42181325);
+        
+
+        marker_68aef5516daecc5a1570724bc619e569.bindPopup(popup_710925f4677b3d1ac193404d8351d97c)
+        ;
+
+        
+    
+    
+            var marker_b13aeba008e4fb9026dce0ba1863760f = L.marker(
+                [55.925676, 37.993622],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_468929e6ed4f8f7d9bcf8f7c5e767de1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b13aeba008e4fb9026dce0ba1863760f.setIcon(icon_468929e6ed4f8f7d9bcf8f7c5e767de1);
+        
+    
+        var popup_9512d37a64f85d74ac9b9546be157a50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_149118cc3d8faf73228052176b6041ee = $(`<div id="html_149118cc3d8faf73228052176b6041ee" style="width: 100.0%; height: 100.0%;">Здоров.ру<br>Московская область, Щёлково, Талсинская улица, 2А</div>`)[0];
+            popup_9512d37a64f85d74ac9b9546be157a50.setContent(html_149118cc3d8faf73228052176b6041ee);
+        
+
+        marker_b13aeba008e4fb9026dce0ba1863760f.bindPopup(popup_9512d37a64f85d74ac9b9546be157a50)
+        ;
+
+        
+    
+    
+            var marker_44a5e2b58530aa137a6ab3e81dd1b476 = L.marker(
+                [55.929607, 37.992639],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_c824a37a3857a5acb8f88ce05da86380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44a5e2b58530aa137a6ab3e81dd1b476.setIcon(icon_c824a37a3857a5acb8f88ce05da86380);
+        
+    
+        var popup_dc53ffb1c4d505a6a0b4b2e39ddcf3cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44574efbbdeb87ab257b70f384399d0d = $(`<div id="html_44574efbbdeb87ab257b70f384399d0d" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Щёлково, Комсомольская улица, 3Б</div>`)[0];
+            popup_dc53ffb1c4d505a6a0b4b2e39ddcf3cb.setContent(html_44574efbbdeb87ab257b70f384399d0d);
+        
+
+        marker_44a5e2b58530aa137a6ab3e81dd1b476.bindPopup(popup_dc53ffb1c4d505a6a0b4b2e39ddcf3cb)
+        ;
+
+        
+    
+    
+            var marker_1f432eb1a96aaa34e82b114ec06e2bf4 = L.marker(
+                [55.919093, 37.99869],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_ba63f18d8c03ae70f0ef4329be05ef46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f432eb1a96aaa34e82b114ec06e2bf4.setIcon(icon_ba63f18d8c03ae70f0ef4329be05ef46);
+        
+    
+        var popup_abd441231c77b49936674c8ddc9172c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6113fa1e49f31877aa10ebf3cdf6b65 = $(`<div id="html_f6113fa1e49f31877aa10ebf3cdf6b65" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Щёлково, 1-й Советский переулок, 12</div>`)[0];
+            popup_abd441231c77b49936674c8ddc9172c9.setContent(html_f6113fa1e49f31877aa10ebf3cdf6b65);
+        
+
+        marker_1f432eb1a96aaa34e82b114ec06e2bf4.bindPopup(popup_abd441231c77b49936674c8ddc9172c9)
+        ;
+
+        
+    
+    
+            var marker_0a2fcda59d02b01fdc6858019a59faed = L.marker(
+                [55.921138, 37.993099],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_0a57c4804b9160563eb53178cce27967 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a2fcda59d02b01fdc6858019a59faed.setIcon(icon_0a57c4804b9160563eb53178cce27967);
+        
+    
+        var popup_fae84e453dbc0c9abd1c384f8ea6e5f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_067c88c168f698ef24f2e13ed6ebabf9 = $(`<div id="html_067c88c168f698ef24f2e13ed6ebabf9" style="width: 100.0%; height: 100.0%;">ЕАПТЕКА<br>Московская область, Щёлково, площадь Ленина, 1</div>`)[0];
+            popup_fae84e453dbc0c9abd1c384f8ea6e5f0.setContent(html_067c88c168f698ef24f2e13ed6ebabf9);
+        
+
+        marker_0a2fcda59d02b01fdc6858019a59faed.bindPopup(popup_fae84e453dbc0c9abd1c384f8ea6e5f0)
+        ;
+
+        
+    
+    
+            var marker_7a49c749b3b163fec7dadbfcd4e4f093 = L.marker(
+                [55.929404, 37.992345],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_d658b24b1e2b78bac79a73dd1c8c4b59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a49c749b3b163fec7dadbfcd4e4f093.setIcon(icon_d658b24b1e2b78bac79a73dd1c8c4b59);
+        
+    
+        var popup_395216679e6685b2bd7df3a3671cd50b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f335b46266cbb900f1982fe4dc8d421f = $(`<div id="html_f335b46266cbb900f1982fe4dc8d421f" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, Щёлково, Комсомольская улица, 3</div>`)[0];
+            popup_395216679e6685b2bd7df3a3671cd50b.setContent(html_f335b46266cbb900f1982fe4dc8d421f);
+        
+
+        marker_7a49c749b3b163fec7dadbfcd4e4f093.bindPopup(popup_395216679e6685b2bd7df3a3671cd50b)
+        ;
+
+        
+    
+    
+            var marker_4b2609f2b4db1748c26589e650326014 = L.marker(
+                [55.90494, 38.04299],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_6a133730c8e44625b6f47cbc44a4f620 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4b2609f2b4db1748c26589e650326014.setIcon(icon_6a133730c8e44625b6f47cbc44a4f620);
+        
+    
+        var popup_903e1b4585e51c3e9b022045b84aa878 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_592c39d15527ff7f7c32051430834d98 = $(`<div id="html_592c39d15527ff7f7c32051430834d98" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, Чкаловская улица, 3</div>`)[0];
+            popup_903e1b4585e51c3e9b022045b84aa878.setContent(html_592c39d15527ff7f7c32051430834d98);
+        
+
+        marker_4b2609f2b4db1748c26589e650326014.bindPopup(popup_903e1b4585e51c3e9b022045b84aa878)
+        ;
+
+        
+    
+    
+            var marker_3e2847aded89ecd65ae87975218752dc = L.marker(
+                [55.905275, 37.988118],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_0c4378c59f78a9d1e969a9158c5ca8ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e2847aded89ecd65ae87975218752dc.setIcon(icon_0c4378c59f78a9d1e969a9158c5ca8ae);
+        
+    
+        var popup_84d65f6faaadc5a7828d21ae3e870f64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_597603a9464e576860b72c1c0bb95a9d = $(`<div id="html_597603a9464e576860b72c1c0bb95a9d" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, Московская улица, 130</div>`)[0];
+            popup_84d65f6faaadc5a7828d21ae3e870f64.setContent(html_597603a9464e576860b72c1c0bb95a9d);
+        
+
+        marker_3e2847aded89ecd65ae87975218752dc.bindPopup(popup_84d65f6faaadc5a7828d21ae3e870f64)
+        ;
+
+        
+    
+    
+            var marker_9119e469a15bc1976f29b69aa8c5af63 = L.marker(
+                [55.919213, 38.012139],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_24161465fb6bc1d03873dcd524faac6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9119e469a15bc1976f29b69aa8c5af63.setIcon(icon_24161465fb6bc1d03873dcd524faac6b);
+        
+    
+        var popup_86bf9a52f2dfda940f524a57ecd48902 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48a2a5c577ced6e6200017c8773f87cb = $(`<div id="html_48a2a5c577ced6e6200017c8773f87cb" style="width: 100.0%; height: 100.0%;">СОВЕТСКАЯ АПТЕКА<br>Московская область, Щёлково, микрорайон Соболевка, 25</div>`)[0];
+            popup_86bf9a52f2dfda940f524a57ecd48902.setContent(html_48a2a5c577ced6e6200017c8773f87cb);
+        
+
+        marker_9119e469a15bc1976f29b69aa8c5af63.bindPopup(popup_86bf9a52f2dfda940f524a57ecd48902)
+        ;
+
+        
+    
+    
+            var marker_9af6108940017ccb74cc11e76c3372ea = L.marker(
+                [55.945453, 37.977312],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_773043a948b82b308a131e2b0fa1907f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9af6108940017ccb74cc11e76c3372ea.setIcon(icon_773043a948b82b308a131e2b0fa1907f);
+        
+    
+        var popup_cd378e092a9fd5d43a7c2eb28fa357ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db981181821e1e19cb5a8c62afaa7d92 = $(`<div id="html_db981181821e1e19cb5a8c62afaa7d92" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Щёлково, улица Неделина, 23</div>`)[0];
+            popup_cd378e092a9fd5d43a7c2eb28fa357ae.setContent(html_db981181821e1e19cb5a8c62afaa7d92);
+        
+
+        marker_9af6108940017ccb74cc11e76c3372ea.bindPopup(popup_cd378e092a9fd5d43a7c2eb28fa357ae)
+        ;
+
+        
+    
+    
+            var marker_11d67c16a0118c266d8d1fea4ec940d8 = L.marker(
+                [55.922311, 37.991387],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_74cc94e98c365dba6ae8056d9b3644e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11d67c16a0118c266d8d1fea4ec940d8.setIcon(icon_74cc94e98c365dba6ae8056d9b3644e5);
+        
+    
+        var popup_4205d5f5273a088ca437619ded4e5a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b31dbf179f7a9b9319dabdf7a7f8af1 = $(`<div id="html_4b31dbf179f7a9b9319dabdf7a7f8af1" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Щёлково, площадь Ленина, 5</div>`)[0];
+            popup_4205d5f5273a088ca437619ded4e5a01.setContent(html_4b31dbf179f7a9b9319dabdf7a7f8af1);
+        
+
+        marker_11d67c16a0118c266d8d1fea4ec940d8.bindPopup(popup_4205d5f5273a088ca437619ded4e5a01)
+        ;
+
+        
+    
+    
+            var marker_4df8531464ca4aea9a1663d9cbf62d88 = L.marker(
+                [55.922863, 37.989637],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_e0c6082415b63038006c0a29d617ff89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4df8531464ca4aea9a1663d9cbf62d88.setIcon(icon_e0c6082415b63038006c0a29d617ff89);
+        
+    
+        var popup_648b925412c22944f46d41a855ecf5a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf6d2839214e789771cac984117a8b22 = $(`<div id="html_cf6d2839214e789771cac984117a8b22" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Щёлково, улица Шмидта, 1</div>`)[0];
+            popup_648b925412c22944f46d41a855ecf5a4.setContent(html_cf6d2839214e789771cac984117a8b22);
+        
+
+        marker_4df8531464ca4aea9a1663d9cbf62d88.bindPopup(popup_648b925412c22944f46d41a855ecf5a4)
+        ;
+
+        
+    
+    
+            var marker_ef64c004635b6e6cf8c812f4084125d4 = L.marker(
+                [55.938574, 37.971091],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_9f0abae9db089ae2203548f0c08823c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef64c004635b6e6cf8c812f4084125d4.setIcon(icon_9f0abae9db089ae2203548f0c08823c1);
+        
+    
+        var popup_3a5ea2240a272ed6f7e931cdd49b85d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25da93a8e895e612d8f5bf4eba82d3a7 = $(`<div id="html_25da93a8e895e612d8f5bf4eba82d3a7" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Щёлково, микрорайон Финский, 9, корп. 1</div>`)[0];
+            popup_3a5ea2240a272ed6f7e931cdd49b85d1.setContent(html_25da93a8e895e612d8f5bf4eba82d3a7);
+        
+
+        marker_ef64c004635b6e6cf8c812f4084125d4.bindPopup(popup_3a5ea2240a272ed6f7e931cdd49b85d1)
+        ;
+
+        
+    
+    
+            var marker_afcaf89e08d5e700323fe13f27de53d1 = L.marker(
+                [55.923071, 37.986275],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_b22c49fa895ceefc6e91af941fc9473a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_afcaf89e08d5e700323fe13f27de53d1.setIcon(icon_b22c49fa895ceefc6e91af941fc9473a);
+        
+    
+        var popup_f5e9186415d6fb3dc24ef7a28f25e91d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47ab8f670fb0b44c29eb315dc329f9e4 = $(`<div id="html_47ab8f670fb0b44c29eb315dc329f9e4" style="width: 100.0%; height: 100.0%;">Магнит Аптека<br>Московская область, Щёлково, улица Шмидта, 18</div>`)[0];
+            popup_f5e9186415d6fb3dc24ef7a28f25e91d.setContent(html_47ab8f670fb0b44c29eb315dc329f9e4);
+        
+
+        marker_afcaf89e08d5e700323fe13f27de53d1.bindPopup(popup_f5e9186415d6fb3dc24ef7a28f25e91d)
+        ;
+
+        
+    
+    
+            var marker_918e80b32adc0de1e9ef7b6f5b8bcc7c = L.marker(
+                [55.918346, 37.993057],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_d2203c9343813b2d9f662740df3fe527 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_918e80b32adc0de1e9ef7b6f5b8bcc7c.setIcon(icon_d2203c9343813b2d9f662740df3fe527);
+        
+    
+        var popup_039c75b436061969f2733e4b1a52ca3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f46bd5b0d70296651dc6c5f0425ab26 = $(`<div id="html_4f46bd5b0d70296651dc6c5f0425ab26" style="width: 100.0%; height: 100.0%;">Панацея<br>Московская область, Щёлково, Советская улица, 65</div>`)[0];
+            popup_039c75b436061969f2733e4b1a52ca3c.setContent(html_4f46bd5b0d70296651dc6c5f0425ab26);
+        
+
+        marker_918e80b32adc0de1e9ef7b6f5b8bcc7c.bindPopup(popup_039c75b436061969f2733e4b1a52ca3c)
+        ;
+
+        
+    
+    
+            var marker_74ea991011f75d65a9f5c27c797cf3aa = L.marker(
+                [55.892777, 37.948362],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_018e6f46f80ecd2de7a789ba29e7d8cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_74ea991011f75d65a9f5c27c797cf3aa.setIcon(icon_018e6f46f80ecd2de7a789ba29e7d8cd);
+        
+    
+        var popup_be1cd15684845a7c24059ec00185937e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50a85d4a19f952dfb656d20afc50696a = $(`<div id="html_50a85d4a19f952dfb656d20afc50696a" style="width: 100.0%; height: 100.0%;">СОВЕТСКАЯ АПТЕКА<br>Московская область, городской округ Щёлково, квартал Заповедный Парк, Грибная улица, 1</div>`)[0];
+            popup_be1cd15684845a7c24059ec00185937e.setContent(html_50a85d4a19f952dfb656d20afc50696a);
+        
+
+        marker_74ea991011f75d65a9f5c27c797cf3aa.bindPopup(popup_be1cd15684845a7c24059ec00185937e)
+        ;
+
+        
+    
+    
+            var marker_5bb19b2d717d10c90a77ce5b297842af = L.marker(
+                [55.883751, 38.081073],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_916212b20f989a53b865651f43d9f41a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5bb19b2d717d10c90a77ce5b297842af.setIcon(icon_916212b20f989a53b865651f43d9f41a);
+        
+    
+        var popup_9c357ff89f007ece4de133173339b6a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bda0d25f1bc96bc918a33eaba87cc13 = $(`<div id="html_8bda0d25f1bc96bc918a33eaba87cc13" style="width: 100.0%; height: 100.0%;">Здоров.ру<br>Московская область, Щёлково, улица Беляева, 23А</div>`)[0];
+            popup_9c357ff89f007ece4de133173339b6a4.setContent(html_8bda0d25f1bc96bc918a33eaba87cc13);
+        
+
+        marker_5bb19b2d717d10c90a77ce5b297842af.bindPopup(popup_9c357ff89f007ece4de133173339b6a4)
+        ;
+
+        
+    
+    
+            var marker_e4e72ed88499e0d4fd22139a4d81db10 = L.marker(
+                [55.920386, 37.987885],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_4410d3b9a7c77a99361d4764ce4b52b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e4e72ed88499e0d4fd22139a4d81db10.setIcon(icon_4410d3b9a7c77a99361d4764ce4b52b2);
+        
+    
+        var popup_1647429fc86329537b9ded8a9f96a660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7078184df3f57d8dd1d7d65391726cb = $(`<div id="html_a7078184df3f57d8dd1d7d65391726cb" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, Парковая улица, 7</div>`)[0];
+            popup_1647429fc86329537b9ded8a9f96a660.setContent(html_a7078184df3f57d8dd1d7d65391726cb);
+        
+
+        marker_e4e72ed88499e0d4fd22139a4d81db10.bindPopup(popup_1647429fc86329537b9ded8a9f96a660)
+        ;
+
+        
+    
+    
+            var marker_d792c5446de2596c5bf82d5e8cda1883 = L.marker(
+                [55.929535, 37.999295],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_f530accb87141ff0cd8626be2fad4d18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d792c5446de2596c5bf82d5e8cda1883.setIcon(icon_f530accb87141ff0cd8626be2fad4d18);
+        
+    
+        var popup_7ab6fea2602d01919b6d76c71ebd72ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a00895c73e304d40f110a709e4f1a82 = $(`<div id="html_8a00895c73e304d40f110a709e4f1a82" style="width: 100.0%; height: 100.0%;">Инфи<br>Московская область, Щёлково, Космодемьянская улица, 15А</div>`)[0];
+            popup_7ab6fea2602d01919b6d76c71ebd72ce.setContent(html_8a00895c73e304d40f110a709e4f1a82);
+        
+
+        marker_d792c5446de2596c5bf82d5e8cda1883.bindPopup(popup_7ab6fea2602d01919b6d76c71ebd72ce)
+        ;
+
+        
+    
+    
+            var marker_9ff1650e5a917353c38b166f02a55d5c = L.marker(
+                [55.925473, 37.998969],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_a6b21ad05b474677938011fa530067c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ff1650e5a917353c38b166f02a55d5c.setIcon(icon_a6b21ad05b474677938011fa530067c8);
+        
+    
+        var popup_3f3a509945fda232cccd5944222700af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d59b62ea8be18310261e45dab9f1f6e = $(`<div id="html_0d59b62ea8be18310261e45dab9f1f6e" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, Щёлково, Пролетарский проспект, 11</div>`)[0];
+            popup_3f3a509945fda232cccd5944222700af.setContent(html_0d59b62ea8be18310261e45dab9f1f6e);
+        
+
+        marker_9ff1650e5a917353c38b166f02a55d5c.bindPopup(popup_3f3a509945fda232cccd5944222700af)
+        ;
+
+        
+    
+    
+            var marker_7ace720a94d3d5d43bb71fd12c0f5623 = L.marker(
+                [55.900784, 38.058978],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_811397795830a681470d75e115bd1c63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ace720a94d3d5d43bb71fd12c0f5623.setIcon(icon_811397795830a681470d75e115bd1c63);
+        
+    
+        var popup_180d15e64998c8ddcbf446c5f5369b94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12883a7d5120c8f8aadd989622bb3167 = $(`<div id="html_12883a7d5120c8f8aadd989622bb3167" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Ленина, 1</div>`)[0];
+            popup_180d15e64998c8ddcbf446c5f5369b94.setContent(html_12883a7d5120c8f8aadd989622bb3167);
+        
+
+        marker_7ace720a94d3d5d43bb71fd12c0f5623.bindPopup(popup_180d15e64998c8ddcbf446c5f5369b94)
+        ;
+
+        
+    
+    
+            var marker_b5fc08223d8d10e3f035b54cf58e10dd = L.marker(
+                [55.90746, 37.989075],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_af83795202a12801dc342618fc1b88b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5fc08223d8d10e3f035b54cf58e10dd.setIcon(icon_af83795202a12801dc342618fc1b88b8);
+        
+    
+        var popup_0acef455ce73751f2a212514eacb77aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cca37cdd64c338a1814acd4b1dca3d78 = $(`<div id="html_cca37cdd64c338a1814acd4b1dca3d78" style="width: 100.0%; height: 100.0%;">Ленфарм<br>Московская область, Щёлково, улица 8 Марта, 11</div>`)[0];
+            popup_0acef455ce73751f2a212514eacb77aa.setContent(html_cca37cdd64c338a1814acd4b1dca3d78);
+        
+
+        marker_b5fc08223d8d10e3f035b54cf58e10dd.bindPopup(popup_0acef455ce73751f2a212514eacb77aa)
+        ;
+
+        
+    
+    
+            var marker_1281a4d91cfd6a75964499bd6e8b4de1 = L.marker(
+                [55.939706, 37.974716],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_cde3c4c12ceec90397b29261ced97c46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1281a4d91cfd6a75964499bd6e8b4de1.setIcon(icon_cde3c4c12ceec90397b29261ced97c46);
+        
+    
+        var popup_43d8364f903688d4ba916f6f9f1ea5c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9899c26df6ff3640c60d19c2eb1d6229 = $(`<div id="html_9899c26df6ff3640c60d19c2eb1d6229" style="width: 100.0%; height: 100.0%;">Аптечество<br>Московская область, Щёлково, микрорайон Богородский, вл9</div>`)[0];
+            popup_43d8364f903688d4ba916f6f9f1ea5c3.setContent(html_9899c26df6ff3640c60d19c2eb1d6229);
+        
+
+        marker_1281a4d91cfd6a75964499bd6e8b4de1.bindPopup(popup_43d8364f903688d4ba916f6f9f1ea5c3)
+        ;
+
+        
+    
+    
+            var marker_849e2c7a0f8e04f5fcbe8768f9e3ea80 = L.marker(
+                [55.923465, 37.985602],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_1c6ff66abf1372b9a730b4bcd5d9f655 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_849e2c7a0f8e04f5fcbe8768f9e3ea80.setIcon(icon_1c6ff66abf1372b9a730b4bcd5d9f655);
+        
+    
+        var popup_7a69f9abc569b48bd57026b287316810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44f708774cf2411d43ec79f66473dffd = $(`<div id="html_44f708774cf2411d43ec79f66473dffd" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Щёлково, улица Шмидта, 7А</div>`)[0];
+            popup_7a69f9abc569b48bd57026b287316810.setContent(html_44f708774cf2411d43ec79f66473dffd);
+        
+
+        marker_849e2c7a0f8e04f5fcbe8768f9e3ea80.bindPopup(popup_7a69f9abc569b48bd57026b287316810)
+        ;
+
+        
+    
+    
+            var marker_2e3ebec582831dfe0ce35ac181a5f111 = L.marker(
+                [55.916487, 37.990975],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_402e218681543f4d07c4d60ffbfbc25f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e3ebec582831dfe0ce35ac181a5f111.setIcon(icon_402e218681543f4d07c4d60ffbfbc25f);
+        
+    
+        var popup_56613a9ce005234e09abdadde93cc3a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90faa63e764e3f3ff315e52d839a5951 = $(`<div id="html_90faa63e764e3f3ff315e52d839a5951" style="width: 100.0%; height: 100.0%;">Мелодия здоровья<br>Московская область, Щёлково, улица Комарова, 9</div>`)[0];
+            popup_56613a9ce005234e09abdadde93cc3a9.setContent(html_90faa63e764e3f3ff315e52d839a5951);
+        
+
+        marker_2e3ebec582831dfe0ce35ac181a5f111.bindPopup(popup_56613a9ce005234e09abdadde93cc3a9)
+        ;
+
+        
+    
+    
+            var marker_1646fac8e07165bdc3d89d99acc10106 = L.marker(
+                [55.937029, 37.974455],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_4c375b8f0b92cd1caeb959578c833460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1646fac8e07165bdc3d89d99acc10106.setIcon(icon_4c375b8f0b92cd1caeb959578c833460);
+        
+    
+        var popup_6b864757784d7011db9840a4911b3c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fab02b576f2445d76965acbc8333351 = $(`<div id="html_7fab02b576f2445d76965acbc8333351" style="width: 100.0%; height: 100.0%;">Superapteka.ru<br>Московская область, Щёлково, микрорайон Финский, 2</div>`)[0];
+            popup_6b864757784d7011db9840a4911b3c0c.setContent(html_7fab02b576f2445d76965acbc8333351);
+        
+
+        marker_1646fac8e07165bdc3d89d99acc10106.bindPopup(popup_6b864757784d7011db9840a4911b3c0c)
+        ;
+
+        
+    
+    
+            var marker_4f217166571bd9a2549a73fb99313456 = L.marker(
+                [55.909472, 38.049491],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_100904f0e08f738f0da591aaec4f4ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4f217166571bd9a2549a73fb99313456.setIcon(icon_100904f0e08f738f0da591aaec4f4ff6);
+        
+    
+        var popup_2ae56668aff6fedb9787afd9cf9a13c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0910f2fc8d52b007fac1cac6b8a31aa = $(`<div id="html_a0910f2fc8d52b007fac1cac6b8a31aa" style="width: 100.0%; height: 100.0%;">Магнит Аптека<br>Московская область, Щёлково, микрорайон Потаповский, 1, корп. 2</div>`)[0];
+            popup_2ae56668aff6fedb9787afd9cf9a13c8.setContent(html_a0910f2fc8d52b007fac1cac6b8a31aa);
+        
+
+        marker_4f217166571bd9a2549a73fb99313456.bindPopup(popup_2ae56668aff6fedb9787afd9cf9a13c8)
+        ;
+
+        
+    
+    
+            var marker_bb81416fbbdb292671928fe207193f5f = L.marker(
+                [55.924, 38.001189],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_5f66f882faa8c0cf3245ef4e6f957a50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb81416fbbdb292671928fe207193f5f.setIcon(icon_5f66f882faa8c0cf3245ef4e6f957a50);
+        
+    
+        var popup_4cb74a9595415d0411f66af648dc1726 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60cf2fe947ec2bf30c84e470766d1a78 = $(`<div id="html_60cf2fe947ec2bf30c84e470766d1a78" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, Пролетарский проспект, 10</div>`)[0];
+            popup_4cb74a9595415d0411f66af648dc1726.setContent(html_60cf2fe947ec2bf30c84e470766d1a78);
+        
+
+        marker_bb81416fbbdb292671928fe207193f5f.bindPopup(popup_4cb74a9595415d0411f66af648dc1726)
+        ;
+
+        
+    
+    
+            var marker_7954eae13bd86ecfad8efc988d7a9606 = L.marker(
+                [55.909464, 38.055078],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_bab41ee494da3eadb69280f166cc57a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7954eae13bd86ecfad8efc988d7a9606.setIcon(icon_bab41ee494da3eadb69280f166cc57a0);
+        
+    
+        var popup_c67085a489bb001b82a6a3c0cf54744b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13ec20b937f05fbf760d4fa122cc55a9 = $(`<div id="html_13ec20b937f05fbf760d4fa122cc55a9" style="width: 100.0%; height: 100.0%;">Аптечный пункт<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Бахчиванджи, 5</div>`)[0];
+            popup_c67085a489bb001b82a6a3c0cf54744b.setContent(html_13ec20b937f05fbf760d4fa122cc55a9);
+        
+
+        marker_7954eae13bd86ecfad8efc988d7a9606.bindPopup(popup_c67085a489bb001b82a6a3c0cf54744b)
+        ;
+
+        
+    
+    
+            var marker_9e80a16c3e6ff8ca6287949fe36c6186 = L.marker(
+                [55.920411, 37.98828],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_0ce996ab590beaa5bac94e6132aae414 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e80a16c3e6ff8ca6287949fe36c6186.setIcon(icon_0ce996ab590beaa5bac94e6132aae414);
+        
+    
+        var popup_4d18682664a97560bce01fb866122c11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db50895324af01abbcae3fd8cfece81e = $(`<div id="html_db50895324af01abbcae3fd8cfece81e" style="width: 100.0%; height: 100.0%;">Клеверфарм<br>Московская область, Щёлково, Парковая улица, 7</div>`)[0];
+            popup_4d18682664a97560bce01fb866122c11.setContent(html_db50895324af01abbcae3fd8cfece81e);
+        
+
+        marker_9e80a16c3e6ff8ca6287949fe36c6186.bindPopup(popup_4d18682664a97560bce01fb866122c11)
+        ;
+
+        
+    
+    
+            var marker_375ee434de33e640610fa83fd53a2d77 = L.marker(
+                [55.905492, 38.041703],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_3b9d8d431e427f7edf0f643fcd63b38d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_375ee434de33e640610fa83fd53a2d77.setIcon(icon_3b9d8d431e427f7edf0f643fcd63b38d);
+        
+    
+        var popup_d364351cca6d24a5fdb3b145e8f4ca34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4fe7c98c581007c1e894512ad4c6542 = $(`<div id="html_b4fe7c98c581007c1e894512ad4c6542" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, Чкаловская улица, 1</div>`)[0];
+            popup_d364351cca6d24a5fdb3b145e8f4ca34.setContent(html_b4fe7c98c581007c1e894512ad4c6542);
+        
+
+        marker_375ee434de33e640610fa83fd53a2d77.bindPopup(popup_d364351cca6d24a5fdb3b145e8f4ca34)
+        ;
+
+        
+    
+    
+            var marker_349ea19dd13bc647075078934a153e1a = L.marker(
+                [55.920698, 37.992813],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_4f3fc56b214b701e01d379faf7b80143 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_349ea19dd13bc647075078934a153e1a.setIcon(icon_4f3fc56b214b701e01d379faf7b80143);
+        
+    
+        var popup_9b02d845cc51feb09ef5695a115053b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb6e6cc6aec9fd7377b947c9080a85c3 = $(`<div id="html_fb6e6cc6aec9fd7377b947c9080a85c3" style="width: 100.0%; height: 100.0%;">ВитаФарм<br>Московская область, Щёлково, площадь Ленина, 1</div>`)[0];
+            popup_9b02d845cc51feb09ef5695a115053b0.setContent(html_fb6e6cc6aec9fd7377b947c9080a85c3);
+        
+
+        marker_349ea19dd13bc647075078934a153e1a.bindPopup(popup_9b02d845cc51feb09ef5695a115053b0)
+        ;
+
+        
+    
+    
+            var marker_beacf2ac2641b610c2b06f5a7595b2a0 = L.marker(
+                [55.90359, 38.06367],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_175a1c38c05f297e97f7b99cdfe54084 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_beacf2ac2641b610c2b06f5a7595b2a0.setIcon(icon_175a1c38c05f297e97f7b99cdfe54084);
+        
+    
+        var popup_b6f535523ae20b8c9cdf459e3617e516 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f31842715ea7a7842072336aca48e84e = $(`<div id="html_f31842715ea7a7842072336aca48e84e" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Супруна, 1А</div>`)[0];
+            popup_b6f535523ae20b8c9cdf459e3617e516.setContent(html_f31842715ea7a7842072336aca48e84e);
+        
+
+        marker_beacf2ac2641b610c2b06f5a7595b2a0.bindPopup(popup_b6f535523ae20b8c9cdf459e3617e516)
+        ;
+
+        
+    
+    
+            var marker_575494cf8a094fddd1d9ce585cf91d10 = L.marker(
+                [55.940772, 37.97446],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_f729ded29accb1bee051f1a924ec2dc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_575494cf8a094fddd1d9ce585cf91d10.setIcon(icon_f729ded29accb1bee051f1a924ec2dc3);
+        
+    
+        var popup_820f727b3894efcdf26e3c143c989966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_948e8f058708e26914506fd81ff4cffd = $(`<div id="html_948e8f058708e26914506fd81ff4cffd" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, Щёлково, проспект 60 лет Октября, 2В</div>`)[0];
+            popup_820f727b3894efcdf26e3c143c989966.setContent(html_948e8f058708e26914506fd81ff4cffd);
+        
+
+        marker_575494cf8a094fddd1d9ce585cf91d10.bindPopup(popup_820f727b3894efcdf26e3c143c989966)
+        ;
+
+        
+    
+    
+            var marker_ec24c8307053bf187955b24af5fe825c = L.marker(
+                [55.937036, 37.974376],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_c4422d91ccc8e90430cb5e5d8400a9fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec24c8307053bf187955b24af5fe825c.setIcon(icon_c4422d91ccc8e90430cb5e5d8400a9fa);
+        
+    
+        var popup_d2aac2488a705f6a1dcb2a6bb02ce44c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc9b5aa436faff7ecfd0c2bfd5b7ef9e = $(`<div id="html_fc9b5aa436faff7ecfd0c2bfd5b7ef9e" style="width: 100.0%; height: 100.0%;">СОВЕТСКАЯ АПТЕКА<br>Московская область, Щёлково, микрорайон Финский, 2</div>`)[0];
+            popup_d2aac2488a705f6a1dcb2a6bb02ce44c.setContent(html_fc9b5aa436faff7ecfd0c2bfd5b7ef9e);
+        
+
+        marker_ec24c8307053bf187955b24af5fe825c.bindPopup(popup_d2aac2488a705f6a1dcb2a6bb02ce44c)
+        ;
+
+        
+    
+    
+            var marker_b565e34d069133a3379b0f0c0d1bc6d2 = L.marker(
+                [55.900792, 38.06811],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_87e0ad1ccfdd9b0fdbe3a9b57af2a104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b565e34d069133a3379b0f0c0d1bc6d2.setIcon(icon_87e0ad1ccfdd9b0fdbe3a9b57af2a104);
+        
+    
+        var popup_eab0c4ca2011819e449c08968418e146 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09eb5ade7b9d86078aae1d3051cc06b2 = $(`<div id="html_09eb5ade7b9d86078aae1d3051cc06b2" style="width: 100.0%; height: 100.0%;">Доктор Столетов<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Радиоцентра № 5, 7А</div>`)[0];
+            popup_eab0c4ca2011819e449c08968418e146.setContent(html_09eb5ade7b9d86078aae1d3051cc06b2);
+        
+
+        marker_b565e34d069133a3379b0f0c0d1bc6d2.bindPopup(popup_eab0c4ca2011819e449c08968418e146)
+        ;
+
+        
+    
+    
+            var marker_b30522edb9c9461973a9317ef675e788 = L.marker(
+                [55.918487, 37.985799],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_30743001d54fef484a0a59df44a8c9b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b30522edb9c9461973a9317ef675e788.setIcon(icon_30743001d54fef484a0a59df44a8c9b4);
+        
+    
+        var popup_0487b3ba953922322ba3190ec1876dbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_811b3047363bcebd73862ccbfb930c5a = $(`<div id="html_811b3047363bcebd73862ccbfb930c5a" style="width: 100.0%; height: 100.0%;">ОртОк<br>Московская область, Щёлково, Центральная улица, 17</div>`)[0];
+            popup_0487b3ba953922322ba3190ec1876dbc.setContent(html_811b3047363bcebd73862ccbfb930c5a);
+        
+
+        marker_b30522edb9c9461973a9317ef675e788.bindPopup(popup_0487b3ba953922322ba3190ec1876dbc)
+        ;
+
+        
+    
+    
+            var marker_499a03fd04707c14ed072e3f838e916c = L.marker(
+                [55.938254, 37.974719],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_bbd7f5788ff5381074366030b9cf6d96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_499a03fd04707c14ed072e3f838e916c.setIcon(icon_bbd7f5788ff5381074366030b9cf6d96);
+        
+    
+        var popup_845be5eda409f9bc5a965626efda51db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cae552f0beb87bc74ea4e805a7fab46 = $(`<div id="html_3cae552f0beb87bc74ea4e805a7fab46" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Щёлково, микрорайон Богородский, 5</div>`)[0];
+            popup_845be5eda409f9bc5a965626efda51db.setContent(html_3cae552f0beb87bc74ea4e805a7fab46);
+        
+
+        marker_499a03fd04707c14ed072e3f838e916c.bindPopup(popup_845be5eda409f9bc5a965626efda51db)
+        ;
+
+        
+    
+    
+            var marker_3e58b1c9b4d34311a98fbfae920585eb = L.marker(
+                [55.920334, 37.988818],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_775308d943684c36b5390e7a9c455c58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e58b1c9b4d34311a98fbfae920585eb.setIcon(icon_775308d943684c36b5390e7a9c455c58);
+        
+    
+        var popup_80e6939cc7d6601a42474a887514952b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22728dc8776d020c408bd0e51473e9b1 = $(`<div id="html_22728dc8776d020c408bd0e51473e9b1" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Щёлково, Парковая улица, 5</div>`)[0];
+            popup_80e6939cc7d6601a42474a887514952b.setContent(html_22728dc8776d020c408bd0e51473e9b1);
+        
+
+        marker_3e58b1c9b4d34311a98fbfae920585eb.bindPopup(popup_80e6939cc7d6601a42474a887514952b)
+        ;
+
+        
+    
+    
+            var marker_57cb05a968244866442d992ca756c606 = L.marker(
+                [55.938388, 37.973031],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_45f8f78b09ffbe0126321cf0133321c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57cb05a968244866442d992ca756c606.setIcon(icon_45f8f78b09ffbe0126321cf0133321c1);
+        
+    
+        var popup_c9c6a0a44382864a9296441933cd8b97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_760fede06d45a947467a2a5c8cf46682 = $(`<div id="html_760fede06d45a947467a2a5c8cf46682" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Щёлково, микрорайон Финский, 3</div>`)[0];
+            popup_c9c6a0a44382864a9296441933cd8b97.setContent(html_760fede06d45a947467a2a5c8cf46682);
+        
+
+        marker_57cb05a968244866442d992ca756c606.bindPopup(popup_c9c6a0a44382864a9296441933cd8b97)
+        ;
+
+        
+    
+    
+            var marker_feeacb9ed44d1e3c45f45432edbbf264 = L.marker(
+                [55.906905, 38.064116],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_e4ae73d4e8292e8c1e55b339b267394f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_feeacb9ed44d1e3c45f45432edbbf264.setIcon(icon_e4ae73d4e8292e8c1e55b339b267394f);
+        
+    
+        var popup_811030fc028f5ddcc758f777ae717280 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d43a1e54eb5d5579df1fd4393be2ca1 = $(`<div id="html_9d43a1e54eb5d5579df1fd4393be2ca1" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Гагарина, 3</div>`)[0];
+            popup_811030fc028f5ddcc758f777ae717280.setContent(html_9d43a1e54eb5d5579df1fd4393be2ca1);
+        
+
+        marker_feeacb9ed44d1e3c45f45432edbbf264.bindPopup(popup_811030fc028f5ddcc758f777ae717280)
+        ;
+
+        
+    
+    
+            var marker_60d2686411e043bb24d4fd5b67797292 = L.marker(
+                [55.920019, 37.975611],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_28385eb83c0020af4a4f0efa27fec402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60d2686411e043bb24d4fd5b67797292.setIcon(icon_28385eb83c0020af4a4f0efa27fec402);
+        
+    
+        var popup_da1b9d5943b2dcf74b4b61547e2f7b15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a9bbadcf9f326d3eaecc675bd7bb5b = $(`<div id="html_38a9bbadcf9f326d3eaecc675bd7bb5b" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Щёлково, улица Пушкина, 3</div>`)[0];
+            popup_da1b9d5943b2dcf74b4b61547e2f7b15.setContent(html_38a9bbadcf9f326d3eaecc675bd7bb5b);
+        
+
+        marker_60d2686411e043bb24d4fd5b67797292.bindPopup(popup_da1b9d5943b2dcf74b4b61547e2f7b15)
+        ;
+
+        
+    
+    
+            var marker_ff31e01f2bee8458b163cd57b299b247 = L.marker(
+                [55.94304, 37.970998],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_1775bb0d26944aa93874f8ed53bd15c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff31e01f2bee8458b163cd57b299b247.setIcon(icon_1775bb0d26944aa93874f8ed53bd15c7);
+        
+    
+        var popup_2ede62b07f8ea900ac1cc5066730ace0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30cd91970eb80e8e197cbb02e70fef0a = $(`<div id="html_30cd91970eb80e8e197cbb02e70fef0a" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, Щёлково, проспект 60 лет Октября, 10</div>`)[0];
+            popup_2ede62b07f8ea900ac1cc5066730ace0.setContent(html_30cd91970eb80e8e197cbb02e70fef0a);
+        
+
+        marker_ff31e01f2bee8458b163cd57b299b247.bindPopup(popup_2ede62b07f8ea900ac1cc5066730ace0)
+        ;
+
+        
+    
+    
+            var marker_bf1181ee40963e818600fe8d2d6974c8 = L.marker(
+                [55.92145, 37.989151],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_a940c1be624e88a9234868ac221f5998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf1181ee40963e818600fe8d2d6974c8.setIcon(icon_a940c1be624e88a9234868ac221f5998);
+        
+    
+        var popup_fd78c386ab9a2c9e6714f561349311d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_872fd4e66c1e8a879fc495b291e74c7f = $(`<div id="html_872fd4e66c1e8a879fc495b291e74c7f" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Щёлково, Парковая улица, 6</div>`)[0];
+            popup_fd78c386ab9a2c9e6714f561349311d9.setContent(html_872fd4e66c1e8a879fc495b291e74c7f);
+        
+
+        marker_bf1181ee40963e818600fe8d2d6974c8.bindPopup(popup_fd78c386ab9a2c9e6714f561349311d9)
+        ;
+
+        
+    
+    
+            var marker_1229432aba2dc5ef61c6709f6688949c = L.marker(
+                [55.904958, 37.98497],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_be0edc2a353d5f2e52af5f999c6994f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1229432aba2dc5ef61c6709f6688949c.setIcon(icon_be0edc2a353d5f2e52af5f999c6994f5);
+        
+    
+        var popup_3198ab7a5c98cfcf9409cdcd92c349a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b970f255957eddb9e7d2b3dba74263e7 = $(`<div id="html_b970f255957eddb9e7d2b3dba74263e7" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Щёлково, улица 8 Марта, 29</div>`)[0];
+            popup_3198ab7a5c98cfcf9409cdcd92c349a3.setContent(html_b970f255957eddb9e7d2b3dba74263e7);
+        
+
+        marker_1229432aba2dc5ef61c6709f6688949c.bindPopup(popup_3198ab7a5c98cfcf9409cdcd92c349a3)
+        ;
+
+        
+    
+    
+            var marker_f7eb212884602d3b7a33b77b5b722f92 = L.marker(
+                [55.901006, 38.061286],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_d49d547c4253353c9d4c532263eb7741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7eb212884602d3b7a33b77b5b722f92.setIcon(icon_d49d547c4253353c9d4c532263eb7741);
+        
+    
+        var popup_70f7bf5a77b2668dc262f1182e0c2201 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c901eac404e605055a1101d3249c8886 = $(`<div id="html_c901eac404e605055a1101d3249c8886" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Щёлково, микрорайон Щёлково-3, Институтская улица, 27В</div>`)[0];
+            popup_70f7bf5a77b2668dc262f1182e0c2201.setContent(html_c901eac404e605055a1101d3249c8886);
+        
+
+        marker_f7eb212884602d3b7a33b77b5b722f92.bindPopup(popup_70f7bf5a77b2668dc262f1182e0c2201)
+        ;
+
+        
+    
+    
+            var marker_b9ab0bedd56a333f2cf5ce1ccb99e0b2 = L.marker(
+                [55.92556, 37.996855],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_9e5cb737b281d1da3ecf479689a35d24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9ab0bedd56a333f2cf5ce1ccb99e0b2.setIcon(icon_9e5cb737b281d1da3ecf479689a35d24);
+        
+    
+        var popup_49fc1ef210484ff97b1d4f3266b240d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_886524527181c429ab87e1fe1ca8364b = $(`<div id="html_886524527181c429ab87e1fe1ca8364b" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, Талсинская улица, 2</div>`)[0];
+            popup_49fc1ef210484ff97b1d4f3266b240d5.setContent(html_886524527181c429ab87e1fe1ca8364b);
+        
+
+        marker_b9ab0bedd56a333f2cf5ce1ccb99e0b2.bindPopup(popup_49fc1ef210484ff97b1d4f3266b240d5)
+        ;
+
+        
+    
+    
+            var marker_907ced57e0772d90faec01fa595991c3 = L.marker(
+                [55.943373, 37.97055],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_7cb5698f206dbcf6cd45469ba3ffc964 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_907ced57e0772d90faec01fa595991c3.setIcon(icon_7cb5698f206dbcf6cd45469ba3ffc964);
+        
+    
+        var popup_6d1598999c36511e4d29df62a4db3063 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1ddc3bc6f07af0e8728127e610eeeae = $(`<div id="html_f1ddc3bc6f07af0e8728127e610eeeae" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, проспект 60 лет Октября, 10</div>`)[0];
+            popup_6d1598999c36511e4d29df62a4db3063.setContent(html_f1ddc3bc6f07af0e8728127e610eeeae);
+        
+
+        marker_907ced57e0772d90faec01fa595991c3.bindPopup(popup_6d1598999c36511e4d29df62a4db3063)
+        ;
+
+        
+    
+    
+            var marker_2ec0e679204ecb94010a99da94492d6b = L.marker(
+                [55.92713, 37.986033],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_87a7b7360c82406c1cc398531392cfe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ec0e679204ecb94010a99da94492d6b.setIcon(icon_87a7b7360c82406c1cc398531392cfe9);
+        
+    
+        var popup_6a588f8b0395ff6239850dc410acf998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3faaecb1f3bda02b3e1771bc41d7ed00 = $(`<div id="html_3faaecb1f3bda02b3e1771bc41d7ed00" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Щёлково, Талсинская улица, 23</div>`)[0];
+            popup_6a588f8b0395ff6239850dc410acf998.setContent(html_3faaecb1f3bda02b3e1771bc41d7ed00);
+        
+
+        marker_2ec0e679204ecb94010a99da94492d6b.bindPopup(popup_6a588f8b0395ff6239850dc410acf998)
+        ;
+
+        
+    
+    
+            var marker_5d7d59cb9f0112182245f168df977b80 = L.marker(
+                [55.919858, 37.996093],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_54359d0d444f2ab3dd72d759aa31d903 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d7d59cb9f0112182245f168df977b80.setIcon(icon_54359d0d444f2ab3dd72d759aa31d903);
+        
+    
+        var popup_2a4cfa40c5dadc8dd1885180707beb70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30f314e73020d3a588908dfb18c7a676 = $(`<div id="html_30f314e73020d3a588908dfb18c7a676" style="width: 100.0%; height: 100.0%;">Superapteka.ru<br>Московская область, Щёлково, Пролетарский проспект, 9</div>`)[0];
+            popup_2a4cfa40c5dadc8dd1885180707beb70.setContent(html_30f314e73020d3a588908dfb18c7a676);
+        
+
+        marker_5d7d59cb9f0112182245f168df977b80.bindPopup(popup_2a4cfa40c5dadc8dd1885180707beb70)
+        ;
+
+        
+    
+    
+            var marker_67ad8ce8f0b3f51835831343ccc80fcb = L.marker(
+                [55.90092, 37.947401],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_f91e7d6e8cde008527acd29998ff98d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67ad8ce8f0b3f51835831343ccc80fcb.setIcon(icon_f91e7d6e8cde008527acd29998ff98d5);
+        
+    
+        var popup_093f0f175d9419040a9200835d7a6054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9ab6112fcd4c9822885d63137293eee = $(`<div id="html_b9ab6112fcd4c9822885d63137293eee" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, городской округ Щёлково, дачный посёлок Загорянский, улица Орджоникидзе, 40</div>`)[0];
+            popup_093f0f175d9419040a9200835d7a6054.setContent(html_b9ab6112fcd4c9822885d63137293eee);
+        
+
+        marker_67ad8ce8f0b3f51835831343ccc80fcb.bindPopup(popup_093f0f175d9419040a9200835d7a6054)
+        ;
+
+        
+    
+    
+            var marker_75bd058c00a53719d79c571a83669ff6 = L.marker(
+                [55.91, 38.051602],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_e78e7ef370e5afe6f7c88a78a895d38c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_75bd058c00a53719d79c571a83669ff6.setIcon(icon_e78e7ef370e5afe6f7c88a78a895d38c);
+        
+    
+        var popup_48d932a156281f71e9ace6f7dcf8205e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8c59901ec72e08b06fc361cddc249ea = $(`<div id="html_d8c59901ec72e08b06fc361cddc249ea" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Щёлково, микрорайон Потаповский, 1</div>`)[0];
+            popup_48d932a156281f71e9ace6f7dcf8205e.setContent(html_d8c59901ec72e08b06fc361cddc249ea);
+        
+
+        marker_75bd058c00a53719d79c571a83669ff6.bindPopup(popup_48d932a156281f71e9ace6f7dcf8205e)
+        ;
+
+        
+    
+    
+            var marker_ea42d222d53ac76107498739e9a8d0b4 = L.marker(
+                [55.938324, 37.970502],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_d4d7448684ad116c258db8543576c0f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea42d222d53ac76107498739e9a8d0b4.setIcon(icon_d4d7448684ad116c258db8543576c0f9);
+        
+    
+        var popup_80c1ee2e92734ecda9a8235bab14caac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59470aea7d4a665c083aadf4ba48c9ac = $(`<div id="html_59470aea7d4a665c083aadf4ba48c9ac" style="width: 100.0%; height: 100.0%;">Здесь аптека<br>Московская область, Щёлково, микрорайон Финский, 9, корп. 1</div>`)[0];
+            popup_80c1ee2e92734ecda9a8235bab14caac.setContent(html_59470aea7d4a665c083aadf4ba48c9ac);
+        
+
+        marker_ea42d222d53ac76107498739e9a8d0b4.bindPopup(popup_80c1ee2e92734ecda9a8235bab14caac)
+        ;
+
+        
+    
+    
+            var marker_869124d0e8e6dd19be66287d46dbfc35 = L.marker(
+                [55.871048, 37.988256],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_fc173f982b6c13f9e996598b0912c400 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_869124d0e8e6dd19be66287d46dbfc35.setIcon(icon_fc173f982b6c13f9e996598b0912c400);
+        
+    
+        var popup_b5732a44a7cdc3814f941296413683c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10edb2b314312d003d68767b46c2fd15 = $(`<div id="html_10edb2b314312d003d68767b46c2fd15" style="width: 100.0%; height: 100.0%;">Аптека+<br>Московская область, городской округ Щёлково, деревня Медвежьи Озёра, Садовая улица, 23, корп. 1</div>`)[0];
+            popup_b5732a44a7cdc3814f941296413683c2.setContent(html_10edb2b314312d003d68767b46c2fd15);
+        
+
+        marker_869124d0e8e6dd19be66287d46dbfc35.bindPopup(popup_b5732a44a7cdc3814f941296413683c2)
+        ;
+
+        
+    
+    
+            var marker_d70d0264cdc401f72a29f5cbe995a12b = L.marker(
+                [55.900912, 38.062327],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_3bb0cdf9cff7f6ab3e581b835b4a54a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d70d0264cdc401f72a29f5cbe995a12b.setIcon(icon_3bb0cdf9cff7f6ab3e581b835b4a54a9);
+        
+    
+        var popup_1fcbf829cbb86e060044cc8334ba1eaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c78c96ccb00edeb8973d53794ad36507 = $(`<div id="html_c78c96ccb00edeb8973d53794ad36507" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Щёлково, микрорайон Щёлково-3, Институтская улица, 27А</div>`)[0];
+            popup_1fcbf829cbb86e060044cc8334ba1eaa.setContent(html_c78c96ccb00edeb8973d53794ad36507);
+        
+
+        marker_d70d0264cdc401f72a29f5cbe995a12b.bindPopup(popup_1fcbf829cbb86e060044cc8334ba1eaa)
+        ;
+
+        
+    
+    
+            var marker_82f7cfd33aa7a971425099f2379156aa = L.marker(
+                [55.916481, 37.995278],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_9ae166f43a9a2fe50e6b05f1ea0776c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82f7cfd33aa7a971425099f2379156aa.setIcon(icon_9ae166f43a9a2fe50e6b05f1ea0776c1);
+        
+    
+        var popup_1db55eb3c79217c74b9636dd8125398f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05b1b119f405f211cc7c31bdb11249d9 = $(`<div id="html_05b1b119f405f211cc7c31bdb11249d9" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Щёлково, Пролетарский проспект, 3А</div>`)[0];
+            popup_1db55eb3c79217c74b9636dd8125398f.setContent(html_05b1b119f405f211cc7c31bdb11249d9);
+        
+
+        marker_82f7cfd33aa7a971425099f2379156aa.bindPopup(popup_1db55eb3c79217c74b9636dd8125398f)
+        ;
+
+        
+    
+    
+            var marker_f260ea6d5447ef266b62e55ac398ddd6 = L.marker(
+                [55.922369, 37.991355],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_caf070571ff9c61ad739810fa066de26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f260ea6d5447ef266b62e55ac398ddd6.setIcon(icon_caf070571ff9c61ad739810fa066de26);
+        
+    
+        var popup_e111fe5883c18f231553c2ffa5c845f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91a90a17c74375545525027d22278dc6 = $(`<div id="html_91a90a17c74375545525027d22278dc6" style="width: 100.0%; height: 100.0%;">Русские Корни<br>Московская область, Щёлково, площадь Ленина, 5</div>`)[0];
+            popup_e111fe5883c18f231553c2ffa5c845f9.setContent(html_91a90a17c74375545525027d22278dc6);
+        
+
+        marker_f260ea6d5447ef266b62e55ac398ddd6.bindPopup(popup_e111fe5883c18f231553c2ffa5c845f9)
+        ;
+
+        
+    
+    
+            var marker_325177fa375f1c693f53056e1cb8b2b2 = L.marker(
+                [55.938067, 37.973395],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_366d1fb63b95fc915f1669e1d650e469 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_325177fa375f1c693f53056e1cb8b2b2.setIcon(icon_366d1fb63b95fc915f1669e1d650e469);
+        
+    
+        var popup_ed23889e4e4ae555cfb37b8ce163e399 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00a496ead3188c044e64e3136be62eb2 = $(`<div id="html_00a496ead3188c044e64e3136be62eb2" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, микрорайон Финский, 3</div>`)[0];
+            popup_ed23889e4e4ae555cfb37b8ce163e399.setContent(html_00a496ead3188c044e64e3136be62eb2);
+        
+
+        marker_325177fa375f1c693f53056e1cb8b2b2.bindPopup(popup_ed23889e4e4ae555cfb37b8ce163e399)
+        ;
+
+        
+    
+    
+            var marker_f904624730b64c920144d3bb7b40c8a4 = L.marker(
+                [55.924769, 37.994153],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_233586f5dcb48beaec66bc1fff30c042 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f904624730b64c920144d3bb7b40c8a4.setIcon(icon_233586f5dcb48beaec66bc1fff30c042);
+        
+    
+        var popup_7bf5aa439e0e2bb94d6cbee9f5ad5ade = L.popup({"maxWidth": "100%"});
+
+        
+            var html_864cf749487f794d06edd2b8bff812b0 = $(`<div id="html_864cf749487f794d06edd2b8bff812b0" style="width: 100.0%; height: 100.0%;">ВитаФарм<br>Московская область, Щёлково, Талсинская улица, 1А</div>`)[0];
+            popup_7bf5aa439e0e2bb94d6cbee9f5ad5ade.setContent(html_864cf749487f794d06edd2b8bff812b0);
+        
+
+        marker_f904624730b64c920144d3bb7b40c8a4.bindPopup(popup_7bf5aa439e0e2bb94d6cbee9f5ad5ade)
+        ;
+
+        
+    
+    
+            var marker_1cb70dca3cc6304b24f00c7bdc523cae = L.marker(
+                [55.86463, 37.986953],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_c645edc106bdc2200ba02a9636b56714 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1cb70dca3cc6304b24f00c7bdc523cae.setIcon(icon_c645edc106bdc2200ba02a9636b56714);
+        
+    
+        var popup_1ed62642676104e7b64be63deedc586e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a3b2930c6f443d2051219a899d221a2 = $(`<div id="html_8a3b2930c6f443d2051219a899d221a2" style="width: 100.0%; height: 100.0%;">Вероника<br>Московская область, городской округ Щёлково, деревня Медвежьи Озёра, Юбилейная улица, 12</div>`)[0];
+            popup_1ed62642676104e7b64be63deedc586e.setContent(html_8a3b2930c6f443d2051219a899d221a2);
+        
+
+        marker_1cb70dca3cc6304b24f00c7bdc523cae.bindPopup(popup_1ed62642676104e7b64be63deedc586e)
+        ;
+
+        
+    
+    
+            var marker_1bc6a0035ec4bb6f47f6aa4cc8af2ea9 = L.marker(
+                [55.943304, 37.974365],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_94f3db8b9ffcb93233a1ec4821555f2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1bc6a0035ec4bb6f47f6aa4cc8af2ea9.setIcon(icon_94f3db8b9ffcb93233a1ec4821555f2c);
+        
+    
+        var popup_749579b247ed7a1966c76468d82b3231 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f810d84fe1418474e5fd7cf7799da65 = $(`<div id="html_3f810d84fe1418474e5fd7cf7799da65" style="width: 100.0%; height: 100.0%;">Фармадар<br>Московская область, Щёлково, улица Неделина, 2А</div>`)[0];
+            popup_749579b247ed7a1966c76468d82b3231.setContent(html_3f810d84fe1418474e5fd7cf7799da65);
+        
+
+        marker_1bc6a0035ec4bb6f47f6aa4cc8af2ea9.bindPopup(popup_749579b247ed7a1966c76468d82b3231)
+        ;
+
+        
+    
+    
+            var marker_1e24e410852222c3e70882d7ef4d399f = L.marker(
+                [55.920854, 37.992886],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_3b74db398126f4eafa366e80dc153d71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e24e410852222c3e70882d7ef4d399f.setIcon(icon_3b74db398126f4eafa366e80dc153d71);
+        
+    
+        var popup_97c7ddc75f891e0d5d57421104668fac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ab1017ed7d2e2f442bee0e6e3d97710 = $(`<div id="html_5ab1017ed7d2e2f442bee0e6e3d97710" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Щёлково, площадь Ленина, 1</div>`)[0];
+            popup_97c7ddc75f891e0d5d57421104668fac.setContent(html_5ab1017ed7d2e2f442bee0e6e3d97710);
+        
+
+        marker_1e24e410852222c3e70882d7ef4d399f.bindPopup(popup_97c7ddc75f891e0d5d57421104668fac)
+        ;
+
+        
+    
+    
+            var marker_4c1c2b4259e3b0b6702aa6e5b5d1022c = L.marker(
+                [55.907685, 37.98769],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_453ff25965994a5a606980cd9bb2d587 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c1c2b4259e3b0b6702aa6e5b5d1022c.setIcon(icon_453ff25965994a5a606980cd9bb2d587);
+        
+    
+        var popup_b2e3752f494f77140e7ba9be8213206c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cc5f851bb2dba4af1cacccd5b96e3ef = $(`<div id="html_8cc5f851bb2dba4af1cacccd5b96e3ef" style="width: 100.0%; height: 100.0%;">Аптечный пункт<br>Московская область, Щёлково, улица 8 Марта, 11</div>`)[0];
+            popup_b2e3752f494f77140e7ba9be8213206c.setContent(html_8cc5f851bb2dba4af1cacccd5b96e3ef);
+        
+
+        marker_4c1c2b4259e3b0b6702aa6e5b5d1022c.bindPopup(popup_b2e3752f494f77140e7ba9be8213206c)
+        ;
+
+        
+    
+    
+            var marker_ae395cf03374e05e1c1e04b6d7c4f0ed = L.marker(
+                [55.908488, 38.057078],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_236cbc5c379c83626ec2ded9cf9bfb88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae395cf03374e05e1c1e04b6d7c4f0ed.setIcon(icon_236cbc5c379c83626ec2ded9cf9bfb88);
+        
+    
+        var popup_4603823cbcc8f6e8aeeb162d890b3103 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97994e7d61f999389049a69e9912a761 = $(`<div id="html_97994e7d61f999389049a69e9912a761" style="width: 100.0%; height: 100.0%;">Инфи<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Жуковского, 2В</div>`)[0];
+            popup_4603823cbcc8f6e8aeeb162d890b3103.setContent(html_97994e7d61f999389049a69e9912a761);
+        
+
+        marker_ae395cf03374e05e1c1e04b6d7c4f0ed.bindPopup(popup_4603823cbcc8f6e8aeeb162d890b3103)
+        ;
+
+        
+    
+    
+            var marker_ede72e9bc086d34839b7b50d7d5da6be = L.marker(
+                [55.939267, 38.033852],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_ce42a8c7d96b5e0f722f9dd50f213cfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ede72e9bc086d34839b7b50d7d5da6be.setIcon(icon_ce42a8c7d96b5e0f722f9dd50f213cfe);
+        
+    
+        var popup_3b353517e81d17f300ba4bf5fa3820f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e10ba4bcd02d54b3421e140137b2e784 = $(`<div id="html_e10ba4bcd02d54b3421e140137b2e784" style="width: 100.0%; height: 100.0%;">Альтаир<br>Московская область, Щёлково, Фряновское шоссе, 64, корп. 1</div>`)[0];
+            popup_3b353517e81d17f300ba4bf5fa3820f3.setContent(html_e10ba4bcd02d54b3421e140137b2e784);
+        
+
+        marker_ede72e9bc086d34839b7b50d7d5da6be.bindPopup(popup_3b353517e81d17f300ba4bf5fa3820f3)
+        ;
+
+        
+    
+    
+            var marker_29150667dd48f8aa5da7e0e02a821847 = L.marker(
+                [55.882974, 38.080286],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_483bd4eae86152b76cfb2b926e8e4543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_29150667dd48f8aa5da7e0e02a821847.setIcon(icon_483bd4eae86152b76cfb2b926e8e4543);
+        
+    
+        var popup_48ab8925426dbc03b9d585dbf538ae01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fef3723f52265d19d22f33e9a6317c37 = $(`<div id="html_fef3723f52265d19d22f33e9a6317c37" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, улица Беляева, 23</div>`)[0];
+            popup_48ab8925426dbc03b9d585dbf538ae01.setContent(html_fef3723f52265d19d22f33e9a6317c37);
+        
+
+        marker_29150667dd48f8aa5da7e0e02a821847.bindPopup(popup_48ab8925426dbc03b9d585dbf538ae01)
+        ;
+
+        
+    
+    
+            var marker_65891863898c9591ff2164fd9e367267 = L.marker(
+                [55.919428, 37.992215],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_c6999ddafdf28fffc33ad07e7cdfbf85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_65891863898c9591ff2164fd9e367267.setIcon(icon_c6999ddafdf28fffc33ad07e7cdfbf85);
+        
+    
+        var popup_7011229db03343d027bdcaa404dc71c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6370be53165b2a26809a3e53203fd61e = $(`<div id="html_6370be53165b2a26809a3e53203fd61e" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Щёлково, улица Комарова, 1А</div>`)[0];
+            popup_7011229db03343d027bdcaa404dc71c9.setContent(html_6370be53165b2a26809a3e53203fd61e);
+        
+
+        marker_65891863898c9591ff2164fd9e367267.bindPopup(popup_7011229db03343d027bdcaa404dc71c9)
+        ;
+
+        
+    
+    
+            var marker_fbd3c21d4f1cf3fd68eb08d2df89ef29 = L.marker(
+                [55.929404, 37.98033],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_24e7e7ed081549659270379f01da830d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbd3c21d4f1cf3fd68eb08d2df89ef29.setIcon(icon_24e7e7ed081549659270379f01da830d);
+        
+    
+        var popup_169e807ad0abdc88e0326e2129baf30a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81432aaa0a89d83e4c48afe6476ff8e3 = $(`<div id="html_81432aaa0a89d83e4c48afe6476ff8e3" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Щёлково, улица Фрунзе, 1</div>`)[0];
+            popup_169e807ad0abdc88e0326e2129baf30a.setContent(html_81432aaa0a89d83e4c48afe6476ff8e3);
+        
+
+        marker_fbd3c21d4f1cf3fd68eb08d2df89ef29.bindPopup(popup_169e807ad0abdc88e0326e2129baf30a)
+        ;
+
+        
+    
+    
+            var marker_0fe3346be0c957dce9fbbd88a5676a09 = L.marker(
+                [55.920386, 37.987894],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_18edd97afeec71e40eb6477336ed35c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0fe3346be0c957dce9fbbd88a5676a09.setIcon(icon_18edd97afeec71e40eb6477336ed35c3);
+        
+    
+        var popup_72fa81178f60cd15693f70c82f229b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe2195ef8ea2833725bd4ba8ed34b0cc = $(`<div id="html_fe2195ef8ea2833725bd4ba8ed34b0cc" style="width: 100.0%; height: 100.0%;">Доброе Дело<br>Московская область, Щёлково, Парковая улица, 7</div>`)[0];
+            popup_72fa81178f60cd15693f70c82f229b04.setContent(html_fe2195ef8ea2833725bd4ba8ed34b0cc);
+        
+
+        marker_0fe3346be0c957dce9fbbd88a5676a09.bindPopup(popup_72fa81178f60cd15693f70c82f229b04)
+        ;
+
+        
+    
+    
+            var marker_3a1c2273e25380e70922f5f0ef836b4b = L.marker(
+                [55.909161, 37.936761],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_4147229453201298171944f3acb02a4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a1c2273e25380e70922f5f0ef836b4b.setIcon(icon_4147229453201298171944f3acb02a4c);
+        
+    
+        var popup_d58fdc91098beb55cd9a146143348a0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc46d386899cb1078581cc022fa21f64 = $(`<div id="html_cc46d386899cb1078581cc022fa21f64" style="width: 100.0%; height: 100.0%;">Аптека-Военторг<br>Московская область, городской округ Щёлково, дачный посёлок Загорянский, улица Ватутина, 101, стр. 1</div>`)[0];
+            popup_d58fdc91098beb55cd9a146143348a0b.setContent(html_cc46d386899cb1078581cc022fa21f64);
+        
+
+        marker_3a1c2273e25380e70922f5f0ef836b4b.bindPopup(popup_d58fdc91098beb55cd9a146143348a0b)
+        ;
+
+        
+    
+    
+            var marker_0deb96c510caea13e60a62a7b36bd691 = L.marker(
+                [55.937311, 37.975695],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_fca18a452464b5810e5ff35def4610d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0deb96c510caea13e60a62a7b36bd691.setIcon(icon_fca18a452464b5810e5ff35def4610d0);
+        
+    
+        var popup_bb2a34ac567c865648758298f6dfab34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ca9ad4fba1f6159fbabfd8799acc4db = $(`<div id="html_5ca9ad4fba1f6159fbabfd8799acc4db" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, микрорайон Богородский, 3</div>`)[0];
+            popup_bb2a34ac567c865648758298f6dfab34.setContent(html_5ca9ad4fba1f6159fbabfd8799acc4db);
+        
+
+        marker_0deb96c510caea13e60a62a7b36bd691.bindPopup(popup_bb2a34ac567c865648758298f6dfab34)
+        ;
+
+        
+    
+    
+            var marker_ad64c14b1f2767bfb985b0eb616f7f50 = L.marker(
+                [55.927354, 37.986199],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_d0e3c3a729d7a1911f80ff154034e5b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ad64c14b1f2767bfb985b0eb616f7f50.setIcon(icon_d0e3c3a729d7a1911f80ff154034e5b1);
+        
+    
+        var popup_89f80b0ee10622a5740341c9bf80353e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f26fc8d362576fb9fd6fd6cdf81bcc38 = $(`<div id="html_f26fc8d362576fb9fd6fd6cdf81bcc38" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, Щёлково, Талсинская улица, 23</div>`)[0];
+            popup_89f80b0ee10622a5740341c9bf80353e.setContent(html_f26fc8d362576fb9fd6fd6cdf81bcc38);
+        
+
+        marker_ad64c14b1f2767bfb985b0eb616f7f50.bindPopup(popup_89f80b0ee10622a5740341c9bf80353e)
+        ;
+
+        
+    
+    
+            var marker_c44d38ac9b10b1ce558c66a4beee25eb = L.marker(
+                [55.91665, 37.997043],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_9f2517be30b6703b175f3c9e64aae7f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c44d38ac9b10b1ce558c66a4beee25eb.setIcon(icon_9f2517be30b6703b175f3c9e64aae7f4);
+        
+    
+        var popup_f7eaba4e3195fde0056d55a8bd2a5ce6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46085ec3821468493439848f5f601d0e = $(`<div id="html_46085ec3821468493439848f5f601d0e" style="width: 100.0%; height: 100.0%;">Интеко<br>Московская область, Щёлково, Пролетарский проспект, 4, корп. 3</div>`)[0];
+            popup_f7eaba4e3195fde0056d55a8bd2a5ce6.setContent(html_46085ec3821468493439848f5f601d0e);
+        
+
+        marker_c44d38ac9b10b1ce558c66a4beee25eb.bindPopup(popup_f7eaba4e3195fde0056d55a8bd2a5ce6)
+        ;
+
+        
+    
+    
+            var marker_042b8e8b887464a22ab17571bce5e3a0 = L.marker(
+                [55.922782, 37.991209],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_5e8ac1e652152d0235f34908efadef69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_042b8e8b887464a22ab17571bce5e3a0.setIcon(icon_5e8ac1e652152d0235f34908efadef69);
+        
+    
+        var popup_24d2e08b0f8c20dd7f2c18a886a2dbf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fbd7d8389e08742ec409d0b64186a2e = $(`<div id="html_0fbd7d8389e08742ec409d0b64186a2e" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Щёлково, площадь Ленина, 5</div>`)[0];
+            popup_24d2e08b0f8c20dd7f2c18a886a2dbf1.setContent(html_0fbd7d8389e08742ec409d0b64186a2e);
+        
+
+        marker_042b8e8b887464a22ab17571bce5e3a0.bindPopup(popup_24d2e08b0f8c20dd7f2c18a886a2dbf1)
+        ;
+
+        
+    
+    
+            var marker_08d7c93b2bded9ed3b1271d45da4c5f2 = L.marker(
+                [55.926393, 37.991882],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_045c20dc36bb41d85bc0728dbeb3750f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_08d7c93b2bded9ed3b1271d45da4c5f2.setIcon(icon_045c20dc36bb41d85bc0728dbeb3750f);
+        
+    
+        var popup_95d5e2f8786c37a6d1dca5bd96d53deb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5575b078a25e2f6798dc86bcc5b3fdb8 = $(`<div id="html_5575b078a25e2f6798dc86bcc5b3fdb8" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Щёлково, Талсинская улица, 4А</div>`)[0];
+            popup_95d5e2f8786c37a6d1dca5bd96d53deb.setContent(html_5575b078a25e2f6798dc86bcc5b3fdb8);
+        
+
+        marker_08d7c93b2bded9ed3b1271d45da4c5f2.bindPopup(popup_95d5e2f8786c37a6d1dca5bd96d53deb)
+        ;
+
+        
+    
+    
+            var marker_2aba0443930c3805460ea09ca6403337 = L.marker(
+                [55.925922, 37.962862],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_a42cfbfb914645050b1d82fc9181e0fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2aba0443930c3805460ea09ca6403337.setIcon(icon_a42cfbfb914645050b1d82fc9181e0fb);
+        
+    
+        var popup_3ed42a2648ca4dd9736779398e45c2db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5d8cbef35a769db1f862ce77a8badc = $(`<div id="html_df5d8cbef35a769db1f862ce77a8badc" style="width: 100.0%; height: 100.0%;">Здесь аптека<br>Московская область, Щёлково, Центральная улица, 71/1</div>`)[0];
+            popup_3ed42a2648ca4dd9736779398e45c2db.setContent(html_df5d8cbef35a769db1f862ce77a8badc);
+        
+
+        marker_2aba0443930c3805460ea09ca6403337.bindPopup(popup_3ed42a2648ca4dd9736779398e45c2db)
+        ;
+
+        
+    
+    
+            var marker_9034ffaeac9e7ab5bdbe7ee26b2d85e8 = L.marker(
+                [55.909398, 38.066701],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_17f280a4c5c0faea58fc47c0429472f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9034ffaeac9e7ab5bdbe7ee26b2d85e8.setIcon(icon_17f280a4c5c0faea58fc47c0429472f6);
+        
+    
+        var popup_6ddbf1328aec08b81b8b5bd44275ba38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e67283ca441df58dda1bf60d95650ff1 = $(`<div id="html_e67283ca441df58dda1bf60d95650ff1" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Гагарина, 6А</div>`)[0];
+            popup_6ddbf1328aec08b81b8b5bd44275ba38.setContent(html_e67283ca441df58dda1bf60d95650ff1);
+        
+
+        marker_9034ffaeac9e7ab5bdbe7ee26b2d85e8.bindPopup(popup_6ddbf1328aec08b81b8b5bd44275ba38)
+        ;
+
+        
+    
+    
+            var marker_882c7d7b07e7b1276066d20bf75c463e = L.marker(
+                [55.913167, 37.994559],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_973762602261f3f1b0e7e83db724635c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_882c7d7b07e7b1276066d20bf75c463e.setIcon(icon_973762602261f3f1b0e7e83db724635c);
+        
+    
+        var popup_07fe9445e3c3014c9969ba7878743e6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8d73614304db9e929c80221e07ba847 = $(`<div id="html_f8d73614304db9e929c80221e07ba847" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Щёлково, Советская улица, 16, стр. 1</div>`)[0];
+            popup_07fe9445e3c3014c9969ba7878743e6d.setContent(html_f8d73614304db9e929c80221e07ba847);
+        
+
+        marker_882c7d7b07e7b1276066d20bf75c463e.bindPopup(popup_07fe9445e3c3014c9969ba7878743e6d)
+        ;
+
+        
+    
+    
+            var marker_e2625119758e97953d9a686c7932acbb = L.marker(
+                [55.918747, 38.10816],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_44e665c5489c1e4bdb9e1fd2fe9ba9ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e2625119758e97953d9a686c7932acbb.setIcon(icon_44e665c5489c1e4bdb9e1fd2fe9ba9ab);
+        
+    
+        var popup_242cd633e5f1766b51a7179875ed787f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81476aeea745932b08a5883ef8c2101f = $(`<div id="html_81476aeea745932b08a5883ef8c2101f" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, городской округ Лосино-Петровский, посёлок Биокомбината, 42</div>`)[0];
+            popup_242cd633e5f1766b51a7179875ed787f.setContent(html_81476aeea745932b08a5883ef8c2101f);
+        
+
+        marker_e2625119758e97953d9a686c7932acbb.bindPopup(popup_242cd633e5f1766b51a7179875ed787f)
+        ;
+
+        
+    
+    
+            var marker_7443918df6bb75dc35a15014b8654468 = L.marker(
+                [55.939802, 37.977537],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_1982abe09459c1f2fa6d873e0dcc8e12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7443918df6bb75dc35a15014b8654468.setIcon(icon_1982abe09459c1f2fa6d873e0dcc8e12);
+        
+    
+        var popup_b21c71ef8b3790d7a6eaaacffc40f9ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f916804f26ffaa40f151ab146dc6ff8a = $(`<div id="html_f916804f26ffaa40f151ab146dc6ff8a" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Щёлково, микрорайон Богородский, 10, корп. 2</div>`)[0];
+            popup_b21c71ef8b3790d7a6eaaacffc40f9ed.setContent(html_f916804f26ffaa40f151ab146dc6ff8a);
+        
+
+        marker_7443918df6bb75dc35a15014b8654468.bindPopup(popup_b21c71ef8b3790d7a6eaaacffc40f9ed)
+        ;
+
+        
+    
+    
+            var marker_eefd9ae04c32acea5014c32b23a9f1bc = L.marker(
+                [55.88618, 38.077528],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_661cb49daedc64a6008b8a56aa2874af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eefd9ae04c32acea5014c32b23a9f1bc.setIcon(icon_661cb49daedc64a6008b8a56aa2874af);
+        
+    
+        var popup_c56030a5dcfec8efdec7fd377c9cbaef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fec9ef8e3575f66a5f97ac3cdcfd431c = $(`<div id="html_fec9ef8e3575f66a5f97ac3cdcfd431c" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Щёлково, улица Беляева, 35А</div>`)[0];
+            popup_c56030a5dcfec8efdec7fd377c9cbaef.setContent(html_fec9ef8e3575f66a5f97ac3cdcfd431c);
+        
+
+        marker_eefd9ae04c32acea5014c32b23a9f1bc.bindPopup(popup_c56030a5dcfec8efdec7fd377c9cbaef)
+        ;
+
+        
+    
+    
+            var marker_1e07fdd1596938e298c3d22f311049b0 = L.marker(
+                [55.935243, 37.938685],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_f03e38537e872ff31d0b643c694aa218 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e07fdd1596938e298c3d22f311049b0.setIcon(icon_f03e38537e872ff31d0b643c694aa218);
+        
+    
+        var popup_a7105410d1819c25aeb52e0ef35bb7a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f8bffb9e7d60bab19ba6573bb1bdaee = $(`<div id="html_1f8bffb9e7d60bab19ba6573bb1bdaee" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, городской округ Щёлково, посёлок Краснознаменский, улица Мальцево, 57Б</div>`)[0];
+            popup_a7105410d1819c25aeb52e0ef35bb7a1.setContent(html_1f8bffb9e7d60bab19ba6573bb1bdaee);
+        
+
+        marker_1e07fdd1596938e298c3d22f311049b0.bindPopup(popup_a7105410d1819c25aeb52e0ef35bb7a1)
+        ;
+
+        
+    
+    
+            var marker_d584b0a450ff3ccf94eb28866ef4f32c = L.marker(
+                [55.909236, 38.066586],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_245d74a122899c5c88584797d439ea7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d584b0a450ff3ccf94eb28866ef4f32c.setIcon(icon_245d74a122899c5c88584797d439ea7c);
+        
+    
+        var popup_f686890047a06ce334aa9150929ee569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c870e224bb991b8a6d2e33bd9134eec6 = $(`<div id="html_c870e224bb991b8a6d2e33bd9134eec6" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Гагарина, 10</div>`)[0];
+            popup_f686890047a06ce334aa9150929ee569.setContent(html_c870e224bb991b8a6d2e33bd9134eec6);
+        
+
+        marker_d584b0a450ff3ccf94eb28866ef4f32c.bindPopup(popup_f686890047a06ce334aa9150929ee569)
+        ;
+
+        
+    
+    
+            var marker_8593c685c82cc0129bfa9d9a8c8051ea = L.marker(
+                [55.912664, 38.013737],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_bfa5b847d0b08fd143d35783634ac988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8593c685c82cc0129bfa9d9a8c8051ea.setIcon(icon_bfa5b847d0b08fd143d35783634ac988);
+        
+    
+        var popup_ba586b48da7f5b39a1e9559d011e6376 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d434ff74e27bfadd6f71072700a60014 = $(`<div id="html_d434ff74e27bfadd6f71072700a60014" style="width: 100.0%; height: 100.0%;">Портер<br>Московская область, Щёлково, Фабричная улица, 1, стр. 7</div>`)[0];
+            popup_ba586b48da7f5b39a1e9559d011e6376.setContent(html_d434ff74e27bfadd6f71072700a60014);
+        
+
+        marker_8593c685c82cc0129bfa9d9a8c8051ea.bindPopup(popup_ba586b48da7f5b39a1e9559d011e6376)
+        ;
+
+        
+    
+    
+            var marker_6868596e6693cf2a276db387b1143a45 = L.marker(
+                [55.903595, 38.063673],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_5ecf1072c5e012333cad7493075bb4ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6868596e6693cf2a276db387b1143a45.setIcon(icon_5ecf1072c5e012333cad7493075bb4ab);
+        
+    
+        var popup_5b9c4a62ad46dccbdf69f8ec3fd579a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc75713f1ba592d532f1afd69a584305 = $(`<div id="html_fc75713f1ba592d532f1afd69a584305" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Супруна, 1А</div>`)[0];
+            popup_5b9c4a62ad46dccbdf69f8ec3fd579a1.setContent(html_fc75713f1ba592d532f1afd69a584305);
+        
+
+        marker_6868596e6693cf2a276db387b1143a45.bindPopup(popup_5b9c4a62ad46dccbdf69f8ec3fd579a1)
+        ;
+
+        
+    
+    
+            var marker_7ab0063d62065edcf600d7b00124a7ff = L.marker(
+                [55.914257, 37.993946],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_7512a3c3445def184897b5ca7740b7f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ab0063d62065edcf600d7b00124a7ff.setIcon(icon_7512a3c3445def184897b5ca7740b7f6);
+        
+    
+        var popup_d5b36de17a6978e7c51f781201e99c57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60bc44786b00b45ea30276a760cb0568 = $(`<div id="html_60bc44786b00b45ea30276a760cb0568" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Щёлково, Пролетарский проспект, вл3А</div>`)[0];
+            popup_d5b36de17a6978e7c51f781201e99c57.setContent(html_60bc44786b00b45ea30276a760cb0568);
+        
+
+        marker_7ab0063d62065edcf600d7b00124a7ff.bindPopup(popup_d5b36de17a6978e7c51f781201e99c57)
+        ;
+
+        
+    
+    
+            var marker_ccd1c658e812fcf8bb890840765aab79 = L.marker(
+                [55.924752, 37.994505],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_6c2042ed6a17beab5e9b3e7fba3165b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccd1c658e812fcf8bb890840765aab79.setIcon(icon_6c2042ed6a17beab5e9b3e7fba3165b0);
+        
+    
+        var popup_d5d5404df334c74648098a063756c849 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ac567dae47d49c495155b017bd22286 = $(`<div id="html_9ac567dae47d49c495155b017bd22286" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Щёлково, Талсинская улица, 1А</div>`)[0];
+            popup_d5d5404df334c74648098a063756c849.setContent(html_9ac567dae47d49c495155b017bd22286);
+        
+
+        marker_ccd1c658e812fcf8bb890840765aab79.bindPopup(popup_d5d5404df334c74648098a063756c849)
+        ;
+
+        
+    
+    
+            var marker_442577d69253cca9b05f68577616be84 = L.marker(
+                [55.918884, 38.011913],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_743aa66c0806197864b81eacf9e300fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_442577d69253cca9b05f68577616be84.setIcon(icon_743aa66c0806197864b81eacf9e300fc);
+        
+    
+        var popup_385b34a64cb22f814e2fe945b96cad0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea29a2ff438d5bdb257424cc8e790708 = $(`<div id="html_ea29a2ff438d5bdb257424cc8e790708" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Щёлково, микрорайон Соболевка, 25</div>`)[0];
+            popup_385b34a64cb22f814e2fe945b96cad0a.setContent(html_ea29a2ff438d5bdb257424cc8e790708);
+        
+
+        marker_442577d69253cca9b05f68577616be84.bindPopup(popup_385b34a64cb22f814e2fe945b96cad0a)
+        ;
+
+        
+    
+    
+            var marker_421270509fde4222823055bef729c2af = L.marker(
+                [55.954495, 38.05752],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_c5eb200be3c4e56eb7df0998f42233d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_421270509fde4222823055bef729c2af.setIcon(icon_c5eb200be3c4e56eb7df0998f42233d8);
+        
+    
+        var popup_7f9d2f054612c8214a43c0ca5fa9cfd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_635eae053ee06a2300ee36835e2172c5 = $(`<div id="html_635eae053ee06a2300ee36835e2172c5" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, проспект Мира, 18, корп. 4</div>`)[0];
+            popup_7f9d2f054612c8214a43c0ca5fa9cfd0.setContent(html_635eae053ee06a2300ee36835e2172c5);
+        
+
+        marker_421270509fde4222823055bef729c2af.bindPopup(popup_7f9d2f054612c8214a43c0ca5fa9cfd0)
+        ;
+
+        
+    
+    
+            var marker_2662c8a9116fe895025cd810037428ca = L.marker(
+                [55.860741, 38.046617],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_9d38f384606ce0f9d68bf656408a5f0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2662c8a9116fe895025cd810037428ca.setIcon(icon_9d38f384606ce0f9d68bf656408a5f0c);
+        
+    
+        var popup_80670c30a5cb805cec221741f3e7bf7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_353d1fe633d97afd0c28674b3abf3436 = $(`<div id="html_353d1fe633d97afd0c28674b3abf3436" style="width: 100.0%; height: 100.0%;">Гринфарм<br>Московская область, городской округ Щёлково, деревня Большие Жеребцы, 43Б, стр. 1</div>`)[0];
+            popup_80670c30a5cb805cec221741f3e7bf7a.setContent(html_353d1fe633d97afd0c28674b3abf3436);
+        
+
+        marker_2662c8a9116fe895025cd810037428ca.bindPopup(popup_80670c30a5cb805cec221741f3e7bf7a)
+        ;
+
+        
+    
+    
+            var marker_656c24f994ec14de04088885832b09c0 = L.marker(
+                [55.958164, 38.070817],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_01509ab6fcba83d8c6105dd53bc90907 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_656c24f994ec14de04088885832b09c0.setIcon(icon_01509ab6fcba83d8c6105dd53bc90907);
+        
+    
+        var popup_d893cf5adc7d979a35b1859f99950334 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ca37be79071b7136a9338daf666f785 = $(`<div id="html_9ca37be79071b7136a9338daf666f785" style="width: 100.0%; height: 100.0%;">Синергия<br>Московская область, городской округ Щёлково, деревня Ново, 23А</div>`)[0];
+            popup_d893cf5adc7d979a35b1859f99950334.setContent(html_9ca37be79071b7136a9338daf666f785);
+        
+
+        marker_656c24f994ec14de04088885832b09c0.bindPopup(popup_d893cf5adc7d979a35b1859f99950334)
+        ;
+
+        
+    
+    
+            var marker_7e2ed09d00e8c21f387aa0e05ec81f0f = L.marker(
+                [55.943352, 37.974142],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_b9c19ee61f25ddca92eb044eca6cb018 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e2ed09d00e8c21f387aa0e05ec81f0f.setIcon(icon_b9c19ee61f25ddca92eb044eca6cb018);
+        
+    
+        var popup_c1879ef50d9a06ab04f532c8d701881d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55f394608c850e7924b2f7839450856e = $(`<div id="html_55f394608c850e7924b2f7839450856e" style="width: 100.0%; height: 100.0%;">Вендифарм<br>Московская область, Щёлково, улица Неделина, 2А</div>`)[0];
+            popup_c1879ef50d9a06ab04f532c8d701881d.setContent(html_55f394608c850e7924b2f7839450856e);
+        
+
+        marker_7e2ed09d00e8c21f387aa0e05ec81f0f.bindPopup(popup_c1879ef50d9a06ab04f532c8d701881d)
+        ;
+
+        
+    
+    
+            var marker_2c0a483e448dea37e3448c117f87bb4c = L.marker(
+                [55.898043, 38.061748],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_207037202479267a0c8289bed253c92e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c0a483e448dea37e3448c117f87bb4c.setIcon(icon_207037202479267a0c8289bed253c92e);
+        
+    
+        var popup_d67045268992fa90cea3b38d57f53257 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8da954831c80975a4ad42536062a4086 = $(`<div id="html_8da954831c80975a4ad42536062a4086" style="width: 100.0%; height: 100.0%;">Здесь аптека<br>Московская область, Щёлково, микрорайон Щёлково-3, улица Радиоцентра № 5, 9А</div>`)[0];
+            popup_d67045268992fa90cea3b38d57f53257.setContent(html_8da954831c80975a4ad42536062a4086);
+        
+
+        marker_2c0a483e448dea37e3448c117f87bb4c.bindPopup(popup_d67045268992fa90cea3b38d57f53257)
+        ;
+
+        
+    
+    
+            var marker_9620747094ea06017d096980ee679f57 = L.marker(
+                [55.938178, 37.974832],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_32c39779f72961d886c960311f712b15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9620747094ea06017d096980ee679f57.setIcon(icon_32c39779f72961d886c960311f712b15);
+        
+    
+        var popup_6226f225dcba8637758d01bb189ad8c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_408e0b2d0ff360a6298f72d37a09fa83 = $(`<div id="html_408e0b2d0ff360a6298f72d37a09fa83" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Щёлково, микрорайон Богородский, 5</div>`)[0];
+            popup_6226f225dcba8637758d01bb189ad8c5.setContent(html_408e0b2d0ff360a6298f72d37a09fa83);
+        
+
+        marker_9620747094ea06017d096980ee679f57.bindPopup(popup_6226f225dcba8637758d01bb189ad8c5)
+        ;
+
+        
+    
+    
+            var marker_dcf0d24e3297bbe246df814d114657f7 = L.marker(
+                [55.958925, 38.034993],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_435bbd198add353ccfb4fa4ca88b1904 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcf0d24e3297bbe246df814d114657f7.setIcon(icon_435bbd198add353ccfb4fa4ca88b1904);
+        
+    
+        var popup_eb3e8e1dd559523c2d50d81e97c76dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7522a920d22fb0786b00e0e332a3461d = $(`<div id="html_7522a920d22fb0786b00e0e332a3461d" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, улица Горького, 7</div>`)[0];
+            popup_eb3e8e1dd559523c2d50d81e97c76dd3.setContent(html_7522a920d22fb0786b00e0e332a3461d);
+        
+
+        marker_dcf0d24e3297bbe246df814d114657f7.bindPopup(popup_eb3e8e1dd559523c2d50d81e97c76dd3)
+        ;
+
+        
+    
+    
+            var marker_3a0d3b8012c8fc950d43813d01055a39 = L.marker(
+                [55.952454, 38.046235],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_bfa069cf5359341b3fc849bf165b1ff0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a0d3b8012c8fc950d43813d01055a39.setIcon(icon_bfa069cf5359341b3fc849bf165b1ff0);
+        
+    
+        var popup_a580792e14565631bc72b9eb8d85865e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b5c9c0a1bc35b914ae92306ebac6c77 = $(`<div id="html_5b5c9c0a1bc35b914ae92306ebac6c77" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, Советская улица, 1В</div>`)[0];
+            popup_a580792e14565631bc72b9eb8d85865e.setContent(html_5b5c9c0a1bc35b914ae92306ebac6c77);
+        
+
+        marker_3a0d3b8012c8fc950d43813d01055a39.bindPopup(popup_a580792e14565631bc72b9eb8d85865e)
+        ;
+
+        
+    
+    
+            var marker_ebd23ee687debf3c5c9901778a2c86d2 = L.marker(
+                [55.946804, 38.0639],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_39e77a59925fcdd262f5f9a7f6ff2219 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebd23ee687debf3c5c9901778a2c86d2.setIcon(icon_39e77a59925fcdd262f5f9a7f6ff2219);
+        
+    
+        var popup_369f8882e7faf793c30d5d669de4ba09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20835c92153da799a9f0c12a2d3e5378 = $(`<div id="html_20835c92153da799a9f0c12a2d3e5378" style="width: 100.0%; height: 100.0%;">Диалог<br>Московская область, Фрязино, Полевая улица, 23А</div>`)[0];
+            popup_369f8882e7faf793c30d5d669de4ba09.setContent(html_20835c92153da799a9f0c12a2d3e5378);
+        
+
+        marker_ebd23ee687debf3c5c9901778a2c86d2.bindPopup(popup_369f8882e7faf793c30d5d669de4ba09)
+        ;
+
+        
+    
+    
+            var marker_7aa3ee7881dff8e719b75276c3e4bf28 = L.marker(
+                [55.897983, 37.972721],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_94b5307187e4b9103128075bb148e656 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7aa3ee7881dff8e719b75276c3e4bf28.setIcon(icon_94b5307187e4b9103128075bb148e656);
+        
+    
+        var popup_024c0bfcd245c243a8f1a79347136879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03ffd18f15cd4f8ccdd521c6be5e394f = $(`<div id="html_03ffd18f15cd4f8ccdd521c6be5e394f" style="width: 100.0%; height: 100.0%;">Йод Зелёнка<br>Московская область, городской округ Щёлково, коттеджный посёлок Варежки-3, Изумрудный бульвар, 2</div>`)[0];
+            popup_024c0bfcd245c243a8f1a79347136879.setContent(html_03ffd18f15cd4f8ccdd521c6be5e394f);
+        
+
+        marker_7aa3ee7881dff8e719b75276c3e4bf28.bindPopup(popup_024c0bfcd245c243a8f1a79347136879)
+        ;
+
+        
+    
+    
+            var marker_45a4a03fb35f6f0000d3bdca78534d4d = L.marker(
+                [55.955678, 38.044935],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_d042220811d743bc897a8ba2491b3110 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_45a4a03fb35f6f0000d3bdca78534d4d.setIcon(icon_d042220811d743bc897a8ba2491b3110);
+        
+    
+        var popup_322ee477e4721c6b8d5b29e54c4f4848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a163d10be613b8b01f084a4e3a98801 = $(`<div id="html_6a163d10be613b8b01f084a4e3a98801" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Фрязино, Октябрьская улица, 10</div>`)[0];
+            popup_322ee477e4721c6b8d5b29e54c4f4848.setContent(html_6a163d10be613b8b01f084a4e3a98801);
+        
+
+        marker_45a4a03fb35f6f0000d3bdca78534d4d.bindPopup(popup_322ee477e4721c6b8d5b29e54c4f4848)
+        ;
+
+        
+    
+    
+            var marker_62421f301ae8795fbff2d1a9b0577846 = L.marker(
+                [55.879473, 38.108771],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_e12f3280340229e70acfd333c36e9cf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62421f301ae8795fbff2d1a9b0577846.setIcon(icon_e12f3280340229e70acfd333c36e9cf7);
+        
+    
+        var popup_43fa992e9a2cce28a343d6bac56a1fbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d379952d0f6286a9ba7f07dc1ff62f02 = $(`<div id="html_d379952d0f6286a9ba7f07dc1ff62f02" style="width: 100.0%; height: 100.0%;">Векфарм<br>Московская область, посёлок Звёздный городок, 23</div>`)[0];
+            popup_43fa992e9a2cce28a343d6bac56a1fbe.setContent(html_d379952d0f6286a9ba7f07dc1ff62f02);
+        
+
+        marker_62421f301ae8795fbff2d1a9b0577846.bindPopup(popup_43fa992e9a2cce28a343d6bac56a1fbe)
+        ;
+
+        
+    
+    
+            var marker_0c29a5050e5d3aca69af793530a6c4e6 = L.marker(
+                [55.952873, 38.054178],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_48ed47f3ec9028067788f8aafe5bfceb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0c29a5050e5d3aca69af793530a6c4e6.setIcon(icon_48ed47f3ec9028067788f8aafe5bfceb);
+        
+    
+        var popup_41853ad5bac985a6dfecf582f2f46264 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_504329487d2c7dc63d6b8139bd582bdf = $(`<div id="html_504329487d2c7dc63d6b8139bd582bdf" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_41853ad5bac985a6dfecf582f2f46264.setContent(html_504329487d2c7dc63d6b8139bd582bdf);
+        
+
+        marker_0c29a5050e5d3aca69af793530a6c4e6.bindPopup(popup_41853ad5bac985a6dfecf582f2f46264)
+        ;
+
+        
+    
+    
+            var marker_08d333021ad94695710ec83a5641bd84 = L.marker(
+                [55.96076, 38.046814],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_5ad13eaf52ca8363c7f02d78f85a3802 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_08d333021ad94695710ec83a5641bd84.setIcon(icon_5ad13eaf52ca8363c7f02d78f85a3802);
+        
+    
+        var popup_b2a0fcfc68ffb865a2730f728ef4d10b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33294d1eab47fe8f7e39b1dba561381a = $(`<div id="html_33294d1eab47fe8f7e39b1dba561381a" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Фрязино, Вокзальная улица, 15</div>`)[0];
+            popup_b2a0fcfc68ffb865a2730f728ef4d10b.setContent(html_33294d1eab47fe8f7e39b1dba561381a);
+        
+
+        marker_08d333021ad94695710ec83a5641bd84.bindPopup(popup_b2a0fcfc68ffb865a2730f728ef4d10b)
+        ;
+
+        
+    
+    
+            var marker_3a26875a08fff888ff3c4a250c76efb7 = L.marker(
+                [55.951262, 38.053442],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_52a871b3ec2bf174a9f8c98e79345a6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3a26875a08fff888ff3c4a250c76efb7.setIcon(icon_52a871b3ec2bf174a9f8c98e79345a6f);
+        
+    
+        var popup_3bc7d199720cf4f0b746f8cf3d671028 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01e29ab955d770a5ab79dd5c46871e27 = $(`<div id="html_01e29ab955d770a5ab79dd5c46871e27" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, Полевая улица, 1</div>`)[0];
+            popup_3bc7d199720cf4f0b746f8cf3d671028.setContent(html_01e29ab955d770a5ab79dd5c46871e27);
+        
+
+        marker_3a26875a08fff888ff3c4a250c76efb7.bindPopup(popup_3bc7d199720cf4f0b746f8cf3d671028)
+        ;
+
+        
+    
+    
+            var marker_bd277ce02cae4ff9b706020a70e986b7 = L.marker(
+                [55.952504, 38.053571],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_7d4e6b232438166c2204e01c1dcd9576 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd277ce02cae4ff9b706020a70e986b7.setIcon(icon_7d4e6b232438166c2204e01c1dcd9576);
+        
+    
+        var popup_1300740fd0645ad1374e7452d3e516c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67217f4d55a2aaede04cf785869aa263 = $(`<div id="html_67217f4d55a2aaede04cf785869aa263" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_1300740fd0645ad1374e7452d3e516c8.setContent(html_67217f4d55a2aaede04cf785869aa263);
+        
+
+        marker_bd277ce02cae4ff9b706020a70e986b7.bindPopup(popup_1300740fd0645ad1374e7452d3e516c8)
+        ;
+
+        
+    
+    
+            var marker_5f10257bc89337ce19ae0425f32e0b37 = L.marker(
+                [55.949325, 38.060228],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_1953d38a3c01b0ff3de53e24788aeda3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f10257bc89337ce19ae0425f32e0b37.setIcon(icon_1953d38a3c01b0ff3de53e24788aeda3);
+        
+    
+        var popup_e3090c86d17135749beff15e81737e59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82354d4f4449926aa941ecd365eaf581 = $(`<div id="html_82354d4f4449926aa941ecd365eaf581" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, улица 60 лет СССР, 10</div>`)[0];
+            popup_e3090c86d17135749beff15e81737e59.setContent(html_82354d4f4449926aa941ecd365eaf581);
+        
+
+        marker_5f10257bc89337ce19ae0425f32e0b37.bindPopup(popup_e3090c86d17135749beff15e81737e59)
+        ;
+
+        
+    
+    
+            var marker_d7d04d928d5866061984f5bde81337e2 = L.marker(
+                [55.956169, 38.058304],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_5ad07c6b07c1807fd9f05952933a3159 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7d04d928d5866061984f5bde81337e2.setIcon(icon_5ad07c6b07c1807fd9f05952933a3159);
+        
+    
+        var popup_224c3a603dc549ed634638701ef754fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c3483ccc055e25ac3272b6fdd806326 = $(`<div id="html_6c3483ccc055e25ac3272b6fdd806326" style="width: 100.0%; height: 100.0%;">Superapteka.ru<br>Московская область, Фрязино, проспект Мира, 17</div>`)[0];
+            popup_224c3a603dc549ed634638701ef754fa.setContent(html_6c3483ccc055e25ac3272b6fdd806326);
+        
+
+        marker_d7d04d928d5866061984f5bde81337e2.bindPopup(popup_224c3a603dc549ed634638701ef754fa)
+        ;
+
+        
+    
+    
+            var marker_8d1152298181b54db8f8e83a2ccf13fe = L.marker(
+                [55.877778, 38.105607],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_85b30494842c393d146e4b978cc6311d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8d1152298181b54db8f8e83a2ccf13fe.setIcon(icon_85b30494842c393d146e4b978cc6311d);
+        
+    
+        var popup_200c4b00978fda1f42fad243a62ab8c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ede7ffaa87e1e5bd51b1a6213329bd52 = $(`<div id="html_ede7ffaa87e1e5bd51b1a6213329bd52" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, посёлок Звёздный городок, 7</div>`)[0];
+            popup_200c4b00978fda1f42fad243a62ab8c5.setContent(html_ede7ffaa87e1e5bd51b1a6213329bd52);
+        
+
+        marker_8d1152298181b54db8f8e83a2ccf13fe.bindPopup(popup_200c4b00978fda1f42fad243a62ab8c5)
+        ;
+
+        
+    
+    
+            var marker_289ea05b118735710f247ec7405b0bb0 = L.marker(
+                [55.958865, 38.054639],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_75ce170e14480dd24c46ccd19b2a7c0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_289ea05b118735710f247ec7405b0bb0.setIcon(icon_75ce170e14480dd24c46ccd19b2a7c0b);
+        
+    
+        var popup_6942dad48be07a1f34d7b07dee1e5df4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10abeff3aeea6228b4cb6ae3e74b8192 = $(`<div id="html_10abeff3aeea6228b4cb6ae3e74b8192" style="width: 100.0%; height: 100.0%;">Аптечество<br>Московская область, Фрязино, Новая улица, 4</div>`)[0];
+            popup_6942dad48be07a1f34d7b07dee1e5df4.setContent(html_10abeff3aeea6228b4cb6ae3e74b8192);
+        
+
+        marker_289ea05b118735710f247ec7405b0bb0.bindPopup(popup_6942dad48be07a1f34d7b07dee1e5df4)
+        ;
+
+        
+    
+    
+            var marker_3fe075713dd02c3bd059c4cd0a07a6ba = L.marker(
+                [55.958813, 38.036582],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_cc94c69c3834f8d3cd68422edc1e0ad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3fe075713dd02c3bd059c4cd0a07a6ba.setIcon(icon_cc94c69c3834f8d3cd68422edc1e0ad5);
+        
+    
+        var popup_d92090a2f6d9e2a6e03b1ce3c3621e0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_792e5c7af13f6c1df10e14f58d0b430b = $(`<div id="html_792e5c7af13f6c1df10e14f58d0b430b" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Московская область, Фрязино, улица Горького, 5</div>`)[0];
+            popup_d92090a2f6d9e2a6e03b1ce3c3621e0e.setContent(html_792e5c7af13f6c1df10e14f58d0b430b);
+        
+
+        marker_3fe075713dd02c3bd059c4cd0a07a6ba.bindPopup(popup_d92090a2f6d9e2a6e03b1ce3c3621e0e)
+        ;
+
+        
+    
+    
+            var marker_db249c2050b346f6273c7695aa2814c4 = L.marker(
+                [55.871622, 37.989358],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_33e7766994423442cf27af28e733b483 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db249c2050b346f6273c7695aa2814c4.setIcon(icon_33e7766994423442cf27af28e733b483);
+        
+    
+        var popup_6cf695a843ea288de0adade3d23cd6c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af43ad2b34d6e327ab517b770f957b07 = $(`<div id="html_af43ad2b34d6e327ab517b770f957b07" style="width: 100.0%; height: 100.0%;">ЗдравСити<br>Московская область, городской округ Щёлково, деревня Медвежьи Озёра, Юбилейная улица, вл11</div>`)[0];
+            popup_6cf695a843ea288de0adade3d23cd6c9.setContent(html_af43ad2b34d6e327ab517b770f957b07);
+        
+
+        marker_db249c2050b346f6273c7695aa2814c4.bindPopup(popup_6cf695a843ea288de0adade3d23cd6c9)
+        ;
+
+        
+    
+    
+            var marker_eaa7733f50f618ae739637c75dee46ce = L.marker(
+                [55.952321, 38.053395],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_281097e8b1de60e6b734333afb8ae516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eaa7733f50f618ae739637c75dee46ce.setIcon(icon_281097e8b1de60e6b734333afb8ae516);
+        
+    
+        var popup_18156aacab295261bcabd1c066340d55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_193a97e69efbecb9b0443c4386bab21d = $(`<div id="html_193a97e69efbecb9b0443c4386bab21d" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_18156aacab295261bcabd1c066340d55.setContent(html_193a97e69efbecb9b0443c4386bab21d);
+        
+
+        marker_eaa7733f50f618ae739637c75dee46ce.bindPopup(popup_18156aacab295261bcabd1c066340d55)
+        ;
+
+        
+    
+    
+            var marker_4e35054c11a6d741dfff6fac22e9526b = L.marker(
+                [55.954896, 38.058336],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_2d8db7ec88f1b0520d5b4fdc638cc3c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e35054c11a6d741dfff6fac22e9526b.setIcon(icon_2d8db7ec88f1b0520d5b4fdc638cc3c1);
+        
+    
+        var popup_08b093cca96fb7eec0cf69490349dec5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18232447c8da724b74f1dc370416f22f = $(`<div id="html_18232447c8da724b74f1dc370416f22f" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Фрязино, проспект Мира, 20Б</div>`)[0];
+            popup_08b093cca96fb7eec0cf69490349dec5.setContent(html_18232447c8da724b74f1dc370416f22f);
+        
+
+        marker_4e35054c11a6d741dfff6fac22e9526b.bindPopup(popup_08b093cca96fb7eec0cf69490349dec5)
+        ;
+
+        
+    
+    
+            var marker_8f259177d6ef6122d784b470bff2b187 = L.marker(
+                [55.950273, 38.053637],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_ab97c2f96681ecdc76cacc3b7100fc28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f259177d6ef6122d784b470bff2b187.setIcon(icon_ab97c2f96681ecdc76cacc3b7100fc28);
+        
+    
+        var popup_5cc16f080c44224b12846d0024bff5ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_944dfa64a6399e65d7c0b8cbf79fec2c = $(`<div id="html_944dfa64a6399e65d7c0b8cbf79fec2c" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Фрязино, Полевая улица, 6</div>`)[0];
+            popup_5cc16f080c44224b12846d0024bff5ef.setContent(html_944dfa64a6399e65d7c0b8cbf79fec2c);
+        
+
+        marker_8f259177d6ef6122d784b470bff2b187.bindPopup(popup_5cc16f080c44224b12846d0024bff5ef)
+        ;
+
+        
+    
+    
+            var marker_f30332d3d7d3d51d3f197f784e13265e = L.marker(
+                [55.953469, 38.0549],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_6debb73cc601521cb5c7f783a697321f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f30332d3d7d3d51d3f197f784e13265e.setIcon(icon_6debb73cc601521cb5c7f783a697321f);
+        
+    
+        var popup_95bf3a3ddecacdfd284d8c97785f391e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_716f7d6bec8116a2fd694e65e7384251 = $(`<div id="html_716f7d6bec8116a2fd694e65e7384251" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_95bf3a3ddecacdfd284d8c97785f391e.setContent(html_716f7d6bec8116a2fd694e65e7384251);
+        
+
+        marker_f30332d3d7d3d51d3f197f784e13265e.bindPopup(popup_95bf3a3ddecacdfd284d8c97785f391e)
+        ;
+
+        
+    
+    
+            var marker_9732b72d09c1a4d2fc466166bf55d944 = L.marker(
+                [55.957013, 38.052922],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_a4e1e28287a48c234937982564869fae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9732b72d09c1a4d2fc466166bf55d944.setIcon(icon_a4e1e28287a48c234937982564869fae);
+        
+    
+        var popup_be65a1a084e537891edc4db831c790d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d5d5942ef1766d1a3bf4ac16310c746 = $(`<div id="html_9d5d5942ef1766d1a3bf4ac16310c746" style="width: 100.0%; height: 100.0%;">Соби-Фарм<br>Московская область, Фрязино, Московская улица, 2</div>`)[0];
+            popup_be65a1a084e537891edc4db831c790d6.setContent(html_9d5d5942ef1766d1a3bf4ac16310c746);
+        
+
+        marker_9732b72d09c1a4d2fc466166bf55d944.bindPopup(popup_be65a1a084e537891edc4db831c790d6)
+        ;
+
+        
+    
+    
+            var marker_2e5919b08b8eb7661c8a45fd499435e1 = L.marker(
+                [55.95057, 38.060123],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_5b5141f2a26cff78837a7cfe7cf21539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e5919b08b8eb7661c8a45fd499435e1.setIcon(icon_5b5141f2a26cff78837a7cfe7cf21539);
+        
+    
+        var popup_6b69828d78453252276e59a5a110f442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8251b0f9eb387bd4b00b855b59fd77e0 = $(`<div id="html_8251b0f9eb387bd4b00b855b59fd77e0" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, Фрязино, Полевая улица, 13А</div>`)[0];
+            popup_6b69828d78453252276e59a5a110f442.setContent(html_8251b0f9eb387bd4b00b855b59fd77e0);
+        
+
+        marker_2e5919b08b8eb7661c8a45fd499435e1.bindPopup(popup_6b69828d78453252276e59a5a110f442)
+        ;
+
+        
+    
+    
+            var marker_a7ec85e5312711fb8a803ecbd09db9b8 = L.marker(
+                [55.953587, 38.043057],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_f6ab090adc78026b5e0990c54ac3470c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a7ec85e5312711fb8a803ecbd09db9b8.setIcon(icon_f6ab090adc78026b5e0990c54ac3470c);
+        
+    
+        var popup_169c29568f894e43521ddf117c3ef046 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4469dfddd8d4a081fb82fc2bc0c847e1 = $(`<div id="html_4469dfddd8d4a081fb82fc2bc0c847e1" style="width: 100.0%; height: 100.0%;">СОВЕТСКАЯ АПТЕКА<br>Московская область, Фрязино, Советская улица, 10А</div>`)[0];
+            popup_169c29568f894e43521ddf117c3ef046.setContent(html_4469dfddd8d4a081fb82fc2bc0c847e1);
+        
+
+        marker_a7ec85e5312711fb8a803ecbd09db9b8.bindPopup(popup_169c29568f894e43521ddf117c3ef046)
+        ;
+
+        
+    
+    
+            var marker_9dbd513e6877938e2b3e9b0c9c5e2cfd = L.marker(
+                [55.954793, 38.05913],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_6c9757ba572f28eedc04edc23158c239 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9dbd513e6877938e2b3e9b0c9c5e2cfd.setIcon(icon_6c9757ba572f28eedc04edc23158c239);
+        
+    
+        var popup_61666a9b734e2f8ec59f8de00e9743eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0782597ad756ae4e119a68f998e7f8a6 = $(`<div id="html_0782597ad756ae4e119a68f998e7f8a6" style="width: 100.0%; height: 100.0%;">ЕАПТЕКА<br>Московская область, Фрязино, проспект Мира, 20</div>`)[0];
+            popup_61666a9b734e2f8ec59f8de00e9743eb.setContent(html_0782597ad756ae4e119a68f998e7f8a6);
+        
+
+        marker_9dbd513e6877938e2b3e9b0c9c5e2cfd.bindPopup(popup_61666a9b734e2f8ec59f8de00e9743eb)
+        ;
+
+        
+    
+    
+            var marker_6d7325310279e026b22c96e25cfbdc8e = L.marker(
+                [55.954975, 38.059605],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_587ef2726587249ccd273ed07b0a073f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6d7325310279e026b22c96e25cfbdc8e.setIcon(icon_587ef2726587249ccd273ed07b0a073f);
+        
+    
+        var popup_6ea8ae2b9a56f5cae7840a1329eb23c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bae9a7384fc3c77495367c1ea4563b33 = $(`<div id="html_bae9a7384fc3c77495367c1ea4563b33" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Фрязино, проспект Мира, 20</div>`)[0];
+            popup_6ea8ae2b9a56f5cae7840a1329eb23c6.setContent(html_bae9a7384fc3c77495367c1ea4563b33);
+        
+
+        marker_6d7325310279e026b22c96e25cfbdc8e.bindPopup(popup_6ea8ae2b9a56f5cae7840a1329eb23c6)
+        ;
+
+        
+    
+    
+            var marker_d48cc2487514b759578f89a4d29c913a = L.marker(
+                [55.955413, 38.051826],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_c33162fb4575e9a118eac518c14300d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d48cc2487514b759578f89a4d29c913a.setIcon(icon_c33162fb4575e9a118eac518c14300d9);
+        
+    
+        var popup_6b1f9d775372826f36d7d48ae4578f3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c2abd3ba58107e363b6fd5d2090100d = $(`<div id="html_7c2abd3ba58107e363b6fd5d2090100d" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Фрязино, Школьная улица, 1</div>`)[0];
+            popup_6b1f9d775372826f36d7d48ae4578f3c.setContent(html_7c2abd3ba58107e363b6fd5d2090100d);
+        
+
+        marker_d48cc2487514b759578f89a4d29c913a.bindPopup(popup_6b1f9d775372826f36d7d48ae4578f3c)
+        ;
+
+        
+    
+    
+            var marker_31935498b98721f4d8e01c67e62d0fba = L.marker(
+                [55.959424, 38.034013],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_b0cc44b4e24bdef1c112495efe75818b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31935498b98721f4d8e01c67e62d0fba.setIcon(icon_b0cc44b4e24bdef1c112495efe75818b);
+        
+    
+        var popup_9b08379c5680aee601ac5acfca6473bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e0af99a5799e1bd5ed5579612baac24 = $(`<div id="html_8e0af99a5799e1bd5ed5579612baac24" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Фрязино, Станционная улица, 7</div>`)[0];
+            popup_9b08379c5680aee601ac5acfca6473bf.setContent(html_8e0af99a5799e1bd5ed5579612baac24);
+        
+
+        marker_31935498b98721f4d8e01c67e62d0fba.bindPopup(popup_9b08379c5680aee601ac5acfca6473bf)
+        ;
+
+        
+    
+    
+            var marker_f63ec67b4521029a4430965804aa32a9 = L.marker(
+                [55.954807, 38.058869],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_b0841197eade5eaee2ac1cb941e12bbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f63ec67b4521029a4430965804aa32a9.setIcon(icon_b0841197eade5eaee2ac1cb941e12bbc);
+        
+    
+        var popup_c04f5db16d16ec8b90eb87af4f93ce41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7148e0404dda80effa3beea5ed10d78 = $(`<div id="html_b7148e0404dda80effa3beea5ed10d78" style="width: 100.0%; height: 100.0%;">Будь здоров!<br>Московская область, Фрязино, проспект Мира, 20</div>`)[0];
+            popup_c04f5db16d16ec8b90eb87af4f93ce41.setContent(html_b7148e0404dda80effa3beea5ed10d78);
+        
+
+        marker_f63ec67b4521029a4430965804aa32a9.bindPopup(popup_c04f5db16d16ec8b90eb87af4f93ce41)
+        ;
+
+        
+    
+    
+            var marker_8b1a151ad7dd72493767396a43871090 = L.marker(
+                [55.953115, 38.041874],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_dab88c9b2cfcfdb87ccbd79acedd6258 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b1a151ad7dd72493767396a43871090.setIcon(icon_dab88c9b2cfcfdb87ccbd79acedd6258);
+        
+    
+        var popup_6a6a197dd02b82217824456f4a763563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2af3e250e114b7857a2f100d5287c2b7 = $(`<div id="html_2af3e250e114b7857a2f100d5287c2b7" style="width: 100.0%; height: 100.0%;">Аптечный Дом<br>Московская область, Фрязино, Советская улица, 17</div>`)[0];
+            popup_6a6a197dd02b82217824456f4a763563.setContent(html_2af3e250e114b7857a2f100d5287c2b7);
+        
+
+        marker_8b1a151ad7dd72493767396a43871090.bindPopup(popup_6a6a197dd02b82217824456f4a763563)
+        ;
+
+        
+    
+    
+            var marker_301c0ad42abddcc15839d683056cb099 = L.marker(
+                [55.950434, 38.053736],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_09d240063a370a9b0fbbc8a8796eb5cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_301c0ad42abddcc15839d683056cb099.setIcon(icon_09d240063a370a9b0fbbc8a8796eb5cc);
+        
+    
+        var popup_bcfb98e975233ad291ae61cd305f22cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3fe36484190aab60c0ef70bc8a79287 = $(`<div id="html_c3fe36484190aab60c0ef70bc8a79287" style="width: 100.0%; height: 100.0%;">БиоЛайф<br>Московская область, Фрязино, Полевая улица, 6</div>`)[0];
+            popup_bcfb98e975233ad291ae61cd305f22cd.setContent(html_c3fe36484190aab60c0ef70bc8a79287);
+        
+
+        marker_301c0ad42abddcc15839d683056cb099.bindPopup(popup_bcfb98e975233ad291ae61cd305f22cd)
+        ;
+
+        
+    
+    
+            var marker_e635d3a050aa4dfae9ed9777e1c918fd = L.marker(
+                [55.956636, 38.054722],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_8eb354209fadcec45f5705e1b80d18ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e635d3a050aa4dfae9ed9777e1c918fd.setIcon(icon_8eb354209fadcec45f5705e1b80d18ef);
+        
+    
+        var popup_12d0661f770e53f1e33c85cba717fe93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28f446990e62cb42a206515d42bebdd4 = $(`<div id="html_28f446990e62cb42a206515d42bebdd4" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Фрязино, Московская улица, 7</div>`)[0];
+            popup_12d0661f770e53f1e33c85cba717fe93.setContent(html_28f446990e62cb42a206515d42bebdd4);
+        
+
+        marker_e635d3a050aa4dfae9ed9777e1c918fd.bindPopup(popup_12d0661f770e53f1e33c85cba717fe93)
+        ;
+
+        
+    
+    
+            var marker_6275f69ed1690b5fc28ebed6f5d62505 = L.marker(
+                [55.956123, 38.031187],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_374b9997c98c1e38e32c0690d1c2bf0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6275f69ed1690b5fc28ebed6f5d62505.setIcon(icon_374b9997c98c1e38e32c0690d1c2bf0e);
+        
+    
+        var popup_60143b4ea16cfb98c5c6ec296d6b85ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24e2cebe2a3ab8f19894dfad9103d241 = $(`<div id="html_24e2cebe2a3ab8f19894dfad9103d241" style="width: 100.0%; height: 100.0%;">Миллениум-Ф<br>Московская область, Фрязино, улица Нахимова, 23</div>`)[0];
+            popup_60143b4ea16cfb98c5c6ec296d6b85ab.setContent(html_24e2cebe2a3ab8f19894dfad9103d241);
+        
+
+        marker_6275f69ed1690b5fc28ebed6f5d62505.bindPopup(popup_60143b4ea16cfb98c5c6ec296d6b85ab)
+        ;
+
+        
+    
+    
+            var marker_b685626994bd3387769ef65ef1907667 = L.marker(
+                [55.950297, 38.053848],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_7b22519f181eb41f3d7dacaaa1eba65d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b685626994bd3387769ef65ef1907667.setIcon(icon_7b22519f181eb41f3d7dacaaa1eba65d);
+        
+    
+        var popup_375583a1f6271789f8b822aacc359c93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8907aeeb06806a1f67b54a172d9aca92 = $(`<div id="html_8907aeeb06806a1f67b54a172d9aca92" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Фрязино, Полевая улица, 6</div>`)[0];
+            popup_375583a1f6271789f8b822aacc359c93.setContent(html_8907aeeb06806a1f67b54a172d9aca92);
+        
+
+        marker_b685626994bd3387769ef65ef1907667.bindPopup(popup_375583a1f6271789f8b822aacc359c93)
+        ;
+
+        
+    
+    
+            var marker_e378c76d778874e9049a7b1a4197c91d = L.marker(
+                [55.950517, 38.05549],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_cf969097c3296567cf608ea358410791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e378c76d778874e9049a7b1a4197c91d.setIcon(icon_cf969097c3296567cf608ea358410791);
+        
+    
+        var popup_9c323b76cf3edafad96586e0f3e1da1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7621a2db14069ee34f5a891eeb836ae = $(`<div id="html_c7621a2db14069ee34f5a891eeb836ae" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Фрязино, Полевая улица, 3</div>`)[0];
+            popup_9c323b76cf3edafad96586e0f3e1da1d.setContent(html_c7621a2db14069ee34f5a891eeb836ae);
+        
+
+        marker_e378c76d778874e9049a7b1a4197c91d.bindPopup(popup_9c323b76cf3edafad96586e0f3e1da1d)
+        ;
+
+        
+    
+    
+            var marker_df008593cb812074c309ffd59f8c57cb = L.marker(
+                [55.956015, 38.031157],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_6dcfd072e022f9d5057afd73b36b1cdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_df008593cb812074c309ffd59f8c57cb.setIcon(icon_6dcfd072e022f9d5057afd73b36b1cdc);
+        
+    
+        var popup_52627ea0f28af957f3ad0a5ecfc8ef85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17ee3be9c5656fda64522b88cfbd9a39 = $(`<div id="html_17ee3be9c5656fda64522b88cfbd9a39" style="width: 100.0%; height: 100.0%;">Ланас<br>Московская область, Фрязино, улица Нахимова, 23</div>`)[0];
+            popup_52627ea0f28af957f3ad0a5ecfc8ef85.setContent(html_17ee3be9c5656fda64522b88cfbd9a39);
+        
+
+        marker_df008593cb812074c309ffd59f8c57cb.bindPopup(popup_52627ea0f28af957f3ad0a5ecfc8ef85)
+        ;
+
+        
+    
+    
+            var marker_089607df815bed02f10e5ce3936ffec9 = L.marker(
+                [55.958993, 38.037453],
+                {}
+            ).addTo(map_92d128d738fc3030aee45c5e2c08c39e);
+        
+    
+            var icon_f13367fcc4175749878d9f19f960c138 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_089607df815bed02f10e5ce3936ffec9.setIcon(icon_f13367fcc4175749878d9f19f960c138);
+        
+    
+        var popup_e28c79955aaa8ebb844ded37986901a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf487aec85a7582cd5523ca0249e332d = $(`<div id="html_cf487aec85a7582cd5523ca0249e332d" style="width: 100.0%; height: 100.0%;">Городская аптека<br>Московская область, Фрязино, улица Горького, 3</div>`)[0];
+            popup_e28c79955aaa8ebb844ded37986901a6.setContent(html_cf487aec85a7582cd5523ca0249e332d);
+        
+
+        marker_089607df815bed02f10e5ce3936ffec9.bindPopup(popup_e28c79955aaa8ebb844ded37986901a6)
+        ;
+
+        
+    
+</script>
+</html>

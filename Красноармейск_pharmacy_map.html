@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_49733267c009c9ee5299857757bac5b4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_49733267c009c9ee5299857757bac5b4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_49733267c009c9ee5299857757bac5b4 = L.map(
+                "map_49733267c009c9ee5299857757bac5b4",
+                {
+                    center: [56.1199, 38.144365],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cf98f015d00487c295ee04d2fea520f2 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var marker_c18fa6592d87c5c54d2b9662a6fd86f0 = L.marker(
+                [56.1199, 38.144365],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_e5768c73181fe46f86da25ed9d06bae4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c18fa6592d87c5c54d2b9662a6fd86f0.setIcon(icon_e5768c73181fe46f86da25ed9d06bae4);
+        
+    
+        var popup_758e4209f8c41e95894867ef917a1d8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a538679d06aa61e73118d64a7ee88b2 = $(`<div id="html_8a538679d06aa61e73118d64a7ee88b2" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, городской округ Пушкинский, Красноармейск, проспект Испытателей, 9</div>`)[0];
+            popup_758e4209f8c41e95894867ef917a1d8c.setContent(html_8a538679d06aa61e73118d64a7ee88b2);
+        
+
+        marker_c18fa6592d87c5c54d2b9662a6fd86f0.bindPopup(popup_758e4209f8c41e95894867ef917a1d8c)
+        ;
+
+        
+    
+    
+            var marker_b50071f541c860e714e27e044ef85c1f = L.marker(
+                [56.118569, 38.143031],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_a109abe91d2ad83b2e8ec285db48c359 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b50071f541c860e714e27e044ef85c1f.setIcon(icon_a109abe91d2ad83b2e8ec285db48c359);
+        
+    
+        var popup_72a97561948e8e17600021e5eb43ad09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f72c79c092827dabb65831417b62e06 = $(`<div id="html_1f72c79c092827dabb65831417b62e06" style="width: 100.0%; height: 100.0%;">Вита. ру<br>Московская область, городской округ Пушкинский, Красноармейск, микрорайон Северный, 22А</div>`)[0];
+            popup_72a97561948e8e17600021e5eb43ad09.setContent(html_1f72c79c092827dabb65831417b62e06);
+        
+
+        marker_b50071f541c860e714e27e044ef85c1f.bindPopup(popup_72a97561948e8e17600021e5eb43ad09)
+        ;
+
+        
+    
+    
+            var marker_9b27a60fdb5cbde05092a954f347cfbd = L.marker(
+                [56.101448, 38.12449],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_7254d93cbd2bc6081d608a5c7a53d080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b27a60fdb5cbde05092a954f347cfbd.setIcon(icon_7254d93cbd2bc6081d608a5c7a53d080);
+        
+    
+        var popup_799ad9dbbf0ca8247eae5185e755a434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10575803fadcb609e68ce4b33ce24c7f = $(`<div id="html_10575803fadcb609e68ce4b33ce24c7f" style="width: 100.0%; height: 100.0%;">Столетник<br>Московская область, городской округ Пушкинский, Красноармейск, улица Чкалова, 7</div>`)[0];
+            popup_799ad9dbbf0ca8247eae5185e755a434.setContent(html_10575803fadcb609e68ce4b33ce24c7f);
+        
+
+        marker_9b27a60fdb5cbde05092a954f347cfbd.bindPopup(popup_799ad9dbbf0ca8247eae5185e755a434)
+        ;
+
+        
+    
+    
+            var marker_ba7645e96143e90e567cd14e6fa98a15 = L.marker(
+                [56.122474, 38.137306],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_0236817ccee9338281fe324bc3dc4cea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba7645e96143e90e567cd14e6fa98a15.setIcon(icon_0236817ccee9338281fe324bc3dc4cea);
+        
+    
+        var popup_cfb7ac80a78ad7395d62d01c10fd4634 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73fe5112bfd0680e63f9ee5ceb2ce437 = $(`<div id="html_73fe5112bfd0680e63f9ee5ceb2ce437" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, городской округ Пушкинский, Красноармейск, Пионерская улица, 7</div>`)[0];
+            popup_cfb7ac80a78ad7395d62d01c10fd4634.setContent(html_73fe5112bfd0680e63f9ee5ceb2ce437);
+        
+
+        marker_ba7645e96143e90e567cd14e6fa98a15.bindPopup(popup_cfb7ac80a78ad7395d62d01c10fd4634)
+        ;
+
+        
+    
+    
+            var marker_43b696ad4d7523895539edeccb928da7 = L.marker(
+                [56.103061, 38.137856],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_66964e7220c394619f0215fdc4d4a504 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43b696ad4d7523895539edeccb928da7.setIcon(icon_66964e7220c394619f0215fdc4d4a504);
+        
+    
+        var popup_fa3e67d2df64855bbf6482d3e632bc3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75a1d3efe21f576d8b247bbaa63261d4 = $(`<div id="html_75a1d3efe21f576d8b247bbaa63261d4" style="width: 100.0%; height: 100.0%;">Аптека № 30<br>Московская область, городской округ Пушкинский, Красноармейск, улица Новая Жизнь, 1</div>`)[0];
+            popup_fa3e67d2df64855bbf6482d3e632bc3b.setContent(html_75a1d3efe21f576d8b247bbaa63261d4);
+        
+
+        marker_43b696ad4d7523895539edeccb928da7.bindPopup(popup_fa3e67d2df64855bbf6482d3e632bc3b)
+        ;
+
+        
+    
+    
+            var marker_1d6b764bf2412f7d888add99ff128098 = L.marker(
+                [56.102604, 38.136682],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_b41060d5f87f7d48304c6c030fceddd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d6b764bf2412f7d888add99ff128098.setIcon(icon_b41060d5f87f7d48304c6c030fceddd1);
+        
+    
+        var popup_387eb7b3a129f488497874280c594cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5016f30ddef80dbcd8bf5ce97fc3e1d9 = $(`<div id="html_5016f30ddef80dbcd8bf5ce97fc3e1d9" style="width: 100.0%; height: 100.0%;">Столетник<br>Московская область, городской округ Пушкинский, Красноармейск, улица Новая Жизнь, 2</div>`)[0];
+            popup_387eb7b3a129f488497874280c594cb8.setContent(html_5016f30ddef80dbcd8bf5ce97fc3e1d9);
+        
+
+        marker_1d6b764bf2412f7d888add99ff128098.bindPopup(popup_387eb7b3a129f488497874280c594cb8)
+        ;
+
+        
+    
+    
+            var marker_5f606b93897b30821a8fcafe168287ff = L.marker(
+                [56.116608, 38.148414],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_48b8a5945443140ab340724ffe269c6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f606b93897b30821a8fcafe168287ff.setIcon(icon_48b8a5945443140ab340724ffe269c6b);
+        
+    
+        var popup_f134b0ebb87c09cf64c4aea510118733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc6bac5209a5cbdf0cafc3ea8a8843ed = $(`<div id="html_bc6bac5209a5cbdf0cafc3ea8a8843ed" style="width: 100.0%; height: 100.0%;">Аптечество<br>Московская область, городской округ Пушкинский, Красноармейск, проспект Испытателей, 6А</div>`)[0];
+            popup_f134b0ebb87c09cf64c4aea510118733.setContent(html_bc6bac5209a5cbdf0cafc3ea8a8843ed);
+        
+
+        marker_5f606b93897b30821a8fcafe168287ff.bindPopup(popup_f134b0ebb87c09cf64c4aea510118733)
+        ;
+
+        
+    
+    
+            var marker_43c55708a8500b253af53f101614a5e2 = L.marker(
+                [56.099531, 38.116194],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_25ab6c40e8decc596977afa3e36939a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43c55708a8500b253af53f101614a5e2.setIcon(icon_25ab6c40e8decc596977afa3e36939a0);
+        
+    
+        var popup_743306e5580c38f7381c224a71dfc2f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7aeac376098bab84b621ddbf647450c = $(`<div id="html_c7aeac376098bab84b621ddbf647450c" style="width: 100.0%; height: 100.0%;">Прогресс+<br>Московская область, городской округ Пушкинский, Красноармейск, улица Морозова, 16</div>`)[0];
+            popup_743306e5580c38f7381c224a71dfc2f5.setContent(html_c7aeac376098bab84b621ddbf647450c);
+        
+
+        marker_43c55708a8500b253af53f101614a5e2.bindPopup(popup_743306e5580c38f7381c224a71dfc2f5)
+        ;
+
+        
+    
+    
+            var marker_d429c7df44568d62df2a57c812a7f542 = L.marker(
+                [56.11514, 38.139779],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_d185ef8a177e34b872f856b2cf4d1fd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d429c7df44568d62df2a57c812a7f542.setIcon(icon_d185ef8a177e34b872f856b2cf4d1fd4);
+        
+    
+        var popup_bd79ec997350cc9c414ca8e19fb80803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dcfd2ca7c064b66751a086fa7019235 = $(`<div id="html_9dcfd2ca7c064b66751a086fa7019235" style="width: 100.0%; height: 100.0%;">СОВЕТСКАЯ АПТЕКА<br>Московская область, городской округ Пушкинский, Красноармейск, микрорайон Северный, 5</div>`)[0];
+            popup_bd79ec997350cc9c414ca8e19fb80803.setContent(html_9dcfd2ca7c064b66751a086fa7019235);
+        
+
+        marker_d429c7df44568d62df2a57c812a7f542.bindPopup(popup_bd79ec997350cc9c414ca8e19fb80803)
+        ;
+
+        
+    
+    
+            var marker_32b53598ee18af0753c6fa78fff92358 = L.marker(
+                [56.122997, 38.135248],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_93a6aea7ef27d36067a3a64bfcb0f38c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32b53598ee18af0753c6fa78fff92358.setIcon(icon_93a6aea7ef27d36067a3a64bfcb0f38c);
+        
+    
+        var popup_32666b28879c85035f1225b2dac6b5a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_906b3b45e53e432cb499800accb067e2 = $(`<div id="html_906b3b45e53e432cb499800accb067e2" style="width: 100.0%; height: 100.0%;">Вита.ру<br>Московская область, городской округ Пушкинский, Красноармейск, проспект Ленина, 17</div>`)[0];
+            popup_32666b28879c85035f1225b2dac6b5a8.setContent(html_906b3b45e53e432cb499800accb067e2);
+        
+
+        marker_32b53598ee18af0753c6fa78fff92358.bindPopup(popup_32666b28879c85035f1225b2dac6b5a8)
+        ;
+
+        
+    
+    
+            var marker_c1055fb6bdbc6240fa51d0a1c00cd473 = L.marker(
+                [56.123513, 38.135732],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_2ade190d857837e7b44bae49f82b70a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1055fb6bdbc6240fa51d0a1c00cd473.setIcon(icon_2ade190d857837e7b44bae49f82b70a5);
+        
+    
+        var popup_ba9fb2455086ef70e2e0919067547677 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5583b3586270bbd2a3bd42253169c83a = $(`<div id="html_5583b3586270bbd2a3bd42253169c83a" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, городской округ Пушкинский, Красноармейск, проспект Ленина, 8А</div>`)[0];
+            popup_ba9fb2455086ef70e2e0919067547677.setContent(html_5583b3586270bbd2a3bd42253169c83a);
+        
+
+        marker_c1055fb6bdbc6240fa51d0a1c00cd473.bindPopup(popup_ba9fb2455086ef70e2e0919067547677)
+        ;
+
+        
+    
+    
+            var marker_82e7d05b76991d6117ecba8eab32ce0d = L.marker(
+                [56.120413, 38.144433],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_8725adeb4853203231c17845bf28ab8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82e7d05b76991d6117ecba8eab32ce0d.setIcon(icon_8725adeb4853203231c17845bf28ab8a);
+        
+    
+        var popup_d9b5dcacab350d7d720dddf2687a08a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b85c902d44be90ccdc7c814e1df0d1a = $(`<div id="html_6b85c902d44be90ccdc7c814e1df0d1a" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, городской округ Пушкинский, Красноармейск, проспект Испытателей, 9, стр. 3</div>`)[0];
+            popup_d9b5dcacab350d7d720dddf2687a08a4.setContent(html_6b85c902d44be90ccdc7c814e1df0d1a);
+        
+
+        marker_82e7d05b76991d6117ecba8eab32ce0d.bindPopup(popup_d9b5dcacab350d7d720dddf2687a08a4)
+        ;
+
+        
+    
+    
+            var marker_b6740931dbe63eed8869d1edef620a96 = L.marker(
+                [56.123634, 38.135999],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_04392d50ec0269ab0027065fcd49cb13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b6740931dbe63eed8869d1edef620a96.setIcon(icon_04392d50ec0269ab0027065fcd49cb13);
+        
+    
+        var popup_afb69f0c403168e6d6fe2526cde2fe69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ee8c304e3cf138adf042c498b735299 = $(`<div id="html_9ee8c304e3cf138adf042c498b735299" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, городской округ Пушкинский, Красноармейск, проспект Ленина, 8А</div>`)[0];
+            popup_afb69f0c403168e6d6fe2526cde2fe69.setContent(html_9ee8c304e3cf138adf042c498b735299);
+        
+
+        marker_b6740931dbe63eed8869d1edef620a96.bindPopup(popup_afb69f0c403168e6d6fe2526cde2fe69)
+        ;
+
+        
+    
+    
+            var marker_0a2d6dcad369bb1efceb0c514b975180 = L.marker(
+                [56.102529, 38.13666],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_9e367131142a00ecd3a0be6e68c82694 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a2d6dcad369bb1efceb0c514b975180.setIcon(icon_9e367131142a00ecd3a0be6e68c82694);
+        
+    
+        var popup_1061c9cc1094ceff6b00f690e5f76838 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b18aa1edcec4f5b8311af7b3f8d91fd = $(`<div id="html_1b18aa1edcec4f5b8311af7b3f8d91fd" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, городской округ Пушкинский, Красноармейск, улица Новая Жизнь, 2</div>`)[0];
+            popup_1061c9cc1094ceff6b00f690e5f76838.setContent(html_1b18aa1edcec4f5b8311af7b3f8d91fd);
+        
+
+        marker_0a2d6dcad369bb1efceb0c514b975180.bindPopup(popup_1061c9cc1094ceff6b00f690e5f76838)
+        ;
+
+        
+    
+    
+            var marker_738e356863e626f776e008d90db8aa98 = L.marker(
+                [56.123183, 38.135944],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_e1136e695d95db1e7a6850c384638fc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_738e356863e626f776e008d90db8aa98.setIcon(icon_e1136e695d95db1e7a6850c384638fc1);
+        
+    
+        var popup_8ef0fbd11136a34335211f5a6cbf8df2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0ec5cfbe584abb090c9c1026e89319c = $(`<div id="html_e0ec5cfbe584abb090c9c1026e89319c" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, городской округ Пушкинский, Красноармейск, проспект Ленина, 15</div>`)[0];
+            popup_8ef0fbd11136a34335211f5a6cbf8df2.setContent(html_e0ec5cfbe584abb090c9c1026e89319c);
+        
+
+        marker_738e356863e626f776e008d90db8aa98.bindPopup(popup_8ef0fbd11136a34335211f5a6cbf8df2)
+        ;
+
+        
+    
+    
+            var marker_168e98df1fe5ca1ec5c7f314f8cdab0e = L.marker(
+                [56.122306, 38.13728],
+                {}
+            ).addTo(map_49733267c009c9ee5299857757bac5b4);
+        
+    
+            var icon_c2b08de3dd0bcecfd8346ad558d73839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_168e98df1fe5ca1ec5c7f314f8cdab0e.setIcon(icon_c2b08de3dd0bcecfd8346ad558d73839);
+        
+    
+        var popup_5bdd959600637d3bb15dae3689c73a5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27a4043755e9006c63e549023c42466b = $(`<div id="html_27a4043755e9006c63e549023c42466b" style="width: 100.0%; height: 100.0%;">Прогресс +<br>Московская область, городской округ Пушкинский, Красноармейск, Пионерская улица, 7А</div>`)[0];
+            popup_5bdd959600637d3bb15dae3689c73a5a.setContent(html_27a4043755e9006c63e549023c42466b);
+        
+
+        marker_168e98df1fe5ca1ec5c7f314f8cdab0e.bindPopup(popup_5bdd959600637d3bb15dae3689c73a5a)
+        ;
+
+        
+    
+</script>
+</html>

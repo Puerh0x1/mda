@@ -1,0 +1,4268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9cbe94198275ca1c641d046471c49316 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9cbe94198275ca1c641d046471c49316" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9cbe94198275ca1c641d046471c49316 = L.map(
+                "map_9cbe94198275ca1c641d046471c49316",
+                {
+                    center: [56.010493, 37.844628],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_80b95db4999a54fc8e68256125821b8c = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var marker_0e729f0e3c3d5a0da10966149707adb7 = L.marker(
+                [56.010493, 37.844628],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d44aacf122febbd689cdf1df175b7e3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e729f0e3c3d5a0da10966149707adb7.setIcon(icon_d44aacf122febbd689cdf1df175b7e3d);
+        
+    
+        var popup_b8f53a6d2b29cd5fe45eca338dcf0fb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76b2a86a407476de22801896afe38c0d = $(`<div id="html_76b2a86a407476de22801896afe38c0d" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, Московский проспект, 8/2</div>`)[0];
+            popup_b8f53a6d2b29cd5fe45eca338dcf0fb2.setContent(html_76b2a86a407476de22801896afe38c0d);
+        
+
+        marker_0e729f0e3c3d5a0da10966149707adb7.bindPopup(popup_b8f53a6d2b29cd5fe45eca338dcf0fb2)
+        ;
+
+        
+    
+    
+            var marker_ebea7e8061f9aef370712d4b6ddb1ada = L.marker(
+                [56.026, 37.85504],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_44cc3ac9280ba9cb596f97b6d7a87d15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebea7e8061f9aef370712d4b6ddb1ada.setIcon(icon_44cc3ac9280ba9cb596f97b6d7a87d15);
+        
+    
+        var popup_fcbbbac9f409bca0969008c9eb5cc342 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6f1dbd35ea56d9ffe9e714497d63033 = $(`<div id="html_a6f1dbd35ea56d9ffe9e714497d63033" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, улица Просвещения, 11, корп. 3</div>`)[0];
+            popup_fcbbbac9f409bca0969008c9eb5cc342.setContent(html_a6f1dbd35ea56d9ffe9e714497d63033);
+        
+
+        marker_ebea7e8061f9aef370712d4b6ddb1ada.bindPopup(popup_fcbbbac9f409bca0969008c9eb5cc342)
+        ;
+
+        
+    
+    
+            var marker_b7ba73cb27b55576d91403ec20686a20 = L.marker(
+                [56.009467, 37.849527],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f62ddb4f3a47596157ec0f8215f2938f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7ba73cb27b55576d91403ec20686a20.setIcon(icon_f62ddb4f3a47596157ec0f8215f2938f);
+        
+    
+        var popup_7ac257c4dd2fd2ec5a11b0f05e1586fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_607f3da580aa97b6881ff1afb0312ff6 = $(`<div id="html_607f3da580aa97b6881ff1afb0312ff6" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, Московский проспект, 20</div>`)[0];
+            popup_7ac257c4dd2fd2ec5a11b0f05e1586fe.setContent(html_607f3da580aa97b6881ff1afb0312ff6);
+        
+
+        marker_b7ba73cb27b55576d91403ec20686a20.bindPopup(popup_7ac257c4dd2fd2ec5a11b0f05e1586fe)
+        ;
+
+        
+    
+    
+            var marker_d97b6137d2033429be2832033f24e8da = L.marker(
+                [56.011394, 37.84852],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_866e082b460839d61685df2b8b90d5cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d97b6137d2033429be2832033f24e8da.setIcon(icon_866e082b460839d61685df2b8b90d5cd);
+        
+    
+        var popup_e065ec3bc3fca401301d189214cc2387 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c102f7afd386a0768dfc0b9c072a3680 = $(`<div id="html_c102f7afd386a0768dfc0b9c072a3680" style="width: 100.0%; height: 100.0%;">Диалог<br>Московская область, Пушкино, Советская площадь, 4/12</div>`)[0];
+            popup_e065ec3bc3fca401301d189214cc2387.setContent(html_c102f7afd386a0768dfc0b9c072a3680);
+        
+
+        marker_d97b6137d2033429be2832033f24e8da.bindPopup(popup_e065ec3bc3fca401301d189214cc2387)
+        ;
+
+        
+    
+    
+            var marker_83dbfb724fa2db18e71821db67f04fcb = L.marker(
+                [56.005609, 37.872773],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_03d4a5a055b72546dc154f1f9195fb63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83dbfb724fa2db18e71821db67f04fcb.setIcon(icon_03d4a5a055b72546dc154f1f9195fb63);
+        
+    
+        var popup_a4b6d1b806d22f9cdbaf4c16d112031e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_464478fa05649d785c2159a87f7c5611 = $(`<div id="html_464478fa05649d785c2159a87f7c5611" style="width: 100.0%; height: 100.0%;">Здравотдел<br>Московская область, Пушкино, микрорайон Серебрянка, 58</div>`)[0];
+            popup_a4b6d1b806d22f9cdbaf4c16d112031e.setContent(html_464478fa05649d785c2159a87f7c5611);
+        
+
+        marker_83dbfb724fa2db18e71821db67f04fcb.bindPopup(popup_a4b6d1b806d22f9cdbaf4c16d112031e)
+        ;
+
+        
+    
+    
+            var marker_453a7e83fae584a8bb91f2e0abad8013 = L.marker(
+                [56.012401, 37.840652],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_186fc902f8b1437b19deedf44da23348 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_453a7e83fae584a8bb91f2e0abad8013.setIcon(icon_186fc902f8b1437b19deedf44da23348);
+        
+    
+        var popup_978a0e524c6c966acec1e47b912291fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1062496a5010fa71500072e3651d364 = $(`<div id="html_d1062496a5010fa71500072e3651d364" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Пушкино, Вокзальная улица, 1А</div>`)[0];
+            popup_978a0e524c6c966acec1e47b912291fc.setContent(html_d1062496a5010fa71500072e3651d364);
+        
+
+        marker_453a7e83fae584a8bb91f2e0abad8013.bindPopup(popup_978a0e524c6c966acec1e47b912291fc)
+        ;
+
+        
+    
+    
+            var marker_0608c710bb2e389521fc0ccc103868fc = L.marker(
+                [56.008163, 37.854728],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_4caa407077a4478715a4210ac7c414da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0608c710bb2e389521fc0ccc103868fc.setIcon(icon_4caa407077a4478715a4210ac7c414da);
+        
+    
+        var popup_d68a85cda110f1f8f745cf4626633248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c063efa0c4482690c3cbe3c30466b816 = $(`<div id="html_c063efa0c4482690c3cbe3c30466b816" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Пушкино, Московский проспект, 27</div>`)[0];
+            popup_d68a85cda110f1f8f745cf4626633248.setContent(html_c063efa0c4482690c3cbe3c30466b816);
+        
+
+        marker_0608c710bb2e389521fc0ccc103868fc.bindPopup(popup_d68a85cda110f1f8f745cf4626633248)
+        ;
+
+        
+    
+    
+            var marker_434a35b8cb46324f37be9fa0ab0fe025 = L.marker(
+                [56.003973, 37.845338],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_8d1269aba1b02597ad25bfb608e7d059 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_434a35b8cb46324f37be9fa0ab0fe025.setIcon(icon_8d1269aba1b02597ad25bfb608e7d059);
+        
+    
+        var popup_16bfa455915abdd8a74324a23c6341ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7132f65a4984a7e0946cd759a3426f1 = $(`<div id="html_e7132f65a4984a7e0946cd759a3426f1" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, улица Чехова, 40</div>`)[0];
+            popup_16bfa455915abdd8a74324a23c6341ce.setContent(html_e7132f65a4984a7e0946cd759a3426f1);
+        
+
+        marker_434a35b8cb46324f37be9fa0ab0fe025.bindPopup(popup_16bfa455915abdd8a74324a23c6341ce)
+        ;
+
+        
+    
+    
+            var marker_41951062c96ee2267780159a9ff614a5 = L.marker(
+                [56.019872, 37.860641],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_2d311d9d699e2b0a39b26b1260c98206 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_41951062c96ee2267780159a9ff614a5.setIcon(icon_2d311d9d699e2b0a39b26b1260c98206);
+        
+    
+        var popup_e034cf8a8eedc1c0f92c03d2cdeeee3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50ec25a4b84cd525a6bb1c6801bc41cb = $(`<div id="html_50ec25a4b84cd525a6bb1c6801bc41cb" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, микрорайон Новая Деревня, Набережная улица, 35, корп. 7</div>`)[0];
+            popup_e034cf8a8eedc1c0f92c03d2cdeeee3e.setContent(html_50ec25a4b84cd525a6bb1c6801bc41cb);
+        
+
+        marker_41951062c96ee2267780159a9ff614a5.bindPopup(popup_e034cf8a8eedc1c0f92c03d2cdeeee3e)
+        ;
+
+        
+    
+    
+            var marker_76d8ea9bfe713e79fd6ca69ae8c2fd52 = L.marker(
+                [56.008702, 37.843498],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_cdfeba689122787afccbc66751c6ae00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76d8ea9bfe713e79fd6ca69ae8c2fd52.setIcon(icon_cdfeba689122787afccbc66751c6ae00);
+        
+    
+        var popup_063201ee862ead870b3b26335d5acd6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5056b90ee8602c7ecdb442cc26c827ef = $(`<div id="html_5056b90ee8602c7ecdb442cc26c827ef" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, Писаревский проезд, 5</div>`)[0];
+            popup_063201ee862ead870b3b26335d5acd6e.setContent(html_5056b90ee8602c7ecdb442cc26c827ef);
+        
+
+        marker_76d8ea9bfe713e79fd6ca69ae8c2fd52.bindPopup(popup_063201ee862ead870b3b26335d5acd6e)
+        ;
+
+        
+    
+    
+            var marker_71869741f9aa347252cd42a1cc191c2f = L.marker(
+                [56.011952, 37.842313],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_8ca17b8225591c9f5294e466411e4232 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_71869741f9aa347252cd42a1cc191c2f.setIcon(icon_8ca17b8225591c9f5294e466411e4232);
+        
+    
+        var popup_8385e296ce52c7196afb75ec57a1adaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fad1ae53b228eef0d9aad1af23f7c83 = $(`<div id="html_5fad1ae53b228eef0d9aad1af23f7c83" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Пушкино, Московский проспект, 1</div>`)[0];
+            popup_8385e296ce52c7196afb75ec57a1adaf.setContent(html_5fad1ae53b228eef0d9aad1af23f7c83);
+        
+
+        marker_71869741f9aa347252cd42a1cc191c2f.bindPopup(popup_8385e296ce52c7196afb75ec57a1adaf)
+        ;
+
+        
+    
+    
+            var marker_964c8bf0c41f374f46286831608f22cd = L.marker(
+                [56.027951, 37.855366],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_2487b1ecfaa77b239b1ec8141ea20ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_964c8bf0c41f374f46286831608f22cd.setIcon(icon_2487b1ecfaa77b239b1ec8141ea20ff6);
+        
+    
+        var popup_03ebb600e1bfbba151ecac8a62abff9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3c2040a8cbf6d506341ed3ba8832d35 = $(`<div id="html_d3c2040a8cbf6d506341ed3ba8832d35" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, Пушкино, улица Просвещения, 13, корп. 3</div>`)[0];
+            popup_03ebb600e1bfbba151ecac8a62abff9a.setContent(html_d3c2040a8cbf6d506341ed3ba8832d35);
+        
+
+        marker_964c8bf0c41f374f46286831608f22cd.bindPopup(popup_03ebb600e1bfbba151ecac8a62abff9a)
+        ;
+
+        
+    
+    
+            var marker_767c14a44792f6489ca367501bf2a160 = L.marker(
+                [56.012698, 37.847875],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7ebf326d5560454817323eb01a04e9ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_767c14a44792f6489ca367501bf2a160.setIcon(icon_7ebf326d5560454817323eb01a04e9ff);
+        
+    
+        var popup_6d611ceb952fa8a83ea27d1db3c12934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bcaf490a97a0e747558c7bb2e34db7a = $(`<div id="html_3bcaf490a97a0e747558c7bb2e34db7a" style="width: 100.0%; height: 100.0%;">Лекада<br>Московская область, Пушкино, улица Тургенева, 5</div>`)[0];
+            popup_6d611ceb952fa8a83ea27d1db3c12934.setContent(html_3bcaf490a97a0e747558c7bb2e34db7a);
+        
+
+        marker_767c14a44792f6489ca367501bf2a160.bindPopup(popup_6d611ceb952fa8a83ea27d1db3c12934)
+        ;
+
+        
+    
+    
+            var marker_7c417f144b9fb2d616c80c13fa8c0641 = L.marker(
+                [55.995204, 37.865345],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_71dc245aec4db626628e7aa1be28e2dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c417f144b9fb2d616c80c13fa8c0641.setIcon(icon_71dc245aec4db626628e7aa1be28e2dc);
+        
+    
+        var popup_9fd034fc45af38721b139ce138f38178 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4781e20a3e63c4b8b199bce1b43b9a0 = $(`<div id="html_c4781e20a3e63c4b8b199bce1b43b9a0" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, улица Инессы Арманд, 6</div>`)[0];
+            popup_9fd034fc45af38721b139ce138f38178.setContent(html_c4781e20a3e63c4b8b199bce1b43b9a0);
+        
+
+        marker_7c417f144b9fb2d616c80c13fa8c0641.bindPopup(popup_9fd034fc45af38721b139ce138f38178)
+        ;
+
+        
+    
+    
+            var marker_f11da125f244020d6d6fda981132febe = L.marker(
+                [56.015566, 37.837298],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a3773bfc5b9f493b7bb0f240615b7b43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f11da125f244020d6d6fda981132febe.setIcon(icon_a3773bfc5b9f493b7bb0f240615b7b43);
+        
+    
+        var popup_e595fd95c7cc51366fe039e5897c1779 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf413b28047200bd1a535f89c895131f = $(`<div id="html_bf413b28047200bd1a535f89c895131f" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Пушкино, улица Добролюбова, 32, корп. 2</div>`)[0];
+            popup_e595fd95c7cc51366fe039e5897c1779.setContent(html_bf413b28047200bd1a535f89c895131f);
+        
+
+        marker_f11da125f244020d6d6fda981132febe.bindPopup(popup_e595fd95c7cc51366fe039e5897c1779)
+        ;
+
+        
+    
+    
+            var marker_129fd2623b13efc19560d5cac0555262 = L.marker(
+                [56.007451, 37.864715],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_e4682b9825a16201d3b679190f66d611 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_129fd2623b13efc19560d5cac0555262.setIcon(icon_e4682b9825a16201d3b679190f66d611);
+        
+    
+        var popup_e2cd74e79485f47ec9ab6d1d10f23b0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2e039c54df86d7574ed64b132c1d796 = $(`<div id="html_e2e039c54df86d7574ed64b132c1d796" style="width: 100.0%; height: 100.0%;">Максавит<br>Московская область, Пушкино, микрорайон Серебрянка, 6А</div>`)[0];
+            popup_e2cd74e79485f47ec9ab6d1d10f23b0f.setContent(html_e2e039c54df86d7574ed64b132c1d796);
+        
+
+        marker_129fd2623b13efc19560d5cac0555262.bindPopup(popup_e2cd74e79485f47ec9ab6d1d10f23b0f)
+        ;
+
+        
+    
+    
+            var marker_ac39f02a6b37bbae590dc4abf7fff8c0 = L.marker(
+                [55.999869, 37.808143],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_51b24c1c6052b07979c2fc34324e06da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac39f02a6b37bbae590dc4abf7fff8c0.setIcon(icon_51b24c1c6052b07979c2fc34324e06da);
+        
+    
+        var popup_cce5f67a35b56bdd8b8570d6f91ad083 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4773851735bad28cbf0a44d77b8d70c9 = $(`<div id="html_4773851735bad28cbf0a44d77b8d70c9" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, микрорайон Мамонтовка, Рабочая улица, 20</div>`)[0];
+            popup_cce5f67a35b56bdd8b8570d6f91ad083.setContent(html_4773851735bad28cbf0a44d77b8d70c9);
+        
+
+        marker_ac39f02a6b37bbae590dc4abf7fff8c0.bindPopup(popup_cce5f67a35b56bdd8b8570d6f91ad083)
+        ;
+
+        
+    
+    
+            var marker_0971f9bbc927380dd9140c82ac6dd58f = L.marker(
+                [55.99657, 37.862301],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7960bd1952959d31f2e58b63deb94214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0971f9bbc927380dd9140c82ac6dd58f.setIcon(icon_7960bd1952959d31f2e58b63deb94214);
+        
+    
+        var popup_07c8ce79923b8fd22bddb4a664fd7523 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af866f4660f07720c734f09bf3de9e67 = $(`<div id="html_af866f4660f07720c734f09bf3de9e67" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, Московский проспект, 59</div>`)[0];
+            popup_07c8ce79923b8fd22bddb4a664fd7523.setContent(html_af866f4660f07720c734f09bf3de9e67);
+        
+
+        marker_0971f9bbc927380dd9140c82ac6dd58f.bindPopup(popup_07c8ce79923b8fd22bddb4a664fd7523)
+        ;
+
+        
+    
+    
+            var marker_67755d3fa1ec5a1d647cac896227a353 = L.marker(
+                [56.008392, 37.829715],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_617770419a401860d23e6d070a772b96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67755d3fa1ec5a1d647cac896227a353.setIcon(icon_617770419a401860d23e6d070a772b96);
+        
+    
+        var popup_47a752be341b3ac6906dd17346a3ba42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da2968dde54a25d7b892f5b22a65d49e = $(`<div id="html_da2968dde54a25d7b892f5b22a65d49e" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, Первомайская улица, 11/8</div>`)[0];
+            popup_47a752be341b3ac6906dd17346a3ba42.setContent(html_da2968dde54a25d7b892f5b22a65d49e);
+        
+
+        marker_67755d3fa1ec5a1d647cac896227a353.bindPopup(popup_47a752be341b3ac6906dd17346a3ba42)
+        ;
+
+        
+    
+    
+            var marker_1c93b4ca898ae7fed1bfaebb9c79350f = L.marker(
+                [55.997046, 37.861258],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c1ea6af85e70adb2ebbdb68c7089804f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c93b4ca898ae7fed1bfaebb9c79350f.setIcon(icon_c1ea6af85e70adb2ebbdb68c7089804f);
+        
+    
+        var popup_f391f97f6e641a0715b18596ee6289e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfd4e29b0532bb23f85ffec4eecfe8f7 = $(`<div id="html_cfd4e29b0532bb23f85ffec4eecfe8f7" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Пушкино, Московский проспект, 57, корп. 2</div>`)[0];
+            popup_f391f97f6e641a0715b18596ee6289e4.setContent(html_cfd4e29b0532bb23f85ffec4eecfe8f7);
+        
+
+        marker_1c93b4ca898ae7fed1bfaebb9c79350f.bindPopup(popup_f391f97f6e641a0715b18596ee6289e4)
+        ;
+
+        
+    
+    
+            var marker_1a51a2f29b259e262030cd0f5e04791d = L.marker(
+                [55.995564, 37.864224],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d51b110d93801e1814163bc570e10fa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a51a2f29b259e262030cd0f5e04791d.setIcon(icon_d51b110d93801e1814163bc570e10fa1);
+        
+    
+        var popup_7c685328ecf04620b85c6118d92fb01b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce255d31477b7d7071c16d1ee50cbec0 = $(`<div id="html_ce255d31477b7d7071c16d1ee50cbec0" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Пушкино, Пушкинское шоссе, 4А</div>`)[0];
+            popup_7c685328ecf04620b85c6118d92fb01b.setContent(html_ce255d31477b7d7071c16d1ee50cbec0);
+        
+
+        marker_1a51a2f29b259e262030cd0f5e04791d.bindPopup(popup_7c685328ecf04620b85c6118d92fb01b)
+        ;
+
+        
+    
+    
+            var marker_7269473bb95940c2085ec874e0c179cb = L.marker(
+                [56.026249, 37.860078],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_5c6b7e653fd1770ddfa1a915088cf9ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7269473bb95940c2085ec874e0c179cb.setIcon(icon_5c6b7e653fd1770ddfa1a915088cf9ba);
+        
+    
+        var popup_0a58a26deb77abc37b4ff9a6a92251a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d6703d4cc2e1fb8513342f5511e438c = $(`<div id="html_6d6703d4cc2e1fb8513342f5511e438c" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, улица Просвещения, 10, корп. 3</div>`)[0];
+            popup_0a58a26deb77abc37b4ff9a6a92251a3.setContent(html_6d6703d4cc2e1fb8513342f5511e438c);
+        
+
+        marker_7269473bb95940c2085ec874e0c179cb.bindPopup(popup_0a58a26deb77abc37b4ff9a6a92251a3)
+        ;
+
+        
+    
+    
+            var marker_2ba2edd48f50d21088844976a2044fb2 = L.marker(
+                [56.012721, 37.847549],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_105b78a48867df5517678d61653c12aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ba2edd48f50d21088844976a2044fb2.setIcon(icon_105b78a48867df5517678d61653c12aa);
+        
+    
+        var popup_1ec4c08e6d612dc1db372990c262e4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9c6cd73df363aac1bb40c128e7a1d8e = $(`<div id="html_f9c6cd73df363aac1bb40c128e7a1d8e" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, улица Тургенева, 5</div>`)[0];
+            popup_1ec4c08e6d612dc1db372990c262e4f2.setContent(html_f9c6cd73df363aac1bb40c128e7a1d8e);
+        
+
+        marker_2ba2edd48f50d21088844976a2044fb2.bindPopup(popup_1ec4c08e6d612dc1db372990c262e4f2)
+        ;
+
+        
+    
+    
+            var marker_bb8eff957ba44baa624b5a111e86f9a9 = L.marker(
+                [55.99545, 37.866704],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_bbfff6c835dcd4a60b1ec4e50efb261c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb8eff957ba44baa624b5a111e86f9a9.setIcon(icon_bbfff6c835dcd4a60b1ec4e50efb261c);
+        
+    
+        var popup_10e3104cf75f2284be62d7dda862d714 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6d15a225a481a3118280b90f47e1a6f = $(`<div id="html_c6d15a225a481a3118280b90f47e1a6f" style="width: 100.0%; height: 100.0%;">Димфарм<br>Московская область, Пушкино, Пушкинское шоссе, 6А</div>`)[0];
+            popup_10e3104cf75f2284be62d7dda862d714.setContent(html_c6d15a225a481a3118280b90f47e1a6f);
+        
+
+        marker_bb8eff957ba44baa624b5a111e86f9a9.bindPopup(popup_10e3104cf75f2284be62d7dda862d714)
+        ;
+
+        
+    
+    
+            var marker_5b924073464fa8e7cda95bcf4215899c = L.marker(
+                [56.009688, 37.852122],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_5bc8bcefadb8e27f364ba2cdcd795acb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b924073464fa8e7cda95bcf4215899c.setIcon(icon_5bc8bcefadb8e27f364ba2cdcd795acb);
+        
+    
+        var popup_11fca45a567fbe1c187d7fd603047856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793282465909a0ffda919438cf4f2ea2 = $(`<div id="html_793282465909a0ffda919438cf4f2ea2" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, Московский проспект, 21</div>`)[0];
+            popup_11fca45a567fbe1c187d7fd603047856.setContent(html_793282465909a0ffda919438cf4f2ea2);
+        
+
+        marker_5b924073464fa8e7cda95bcf4215899c.bindPopup(popup_11fca45a567fbe1c187d7fd603047856)
+        ;
+
+        
+    
+    
+            var marker_669cf85adf17b7777c9d99e35f89b010 = L.marker(
+                [56.006302, 37.829745],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c39e38e85801e9c23cc7199633d102f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_669cf85adf17b7777c9d99e35f89b010.setIcon(icon_c39e38e85801e9c23cc7199633d102f2);
+        
+    
+        var popup_bcf84645194801de86d3948f1f161579 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b05deca970a32639d5bb7fa26f473942 = $(`<div id="html_b05deca970a32639d5bb7fa26f473942" style="width: 100.0%; height: 100.0%;">Доктор плюс<br>Московская область, Пушкино, 3-я Домбровская улица, 27</div>`)[0];
+            popup_bcf84645194801de86d3948f1f161579.setContent(html_b05deca970a32639d5bb7fa26f473942);
+        
+
+        marker_669cf85adf17b7777c9d99e35f89b010.bindPopup(popup_bcf84645194801de86d3948f1f161579)
+        ;
+
+        
+    
+    
+            var marker_5875efba52635c0cc8b7a3d735f5ccf7 = L.marker(
+                [56.009104, 37.86795],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_69e5bf95e894cfceaef186d1358ecab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5875efba52635c0cc8b7a3d735f5ccf7.setIcon(icon_69e5bf95e894cfceaef186d1358ecab3);
+        
+    
+        var popup_81ca437107ac89847b5afc119eb94f13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b011d979e5cdb6ba91a4c557f7bb82ae = $(`<div id="html_b011d979e5cdb6ba91a4c557f7bb82ae" style="width: 100.0%; height: 100.0%;">Ларко-фарм<br>Московская область, Пушкино, микрорайон Серебрянка, 48, корп. 2</div>`)[0];
+            popup_81ca437107ac89847b5afc119eb94f13.setContent(html_b011d979e5cdb6ba91a4c557f7bb82ae);
+        
+
+        marker_5875efba52635c0cc8b7a3d735f5ccf7.bindPopup(popup_81ca437107ac89847b5afc119eb94f13)
+        ;
+
+        
+    
+    
+            var marker_58c524942d60b0e2ddff084507a2b537 = L.marker(
+                [56.011394, 37.84852],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_69ca35f0c466754e555121935feb1c9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58c524942d60b0e2ddff084507a2b537.setIcon(icon_69ca35f0c466754e555121935feb1c9c);
+        
+    
+        var popup_f3300f0383026a8279e2d99095760df0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e2d95f2bf54de5bc87a80bf06fc3ca6 = $(`<div id="html_9e2d95f2bf54de5bc87a80bf06fc3ca6" style="width: 100.0%; height: 100.0%;">Живика<br>Московская область, Пушкино, Советская площадь, 4/12, подъезд 2</div>`)[0];
+            popup_f3300f0383026a8279e2d99095760df0.setContent(html_9e2d95f2bf54de5bc87a80bf06fc3ca6);
+        
+
+        marker_58c524942d60b0e2ddff084507a2b537.bindPopup(popup_f3300f0383026a8279e2d99095760df0)
+        ;
+
+        
+    
+    
+            var marker_4a634ebb0e4fb559076ab464fb7f0546 = L.marker(
+                [56.046043, 37.854806],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c61609e664c8d82f4127df1da2d6afd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a634ebb0e4fb559076ab464fb7f0546.setIcon(icon_c61609e664c8d82f4127df1da2d6afd0);
+        
+    
+        var popup_bd6e74d4bb141d5961ce30e0805af3f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f39eb37e566adc035917aa7e6dd9497 = $(`<div id="html_7f39eb37e566adc035917aa7e6dd9497" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Пушкино, микрорайон Заветы Ильича, Строительная улица, 5</div>`)[0];
+            popup_bd6e74d4bb141d5961ce30e0805af3f4.setContent(html_7f39eb37e566adc035917aa7e6dd9497);
+        
+
+        marker_4a634ebb0e4fb559076ab464fb7f0546.bindPopup(popup_bd6e74d4bb141d5961ce30e0805af3f4)
+        ;
+
+        
+    
+    
+            var marker_050e900a6ad04699821603f5871a428c = L.marker(
+                [56.012418, 37.863355],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_97df0a4050e90e2b7e9b766a8b3168fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_050e900a6ad04699821603f5871a428c.setIcon(icon_97df0a4050e90e2b7e9b766a8b3168fe);
+        
+    
+        var popup_1223439aa6e9c24e5b13c1a5a50fd069 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e84066935275f1d0716fee832a8e9141 = $(`<div id="html_e84066935275f1d0716fee832a8e9141" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Пушкино, микрорайон Дзержинец, 21</div>`)[0];
+            popup_1223439aa6e9c24e5b13c1a5a50fd069.setContent(html_e84066935275f1d0716fee832a8e9141);
+        
+
+        marker_050e900a6ad04699821603f5871a428c.bindPopup(popup_1223439aa6e9c24e5b13c1a5a50fd069)
+        ;
+
+        
+    
+    
+            var marker_3f0f35db33cf4cec8862daca54f8ef24 = L.marker(
+                [56.005952, 37.872479],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_755b83913e225dc55c4252ded5ae6062 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f0f35db33cf4cec8862daca54f8ef24.setIcon(icon_755b83913e225dc55c4252ded5ae6062);
+        
+    
+        var popup_88ab34b3e782e68314a6e9c5eb9848c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff2e7248ffa92269f0e26dbd161c224d = $(`<div id="html_ff2e7248ffa92269f0e26dbd161c224d" style="width: 100.0%; height: 100.0%;">Медфарма<br>Московская область, Пушкино, микрорайон Серебрянка, 58</div>`)[0];
+            popup_88ab34b3e782e68314a6e9c5eb9848c3.setContent(html_ff2e7248ffa92269f0e26dbd161c224d);
+        
+
+        marker_3f0f35db33cf4cec8862daca54f8ef24.bindPopup(popup_88ab34b3e782e68314a6e9c5eb9848c3)
+        ;
+
+        
+    
+    
+            var marker_17025a9d68c2f1571144e06d1ed33dc9 = L.marker(
+                [55.977946, 37.820803],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f8c8b26359c26a930f5d7ac82b9133c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_17025a9d68c2f1571144e06d1ed33dc9.setIcon(icon_f8c8b26359c26a930f5d7ac82b9133c3);
+        
+    
+        var popup_29347a5c0b39450d9782d0b17b1761ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79a83f90cb3443c06fa1112d53c4f00c = $(`<div id="html_79a83f90cb3443c06fa1112d53c4f00c" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Пушкино, микрорайон Клязьма, Тургеневская улица, 5</div>`)[0];
+            popup_29347a5c0b39450d9782d0b17b1761ec.setContent(html_79a83f90cb3443c06fa1112d53c4f00c);
+        
+
+        marker_17025a9d68c2f1571144e06d1ed33dc9.bindPopup(popup_29347a5c0b39450d9782d0b17b1761ec)
+        ;
+
+        
+    
+    
+            var marker_4b991412b2ca2ebcc672bc5f57a98572 = L.marker(
+                [56.011157, 37.844666],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_0b6f21c6315b2856a6d7677c8f826b9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4b991412b2ca2ebcc672bc5f57a98572.setIcon(icon_0b6f21c6315b2856a6d7677c8f826b9b);
+        
+    
+        var popup_0d74f74d91ecfb775dff60abbe139564 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35b70e2ebee879263e5e4db7a57eb1a2 = $(`<div id="html_35b70e2ebee879263e5e4db7a57eb1a2" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, Московский проспект, 5</div>`)[0];
+            popup_0d74f74d91ecfb775dff60abbe139564.setContent(html_35b70e2ebee879263e5e4db7a57eb1a2);
+        
+
+        marker_4b991412b2ca2ebcc672bc5f57a98572.bindPopup(popup_0d74f74d91ecfb775dff60abbe139564)
+        ;
+
+        
+    
+    
+            var marker_2b58e721403a55ed7f48c5f322a49dfe = L.marker(
+                [56.005267, 37.806084],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_69c58df8ae000d5b11041733d2286f7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b58e721403a55ed7f48c5f322a49dfe.setIcon(icon_69c58df8ae000d5b11041733d2286f7c);
+        
+    
+        var popup_f47df38a4d54d9590398865a58a2c3e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_330d5153d7f8bbedd82f852fcd436c69 = $(`<div id="html_330d5153d7f8bbedd82f852fcd436c69" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Пушкино, микрорайон Мамонтовка, Школьная улица, 33</div>`)[0];
+            popup_f47df38a4d54d9590398865a58a2c3e7.setContent(html_330d5153d7f8bbedd82f852fcd436c69);
+        
+
+        marker_2b58e721403a55ed7f48c5f322a49dfe.bindPopup(popup_f47df38a4d54d9590398865a58a2c3e7)
+        ;
+
+        
+    
+    
+            var marker_b086f668c1ba2dc746f813a6eb63e335 = L.marker(
+                [56.01038, 37.85902],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_8a425868abec1d02fbdb07f4728269e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b086f668c1ba2dc746f813a6eb63e335.setIcon(icon_8a425868abec1d02fbdb07f4728269e4);
+        
+    
+        var popup_3fab2e43a6456ff1671f78e7250ab77c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_017b0ea0cb991313225d0ed4a49d0876 = $(`<div id="html_017b0ea0cb991313225d0ed4a49d0876" style="width: 100.0%; height: 100.0%;">Аптека Димфарм<br>Московская область, Пушкино, микрорайон Дзержинец, 1</div>`)[0];
+            popup_3fab2e43a6456ff1671f78e7250ab77c.setContent(html_017b0ea0cb991313225d0ed4a49d0876);
+        
+
+        marker_b086f668c1ba2dc746f813a6eb63e335.bindPopup(popup_3fab2e43a6456ff1671f78e7250ab77c)
+        ;
+
+        
+    
+    
+            var marker_2f33f01c955cd706a73379773c5341e9 = L.marker(
+                [56.010394, 37.845843],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f266bbbd637b5908f9ed73848f068fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f33f01c955cd706a73379773c5341e9.setIcon(icon_f266bbbd637b5908f9ed73848f068fbc);
+        
+    
+        var popup_1ec0df3657ec5f7aa99d6915a72dc308 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d35025080335432e5d54cb6141bdf175 = $(`<div id="html_d35025080335432e5d54cb6141bdf175" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Пушкино, Московский проспект, 10/1</div>`)[0];
+            popup_1ec0df3657ec5f7aa99d6915a72dc308.setContent(html_d35025080335432e5d54cb6141bdf175);
+        
+
+        marker_2f33f01c955cd706a73379773c5341e9.bindPopup(popup_1ec0df3657ec5f7aa99d6915a72dc308)
+        ;
+
+        
+    
+    
+            var marker_1b746db4203bd309acedc19367cbafca = L.marker(
+                [56.022775, 37.859641],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_04339c8767661924f5eef31350895ac7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b746db4203bd309acedc19367cbafca.setIcon(icon_04339c8767661924f5eef31350895ac7);
+        
+    
+        var popup_4db621459f4e412f4f6cd106ae073ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46c03f6136c3dc2efecb2c5d505c63d1 = $(`<div id="html_46c03f6136c3dc2efecb2c5d505c63d1" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Пушкино, микрорайон Новая Деревня, Набережная улица, 35, корп. 1</div>`)[0];
+            popup_4db621459f4e412f4f6cd106ae073ae7.setContent(html_46c03f6136c3dc2efecb2c5d505c63d1);
+        
+
+        marker_1b746db4203bd309acedc19367cbafca.bindPopup(popup_4db621459f4e412f4f6cd106ae073ae7)
+        ;
+
+        
+    
+    
+            var marker_da8d02d168b5a44bb1f8da20ce879010 = L.marker(
+                [56.013426, 37.842399],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_68d1d842ec63b49407f83aac567b669b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da8d02d168b5a44bb1f8da20ce879010.setIcon(icon_68d1d842ec63b49407f83aac567b669b);
+        
+    
+        var popup_a87b42eb4a00a2015d263de5558b52e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4197f27de42f1efb0c0965d63925a8d2 = $(`<div id="html_4197f27de42f1efb0c0965d63925a8d2" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Пушкино, улица Тургенева, 1</div>`)[0];
+            popup_a87b42eb4a00a2015d263de5558b52e9.setContent(html_4197f27de42f1efb0c0965d63925a8d2);
+        
+
+        marker_da8d02d168b5a44bb1f8da20ce879010.bindPopup(popup_a87b42eb4a00a2015d263de5558b52e9)
+        ;
+
+        
+    
+    
+            var marker_a5b3552c587084c9cfac7a4358f1fd6a = L.marker(
+                [56.016038, 37.836741],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_6a042cc275ad2546b0d95d8f1aa28807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5b3552c587084c9cfac7a4358f1fd6a.setIcon(icon_6a042cc275ad2546b0d95d8f1aa28807);
+        
+    
+        var popup_20646c2c49a3c9c07ac2bc9b0b8e68b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bbbc3ac7557fd147e89b30c38135f1a = $(`<div id="html_5bbbc3ac7557fd147e89b30c38135f1a" style="width: 100.0%; height: 100.0%;">Прогресс+<br>Московская область, Пушкино, улица Островского, 22</div>`)[0];
+            popup_20646c2c49a3c9c07ac2bc9b0b8e68b0.setContent(html_5bbbc3ac7557fd147e89b30c38135f1a);
+        
+
+        marker_a5b3552c587084c9cfac7a4358f1fd6a.bindPopup(popup_20646c2c49a3c9c07ac2bc9b0b8e68b0)
+        ;
+
+        
+    
+    
+            var marker_d23fbe8bda12a25434bc1ede8fba4065 = L.marker(
+                [56.0087, 37.8519],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d6b9150ae4be819877a4e26ba23e2f55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d23fbe8bda12a25434bc1ede8fba4065.setIcon(icon_d6b9150ae4be819877a4e26ba23e2f55);
+        
+    
+        var popup_ab06adf2fea580f7f46d432f66920e29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d12150e079ac843caa30b1fce149619 = $(`<div id="html_1d12150e079ac843caa30b1fce149619" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Пушкино, улица Чехова, 12</div>`)[0];
+            popup_ab06adf2fea580f7f46d432f66920e29.setContent(html_1d12150e079ac843caa30b1fce149619);
+        
+
+        marker_d23fbe8bda12a25434bc1ede8fba4065.bindPopup(popup_ab06adf2fea580f7f46d432f66920e29)
+        ;
+
+        
+    
+    
+            var marker_481c32fd4ca1d4511b88f05107927f9a = L.marker(
+                [55.977502, 37.82047],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_242e72698a6d8b9aeee13d1c416d8047 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_481c32fd4ca1d4511b88f05107927f9a.setIcon(icon_242e72698a6d8b9aeee13d1c416d8047);
+        
+    
+        var popup_7064b58fcd9de087a34ce26ead60c599 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caf9b2844207e1b82c94f7ffa7371635 = $(`<div id="html_caf9b2844207e1b82c94f7ffa7371635" style="width: 100.0%; height: 100.0%;">Аптечный пункт<br>Московская область, Пушкино, микрорайон Клязьма, Тургеневская улица, 8</div>`)[0];
+            popup_7064b58fcd9de087a34ce26ead60c599.setContent(html_caf9b2844207e1b82c94f7ffa7371635);
+        
+
+        marker_481c32fd4ca1d4511b88f05107927f9a.bindPopup(popup_7064b58fcd9de087a34ce26ead60c599)
+        ;
+
+        
+    
+    
+            var marker_13eee505daa4f36324ce43852d889c3c = L.marker(
+                [56.012776, 37.842985],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_82252e0ccf3bbc54497d2afe50ccc51b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_13eee505daa4f36324ce43852d889c3c.setIcon(icon_82252e0ccf3bbc54497d2afe50ccc51b);
+        
+    
+        var popup_80c619bdce55c76c476207f3ca13b1ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70093748f72725e4c39102368599bb38 = $(`<div id="html_70093748f72725e4c39102368599bb38" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Пушкино, улица Тургенева, 2</div>`)[0];
+            popup_80c619bdce55c76c476207f3ca13b1ca.setContent(html_70093748f72725e4c39102368599bb38);
+        
+
+        marker_13eee505daa4f36324ce43852d889c3c.bindPopup(popup_80c619bdce55c76c476207f3ca13b1ca)
+        ;
+
+        
+    
+    
+            var marker_0d9ba25956af54f8d073f59c0810e78f = L.marker(
+                [55.997611, 37.864761],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7029ccd021514bc13dd37caba4cc3ff4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d9ba25956af54f8d073f59c0810e78f.setIcon(icon_7029ccd021514bc13dd37caba4cc3ff4);
+        
+    
+        var popup_d8791bbf8189961d670a11ddc619bfba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6085b57515d209d35cd8bdc80edb6916 = $(`<div id="html_6085b57515d209d35cd8bdc80edb6916" style="width: 100.0%; height: 100.0%;">Первая Домашняя аптека<br>Московская область, Пушкино, Набережная улица, 2А</div>`)[0];
+            popup_d8791bbf8189961d670a11ddc619bfba.setContent(html_6085b57515d209d35cd8bdc80edb6916);
+        
+
+        marker_0d9ba25956af54f8d073f59c0810e78f.bindPopup(popup_d8791bbf8189961d670a11ddc619bfba)
+        ;
+
+        
+    
+    
+            var marker_93fd42cd8daea959e14d4e98f3fd0113 = L.marker(
+                [56.04392, 37.855779],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_29a35be2c77919e4c373faab6f53c861 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_93fd42cd8daea959e14d4e98f3fd0113.setIcon(icon_29a35be2c77919e4c373faab6f53c861);
+        
+    
+        var popup_dec323195ce34e520fe596e72d4b2f52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_183df17138abba342a0eec63cd4429be = $(`<div id="html_183df17138abba342a0eec63cd4429be" style="width: 100.0%; height: 100.0%;">Столетник<br>Московская область, Пушкино, микрорайон Заветы Ильича, Вокзальная улица, 15А</div>`)[0];
+            popup_dec323195ce34e520fe596e72d4b2f52.setContent(html_183df17138abba342a0eec63cd4429be);
+        
+
+        marker_93fd42cd8daea959e14d4e98f3fd0113.bindPopup(popup_dec323195ce34e520fe596e72d4b2f52)
+        ;
+
+        
+    
+    
+            var marker_66502ae57311508de72783a5260c6212 = L.marker(
+                [56.012075, 37.842331],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_cd43261270b7acb8f0fcde9d827bcd40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_66502ae57311508de72783a5260c6212.setIcon(icon_cd43261270b7acb8f0fcde9d827bcd40);
+        
+    
+        var popup_8bdf356783bb0d899175077fe7166698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab2f3eda1378ca358a4b3b73105a56e4 = $(`<div id="html_ab2f3eda1378ca358a4b3b73105a56e4" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Пушкино, Московский проспект, 1</div>`)[0];
+            popup_8bdf356783bb0d899175077fe7166698.setContent(html_ab2f3eda1378ca358a4b3b73105a56e4);
+        
+
+        marker_66502ae57311508de72783a5260c6212.bindPopup(popup_8bdf356783bb0d899175077fe7166698)
+        ;
+
+        
+    
+    
+            var marker_79be076fcf02e85d778aac11d9015152 = L.marker(
+                [55.990785, 37.847501],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_036e42f1888a6aaaaadd7881c653d599 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79be076fcf02e85d778aac11d9015152.setIcon(icon_036e42f1888a6aaaaadd7881c653d599);
+        
+    
+        var popup_a274c2c844d9f2c1a51763d9c82eecbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d71a7d3a9d34357cfcb9af0fcc5caf38 = $(`<div id="html_d71a7d3a9d34357cfcb9af0fcc5caf38" style="width: 100.0%; height: 100.0%;">Мэти-Рус<br>Московская область, Пушкино, Октябрьская улица, 49А</div>`)[0];
+            popup_a274c2c844d9f2c1a51763d9c82eecbc.setContent(html_d71a7d3a9d34357cfcb9af0fcc5caf38);
+        
+
+        marker_79be076fcf02e85d778aac11d9015152.bindPopup(popup_a274c2c844d9f2c1a51763d9c82eecbc)
+        ;
+
+        
+    
+    
+            var marker_9558bd4eea782626a244a7b8c8d0156c = L.marker(
+                [56.025995, 37.857389],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_369cc3e9588b5f8cca9fc3b1e30f2910 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9558bd4eea782626a244a7b8c8d0156c.setIcon(icon_369cc3e9588b5f8cca9fc3b1e30f2910);
+        
+    
+        var popup_e1449512ed483d27081870b41ace0e1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_127bacde43ca92d530e3eaf6f390cef4 = $(`<div id="html_127bacde43ca92d530e3eaf6f390cef4" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Пушкино, улица Просвещения, 10, корп. 2</div>`)[0];
+            popup_e1449512ed483d27081870b41ace0e1f.setContent(html_127bacde43ca92d530e3eaf6f390cef4);
+        
+
+        marker_9558bd4eea782626a244a7b8c8d0156c.bindPopup(popup_e1449512ed483d27081870b41ace0e1f)
+        ;
+
+        
+    
+    
+            var marker_da3aceba3b685e6e183a4778a3c992db = L.marker(
+                [56.012573, 37.83751],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_89191fad304ba49dfd95c54b117d9c54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da3aceba3b685e6e183a4778a3c992db.setIcon(icon_89191fad304ba49dfd95c54b117d9c54);
+        
+    
+        var popup_b41f4de1ba5a4140b93214b57c750215 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b82abd1a0a9be26db076dcc3ac0cff4 = $(`<div id="html_5b82abd1a0a9be26db076dcc3ac0cff4" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, Лесная улица, 11А</div>`)[0];
+            popup_b41f4de1ba5a4140b93214b57c750215.setContent(html_5b82abd1a0a9be26db076dcc3ac0cff4);
+        
+
+        marker_da3aceba3b685e6e183a4778a3c992db.bindPopup(popup_b41f4de1ba5a4140b93214b57c750215)
+        ;
+
+        
+    
+    
+            var marker_250cf08f27a8c3cdaf64f39ecc044fa6 = L.marker(
+                [56.01109, 37.824235],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_3411703b3647a737b1493ae44669ecd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_250cf08f27a8c3cdaf64f39ecc044fa6.setIcon(icon_3411703b3647a737b1493ae44669ecd6);
+        
+    
+        var popup_c9ab157db0c0fd2f552643c9e93fa703 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab31764d0e3a2f29eab850e0c50ea430 = $(`<div id="html_ab31764d0e3a2f29eab850e0c50ea430" style="width: 100.0%; height: 100.0%;">Березина<br>Московская область, Пушкино, улица Л. Толстого, 21</div>`)[0];
+            popup_c9ab157db0c0fd2f552643c9e93fa703.setContent(html_ab31764d0e3a2f29eab850e0c50ea430);
+        
+
+        marker_250cf08f27a8c3cdaf64f39ecc044fa6.bindPopup(popup_c9ab157db0c0fd2f552643c9e93fa703)
+        ;
+
+        
+    
+    
+            var marker_d7093be940484894c48e4f93843b93b7 = L.marker(
+                [56.0187, 37.8862],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f5e1939b4c5101004a22b08afc11b3df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7093be940484894c48e4f93843b93b7.setIcon(icon_f5e1939b4c5101004a22b08afc11b3df);
+        
+    
+        var popup_256f8c3280a6b206ab7ab3b95a8a215b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd560a7b5469a635fc3587700ec2e013 = $(`<div id="html_cd560a7b5469a635fc3587700ec2e013" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Пушкино, Красноармейское шоссе, вл105</div>`)[0];
+            popup_256f8c3280a6b206ab7ab3b95a8a215b.setContent(html_cd560a7b5469a635fc3587700ec2e013);
+        
+
+        marker_d7093be940484894c48e4f93843b93b7.bindPopup(popup_256f8c3280a6b206ab7ab3b95a8a215b)
+        ;
+
+        
+    
+    
+            var marker_2ac893c5ea0eba74b1fb5f5bec7adda7 = L.marker(
+                [56.003356, 37.853677],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_dc28630990bfecaaa0293d6e3ebcebcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ac893c5ea0eba74b1fb5f5bec7adda7.setIcon(icon_dc28630990bfecaaa0293d6e3ebcebcc);
+        
+    
+        var popup_20c2151c627e447d65a737e29fdab169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60b32879ae7c05688a0b1aed5d45bc4a = $(`<div id="html_60b32879ae7c05688a0b1aed5d45bc4a" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Пушкино, Надсоновская улица, 15</div>`)[0];
+            popup_20c2151c627e447d65a737e29fdab169.setContent(html_60b32879ae7c05688a0b1aed5d45bc4a);
+        
+
+        marker_2ac893c5ea0eba74b1fb5f5bec7adda7.bindPopup(popup_20c2151c627e447d65a737e29fdab169)
+        ;
+
+        
+    
+    
+            var marker_d14e3cf93e767824a6d977bf794c2dda = L.marker(
+                [56.00038, 37.856134],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_ae9dbad69e26a8a933552d9e2fc0ff6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d14e3cf93e767824a6d977bf794c2dda.setIcon(icon_ae9dbad69e26a8a933552d9e2fc0ff6d);
+        
+    
+        var popup_bfa324c4749fcbb7cc43f84cbc654ee8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a787b58ff9ed6881b0ab7fd7e63068eb = $(`<div id="html_a787b58ff9ed6881b0ab7fd7e63068eb" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Пушкино, улица 50 лет Комсомола, 45</div>`)[0];
+            popup_bfa324c4749fcbb7cc43f84cbc654ee8.setContent(html_a787b58ff9ed6881b0ab7fd7e63068eb);
+        
+
+        marker_d14e3cf93e767824a6d977bf794c2dda.bindPopup(popup_bfa324c4749fcbb7cc43f84cbc654ee8)
+        ;
+
+        
+    
+    
+            var marker_0cc9fd19ed7caa599eecb1701d676fdb = L.marker(
+                [55.994179, 37.876147],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_59f78dc2b52a362146ebc4f17a49505c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0cc9fd19ed7caa599eecb1701d676fdb.setIcon(icon_59f78dc2b52a362146ebc4f17a49505c);
+        
+    
+        var popup_a4844d88b913a3ab73b4c07850c95bbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb2247442a2ec7ffd45019bdb31cc591 = $(`<div id="html_bb2247442a2ec7ffd45019bdb31cc591" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, Пушкино, Ярославское шоссе, 33-й километр, вл2с1</div>`)[0];
+            popup_a4844d88b913a3ab73b4c07850c95bbf.setContent(html_bb2247442a2ec7ffd45019bdb31cc591);
+        
+
+        marker_0cc9fd19ed7caa599eecb1701d676fdb.bindPopup(popup_a4844d88b913a3ab73b4c07850c95bbf)
+        ;
+
+        
+    
+    
+            var marker_82ef5e22379096aa8be912fe8ece1914 = L.marker(
+                [55.977393, 37.817475],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_ed1fe08631f25db73c7af5435ef67b2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82ef5e22379096aa8be912fe8ece1914.setIcon(icon_ed1fe08631f25db73c7af5435ef67b2a);
+        
+    
+        var popup_66a5052720c80691cf630d4f106dfb0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4525f33c484c6e29980658928f6e42be = $(`<div id="html_4525f33c484c6e29980658928f6e42be" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Пушкино, микрорайон Звягино, Шоссейная улица, 1</div>`)[0];
+            popup_66a5052720c80691cf630d4f106dfb0a.setContent(html_4525f33c484c6e29980658928f6e42be);
+        
+
+        marker_82ef5e22379096aa8be912fe8ece1914.bindPopup(popup_66a5052720c80691cf630d4f106dfb0a)
+        ;
+
+        
+    
+    
+            var marker_506738ce0975caff0eeae34e48ee48be = L.marker(
+                [56.012687, 37.84287],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_84446fa9c1b0a7dbda8d03945793ced5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_506738ce0975caff0eeae34e48ee48be.setIcon(icon_84446fa9c1b0a7dbda8d03945793ced5);
+        
+    
+        var popup_21242d33764d28bad071f7575b9ff8e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acbe1bef948a522ea495a678e679a2f6 = $(`<div id="html_acbe1bef948a522ea495a678e679a2f6" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, Пушкино, улица Тургенева, 2</div>`)[0];
+            popup_21242d33764d28bad071f7575b9ff8e7.setContent(html_acbe1bef948a522ea495a678e679a2f6);
+        
+
+        marker_506738ce0975caff0eeae34e48ee48be.bindPopup(popup_21242d33764d28bad071f7575b9ff8e7)
+        ;
+
+        
+    
+    
+            var marker_6b4dcd400306075ca967813b03592917 = L.marker(
+                [56.00546, 37.87255],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_bc30ea999ec91188511f3c9d5d6fa50f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b4dcd400306075ca967813b03592917.setIcon(icon_bc30ea999ec91188511f3c9d5d6fa50f);
+        
+    
+        var popup_fea5c619b9cf8d7e5f6762a66d7bc389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dd8eeaee0755aea440d4b2696d46aea = $(`<div id="html_0dd8eeaee0755aea440d4b2696d46aea" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Пушкино, микрорайон Серебрянка, 58</div>`)[0];
+            popup_fea5c619b9cf8d7e5f6762a66d7bc389.setContent(html_0dd8eeaee0755aea440d4b2696d46aea);
+        
+
+        marker_6b4dcd400306075ca967813b03592917.bindPopup(popup_fea5c619b9cf8d7e5f6762a66d7bc389)
+        ;
+
+        
+    
+    
+            var marker_c7c0772e178a631a04ee5f36a10dfc1c = L.marker(
+                [56.011932, 37.842432],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_28532dcc887acdf33ba2a7bdec1e91ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7c0772e178a631a04ee5f36a10dfc1c.setIcon(icon_28532dcc887acdf33ba2a7bdec1e91ec);
+        
+    
+        var popup_6ad5ec054460342fc0b749f6ea4994b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5057546f02f953c2c3a8325304f026d7 = $(`<div id="html_5057546f02f953c2c3a8325304f026d7" style="width: 100.0%; height: 100.0%;">Аптека Живика<br>Московская область, Пушкино, Московский проспект, 1</div>`)[0];
+            popup_6ad5ec054460342fc0b749f6ea4994b4.setContent(html_5057546f02f953c2c3a8325304f026d7);
+        
+
+        marker_c7c0772e178a631a04ee5f36a10dfc1c.bindPopup(popup_6ad5ec054460342fc0b749f6ea4994b4)
+        ;
+
+        
+    
+    
+            var marker_23f72e25638d5f24c307029a24ed9104 = L.marker(
+                [56.012797, 37.842076],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_07423fd8271e6c1de52499f98adc7d84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23f72e25638d5f24c307029a24ed9104.setIcon(icon_07423fd8271e6c1de52499f98adc7d84);
+        
+    
+        var popup_e76fd3a2354ed20a0f6aff1fba30eebe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcf11faede48100263d8238a48a4c15a = $(`<div id="html_bcf11faede48100263d8238a48a4c15a" style="width: 100.0%; height: 100.0%;">Диалог<br>Московская область, Пушкино, улица Тургенева, 2Б</div>`)[0];
+            popup_e76fd3a2354ed20a0f6aff1fba30eebe.setContent(html_bcf11faede48100263d8238a48a4c15a);
+        
+
+        marker_23f72e25638d5f24c307029a24ed9104.bindPopup(popup_e76fd3a2354ed20a0f6aff1fba30eebe)
+        ;
+
+        
+    
+    
+            var marker_59225eac7c81781726ffd42eeaa29c4e = L.marker(
+                [56.00063, 37.859495],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_071c91db53a1404253b22f26254b3075 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_59225eac7c81781726ffd42eeaa29c4e.setIcon(icon_071c91db53a1404253b22f26254b3075);
+        
+    
+        var popup_9f20742bc8c314e105e5474496207ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_262adc86b6d794a9a0e6ce6dced69bd8 = $(`<div id="html_262adc86b6d794a9a0e6ce6dced69bd8" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Пушкино, Московский проспект, 54А</div>`)[0];
+            popup_9f20742bc8c314e105e5474496207ba2.setContent(html_262adc86b6d794a9a0e6ce6dced69bd8);
+        
+
+        marker_59225eac7c81781726ffd42eeaa29c4e.bindPopup(popup_9f20742bc8c314e105e5474496207ba2)
+        ;
+
+        
+    
+    
+            var marker_f5f82c29b589cddb2ae4ddc14c89d2b5 = L.marker(
+                [56.027575, 37.860216],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_1623360035cd6df7c681442a963c86fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f5f82c29b589cddb2ae4ddc14c89d2b5.setIcon(icon_1623360035cd6df7c681442a963c86fa);
+        
+    
+        var popup_c6ec883fa7095c99882280c76e96e5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39d3dc77f7eaa325381bd45dc80322c3 = $(`<div id="html_39d3dc77f7eaa325381bd45dc80322c3" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Пушкино, улица Просвещения, 12, корп. 2</div>`)[0];
+            popup_c6ec883fa7095c99882280c76e96e5c8.setContent(html_39d3dc77f7eaa325381bd45dc80322c3);
+        
+
+        marker_f5f82c29b589cddb2ae4ddc14c89d2b5.bindPopup(popup_c6ec883fa7095c99882280c76e96e5c8)
+        ;
+
+        
+    
+    
+            var marker_49525dfe24411f85a3ddfca9926a704e = L.marker(
+                [56.011837, 37.852332],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f2345b8def2c723dfa8a197521ba3277 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49525dfe24411f85a3ddfca9926a704e.setIcon(icon_f2345b8def2c723dfa8a197521ba3277);
+        
+    
+        var popup_0433db162c908829062a9b13c9146fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2836265db19bc93c1230b8053e284de9 = $(`<div id="html_2836265db19bc93c1230b8053e284de9" style="width: 100.0%; height: 100.0%;">Фарм-Структура<br>Московская область, Пушкино, улица Тургенева, 13</div>`)[0];
+            popup_0433db162c908829062a9b13c9146fa6.setContent(html_2836265db19bc93c1230b8053e284de9);
+        
+
+        marker_49525dfe24411f85a3ddfca9926a704e.bindPopup(popup_0433db162c908829062a9b13c9146fa6)
+        ;
+
+        
+    
+    
+            var marker_c217b349b4c928c1a180b58e6322d4c4 = L.marker(
+                [56.028039, 37.862259],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_784ef51c41d477fa34e006f633c910a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c217b349b4c928c1a180b58e6322d4c4.setIcon(icon_784ef51c41d477fa34e006f633c910a5);
+        
+    
+        var popup_7660005c13df3e2fe8dba968c0e3ae16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd9dd262f23b7582f92fef79ad3cbf9e = $(`<div id="html_dd9dd262f23b7582f92fef79ad3cbf9e" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Пушкино, улица Александра Меня, 1</div>`)[0];
+            popup_7660005c13df3e2fe8dba968c0e3ae16.setContent(html_dd9dd262f23b7582f92fef79ad3cbf9e);
+        
+
+        marker_c217b349b4c928c1a180b58e6322d4c4.bindPopup(popup_7660005c13df3e2fe8dba968c0e3ae16)
+        ;
+
+        
+    
+    
+            var marker_02cb6be78db3c4f040f192ace8c4c921 = L.marker(
+                [55.995572, 37.86557],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_4441c301a44164b8ad00c298459be84b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_02cb6be78db3c4f040f192ace8c4c921.setIcon(icon_4441c301a44164b8ad00c298459be84b);
+        
+    
+        var popup_0216cb013713fd6b7dc0178b34ec411e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0d98841c67767e58c9ce3bf5306145f = $(`<div id="html_e0d98841c67767e58c9ce3bf5306145f" style="width: 100.0%; height: 100.0%;">Юнити<br>Московская область, Пушкино, Пушкинское шоссе, 6-А</div>`)[0];
+            popup_0216cb013713fd6b7dc0178b34ec411e.setContent(html_e0d98841c67767e58c9ce3bf5306145f);
+        
+
+        marker_02cb6be78db3c4f040f192ace8c4c921.bindPopup(popup_0216cb013713fd6b7dc0178b34ec411e)
+        ;
+
+        
+    
+    
+            var marker_a69dca8797926eda292e5cd7405b1efc = L.marker(
+                [56.003572, 37.857684],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_78e1a4b7765568c1e0e977b068f07b67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a69dca8797926eda292e5cd7405b1efc.setIcon(icon_78e1a4b7765568c1e0e977b068f07b67);
+        
+    
+        var popup_bd3be70ee7a24de9695c2b629c34d827 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a14a98ca1fcda943a7b0c783288dec16 = $(`<div id="html_a14a98ca1fcda943a7b0c783288dec16" style="width: 100.0%; height: 100.0%;">Бона Вита Л<br>Московская область, Пушкино, Московский проспект, 42В</div>`)[0];
+            popup_bd3be70ee7a24de9695c2b629c34d827.setContent(html_a14a98ca1fcda943a7b0c783288dec16);
+        
+
+        marker_a69dca8797926eda292e5cd7405b1efc.bindPopup(popup_bd3be70ee7a24de9695c2b629c34d827)
+        ;
+
+        
+    
+    
+            var marker_f7d34260ff8f5e5a3377d58fc0c0b773 = L.marker(
+                [56.012981, 37.838039],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c7dc17a086e39b3a16891d4967628738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7d34260ff8f5e5a3377d58fc0c0b773.setIcon(icon_c7dc17a086e39b3a16891d4967628738);
+        
+    
+        var popup_aebf3f4da117e392af6f76495c343313 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0a543beb91e690eed99482f014b7ef9 = $(`<div id="html_c0a543beb91e690eed99482f014b7ef9" style="width: 100.0%; height: 100.0%;">Диалог<br>Московская область, Пушкино, Лесная улица, 14</div>`)[0];
+            popup_aebf3f4da117e392af6f76495c343313.setContent(html_c0a543beb91e690eed99482f014b7ef9);
+        
+
+        marker_f7d34260ff8f5e5a3377d58fc0c0b773.bindPopup(popup_aebf3f4da117e392af6f76495c343313)
+        ;
+
+        
+    
+    
+            var marker_e557dace99c02ef1e238c9616fc1bca8 = L.marker(
+                [56.024698, 37.861872],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_56da3cc463d2a3d97caf9bf42bbd5db4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e557dace99c02ef1e238c9616fc1bca8.setIcon(icon_56da3cc463d2a3d97caf9bf42bbd5db4);
+        
+    
+        var popup_d7e2d87f8e034a40f837c20ef36c56db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e113c3e15e9f085124aef3699b5f85aa = $(`<div id="html_e113c3e15e9f085124aef3699b5f85aa" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, Пушкино, Сретенская улица, 1, корп. 1</div>`)[0];
+            popup_d7e2d87f8e034a40f837c20ef36c56db.setContent(html_e113c3e15e9f085124aef3699b5f85aa);
+        
+
+        marker_e557dace99c02ef1e238c9616fc1bca8.bindPopup(popup_d7e2d87f8e034a40f837c20ef36c56db)
+        ;
+
+        
+    
+    
+            var marker_44bd6f26ab38d1ad729c73ada8c4445f = L.marker(
+                [55.977939, 37.819621],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9bf2c337cd434bedd820abc7df50f396 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44bd6f26ab38d1ad729c73ada8c4445f.setIcon(icon_9bf2c337cd434bedd820abc7df50f396);
+        
+    
+        var popup_5a087e096406597297271597db81e166 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e65245677c023b6d4a57c49209519b59 = $(`<div id="html_e65245677c023b6d4a57c49209519b59" style="width: 100.0%; height: 100.0%;">Биоритм<br>Московская область, Пушкино, микрорайон Клязьма, Тургеневская улица, 1</div>`)[0];
+            popup_5a087e096406597297271597db81e166.setContent(html_e65245677c023b6d4a57c49209519b59);
+        
+
+        marker_44bd6f26ab38d1ad729c73ada8c4445f.bindPopup(popup_5a087e096406597297271597db81e166)
+        ;
+
+        
+    
+    
+            var marker_61e74dfe8c85806824ca0e5f61324bd9 = L.marker(
+                [56.007797, 37.8546],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7cad22c8aa2d43ff23ea37ca505da604 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61e74dfe8c85806824ca0e5f61324bd9.setIcon(icon_7cad22c8aa2d43ff23ea37ca505da604);
+        
+    
+        var popup_66a22a9cc30c56a4939da8ad79f66d7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1eb5ee184f1797cac7b2ab02b60ab60 = $(`<div id="html_a1eb5ee184f1797cac7b2ab02b60ab60" style="width: 100.0%; height: 100.0%;">Виолетта+<br>Московская область, Пушкино, Московский проспект, 27</div>`)[0];
+            popup_66a22a9cc30c56a4939da8ad79f66d7f.setContent(html_a1eb5ee184f1797cac7b2ab02b60ab60);
+        
+
+        marker_61e74dfe8c85806824ca0e5f61324bd9.bindPopup(popup_66a22a9cc30c56a4939da8ad79f66d7f)
+        ;
+
+        
+    
+    
+            var marker_d5f9fa0a0055c555a6c07c56c74edb0b = L.marker(
+                [56.013482, 37.842899],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_5365205e999586f3a2f5186e2a62d17a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5f9fa0a0055c555a6c07c56c74edb0b.setIcon(icon_5365205e999586f3a2f5186e2a62d17a);
+        
+    
+        var popup_4fc286a617090047c9047b9040360231 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b801f6503da3bb9e95888166bd6585a0 = $(`<div id="html_b801f6503da3bb9e95888166bd6585a0" style="width: 100.0%; height: 100.0%;">Русские Корни<br>Московская область, Пушкино, улица Тургенева, 1</div>`)[0];
+            popup_4fc286a617090047c9047b9040360231.setContent(html_b801f6503da3bb9e95888166bd6585a0);
+        
+
+        marker_d5f9fa0a0055c555a6c07c56c74edb0b.bindPopup(popup_4fc286a617090047c9047b9040360231)
+        ;
+
+        
+    
+    
+            var marker_0b1f05c73a81fbb07ceaea5aa9fc6ac5 = L.marker(
+                [55.99797, 37.865651],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_fb176dd6c6b536415a8408a67b23c20d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b1f05c73a81fbb07ceaea5aa9fc6ac5.setIcon(icon_fb176dd6c6b536415a8408a67b23c20d);
+        
+    
+        var popup_0e78679f975619c1aca68813713c5b09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a1c1caa2150b9db777af293d5f2f30b = $(`<div id="html_8a1c1caa2150b9db777af293d5f2f30b" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Пушкино, Набережная улица, 2А</div>`)[0];
+            popup_0e78679f975619c1aca68813713c5b09.setContent(html_8a1c1caa2150b9db777af293d5f2f30b);
+        
+
+        marker_0b1f05c73a81fbb07ceaea5aa9fc6ac5.bindPopup(popup_0e78679f975619c1aca68813713c5b09)
+        ;
+
+        
+    
+    
+            var marker_c9f20f12220d006da4e277112b79303a = L.marker(
+                [56.039857, 37.855443],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a69e97f7cdffdb98956665711b018ecf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9f20f12220d006da4e277112b79303a.setIcon(icon_a69e97f7cdffdb98956665711b018ecf);
+        
+    
+        var popup_fd0542be7f5a531be38aeff2aaa1c10d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05ae174e451053b287ee1c9dce07830c = $(`<div id="html_05ae174e451053b287ee1c9dce07830c" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Пушкино, микрорайон Заветы Ильича, улица Энтузиастов, 23Б</div>`)[0];
+            popup_fd0542be7f5a531be38aeff2aaa1c10d.setContent(html_05ae174e451053b287ee1c9dce07830c);
+        
+
+        marker_c9f20f12220d006da4e277112b79303a.bindPopup(popup_fd0542be7f5a531be38aeff2aaa1c10d)
+        ;
+
+        
+    
+    
+            var marker_5e8054fad3a9f958a838f373c2adc157 = L.marker(
+                [56.028888, 37.857279],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d0c1464ec0b6d0957d17aa9c0a948e8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e8054fad3a9f958a838f373c2adc157.setIcon(icon_d0c1464ec0b6d0957d17aa9c0a948e8e);
+        
+    
+        var popup_4c89bf4770f7b241606dd15baebbcbc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec662f95f47baf86504e76101ecd6447 = $(`<div id="html_ec662f95f47baf86504e76101ecd6447" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Пушкино, микрорайон Заветы Ильича, Партизанская улица, 29А</div>`)[0];
+            popup_4c89bf4770f7b241606dd15baebbcbc7.setContent(html_ec662f95f47baf86504e76101ecd6447);
+        
+
+        marker_5e8054fad3a9f958a838f373c2adc157.bindPopup(popup_4c89bf4770f7b241606dd15baebbcbc7)
+        ;
+
+        
+    
+    
+            var marker_9d14c2b4be9089de0c47dcbacdd7ef8c = L.marker(
+                [56.004177, 37.854243],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_31ca992cec9b74627175b9a2da268063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d14c2b4be9089de0c47dcbacdd7ef8c.setIcon(icon_31ca992cec9b74627175b9a2da268063);
+        
+    
+        var popup_6ee358c3ab3869fbe7460a25b75315ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_531d35be423c927fc42b5f2c7a0b445e = $(`<div id="html_531d35be423c927fc42b5f2c7a0b445e" style="width: 100.0%; height: 100.0%;">Пушкинский Лекарь<br>Московская область, Пушкино, Надсоновская улица, 20</div>`)[0];
+            popup_6ee358c3ab3869fbe7460a25b75315ce.setContent(html_531d35be423c927fc42b5f2c7a0b445e);
+        
+
+        marker_9d14c2b4be9089de0c47dcbacdd7ef8c.bindPopup(popup_6ee358c3ab3869fbe7460a25b75315ce)
+        ;
+
+        
+    
+    
+            var marker_d42f4e094b77861606e7cfd54346c344 = L.marker(
+                [56.008207, 37.854707],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_070ef2c18248060014080fe98a8332b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d42f4e094b77861606e7cfd54346c344.setIcon(icon_070ef2c18248060014080fe98a8332b0);
+        
+    
+        var popup_65d0c02753fefd8c07ef8e867d2f35e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4833586144eb631ef0a6b67d6b2ff378 = $(`<div id="html_4833586144eb631ef0a6b67d6b2ff378" style="width: 100.0%; height: 100.0%;">Виолетта<br>Московская область, Пушкино, Московский проспект, 27</div>`)[0];
+            popup_65d0c02753fefd8c07ef8e867d2f35e3.setContent(html_4833586144eb631ef0a6b67d6b2ff378);
+        
+
+        marker_d42f4e094b77861606e7cfd54346c344.bindPopup(popup_65d0c02753fefd8c07ef8e867d2f35e3)
+        ;
+
+        
+    
+    
+            var marker_6ff5d3a251134960a25a9faa81cf41ef = L.marker(
+                [56.023858, 37.859723],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_0e0e05323e0b640650626b7805f7f47c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ff5d3a251134960a25a9faa81cf41ef.setIcon(icon_0e0e05323e0b640650626b7805f7f47c);
+        
+    
+        var popup_59040ed47de9aa6818e719da95066cfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e71253b656af1b252dabf235f6bd2f83 = $(`<div id="html_e71253b656af1b252dabf235f6bd2f83" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Пушкино, улица Просвещения, 6, корп. 2</div>`)[0];
+            popup_59040ed47de9aa6818e719da95066cfc.setContent(html_e71253b656af1b252dabf235f6bd2f83);
+        
+
+        marker_6ff5d3a251134960a25a9faa81cf41ef.bindPopup(popup_59040ed47de9aa6818e719da95066cfc)
+        ;
+
+        
+    
+    
+            var marker_92a9ebf8d49693ec61b3c1f59b2bd973 = L.marker(
+                [56.063012, 37.850646],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d8be8bc1d2b8355fb75d3ce5c810c86d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_92a9ebf8d49693ec61b3c1f59b2bd973.setIcon(icon_d8be8bc1d2b8355fb75d3ce5c810c86d);
+        
+    
+        var popup_b773edd1da9899bc374e01f2c28cd16a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf8b007540cc9aea786c87d1c3c8f97c = $(`<div id="html_bf8b007540cc9aea786c87d1c3c8f97c" style="width: 100.0%; height: 100.0%;">Телефарма<br>Московская область, городской округ Пушкинский, рабочий посёлок Правдинский, Степаньковское шоссе, 39</div>`)[0];
+            popup_b773edd1da9899bc374e01f2c28cd16a.setContent(html_bf8b007540cc9aea786c87d1c3c8f97c);
+        
+
+        marker_92a9ebf8d49693ec61b3c1f59b2bd973.bindPopup(popup_b773edd1da9899bc374e01f2c28cd16a)
+        ;
+
+        
+    
+    
+            var marker_6ccf83f0a9cfc350b2da58dc626cf1fc = L.marker(
+                [56.012574, 37.842853],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a060c4b1ed0282cf730cca6747b1d792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ccf83f0a9cfc350b2da58dc626cf1fc.setIcon(icon_a060c4b1ed0282cf730cca6747b1d792);
+        
+    
+        var popup_0a331063f46982edab19338b4e58573f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df370893d1301f664e3e60b0cfe92931 = $(`<div id="html_df370893d1301f664e3e60b0cfe92931" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Пушкино, улица Тургенева, 2</div>`)[0];
+            popup_0a331063f46982edab19338b4e58573f.setContent(html_df370893d1301f664e3e60b0cfe92931);
+        
+
+        marker_6ccf83f0a9cfc350b2da58dc626cf1fc.bindPopup(popup_0a331063f46982edab19338b4e58573f)
+        ;
+
+        
+    
+    
+            var marker_ca183aed8da43910d372cbb8a39e31b3 = L.marker(
+                [55.999707, 37.809821],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_20bd579f9b0223001c2b31623a4c7427 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca183aed8da43910d372cbb8a39e31b3.setIcon(icon_20bd579f9b0223001c2b31623a4c7427);
+        
+    
+        var popup_eb2bbe779136dbebfb61e42d841ffb5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2abfe8a616b3813cb757f2bcae35c4ee = $(`<div id="html_2abfe8a616b3813cb757f2bcae35c4ee" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Пушкино, микрорайон Мамонтовка, Центральная улица, 2</div>`)[0];
+            popup_eb2bbe779136dbebfb61e42d841ffb5d.setContent(html_2abfe8a616b3813cb757f2bcae35c4ee);
+        
+
+        marker_ca183aed8da43910d372cbb8a39e31b3.bindPopup(popup_eb2bbe779136dbebfb61e42d841ffb5d)
+        ;
+
+        
+    
+    
+            var marker_d1b9d714434588dc85e57f1b80b08dc1 = L.marker(
+                [55.968549, 37.914435],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_fd670e7cf3f1422cfe90869cda1b2226 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1b9d714434588dc85e57f1b80b08dc1.setIcon(icon_fd670e7cf3f1422cfe90869cda1b2226);
+        
+    
+        var popup_40a5f82c6240956d1f7345bec89a1938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffa2f81b99fd596413e2e83ba34def6e = $(`<div id="html_ffa2f81b99fd596413e2e83ba34def6e" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Новая Слобода, 4</div>`)[0];
+            popup_40a5f82c6240956d1f7345bec89a1938.setContent(html_ffa2f81b99fd596413e2e83ba34def6e);
+        
+
+        marker_d1b9d714434588dc85e57f1b80b08dc1.bindPopup(popup_40a5f82c6240956d1f7345bec89a1938)
+        ;
+
+        
+    
+    
+            var marker_21ab4e6e04c51bb06c4a5ae3f300dce6 = L.marker(
+                [55.983229, 37.835618],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7c4a9d41223f30d025365f1ac66c5988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_21ab4e6e04c51bb06c4a5ae3f300dce6.setIcon(icon_7c4a9d41223f30d025365f1ac66c5988);
+        
+    
+        var popup_fe5d944e859cf10501d2b955a26fd40a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4bab4cb9691146fd184eb7325cbd6c9 = $(`<div id="html_d4bab4cb9691146fd184eb7325cbd6c9" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Пушкино, микрорайон Клязьма, Лермонтовская улица, 25</div>`)[0];
+            popup_fe5d944e859cf10501d2b955a26fd40a.setContent(html_d4bab4cb9691146fd184eb7325cbd6c9);
+        
+
+        marker_21ab4e6e04c51bb06c4a5ae3f300dce6.bindPopup(popup_fe5d944e859cf10501d2b955a26fd40a)
+        ;
+
+        
+    
+    
+            var marker_66b3a25a1d6e72fed80fcbeca78f15d9 = L.marker(
+                [56.042559, 37.854208],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9c3acc6ac65edd150d56ed53bf8a6a3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_66b3a25a1d6e72fed80fcbeca78f15d9.setIcon(icon_9c3acc6ac65edd150d56ed53bf8a6a3e);
+        
+    
+        var popup_ed9fdd98dd8609e75182c75d8b03d3af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_524443d9eedd29826ed0ae210d925900 = $(`<div id="html_524443d9eedd29826ed0ae210d925900" style="width: 100.0%; height: 100.0%;">Государственный аптечный пункт<br>Московская область, Пушкино, микрорайон Заветы Ильича, Вокзальная улица, 11</div>`)[0];
+            popup_ed9fdd98dd8609e75182c75d8b03d3af.setContent(html_524443d9eedd29826ed0ae210d925900);
+        
+
+        marker_66b3a25a1d6e72fed80fcbeca78f15d9.bindPopup(popup_ed9fdd98dd8609e75182c75d8b03d3af)
+        ;
+
+        
+    
+    
+            var marker_0640f0aa8e1dc93128baa10619580a79 = L.marker(
+                [55.97515, 37.94364],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_791eb79897df31a7ef1e0cdbec09b535 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0640f0aa8e1dc93128baa10619580a79.setIcon(icon_791eb79897df31a7ef1e0cdbec09b535);
+        
+    
+        var popup_4974f4df5e6722803ab853e0a640dd91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_563f926d0ee28e391d4bdbfdbd4c9798 = $(`<div id="html_563f926d0ee28e391d4bdbfdbd4c9798" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Бережок, 3</div>`)[0];
+            popup_4974f4df5e6722803ab853e0a640dd91.setContent(html_563f926d0ee28e391d4bdbfdbd4c9798);
+        
+
+        marker_0640f0aa8e1dc93128baa10619580a79.bindPopup(popup_4974f4df5e6722803ab853e0a640dd91)
+        ;
+
+        
+    
+    
+            var marker_4fdb16b4134563fc4526ae33b886c2e3 = L.marker(
+                [56.050698, 37.877043],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d3815f377631f8e9f6d45290e46bd345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4fdb16b4134563fc4526ae33b886c2e3.setIcon(icon_d3815f377631f8e9f6d45290e46bd345);
+        
+    
+        var popup_33708c1eeb3a93722af5db6b1aab6528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b15c861be99df9a98669071df593105 = $(`<div id="html_1b15c861be99df9a98669071df593105" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, городской округ Пушкинский, село Братовщина, Центральная улица, 77А</div>`)[0];
+            popup_33708c1eeb3a93722af5db6b1aab6528.setContent(html_1b15c861be99df9a98669071df593105);
+        
+
+        marker_4fdb16b4134563fc4526ae33b886c2e3.bindPopup(popup_33708c1eeb3a93722af5db6b1aab6528)
+        ;
+
+        
+    
+    
+            var marker_46b618b6a8850013b7fdd54cc3076c84 = L.marker(
+                [56.00398, 37.802544],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_5a3ec477b658326a10d281b6990cd260 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46b618b6a8850013b7fdd54cc3076c84.setIcon(icon_5a3ec477b658326a10d281b6990cd260);
+        
+    
+        var popup_10f078f2692ee88eba3bc1ecc13f8c02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd34f90b70d5a14a7a6358ddf3156d5d = $(`<div id="html_fd34f90b70d5a14a7a6358ddf3156d5d" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Пушкино, микрорайон Мамонтовка, Акуловский проезд, 4А</div>`)[0];
+            popup_10f078f2692ee88eba3bc1ecc13f8c02.setContent(html_fd34f90b70d5a14a7a6358ddf3156d5d);
+        
+
+        marker_46b618b6a8850013b7fdd54cc3076c84.bindPopup(popup_10f078f2692ee88eba3bc1ecc13f8c02)
+        ;
+
+        
+    
+    
+            var marker_2b92f591797d6a7ad764fd48e9a96485 = L.marker(
+                [56.011706, 37.847469],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c8653e901f838d6aec32a40231ec0b3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b92f591797d6a7ad764fd48e9a96485.setIcon(icon_c8653e901f838d6aec32a40231ec0b3c);
+        
+    
+        var popup_b6c421f642e52e2e0e23fd4ec343604b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af5579820760a617ae746e25d2e275ba = $(`<div id="html_af5579820760a617ae746e25d2e275ba" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Пушкино, Московский проспект, 7А</div>`)[0];
+            popup_b6c421f642e52e2e0e23fd4ec343604b.setContent(html_af5579820760a617ae746e25d2e275ba);
+        
+
+        marker_2b92f591797d6a7ad764fd48e9a96485.bindPopup(popup_b6c421f642e52e2e0e23fd4ec343604b)
+        ;
+
+        
+    
+    
+            var marker_6235b461e21cb34e60c0af77126555e3 = L.marker(
+                [55.977939, 37.819621],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_63d8d69cd74b17e49027ea017936fc23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6235b461e21cb34e60c0af77126555e3.setIcon(icon_63d8d69cd74b17e49027ea017936fc23);
+        
+    
+        var popup_29f899f6dfbc55c69d4cc823ea0d4dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_154dfd26230586d6cedbf2217949371c = $(`<div id="html_154dfd26230586d6cedbf2217949371c" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Пушкино, микрорайон Клязьма, Тургеневская улица, 1</div>`)[0];
+            popup_29f899f6dfbc55c69d4cc823ea0d4dd4.setContent(html_154dfd26230586d6cedbf2217949371c);
+        
+
+        marker_6235b461e21cb34e60c0af77126555e3.bindPopup(popup_29f899f6dfbc55c69d4cc823ea0d4dd4)
+        ;
+
+        
+    
+    
+            var marker_fac1a86e7d0f2c860aa3d0d2d4661184 = L.marker(
+                [55.9709, 37.960263],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_3bce801d8cca192a9c68fe332ea61ff7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fac1a86e7d0f2c860aa3d0d2d4661184.setIcon(icon_3bce801d8cca192a9c68fe332ea61ff7);
+        
+    
+        var popup_2b408c7e594e7aa357b34fccfe7e8b7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b44728fdf009828fc899d7136278e72f = $(`<div id="html_b44728fdf009828fc899d7136278e72f" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Победы, 11А</div>`)[0];
+            popup_2b408c7e594e7aa357b34fccfe7e8b7a.setContent(html_b44728fdf009828fc899d7136278e72f);
+        
+
+        marker_fac1a86e7d0f2c860aa3d0d2d4661184.bindPopup(popup_2b408c7e594e7aa357b34fccfe7e8b7a)
+        ;
+
+        
+    
+    
+            var marker_95e9dbb2ad4ac28865297f2b3189d98b = L.marker(
+                [56.027776, 37.855156],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a4350ebf9606b9f7e81373b8ec2f2fee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95e9dbb2ad4ac28865297f2b3189d98b.setIcon(icon_a4350ebf9606b9f7e81373b8ec2f2fee);
+        
+    
+        var popup_56fedd5ed08528c4b6c0c2b1eb75dd8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_637a78ca8b494bef6d34be6456da6d9f = $(`<div id="html_637a78ca8b494bef6d34be6456da6d9f" style="width: 100.0%; height: 100.0%;">Геннис групп<br>Московская область, Пушкино, улица Просвещения, 13, корп. 3</div>`)[0];
+            popup_56fedd5ed08528c4b6c0c2b1eb75dd8c.setContent(html_637a78ca8b494bef6d34be6456da6d9f);
+        
+
+        marker_95e9dbb2ad4ac28865297f2b3189d98b.bindPopup(popup_56fedd5ed08528c4b6c0c2b1eb75dd8c)
+        ;
+
+        
+    
+    
+            var marker_e4ddd807bad20a942f92087af2bc8c72 = L.marker(
+                [55.973101, 37.904276],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_b073f4ae7a8c6bbbd2265285d521f5b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e4ddd807bad20a942f92087af2bc8c72.setIcon(icon_b073f4ae7a8c6bbbd2265285d521f5b2);
+        
+    
+        var popup_a2ec51e2092e78975900c920ccc80ff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1862891e4493e4bbaf9b6c6daaf4042 = $(`<div id="html_c1862891e4493e4bbaf9b6c6daaf4042" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, городской округ Пушкинский, Ивантеевка, Советский проспект, 7</div>`)[0];
+            popup_a2ec51e2092e78975900c920ccc80ff4.setContent(html_c1862891e4493e4bbaf9b6c6daaf4042);
+        
+
+        marker_e4ddd807bad20a942f92087af2bc8c72.bindPopup(popup_a2ec51e2092e78975900c920ccc80ff4)
+        ;
+
+        
+    
+    
+            var marker_e410be95a16a0af5276f9ae1b2c8a7a1 = L.marker(
+                [56.008714, 37.851715],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_71a3b96ab02622b7ba9aee4e64a61f8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e410be95a16a0af5276f9ae1b2c8a7a1.setIcon(icon_71a3b96ab02622b7ba9aee4e64a61f8f);
+        
+    
+        var popup_cf4fc06d43b60dd89514fd608c8d21b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c18cac7111eb65e6a92d3cd9d3a846c4 = $(`<div id="html_c18cac7111eb65e6a92d3cd9d3a846c4" style="width: 100.0%; height: 100.0%;">Аптечный пункт<br>Московская область, Пушкино, улица Чехова, 12</div>`)[0];
+            popup_cf4fc06d43b60dd89514fd608c8d21b9.setContent(html_c18cac7111eb65e6a92d3cd9d3a846c4);
+        
+
+        marker_e410be95a16a0af5276f9ae1b2c8a7a1.bindPopup(popup_cf4fc06d43b60dd89514fd608c8d21b9)
+        ;
+
+        
+    
+    
+            var marker_39fdc984c55798c11ed8ae22fc18e5d5 = L.marker(
+                [56.045311, 37.859355],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_3c6d8806f1cb63891af0dd6f95bb9304 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39fdc984c55798c11ed8ae22fc18e5d5.setIcon(icon_3c6d8806f1cb63891af0dd6f95bb9304);
+        
+    
+        var popup_4fa31b27549feddbbe3d40eaae1ee58a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f363fc5c9d00f2f286d03ec05ef73faa = $(`<div id="html_f363fc5c9d00f2f286d03ec05ef73faa" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Пушкино, микрорайон Заветы Ильича, улица Марата, 1</div>`)[0];
+            popup_4fa31b27549feddbbe3d40eaae1ee58a.setContent(html_f363fc5c9d00f2f286d03ec05ef73faa);
+        
+
+        marker_39fdc984c55798c11ed8ae22fc18e5d5.bindPopup(popup_4fa31b27549feddbbe3d40eaae1ee58a)
+        ;
+
+        
+    
+    
+            var marker_db7ca378cf3205203bd9d4893f4258f1 = L.marker(
+                [56.003054, 37.853371],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_859a6f03b318a007ef90da0653926752 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db7ca378cf3205203bd9d4893f4258f1.setIcon(icon_859a6f03b318a007ef90da0653926752);
+        
+    
+        var popup_3cf3bc3314365a88f74cf17aba0137b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c5343c36d7f4c27088b7b4a3c3650c1 = $(`<div id="html_6c5343c36d7f4c27088b7b4a3c3650c1" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Пушкино, Надсоновская улица, 15</div>`)[0];
+            popup_3cf3bc3314365a88f74cf17aba0137b7.setContent(html_6c5343c36d7f4c27088b7b4a3c3650c1);
+        
+
+        marker_db7ca378cf3205203bd9d4893f4258f1.bindPopup(popup_3cf3bc3314365a88f74cf17aba0137b7)
+        ;
+
+        
+    
+    
+            var marker_1c7e3ee2e5bbb7dbab9c1de88534c5fe = L.marker(
+                [56.014025, 37.912284],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_52f3f55445e054304390847b4f3ced0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c7e3ee2e5bbb7dbab9c1de88534c5fe.setIcon(icon_52f3f55445e054304390847b4f3ced0a);
+        
+    
+        var popup_078d2863e1f8230ed1214f23b5186aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4b898714d748786b6109602bf599e4e = $(`<div id="html_a4b898714d748786b6109602bf599e4e" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Пушкино, Красноармейское шоссе, 28А</div>`)[0];
+            popup_078d2863e1f8230ed1214f23b5186aa1.setContent(html_a4b898714d748786b6109602bf599e4e);
+        
+
+        marker_1c7e3ee2e5bbb7dbab9c1de88534c5fe.bindPopup(popup_078d2863e1f8230ed1214f23b5186aa1)
+        ;
+
+        
+    
+    
+            var marker_7580b24e4aab60332c8490785c1535e2 = L.marker(
+                [55.97742, 37.820448],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_8fa04e58c1673743bdddc2b436bfeaf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7580b24e4aab60332c8490785c1535e2.setIcon(icon_8fa04e58c1673743bdddc2b436bfeaf7);
+        
+    
+        var popup_5e737c33bfa94bad23c56cc29b7285b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71c60af8ac8c87d9d52de0fca6dfb168 = $(`<div id="html_71c60af8ac8c87d9d52de0fca6dfb168" style="width: 100.0%; height: 100.0%;">ИП Потемкина Е. Ю.<br>Московская область, Пушкино, микрорайон Клязьма, Тургеневская улица, 8</div>`)[0];
+            popup_5e737c33bfa94bad23c56cc29b7285b0.setContent(html_71c60af8ac8c87d9d52de0fca6dfb168);
+        
+
+        marker_7580b24e4aab60332c8490785c1535e2.bindPopup(popup_5e737c33bfa94bad23c56cc29b7285b0)
+        ;
+
+        
+    
+    
+            var marker_5179ae48a534f9e4200617bc52bac59b = L.marker(
+                [55.984144, 37.909354],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_818137e463c682b2a9161018f0e423d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5179ae48a534f9e4200617bc52bac59b.setIcon(icon_818137e463c682b2a9161018f0e423d2);
+        
+    
+        var popup_5fa694e0cae95050a1d6e49966ecf5f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4378a91a802ac05dc8b4f22b0e6455c = $(`<div id="html_e4378a91a802ac05dc8b4f22b0e6455c" style="width: 100.0%; height: 100.0%;">Сомед<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Прокудина, 3</div>`)[0];
+            popup_5fa694e0cae95050a1d6e49966ecf5f2.setContent(html_e4378a91a802ac05dc8b4f22b0e6455c);
+        
+
+        marker_5179ae48a534f9e4200617bc52bac59b.bindPopup(popup_5fa694e0cae95050a1d6e49966ecf5f2)
+        ;
+
+        
+    
+    
+            var marker_022b6fb8140a6c5e9fe42e89dcdb1b20 = L.marker(
+                [55.97614, 37.865646],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_87e5fe44af7e69fe1d18bed8ea04776b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_022b6fb8140a6c5e9fe42e89dcdb1b20.setIcon(icon_87e5fe44af7e69fe1d18bed8ea04776b);
+        
+    
+        var popup_93fcb6cb8f00e0a7205db946c2e0ad6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16e9c2ce0794331950c62f74304b1cdb = $(`<div id="html_16e9c2ce0794331950c62f74304b1cdb" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, городской округ Пушкинский, М-8 Холмогоры, 31-й километр, 1А</div>`)[0];
+            popup_93fcb6cb8f00e0a7205db946c2e0ad6b.setContent(html_16e9c2ce0794331950c62f74304b1cdb);
+        
+
+        marker_022b6fb8140a6c5e9fe42e89dcdb1b20.bindPopup(popup_93fcb6cb8f00e0a7205db946c2e0ad6b)
+        ;
+
+        
+    
+    
+            var marker_ac057a942b04bfaa8bd41aef438091d0 = L.marker(
+                [56.003053, 37.853451],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_55480552cf7e56536b4d708110fc06b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac057a942b04bfaa8bd41aef438091d0.setIcon(icon_55480552cf7e56536b4d708110fc06b8);
+        
+    
+        var popup_0963ff56954d6f6f98ab73822dc23a30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4652fcf8cd2ec01ad183a58c92bd34c = $(`<div id="html_b4652fcf8cd2ec01ad183a58c92bd34c" style="width: 100.0%; height: 100.0%;">БиоЛайф<br>Московская область, Пушкино, Надсоновская улица, 15</div>`)[0];
+            popup_0963ff56954d6f6f98ab73822dc23a30.setContent(html_b4652fcf8cd2ec01ad183a58c92bd34c);
+        
+
+        marker_ac057a942b04bfaa8bd41aef438091d0.bindPopup(popup_0963ff56954d6f6f98ab73822dc23a30)
+        ;
+
+        
+    
+    
+            var marker_79c6ee54f4be565e96cf8725b2a23834 = L.marker(
+                [56.040757, 37.855716],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_33e656a45a47f7c0b992c3aeb147f7fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79c6ee54f4be565e96cf8725b2a23834.setIcon(icon_33e656a45a47f7c0b992c3aeb147f7fb);
+        
+    
+        var popup_7e4dac55def425af8dc5d4d29f190390 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65f5b425f72b836273625fcc1fedb1e5 = $(`<div id="html_65f5b425f72b836273625fcc1fedb1e5" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Пушкино, микрорайон Заветы Ильича, улица Энтузиастов, 24Б</div>`)[0];
+            popup_7e4dac55def425af8dc5d4d29f190390.setContent(html_65f5b425f72b836273625fcc1fedb1e5);
+        
+
+        marker_79c6ee54f4be565e96cf8725b2a23834.bindPopup(popup_7e4dac55def425af8dc5d4d29f190390)
+        ;
+
+        
+    
+    
+            var marker_56af59186de161df6d285d7c18ef6c99 = L.marker(
+                [56.046047, 37.854726],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a168ceadae07dbdad9e3eb27da007812 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_56af59186de161df6d285d7c18ef6c99.setIcon(icon_a168ceadae07dbdad9e3eb27da007812);
+        
+    
+        var popup_0699f5df9ed2cc8680147ae44367da7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b18fef1cfdec06523b66be200f9722da = $(`<div id="html_b18fef1cfdec06523b66be200f9722da" style="width: 100.0%; height: 100.0%;">Биолайф<br>Московская область, Пушкино, микрорайон Заветы Ильича, Строительная улица, 5</div>`)[0];
+            popup_0699f5df9ed2cc8680147ae44367da7f.setContent(html_b18fef1cfdec06523b66be200f9722da);
+        
+
+        marker_56af59186de161df6d285d7c18ef6c99.bindPopup(popup_0699f5df9ed2cc8680147ae44367da7f)
+        ;
+
+        
+    
+    
+            var marker_91c26fdfa180034b84f9e456482b6b72 = L.marker(
+                [56.062222, 37.865762],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_e617a761346182942ca4c5f3c23f7782 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_91c26fdfa180034b84f9e456482b6b72.setIcon(icon_e617a761346182942ca4c5f3c23f7782);
+        
+    
+        var popup_9d79576d4feecf660c4978776289c105 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd4d33c30cb2d696313c7cf424b51076 = $(`<div id="html_dd4d33c30cb2d696313c7cf424b51076" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, городской округ Пушкинский, рабочий посёлок Правдинский, улица Ленина, 21А</div>`)[0];
+            popup_9d79576d4feecf660c4978776289c105.setContent(html_dd4d33c30cb2d696313c7cf424b51076);
+        
+
+        marker_91c26fdfa180034b84f9e456482b6b72.bindPopup(popup_9d79576d4feecf660c4978776289c105)
+        ;
+
+        
+    
+    
+            var marker_a8df813d268d6ed6eb57b98503efaa01 = L.marker(
+                [55.975817, 37.906126],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_0aaaea3066967ee52029e268db038cf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8df813d268d6ed6eb57b98503efaa01.setIcon(icon_0aaaea3066967ee52029e268db038cf9);
+        
+    
+        var popup_153a65c46665714d0f4cf2f1d9186fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39f470761bf5c8414e4c0ae527f83288 = $(`<div id="html_39f470761bf5c8414e4c0ae527f83288" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, городской округ Пушкинский, Ивантеевка, Советский проспект, 1/28</div>`)[0];
+            popup_153a65c46665714d0f4cf2f1d9186fa6.setContent(html_39f470761bf5c8414e4c0ae527f83288);
+        
+
+        marker_a8df813d268d6ed6eb57b98503efaa01.bindPopup(popup_153a65c46665714d0f4cf2f1d9186fa6)
+        ;
+
+        
+    
+    
+            var marker_6f7580104ff88cd81a9f486111ae4a38 = L.marker(
+                [55.971583, 37.896223],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_91bf807d3a5cf3983f5d7f043eb42c89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f7580104ff88cd81a9f486111ae4a38.setIcon(icon_91bf807d3a5cf3983f5d7f043eb42c89);
+        
+    
+        var popup_c14eaf1945217cb6dafb370979406625 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d07bc0a91132fc6a5577a4028164438 = $(`<div id="html_0d07bc0a91132fc6a5577a4028164438" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, городской округ Пушкинский, Ивантеевка, Заводская улица, 12А</div>`)[0];
+            popup_c14eaf1945217cb6dafb370979406625.setContent(html_0d07bc0a91132fc6a5577a4028164438);
+        
+
+        marker_6f7580104ff88cd81a9f486111ae4a38.bindPopup(popup_c14eaf1945217cb6dafb370979406625)
+        ;
+
+        
+    
+    
+            var marker_16dd1815dee3ed1d38588a1f3f4f9539 = L.marker(
+                [56.042545, 37.854228],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_44b750874ad6a4edf134a47b2d9a6191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16dd1815dee3ed1d38588a1f3f4f9539.setIcon(icon_44b750874ad6a4edf134a47b2d9a6191);
+        
+    
+        var popup_34d02390a3ed722978841d9f02dcda0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bae8dd5ecefbb8de45152343a48117d1 = $(`<div id="html_bae8dd5ecefbb8de45152343a48117d1" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Пушкино, микрорайон Заветы Ильича, Вокзальная улица, 11</div>`)[0];
+            popup_34d02390a3ed722978841d9f02dcda0d.setContent(html_bae8dd5ecefbb8de45152343a48117d1);
+        
+
+        marker_16dd1815dee3ed1d38588a1f3f4f9539.bindPopup(popup_34d02390a3ed722978841d9f02dcda0d)
+        ;
+
+        
+    
+    
+            var marker_6a5a99da25f99f94ae8c17b2f81f52b1 = L.marker(
+                [55.973327, 37.908571],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_3094506328855c2029cf725a4b827363 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a5a99da25f99f94ae8c17b2f81f52b1.setIcon(icon_3094506328855c2029cf725a4b827363);
+        
+    
+        var popup_f655be98f5149b0f776dd1493bebaea1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23053564c2f1a0a631eced76b1f71747 = $(`<div id="html_23053564c2f1a0a631eced76b1f71747" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Дзержинского, 11</div>`)[0];
+            popup_f655be98f5149b0f776dd1493bebaea1.setContent(html_23053564c2f1a0a631eced76b1f71747);
+        
+
+        marker_6a5a99da25f99f94ae8c17b2f81f52b1.bindPopup(popup_f655be98f5149b0f776dd1493bebaea1)
+        ;
+
+        
+    
+    
+            var marker_e6613adb15b212ac66d32464f6066c3e = L.marker(
+                [56.013545, 37.843735],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_3b243222ca65d6ea1704ff88c462a49a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6613adb15b212ac66d32464f6066c3e.setIcon(icon_3b243222ca65d6ea1704ff88c462a49a);
+        
+    
+        var popup_bc80922262a015dec7429e2b9ed286df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f868bdc5697fb907be68fc668f2d16b8 = $(`<div id="html_f868bdc5697fb907be68fc668f2d16b8" style="width: 100.0%; height: 100.0%;">Доктор плюс<br>Московская область, Пушкино, улица Гоголя, 1</div>`)[0];
+            popup_bc80922262a015dec7429e2b9ed286df.setContent(html_f868bdc5697fb907be68fc668f2d16b8);
+        
+
+        marker_e6613adb15b212ac66d32464f6066c3e.bindPopup(popup_bc80922262a015dec7429e2b9ed286df)
+        ;
+
+        
+    
+    
+            var marker_bcecd7dc969b501cfbec871e76b15922 = L.marker(
+                [56.012549, 37.837482],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a7b1632fdc96d3939230af42e84e02e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bcecd7dc969b501cfbec871e76b15922.setIcon(icon_a7b1632fdc96d3939230af42e84e02e7);
+        
+    
+        var popup_1cbd2ba762915889810ebb5febf2ceef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4085df98e70dffe57fec5691a449dad = $(`<div id="html_e4085df98e70dffe57fec5691a449dad" style="width: 100.0%; height: 100.0%;">Стратус<br>Московская область, Пушкино, Лесная улица, 11А</div>`)[0];
+            popup_1cbd2ba762915889810ebb5febf2ceef.setContent(html_e4085df98e70dffe57fec5691a449dad);
+        
+
+        marker_bcecd7dc969b501cfbec871e76b15922.bindPopup(popup_1cbd2ba762915889810ebb5febf2ceef)
+        ;
+
+        
+    
+    
+            var marker_1f24eab0187bcc0b09de05c5bd12c822 = L.marker(
+                [55.975607, 37.909758],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_105dd8e9f1f0733d7126572814b63179 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f24eab0187bcc0b09de05c5bd12c822.setIcon(icon_105dd8e9f1f0733d7126572814b63179);
+        
+    
+        var popup_ed6f0927dbcc614df80bc3dfa9cc77a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_645b502ef2d4a272b5e723fdda6ab451 = $(`<div id="html_645b502ef2d4a272b5e723fdda6ab451" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, городской округ Пушкинский, Ивантеевка, Первомайская улица, 31</div>`)[0];
+            popup_ed6f0927dbcc614df80bc3dfa9cc77a5.setContent(html_645b502ef2d4a272b5e723fdda6ab451);
+        
+
+        marker_1f24eab0187bcc0b09de05c5bd12c822.bindPopup(popup_ed6f0927dbcc614df80bc3dfa9cc77a5)
+        ;
+
+        
+    
+    
+            var marker_ba4d3a9180e7be58fc03b3f7dbd5312e = L.marker(
+                [56.028888, 37.857279],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_39ded7193aa400bd55e2534ef4f7f85c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba4d3a9180e7be58fc03b3f7dbd5312e.setIcon(icon_39ded7193aa400bd55e2534ef4f7f85c);
+        
+    
+        var popup_da8ca009c8359e559fc1d52e0f923073 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8eaba65b8e45ebb13e94ebf01f0cc02 = $(`<div id="html_f8eaba65b8e45ebb13e94ebf01f0cc02" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Пушкино, микрорайон Заветы Ильича, Партизанская улица, 29А</div>`)[0];
+            popup_da8ca009c8359e559fc1d52e0f923073.setContent(html_f8eaba65b8e45ebb13e94ebf01f0cc02);
+        
+
+        marker_ba4d3a9180e7be58fc03b3f7dbd5312e.bindPopup(popup_da8ca009c8359e559fc1d52e0f923073)
+        ;
+
+        
+    
+    
+            var marker_5fba26cee74dfe9e8741e4179854550e = L.marker(
+                [56.055623, 37.850473],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_169a4d8d1afbaaf5869d3cca225e8b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5fba26cee74dfe9e8741e4179854550e.setIcon(icon_169a4d8d1afbaaf5869d3cca225e8b02);
+        
+    
+        var popup_5ddce79d803f275e23327116e731dcfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c83a31d08f0a086d04b30791a2a0a760 = $(`<div id="html_c83a31d08f0a086d04b30791a2a0a760" style="width: 100.0%; height: 100.0%;">Доктор плюс<br>Московская область, городской округ Пушкинский, рабочий посёлок Правдинский, улица Котовского, 1А</div>`)[0];
+            popup_5ddce79d803f275e23327116e731dcfa.setContent(html_c83a31d08f0a086d04b30791a2a0a760);
+        
+
+        marker_5fba26cee74dfe9e8741e4179854550e.bindPopup(popup_5ddce79d803f275e23327116e731dcfa)
+        ;
+
+        
+    
+    
+            var marker_cc8a1ca140c3112949d97cf336707f6e = L.marker(
+                [55.999941, 37.881568],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9347f182c001490b6588a25726bf07da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc8a1ca140c3112949d97cf336707f6e.setIcon(icon_9347f182c001490b6588a25726bf07da);
+        
+    
+        var popup_770b8a485511c6368026bc5812bfd25d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1772347a5aeba5032923123fdc72ed62 = $(`<div id="html_1772347a5aeba5032923123fdc72ed62" style="width: 100.0%; height: 100.0%;">Аптека 36,6<br>Московская область, городской округ Пушкинский, М-8 Холмогоры, 33-й километр, с18</div>`)[0];
+            popup_770b8a485511c6368026bc5812bfd25d.setContent(html_1772347a5aeba5032923123fdc72ed62);
+        
+
+        marker_cc8a1ca140c3112949d97cf336707f6e.bindPopup(popup_770b8a485511c6368026bc5812bfd25d)
+        ;
+
+        
+    
+    
+            var marker_612fccf722ee19d607d67c7ac5963a37 = L.marker(
+                [55.968237, 37.847635],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_0911b6645e7aeac25a48b95d09dc00a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_612fccf722ee19d607d67c7ac5963a37.setIcon(icon_0911b6645e7aeac25a48b95d09dc00a4);
+        
+    
+        var popup_fe8583b927fcac390c5dd5c9816dcfb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ca330c9ae3fb0da606d0e43be6d32ed = $(`<div id="html_0ca330c9ae3fb0da606d0e43be6d32ed" style="width: 100.0%; height: 100.0%;">Алоэ<br>Московская область, городской округ Пушкинский, село Тарасовка, Большая Тарасовская улица, вл2</div>`)[0];
+            popup_fe8583b927fcac390c5dd5c9816dcfb8.setContent(html_0ca330c9ae3fb0da606d0e43be6d32ed);
+        
+
+        marker_612fccf722ee19d607d67c7ac5963a37.bindPopup(popup_fe8583b927fcac390c5dd5c9816dcfb8)
+        ;
+
+        
+    
+    
+            var marker_4ce56c8e2f63e1a02d4a7dd49d97de30 = L.marker(
+                [55.970015, 37.792527],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_5ff0ad9b4a1558ef2a1ab8899180a5c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ce56c8e2f63e1a02d4a7dd49d97de30.setIcon(icon_5ff0ad9b4a1558ef2a1ab8899180a5c8);
+        
+    
+        var popup_a48413a93927b000c9da36f8d7af4479 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c37e6bc45398c5b40c2786dc70792e35 = $(`<div id="html_c37e6bc45398c5b40c2786dc70792e35" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, городской округ Пушкинский, дачный посёлок Черкизово, Главная улица, 82</div>`)[0];
+            popup_a48413a93927b000c9da36f8d7af4479.setContent(html_c37e6bc45398c5b40c2786dc70792e35);
+        
+
+        marker_4ce56c8e2f63e1a02d4a7dd49d97de30.bindPopup(popup_a48413a93927b000c9da36f8d7af4479)
+        ;
+
+        
+    
+    
+            var marker_d25d1eb30485c204fc5b8b14216d2272 = L.marker(
+                [55.971436, 37.940032],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_ee87b047ed113a56fd4caa819cb97550 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d25d1eb30485c204fc5b8b14216d2272.setIcon(icon_ee87b047ed113a56fd4caa819cb97550);
+        
+    
+        var popup_b7b6087ca70aaa5aebe3dd5f01d2131b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63e07054103d5ac2943bf8e7e9f34c55 = $(`<div id="html_63e07054103d5ac2943bf8e7e9f34c55" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Новосёлки, 2</div>`)[0];
+            popup_b7b6087ca70aaa5aebe3dd5f01d2131b.setContent(html_63e07054103d5ac2943bf8e7e9f34c55);
+        
+
+        marker_d25d1eb30485c204fc5b8b14216d2272.bindPopup(popup_b7b6087ca70aaa5aebe3dd5f01d2131b)
+        ;
+
+        
+    
+    
+            var marker_a52b43625882b6bb835372c264b4caef = L.marker(
+                [55.973369, 37.903912],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_5725dc0362dc84ae897e79497562a3ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a52b43625882b6bb835372c264b4caef.setIcon(icon_5725dc0362dc84ae897e79497562a3ac);
+        
+    
+        var popup_a324f1b50007e25c86b4ba5533919867 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c33ea39da0f5b513240dbbe1584dc99 = $(`<div id="html_8c33ea39da0f5b513240dbbe1584dc99" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, городской округ Пушкинский, Ивантеевка, проезд Маяковского, 3</div>`)[0];
+            popup_a324f1b50007e25c86b4ba5533919867.setContent(html_8c33ea39da0f5b513240dbbe1584dc99);
+        
+
+        marker_a52b43625882b6bb835372c264b4caef.bindPopup(popup_a324f1b50007e25c86b4ba5533919867)
+        ;
+
+        
+    
+    
+            var marker_23e204384f881cb7ae63cd9af4a9ca45 = L.marker(
+                [56.055949, 37.852399],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a14280b8f144026c0b439f26eb00b8bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23e204384f881cb7ae63cd9af4a9ca45.setIcon(icon_a14280b8f144026c0b439f26eb00b8bc);
+        
+    
+        var popup_e64ac1f98104d6bdc1ef0cd270c22248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a381d27fbd232ed85b5cf46adda4169e = $(`<div id="html_a381d27fbd232ed85b5cf46adda4169e" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, городской округ Пушкинский, рабочий посёлок Правдинский, Полевая улица, с1</div>`)[0];
+            popup_e64ac1f98104d6bdc1ef0cd270c22248.setContent(html_a381d27fbd232ed85b5cf46adda4169e);
+        
+
+        marker_23e204384f881cb7ae63cd9af4a9ca45.bindPopup(popup_e64ac1f98104d6bdc1ef0cd270c22248)
+        ;
+
+        
+    
+    
+            var marker_752b9a1d584c88cef28d0f9408c71fa7 = L.marker(
+                [55.967931, 37.913549],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_859ea1e60e4ec6f549fd552f2d1e7c39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_752b9a1d584c88cef28d0f9408c71fa7.setIcon(icon_859ea1e60e4ec6f549fd552f2d1e7c39);
+        
+    
+        var popup_01835a153419f41dcbdd107d0ebd4edd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee7b02245e09f0b420f7886a13c4c545 = $(`<div id="html_ee7b02245e09f0b420f7886a13c4c545" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Толмачёва, 1/2</div>`)[0];
+            popup_01835a153419f41dcbdd107d0ebd4edd.setContent(html_ee7b02245e09f0b420f7886a13c4c545);
+        
+
+        marker_752b9a1d584c88cef28d0f9408c71fa7.bindPopup(popup_01835a153419f41dcbdd107d0ebd4edd)
+        ;
+
+        
+    
+    
+            var marker_ad95a664c147da4f3a4e86a47b423c59 = L.marker(
+                [56.007402, 37.864786],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_b8f4fb8eac5d2492d46bf84d4e7bb0ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ad95a664c147da4f3a4e86a47b423c59.setIcon(icon_b8f4fb8eac5d2492d46bf84d4e7bb0ac);
+        
+    
+        var popup_f2ab598645b1c104df633135d4240f9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5acfd05f034ab8c3199c8e7711583f1d = $(`<div id="html_5acfd05f034ab8c3199c8e7711583f1d" style="width: 100.0%; height: 100.0%;">Витамакс НН<br>Московская область, Пушкино, микрорайон Серебрянка, 6А</div>`)[0];
+            popup_f2ab598645b1c104df633135d4240f9d.setContent(html_5acfd05f034ab8c3199c8e7711583f1d);
+        
+
+        marker_ad95a664c147da4f3a4e86a47b423c59.bindPopup(popup_f2ab598645b1c104df633135d4240f9d)
+        ;
+
+        
+    
+    
+            var marker_58e73e1067c2d05dcb51cd6ae52c43fa = L.marker(
+                [55.96299, 37.911189],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_dddc87bfc0c609386c76b75dcb007391 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58e73e1067c2d05dcb51cd6ae52c43fa.setIcon(icon_dddc87bfc0c609386c76b75dcb007391);
+        
+    
+        var popup_88e08c881a4f2bd2b2b7d3354d1b8d9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cac686cff20e50a1265b8c5928e829b = $(`<div id="html_8cac686cff20e50a1265b8c5928e829b" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Смурякова, 7</div>`)[0];
+            popup_88e08c881a4f2bd2b2b7d3354d1b8d9f.setContent(html_8cac686cff20e50a1265b8c5928e829b);
+        
+
+        marker_58e73e1067c2d05dcb51cd6ae52c43fa.bindPopup(popup_88e08c881a4f2bd2b2b7d3354d1b8d9f)
+        ;
+
+        
+    
+    
+            var marker_d53e85c0efb08ad718644c4e802592fc = L.marker(
+                [56.003966, 37.85381],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9b9f57ede3e2847a04a5d172816f139f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d53e85c0efb08ad718644c4e802592fc.setIcon(icon_9b9f57ede3e2847a04a5d172816f139f);
+        
+    
+        var popup_159f36cdd949414d7de259040ddf0a11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a033329d6cbf8573644a3320bafbddd = $(`<div id="html_6a033329d6cbf8573644a3320bafbddd" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Пушкино, Надсоновская улица, 20</div>`)[0];
+            popup_159f36cdd949414d7de259040ddf0a11.setContent(html_6a033329d6cbf8573644a3320bafbddd);
+        
+
+        marker_d53e85c0efb08ad718644c4e802592fc.bindPopup(popup_159f36cdd949414d7de259040ddf0a11)
+        ;
+
+        
+    
+    
+            var marker_774ca1e16164fc0549ea1fae8c09004a = L.marker(
+                [55.967394, 37.940033],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_2fcc962acdafc5ac3c3093aaebb47b6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_774ca1e16164fc0549ea1fae8c09004a.setIcon(icon_2fcc962acdafc5ac3c3093aaebb47b6e);
+        
+    
+        var popup_8e252ae5a0ccaf8c69d4f34a81b45632 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b78f88627bda3224316b63aa020066 = $(`<div id="html_e5b78f88627bda3224316b63aa020066" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, городской округ Пушкинский, Ивантеевка, Школьная улица, 16</div>`)[0];
+            popup_8e252ae5a0ccaf8c69d4f34a81b45632.setContent(html_e5b78f88627bda3224316b63aa020066);
+        
+
+        marker_774ca1e16164fc0549ea1fae8c09004a.bindPopup(popup_8e252ae5a0ccaf8c69d4f34a81b45632)
+        ;
+
+        
+    
+    
+            var marker_2b3bbdd376d8949237e5324af5f2cede = L.marker(
+                [56.066557, 37.848196],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_1ca58ca1a8158d2930a65b5309c58be5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b3bbdd376d8949237e5324af5f2cede.setIcon(icon_1ca58ca1a8158d2930a65b5309c58be5);
+        
+    
+        var popup_5006e57dc261282ab1a68606e0a8c387 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bed6b90e846fc49a3b7ad591033ed15b = $(`<div id="html_bed6b90e846fc49a3b7ad591033ed15b" style="width: 100.0%; height: 100.0%;">Ларко-фарм<br>Московская область, городской округ Пушкинский, рабочий посёлок Правдинский, 1-я Проектная улица, 88, корп. 2</div>`)[0];
+            popup_5006e57dc261282ab1a68606e0a8c387.setContent(html_bed6b90e846fc49a3b7ad591033ed15b);
+        
+
+        marker_2b3bbdd376d8949237e5324af5f2cede.bindPopup(popup_5006e57dc261282ab1a68606e0a8c387)
+        ;
+
+        
+    
+    
+            var marker_e8127893d4a101907853e01e15560122 = L.marker(
+                [55.957049, 37.862556],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_217bac766e5c65c86a7a077175bff6b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8127893d4a101907853e01e15560122.setIcon(icon_217bac766e5c65c86a7a077175bff6b1);
+        
+    
+        var popup_a4dbcea4941c7a470f90946905549ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b26516585e8578bc62d4f98805ceed0 = $(`<div id="html_2b26516585e8578bc62d4f98805ceed0" style="width: 100.0%; height: 100.0%;">Мелодия здоровья<br>Московская область, городской округ Пушкинский, посёлок Лесные Поляны, улица Ленина, 2Б</div>`)[0];
+            popup_a4dbcea4941c7a470f90946905549ea9.setContent(html_2b26516585e8578bc62d4f98805ceed0);
+        
+
+        marker_e8127893d4a101907853e01e15560122.bindPopup(popup_a4dbcea4941c7a470f90946905549ea9)
+        ;
+
+        
+    
+    
+            var marker_83cd6dd44a77e5f1d80f9051a6e4e061 = L.marker(
+                [55.965542, 37.940683],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c3b888ba062c4d8465585abf3f390503 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83cd6dd44a77e5f1d80f9051a6e4e061.setIcon(icon_c3b888ba062c4d8465585abf3f390503);
+        
+    
+        var popup_4b38b0e46abf24affc98680b9969ac89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a91ea70e72287742af531026772a7be4 = $(`<div id="html_a91ea70e72287742af531026772a7be4" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, городской округ Пушкинский, Ивантеевка, Трудовая улица, 25А</div>`)[0];
+            popup_4b38b0e46abf24affc98680b9969ac89.setContent(html_a91ea70e72287742af531026772a7be4);
+        
+
+        marker_83cd6dd44a77e5f1d80f9051a6e4e061.bindPopup(popup_4b38b0e46abf24affc98680b9969ac89)
+        ;
+
+        
+    
+    
+            var marker_e32bb084a24fb5272c53d53191841d58 = L.marker(
+                [55.970635, 37.90665],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9a690269ccc24c82c7bc390b6a091a5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e32bb084a24fb5272c53d53191841d58.setIcon(icon_9a690269ccc24c82c7bc390b6a091a5b);
+        
+    
+        var popup_95bdfef7299f3c4852eb2139b882a9fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17b80fa483517628604e6439a03fc611 = $(`<div id="html_17b80fa483517628604e6439a03fc611" style="width: 100.0%; height: 100.0%;">Диалог<br>Московская область, городской округ Пушкинский, Ивантеевка, Советский проспект, 14</div>`)[0];
+            popup_95bdfef7299f3c4852eb2139b882a9fe.setContent(html_17b80fa483517628604e6439a03fc611);
+        
+
+        marker_e32bb084a24fb5272c53d53191841d58.bindPopup(popup_95bdfef7299f3c4852eb2139b882a9fe)
+        ;
+
+        
+    
+    
+            var marker_662034aacec9bffbdc13ab3144933ac4 = L.marker(
+                [56.01803, 37.884722],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_dad9f679b6d39f26dff5bac5144d9ee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_662034aacec9bffbdc13ab3144933ac4.setIcon(icon_dad9f679b6d39f26dff5bac5144d9ee6);
+        
+    
+        var popup_f710c0f7e1f16eab7da70e2b8f32bbec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a6f6662b1610b3f024bc3ca75e32e94 = $(`<div id="html_4a6f6662b1610b3f024bc3ca75e32e94" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Пушкино, Красноармейское шоссе, с104</div>`)[0];
+            popup_f710c0f7e1f16eab7da70e2b8f32bbec.setContent(html_4a6f6662b1610b3f024bc3ca75e32e94);
+        
+
+        marker_662034aacec9bffbdc13ab3144933ac4.bindPopup(popup_f710c0f7e1f16eab7da70e2b8f32bbec)
+        ;
+
+        
+    
+    
+            var marker_d7a8a12106e66df3a14b8fc683903a37 = L.marker(
+                [55.96335, 37.80833],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_8946702dbd60bb5506e965a499c8815e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7a8a12106e66df3a14b8fc683903a37.setIcon(icon_8946702dbd60bb5506e965a499c8815e);
+        
+    
+        var popup_30d236ad00e3cafb62fbe040c4fd0d53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ef4174f2422c05680d11892343803bf = $(`<div id="html_6ef4174f2422c05680d11892343803bf" style="width: 100.0%; height: 100.0%;">Столетник<br>Московская область, городской округ Пушкинский, дачный посёлок Черкизово, Вокзальная улица, 1</div>`)[0];
+            popup_30d236ad00e3cafb62fbe040c4fd0d53.setContent(html_6ef4174f2422c05680d11892343803bf);
+        
+
+        marker_d7a8a12106e66df3a14b8fc683903a37.bindPopup(popup_30d236ad00e3cafb62fbe040c4fd0d53)
+        ;
+
+        
+    
+    
+            var marker_889e29be308715e3614011486df6a357 = L.marker(
+                [55.971113, 37.932104],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f02144439f511e07b08030f473aec0fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_889e29be308715e3614011486df6a357.setIcon(icon_f02144439f511e07b08030f473aec0fd);
+        
+    
+        var popup_5433129ea3308c90ddcd2d8a13c1b829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a228217f605444fdd179d6baedb3436 = $(`<div id="html_7a228217f605444fdd179d6baedb3436" style="width: 100.0%; height: 100.0%;">Фармаком+<br>Московская область, городской округ Пушкинский, Ивантеевка, Хлебозаводская улица, 35/2</div>`)[0];
+            popup_5433129ea3308c90ddcd2d8a13c1b829.setContent(html_7a228217f605444fdd179d6baedb3436);
+        
+
+        marker_889e29be308715e3614011486df6a357.bindPopup(popup_5433129ea3308c90ddcd2d8a13c1b829)
+        ;
+
+        
+    
+    
+            var marker_f5611dd24dba03718bf91095fa249dcd = L.marker(
+                [55.976048, 37.905088],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c647558403013a72f92227f71668f063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f5611dd24dba03718bf91095fa249dcd.setIcon(icon_c647558403013a72f92227f71668f063);
+        
+    
+        var popup_755ed16e04e780d405087af729cd4f86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3c8fb14871bb9fad50b1c7467808b6a = $(`<div id="html_c3c8fb14871bb9fad50b1c7467808b6a" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, городской округ Пушкинский, Ивантеевка, Первомайская улица, 30/2</div>`)[0];
+            popup_755ed16e04e780d405087af729cd4f86.setContent(html_c3c8fb14871bb9fad50b1c7467808b6a);
+        
+
+        marker_f5611dd24dba03718bf91095fa249dcd.bindPopup(popup_755ed16e04e780d405087af729cd4f86)
+        ;
+
+        
+    
+    
+            var marker_c4130bc519be692fdd833a03c60c4b7b = L.marker(
+                [56.011515, 37.843346],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9b8357c8b37f27ba0aacfd16ac001514 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c4130bc519be692fdd833a03c60c4b7b.setIcon(icon_9b8357c8b37f27ba0aacfd16ac001514);
+        
+    
+        var popup_1015410d88aeeca310d8189f8669bd56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f87aa337dff583b4cc2e412043c4dd = $(`<div id="html_68f87aa337dff583b4cc2e412043c4dd" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Пушкино, Московский проспект, 3</div>`)[0];
+            popup_1015410d88aeeca310d8189f8669bd56.setContent(html_68f87aa337dff583b4cc2e412043c4dd);
+        
+
+        marker_c4130bc519be692fdd833a03c60c4b7b.bindPopup(popup_1015410d88aeeca310d8189f8669bd56)
+        ;
+
+        
+    
+    
+            var marker_d542aa75e9e04bbbd6e2fa91d47c7333 = L.marker(
+                [55.974685, 37.906902],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9f49d1f346e4d4a9e93258a8e1a3d972 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d542aa75e9e04bbbd6e2fa91d47c7333.setIcon(icon_9f49d1f346e4d4a9e93258a8e1a3d972);
+        
+    
+        var popup_ba283e5e08e2fa252bc718cf8827ef96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01d0584b453fe220ec5104e9aa094be2 = $(`<div id="html_01d0584b453fe220ec5104e9aa094be2" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, городской округ Пушкинский, Ивантеевка, Советский проспект, вл2А</div>`)[0];
+            popup_ba283e5e08e2fa252bc718cf8827ef96.setContent(html_01d0584b453fe220ec5104e9aa094be2);
+        
+
+        marker_d542aa75e9e04bbbd6e2fa91d47c7333.bindPopup(popup_ba283e5e08e2fa252bc718cf8827ef96)
+        ;
+
+        
+    
+    
+            var marker_74499401f7d37ae6c82d1532d320c095 = L.marker(
+                [55.96933, 37.910531],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_037e313367d63d723157e89fcc9ec6cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_74499401f7d37ae6c82d1532d320c095.setIcon(icon_037e313367d63d723157e89fcc9ec6cd);
+        
+    
+        var popup_fdf77f3f0b62b82ad6b95e53812e6d9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1a4208a9d6a8c9c1483ac8ceb6446b4 = $(`<div id="html_f1a4208a9d6a8c9c1483ac8ceb6446b4" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Дзержинского, 21А</div>`)[0];
+            popup_fdf77f3f0b62b82ad6b95e53812e6d9c.setContent(html_f1a4208a9d6a8c9c1483ac8ceb6446b4);
+        
+
+        marker_74499401f7d37ae6c82d1532d320c095.bindPopup(popup_fdf77f3f0b62b82ad6b95e53812e6d9c)
+        ;
+
+        
+    
+    
+            var marker_36ef0fbd83e83f08c05c5a70c22c681d = L.marker(
+                [55.972361, 37.910157],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_522ec5a404f3e2149e36f5880c479ee5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_36ef0fbd83e83f08c05c5a70c22c681d.setIcon(icon_522ec5a404f3e2149e36f5880c479ee5);
+        
+    
+        var popup_5d97f94b7203972c5a58424abcd054a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54edda19bf681dfb0094d3921ae91c40 = $(`<div id="html_54edda19bf681dfb0094d3921ae91c40" style="width: 100.0%; height: 100.0%;">Аптека Будь Здоров!<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Дзержинского, 8, корп. 1</div>`)[0];
+            popup_5d97f94b7203972c5a58424abcd054a7.setContent(html_54edda19bf681dfb0094d3921ae91c40);
+        
+
+        marker_36ef0fbd83e83f08c05c5a70c22c681d.bindPopup(popup_5d97f94b7203972c5a58424abcd054a7)
+        ;
+
+        
+    
+    
+            var marker_5d4a7bd6b9f6c82656cc82320e12170a = L.marker(
+                [55.968898, 37.915428],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_69f4f6207e02ee71b3cf95cd2500709b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d4a7bd6b9f6c82656cc82320e12170a.setIcon(icon_69f4f6207e02ee71b3cf95cd2500709b);
+        
+    
+        var popup_7298aa807a82d3941e12c5f52df81c86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee36518a06442b461cfb20c1e4145a7c = $(`<div id="html_ee36518a06442b461cfb20c1e4145a7c" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Новая Слобода, 4</div>`)[0];
+            popup_7298aa807a82d3941e12c5f52df81c86.setContent(html_ee36518a06442b461cfb20c1e4145a7c);
+        
+
+        marker_5d4a7bd6b9f6c82656cc82320e12170a.bindPopup(popup_7298aa807a82d3941e12c5f52df81c86)
+        ;
+
+        
+    
+    
+            var marker_4799681411ce70a2f1d04f49d3c322af = L.marker(
+                [55.9709, 37.9308],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_22b7b629476e4b94319e0321f287ad29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4799681411ce70a2f1d04f49d3c322af.setIcon(icon_22b7b629476e4b94319e0321f287ad29);
+        
+    
+        var popup_2f73c4089c9f3c434b3f1ee37c50da01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c56f8edd05a271e8be869a86249dce0 = $(`<div id="html_4c56f8edd05a271e8be869a86249dce0" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, городской округ Пушкинский, Ивантеевка, Хлебозаводская улица, 31/1</div>`)[0];
+            popup_2f73c4089c9f3c434b3f1ee37c50da01.setContent(html_4c56f8edd05a271e8be869a86249dce0);
+        
+
+        marker_4799681411ce70a2f1d04f49d3c322af.bindPopup(popup_2f73c4089c9f3c434b3f1ee37c50da01)
+        ;
+
+        
+    
+    
+            var marker_14e8071812530fd4512d49f8a77bcdbc = L.marker(
+                [55.972197, 37.937698],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_03e320d9fe531325329f59ed0f22c4a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14e8071812530fd4512d49f8a77bcdbc.setIcon(icon_03e320d9fe531325329f59ed0f22c4a4);
+        
+    
+        var popup_7e6e634373cbeb1e9b925caabae341bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3aaf916119be6c3c199ff4a181745f3 = $(`<div id="html_c3aaf916119be6c3c199ff4a181745f3" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, городской округ Пушкинский, Ивантеевка, Хлебозаводская улица, 30</div>`)[0];
+            popup_7e6e634373cbeb1e9b925caabae341bc.setContent(html_c3aaf916119be6c3c199ff4a181745f3);
+        
+
+        marker_14e8071812530fd4512d49f8a77bcdbc.bindPopup(popup_7e6e634373cbeb1e9b925caabae341bc)
+        ;
+
+        
+    
+    
+            var marker_a90c454523a6b4c193a9f89ee2626355 = L.marker(
+                [55.96863, 37.91496],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f52534a923d317767c7013d057a8551f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a90c454523a6b4c193a9f89ee2626355.setIcon(icon_f52534a923d317767c7013d057a8551f);
+        
+    
+        var popup_b7ecf4d9b5f8f3f3bd2e96a4204811b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79fdf9c2b4b215ad14da6c430e687ca6 = $(`<div id="html_79fdf9c2b4b215ad14da6c430e687ca6" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Новая Слобода, 4</div>`)[0];
+            popup_b7ecf4d9b5f8f3f3bd2e96a4204811b2.setContent(html_79fdf9c2b4b215ad14da6c430e687ca6);
+        
+
+        marker_a90c454523a6b4c193a9f89ee2626355.bindPopup(popup_b7ecf4d9b5f8f3f3bd2e96a4204811b2)
+        ;
+
+        
+    
+    
+            var marker_6f87681544d34a4d42ee87c557e8a46d = L.marker(
+                [56.010548, 37.836546],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f2983c58de3e89e1dd52a6e28a39cc74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f87681544d34a4d42ee87c557e8a46d.setIcon(icon_f2983c58de3e89e1dd52a6e28a39cc74);
+        
+    
+        var popup_eeb2acd4987593551dc62ae5e346f437 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3861e355ead69f83bce9039b4a0be99 = $(`<div id="html_e3861e355ead69f83bce9039b4a0be99" style="width: 100.0%; height: 100.0%;">АртДент<br>Московская область, Пушкино, Лесная улица, 1</div>`)[0];
+            popup_eeb2acd4987593551dc62ae5e346f437.setContent(html_e3861e355ead69f83bce9039b4a0be99);
+        
+
+        marker_6f87681544d34a4d42ee87c557e8a46d.bindPopup(popup_eeb2acd4987593551dc62ae5e346f437)
+        ;
+
+        
+    
+    
+            var marker_94699799eea2eb57347c810e67f328e5 = L.marker(
+                [55.967436, 37.913604],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_1d3f02f0709efc98de5343303a6fea81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94699799eea2eb57347c810e67f328e5.setIcon(icon_1d3f02f0709efc98de5343303a6fea81);
+        
+    
+        var popup_7395aadfab44102babd06c6fd9a9a679 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99f1737904acb2ec1269a65165b3fc29 = $(`<div id="html_99f1737904acb2ec1269a65165b3fc29" style="width: 100.0%; height: 100.0%;">ВитаФарм<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Новая Слобода, 2</div>`)[0];
+            popup_7395aadfab44102babd06c6fd9a9a679.setContent(html_99f1737904acb2ec1269a65165b3fc29);
+        
+
+        marker_94699799eea2eb57347c810e67f328e5.bindPopup(popup_7395aadfab44102babd06c6fd9a9a679)
+        ;
+
+        
+    
+    
+            var marker_f0623858689775c1abe45258f5134451 = L.marker(
+                [55.975014, 37.914484],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a8c3ba3a17cf93dbe801e7189635cae4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0623858689775c1abe45258f5134451.setIcon(icon_a8c3ba3a17cf93dbe801e7189635cae4);
+        
+    
+        var popup_8e33d76a8d157a7adaec3897925084ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c1ad3792c16557b9678213bdd5090d9 = $(`<div id="html_0c1ad3792c16557b9678213bdd5090d9" style="width: 100.0%; height: 100.0%;">Магнит Аптека<br>Московская область, городской округ Пушкинский, Ивантеевка, Фабричный проезд, 3А</div>`)[0];
+            popup_8e33d76a8d157a7adaec3897925084ca.setContent(html_0c1ad3792c16557b9678213bdd5090d9);
+        
+
+        marker_f0623858689775c1abe45258f5134451.bindPopup(popup_8e33d76a8d157a7adaec3897925084ca)
+        ;
+
+        
+    
+    
+            var marker_61c8f0edcd72473430b3c6213a2fef0a = L.marker(
+                [56.046011, 37.85453],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_94c89e644a7c3d0f5e4b0b0922dfc07c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61c8f0edcd72473430b3c6213a2fef0a.setIcon(icon_94c89e644a7c3d0f5e4b0b0922dfc07c);
+        
+    
+        var popup_94bf32d514cb5c10a365d766addbb5e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d3121c1b61f54d44e4cb1cadad950f8 = $(`<div id="html_9d3121c1b61f54d44e4cb1cadad950f8" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Пушкино, микрорайон Заветы Ильича, Строительная улица, 5</div>`)[0];
+            popup_94bf32d514cb5c10a365d766addbb5e7.setContent(html_9d3121c1b61f54d44e4cb1cadad950f8);
+        
+
+        marker_61c8f0edcd72473430b3c6213a2fef0a.bindPopup(popup_94bf32d514cb5c10a365d766addbb5e7)
+        ;
+
+        
+    
+    
+            var marker_bd7269cb3c52eebb858f373c087114ff = L.marker(
+                [55.977939, 37.81963],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_39e32eb1116991622059b375435dc2b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd7269cb3c52eebb858f373c087114ff.setIcon(icon_39e32eb1116991622059b375435dc2b4);
+        
+    
+        var popup_15b94cb1adcce0145819a6759666e4d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29eee8f9b7d3160c9b9018c218f0302c = $(`<div id="html_29eee8f9b7d3160c9b9018c218f0302c" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Пушкино, микрорайон Клязьма, Тургеневская улица, 1</div>`)[0];
+            popup_15b94cb1adcce0145819a6759666e4d1.setContent(html_29eee8f9b7d3160c9b9018c218f0302c);
+        
+
+        marker_bd7269cb3c52eebb858f373c087114ff.bindPopup(popup_15b94cb1adcce0145819a6759666e4d1)
+        ;
+
+        
+    
+    
+            var marker_0e1dd9f3d797ad02c790a6a47ac15920 = L.marker(
+                [55.962977, 37.809747],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_e15d2f35111142ff862a2d5f570d62fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e1dd9f3d797ad02c790a6a47ac15920.setIcon(icon_e15d2f35111142ff862a2d5f570d62fc);
+        
+    
+        var popup_27899df943bba688ebd65bcb275d5994 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1ee39d89929fbaaac729e0f741c0731 = $(`<div id="html_b1ee39d89929fbaaac729e0f741c0731" style="width: 100.0%; height: 100.0%;">Аптека ИП Васильева<br>Московская область, городской округ Пушкинский, дачный посёлок Черкизово, Станционная улица, вл4</div>`)[0];
+            popup_27899df943bba688ebd65bcb275d5994.setContent(html_b1ee39d89929fbaaac729e0f741c0731);
+        
+
+        marker_0e1dd9f3d797ad02c790a6a47ac15920.bindPopup(popup_27899df943bba688ebd65bcb275d5994)
+        ;
+
+        
+    
+    
+            var marker_0d440be6b27282da6d6f2ec06dcaa9fb = L.marker(
+                [55.968883, 37.909796],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_076699bcb51fcbe37017a35def714399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d440be6b27282da6d6f2ec06dcaa9fb.setIcon(icon_076699bcb51fcbe37017a35def714399);
+        
+    
+        var popup_cc35869521a4f9d421547b4e2ea8e7e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0739d62b8d3b772be8b762794989cea = $(`<div id="html_b0739d62b8d3b772be8b762794989cea" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, городской округ Пушкинский, Ивантеевка, Центральный проезд, 4</div>`)[0];
+            popup_cc35869521a4f9d421547b4e2ea8e7e6.setContent(html_b0739d62b8d3b772be8b762794989cea);
+        
+
+        marker_0d440be6b27282da6d6f2ec06dcaa9fb.bindPopup(popup_cc35869521a4f9d421547b4e2ea8e7e6)
+        ;
+
+        
+    
+    
+            var marker_6ffc6f3f1b871bc6a0f11a27294d885d = L.marker(
+                [56.040757, 37.855716],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a89b58abef12e863d45b36a8b72ea605 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ffc6f3f1b871bc6a0f11a27294d885d.setIcon(icon_a89b58abef12e863d45b36a8b72ea605);
+        
+    
+        var popup_44930abd5f6c43a4ddc699e4f0959164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58eed979bfc92da7babb4f1ce2b9166d = $(`<div id="html_58eed979bfc92da7babb4f1ce2b9166d" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Пушкино, микрорайон Заветы Ильича, улица Энтузиастов, 24Б</div>`)[0];
+            popup_44930abd5f6c43a4ddc699e4f0959164.setContent(html_58eed979bfc92da7babb4f1ce2b9166d);
+        
+
+        marker_6ffc6f3f1b871bc6a0f11a27294d885d.bindPopup(popup_44930abd5f6c43a4ddc699e4f0959164)
+        ;
+
+        
+    
+    
+            var marker_2f3c77daea60f417b744b4fd6d6def17 = L.marker(
+                [55.964871, 37.915238],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_05ddbf13a330ac8c13f46df79aa514f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f3c77daea60f417b744b4fd6d6def17.setIcon(icon_05ddbf13a330ac8c13f46df79aa514f7);
+        
+    
+        var popup_de866961c6027608880c7ceec397a42c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b52733bbe9ad0b76bc1115fba3ed7ff3 = $(`<div id="html_b52733bbe9ad0b76bc1115fba3ed7ff3" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Толмачёва, 6</div>`)[0];
+            popup_de866961c6027608880c7ceec397a42c.setContent(html_b52733bbe9ad0b76bc1115fba3ed7ff3);
+        
+
+        marker_2f3c77daea60f417b744b4fd6d6def17.bindPopup(popup_de866961c6027608880c7ceec397a42c)
+        ;
+
+        
+    
+    
+            var marker_d68cad3b44690c68b691cddcbca2d004 = L.marker(
+                [55.977884, 37.820511],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a91760c164e5e8908f49c5215b79426e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d68cad3b44690c68b691cddcbca2d004.setIcon(icon_a91760c164e5e8908f49c5215b79426e);
+        
+    
+        var popup_aab8f6a201dd22681ffe19dc96311329 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_961c748f97446294aa41f6d86827c0df = $(`<div id="html_961c748f97446294aa41f6d86827c0df" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Пушкино, микрорайон Клязьма, Тургеневская улица, 5</div>`)[0];
+            popup_aab8f6a201dd22681ffe19dc96311329.setContent(html_961c748f97446294aa41f6d86827c0df);
+        
+
+        marker_d68cad3b44690c68b691cddcbca2d004.bindPopup(popup_aab8f6a201dd22681ffe19dc96311329)
+        ;
+
+        
+    
+    
+            var marker_5c03b8910bd8d37db2a10216f59c0e4f = L.marker(
+                [55.969779, 37.90685],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_b4a4ff9c68783da72cc7930fdbf8b938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c03b8910bd8d37db2a10216f59c0e4f.setIcon(icon_b4a4ff9c68783da72cc7930fdbf8b938);
+        
+    
+        var popup_8956c53fa19fd2b3a7aad8c1d06779a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b08fb64c608725c2c0c3ac606f4ba835 = $(`<div id="html_b08fb64c608725c2c0c3ac606f4ba835" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, городской округ Пушкинский, Ивантеевка, Советский проспект, 18</div>`)[0];
+            popup_8956c53fa19fd2b3a7aad8c1d06779a1.setContent(html_b08fb64c608725c2c0c3ac606f4ba835);
+        
+
+        marker_5c03b8910bd8d37db2a10216f59c0e4f.bindPopup(popup_8956c53fa19fd2b3a7aad8c1d06779a1)
+        ;
+
+        
+    
+    
+            var marker_b9295fe0edacabba8ef1e7aa98dca2cb = L.marker(
+                [55.969986, 37.874397],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_928854d3686df1ab9030412ce0baa869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9295fe0edacabba8ef1e7aa98dca2cb.setIcon(icon_928854d3686df1ab9030412ce0baa869);
+        
+    
+        var popup_8dcfb13b1ac975371a8ab7f535cd18c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee8429513898c459ac3a68c30315d82b = $(`<div id="html_ee8429513898c459ac3a68c30315d82b" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, городской округ Пушкинский, Ивантеевка, микрорайон Голландский квартал, 26, корп. 1</div>`)[0];
+            popup_8dcfb13b1ac975371a8ab7f535cd18c5.setContent(html_ee8429513898c459ac3a68c30315d82b);
+        
+
+        marker_b9295fe0edacabba8ef1e7aa98dca2cb.bindPopup(popup_8dcfb13b1ac975371a8ab7f535cd18c5)
+        ;
+
+        
+    
+    
+            var marker_dc945c062b76bb69a82f562cfbb351a7 = L.marker(
+                [56.012677, 37.842924],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_6c31938f1e53ee845c3e3161abb798d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dc945c062b76bb69a82f562cfbb351a7.setIcon(icon_6c31938f1e53ee845c3e3161abb798d3);
+        
+    
+        var popup_cf9f0013efb8626282e4ec807c798e4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7a913b989cf874dc5c7086abb8e19b6 = $(`<div id="html_f7a913b989cf874dc5c7086abb8e19b6" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Пушкино, улица Тургенева, 2</div>`)[0];
+            popup_cf9f0013efb8626282e4ec807c798e4d.setContent(html_f7a913b989cf874dc5c7086abb8e19b6);
+        
+
+        marker_dc945c062b76bb69a82f562cfbb351a7.bindPopup(popup_cf9f0013efb8626282e4ec807c798e4d)
+        ;
+
+        
+    
+    
+            var marker_77fb1b0448ad1796b176892f25461ec4 = L.marker(
+                [55.966455, 37.920656],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_9b5cfdcf20b0167a1012a601b153df37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77fb1b0448ad1796b176892f25461ec4.setIcon(icon_9b5cfdcf20b0167a1012a601b153df37);
+        
+    
+        var popup_078a21d0bc2e2886fc112490d80d28e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46023bab78777567a4527cc62eee5d44 = $(`<div id="html_46023bab78777567a4527cc62eee5d44" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, городской округ Пушкинский, Ивантеевка, Рощинская улица, 9</div>`)[0];
+            popup_078a21d0bc2e2886fc112490d80d28e1.setContent(html_46023bab78777567a4527cc62eee5d44);
+        
+
+        marker_77fb1b0448ad1796b176892f25461ec4.bindPopup(popup_078a21d0bc2e2886fc112490d80d28e1)
+        ;
+
+        
+    
+    
+            var marker_12b315fe82312a569a19bb4d6170b205 = L.marker(
+                [55.978438, 37.933806],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_5d6ceee39cc1e3fd1751c0e5aaa456a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12b315fe82312a569a19bb4d6170b205.setIcon(icon_5d6ceee39cc1e3fd1751c0e5aaa456a4);
+        
+    
+        var popup_d4f0ce82f3bd74abf5a8132e6702c062 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97c8deec001830a27a61eaf6c81a9fe8 = $(`<div id="html_97c8deec001830a27a61eaf6c81a9fe8" style="width: 100.0%; height: 100.0%;">Мелодия здоровья<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Кирова, 2Б, стр. 1</div>`)[0];
+            popup_d4f0ce82f3bd74abf5a8132e6702c062.setContent(html_97c8deec001830a27a61eaf6c81a9fe8);
+        
+
+        marker_12b315fe82312a569a19bb4d6170b205.bindPopup(popup_d4f0ce82f3bd74abf5a8132e6702c062)
+        ;
+
+        
+    
+    
+            var marker_cd8027c4f8dfef3d1ef2c7dafee8e6eb = L.marker(
+                [55.965984, 37.921006],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7f56adc392538c48d107e092a8010831 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd8027c4f8dfef3d1ef2c7dafee8e6eb.setIcon(icon_7f56adc392538c48d107e092a8010831);
+        
+    
+        var popup_e422027d52c4127aface03381ea4af2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c14fddd979fb971367ff1d577ef8b40d = $(`<div id="html_c14fddd979fb971367ff1d577ef8b40d" style="width: 100.0%; height: 100.0%;">ДиОлис<br>Московская область, Ивантеевка, Рощинская улица, 9</div>`)[0];
+            popup_e422027d52c4127aface03381ea4af2b.setContent(html_c14fddd979fb971367ff1d577ef8b40d);
+        
+
+        marker_cd8027c4f8dfef3d1ef2c7dafee8e6eb.bindPopup(popup_e422027d52c4127aface03381ea4af2b)
+        ;
+
+        
+    
+    
+            var marker_cd0f45f1abd27642f9899a0ec7d2c5b3 = L.marker(
+                [56.044605, 37.882524],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_09ff64392d70892b3ca2472e9dd23a42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd0f45f1abd27642f9899a0ec7d2c5b3.setIcon(icon_09ff64392d70892b3ca2472e9dd23a42);
+        
+    
+        var popup_8400ff6ceecdb6fdd6aee9dea240cc38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_829da425595d0732f9f8e2e8a377b3a2 = $(`<div id="html_829da425595d0732f9f8e2e8a377b3a2" style="width: 100.0%; height: 100.0%;">Аксиома<br>Московская область, Пушкино</div>`)[0];
+            popup_8400ff6ceecdb6fdd6aee9dea240cc38.setContent(html_829da425595d0732f9f8e2e8a377b3a2);
+        
+
+        marker_cd0f45f1abd27642f9899a0ec7d2c5b3.bindPopup(popup_8400ff6ceecdb6fdd6aee9dea240cc38)
+        ;
+
+        
+    
+    
+            var marker_2b3d6d287b6fb89a4c615b673a264915 = L.marker(
+                [55.96762, 37.90592],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_f0dfc4ed3b965ff8340ab3da443d5974 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b3d6d287b6fb89a4c615b673a264915.setIcon(icon_f0dfc4ed3b965ff8340ab3da443d5974);
+        
+    
+        var popup_08377e6b2b8c41c50a918f762bca6e94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_500ed4b15672bed2e737d403867c6066 = $(`<div id="html_500ed4b15672bed2e737d403867c6066" style="width: 100.0%; height: 100.0%;">Абсолют фарм<br>Московская область, городской округ Пушкинский, Ивантеевка, Центральный проезд, 8</div>`)[0];
+            popup_08377e6b2b8c41c50a918f762bca6e94.setContent(html_500ed4b15672bed2e737d403867c6066);
+        
+
+        marker_2b3d6d287b6fb89a4c615b673a264915.bindPopup(popup_08377e6b2b8c41c50a918f762bca6e94)
+        ;
+
+        
+    
+    
+            var marker_63193352a59da2ee7754afc78d5b07f7 = L.marker(
+                [56.062254, 37.865764],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_64dbb9c16f27668b4efb19d45ef124ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63193352a59da2ee7754afc78d5b07f7.setIcon(icon_64dbb9c16f27668b4efb19d45ef124ad);
+        
+    
+        var popup_1dc3af2abff776ac9fc929b0ce987b13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_057b48120414e213647b59f8a3da3592 = $(`<div id="html_057b48120414e213647b59f8a3da3592" style="width: 100.0%; height: 100.0%;">Макди-Фарм<br>Московская область, городской округ Пушкинский, рабочий посёлок Правдинский, улица Ленина, 21А</div>`)[0];
+            popup_1dc3af2abff776ac9fc929b0ce987b13.setContent(html_057b48120414e213647b59f8a3da3592);
+        
+
+        marker_63193352a59da2ee7754afc78d5b07f7.bindPopup(popup_1dc3af2abff776ac9fc929b0ce987b13)
+        ;
+
+        
+    
+    
+            var marker_f9e6ff8a0f9e5b77d30afd1729645075 = L.marker(
+                [55.968484, 37.911034],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_3e30ac2383c999387062642565e4441f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9e6ff8a0f9e5b77d30afd1729645075.setIcon(icon_3e30ac2383c999387062642565e4441f);
+        
+    
+        var popup_bc8a9cc96e2fedbaef971575981e7035 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5701f94f2f600b6f5a5d0c224f938a45 = $(`<div id="html_5701f94f2f600b6f5a5d0c224f938a45" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Дзержинского, 21/2</div>`)[0];
+            popup_bc8a9cc96e2fedbaef971575981e7035.setContent(html_5701f94f2f600b6f5a5d0c224f938a45);
+        
+
+        marker_f9e6ff8a0f9e5b77d30afd1729645075.bindPopup(popup_bc8a9cc96e2fedbaef971575981e7035)
+        ;
+
+        
+    
+    
+            var marker_6cf5642f79abcd9895dd5ad34a27544d = L.marker(
+                [56.055935, 37.852167],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_0e5f64f1949794b88c00bde749b03bc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6cf5642f79abcd9895dd5ad34a27544d.setIcon(icon_0e5f64f1949794b88c00bde749b03bc8);
+        
+    
+        var popup_f9183224846dd05c6c17a63c93a8ff46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_866e50d303b597267f13ce7418907916 = $(`<div id="html_866e50d303b597267f13ce7418907916" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, городской округ Пушкинский, рабочий посёлок Правдинский, Полевая улица, с1</div>`)[0];
+            popup_f9183224846dd05c6c17a63c93a8ff46.setContent(html_866e50d303b597267f13ce7418907916);
+        
+
+        marker_6cf5642f79abcd9895dd5ad34a27544d.bindPopup(popup_f9183224846dd05c6c17a63c93a8ff46)
+        ;
+
+        
+    
+    
+            var marker_ee4897003213e5eb99eae5dd56c7c805 = L.marker(
+                [55.973522, 37.90308],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_8cdf3b7464877da68fdb3441e0f5e7c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ee4897003213e5eb99eae5dd56c7c805.setIcon(icon_8cdf3b7464877da68fdb3441e0f5e7c1);
+        
+    
+        var popup_f7b46c55a139fb6cc29dc0164f05f18e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d39902c292b94401563b779a26b34f8 = $(`<div id="html_6d39902c292b94401563b779a26b34f8" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, городской округ Пушкинский, Ивантеевка, проезд Маяковского, 3</div>`)[0];
+            popup_f7b46c55a139fb6cc29dc0164f05f18e.setContent(html_6d39902c292b94401563b779a26b34f8);
+        
+
+        marker_ee4897003213e5eb99eae5dd56c7c805.bindPopup(popup_f7b46c55a139fb6cc29dc0164f05f18e)
+        ;
+
+        
+    
+    
+            var marker_765c8b6f09a9ca76de5432418d8a31c1 = L.marker(
+                [55.971782, 37.896032],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7df269fcec5ce83edc9aac76564fcd89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_765c8b6f09a9ca76de5432418d8a31c1.setIcon(icon_7df269fcec5ce83edc9aac76564fcd89);
+        
+    
+        var popup_7d275ef4994c7b168c4409fb4d7da77d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b0cb54fdbb8aad04c623325c508a5b = $(`<div id="html_22b0cb54fdbb8aad04c623325c508a5b" style="width: 100.0%; height: 100.0%;">Биоритм<br>Московская область, городской округ Пушкинский, Ивантеевка, Заводская улица, 12А</div>`)[0];
+            popup_7d275ef4994c7b168c4409fb4d7da77d.setContent(html_22b0cb54fdbb8aad04c623325c508a5b);
+        
+
+        marker_765c8b6f09a9ca76de5432418d8a31c1.bindPopup(popup_7d275ef4994c7b168c4409fb4d7da77d)
+        ;
+
+        
+    
+    
+            var marker_ff7d2207a9dce44f0fa3c6017c339119 = L.marker(
+                [55.976012, 37.905136],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_7fa9cc913e12341581fb38d237c50527 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff7d2207a9dce44f0fa3c6017c339119.setIcon(icon_7fa9cc913e12341581fb38d237c50527);
+        
+    
+        var popup_f6b9d7fefca2db0f6c1457c1ed3f9253 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cce092acc721e3b90176b7ab039d4384 = $(`<div id="html_cce092acc721e3b90176b7ab039d4384" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, городской округ Пушкинский, Ивантеевка, Первомайская улица, 30/2</div>`)[0];
+            popup_f6b9d7fefca2db0f6c1457c1ed3f9253.setContent(html_cce092acc721e3b90176b7ab039d4384);
+        
+
+        marker_ff7d2207a9dce44f0fa3c6017c339119.bindPopup(popup_f6b9d7fefca2db0f6c1457c1ed3f9253)
+        ;
+
+        
+    
+    
+            var marker_34c767974adbe953a3b23f92d529c804 = L.marker(
+                [55.967562, 37.9057],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d8a0e25b60cd4ae5fd7912c0986c69fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_34c767974adbe953a3b23f92d529c804.setIcon(icon_d8a0e25b60cd4ae5fd7912c0986c69fc);
+        
+    
+        var popup_6d97465ae22e462c7f007d7be15d55e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15073e7f9a64d2f36fa4bf904045d5f9 = $(`<div id="html_15073e7f9a64d2f36fa4bf904045d5f9" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, городской округ Пушкинский, Ивантеевка, Центральный проезд, 8</div>`)[0];
+            popup_6d97465ae22e462c7f007d7be15d55e4.setContent(html_15073e7f9a64d2f36fa4bf904045d5f9);
+        
+
+        marker_34c767974adbe953a3b23f92d529c804.bindPopup(popup_6d97465ae22e462c7f007d7be15d55e4)
+        ;
+
+        
+    
+    
+            var marker_2a318ef91b3d30fdad02dee05102da51 = L.marker(
+                [56.050661, 37.877192],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_c46a51c4f2d001195d2353e328940aa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a318ef91b3d30fdad02dee05102da51.setIcon(icon_c46a51c4f2d001195d2353e328940aa4);
+        
+    
+        var popup_2f354a9e9b6e8474dedee2fa3fadc131 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6972c6acdbeabfd823458ad26f324a41 = $(`<div id="html_6972c6acdbeabfd823458ad26f324a41" style="width: 100.0%; height: 100.0%;">АПТЕКА-Менеджмент<br>Московская область, городской округ Пушкинский, село Братовщина, Центральная улица, 77А</div>`)[0];
+            popup_2f354a9e9b6e8474dedee2fa3fadc131.setContent(html_6972c6acdbeabfd823458ad26f324a41);
+        
+
+        marker_2a318ef91b3d30fdad02dee05102da51.bindPopup(popup_2f354a9e9b6e8474dedee2fa3fadc131)
+        ;
+
+        
+    
+    
+            var marker_852fa2ec70f300e73f596839206ca115 = L.marker(
+                [55.96631, 37.920939],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_d354711da8f52dbd0788765c003cec93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_852fa2ec70f300e73f596839206ca115.setIcon(icon_d354711da8f52dbd0788765c003cec93);
+        
+    
+        var popup_9b128ad82fdf1be110f814b8ab8282f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_878f67363a2344b4162d516841ef7574 = $(`<div id="html_878f67363a2344b4162d516841ef7574" style="width: 100.0%; height: 100.0%;">Фармадар<br>Московская область, городской округ Пушкинский, Ивантеевка, Рощинская улица, 9</div>`)[0];
+            popup_9b128ad82fdf1be110f814b8ab8282f2.setContent(html_878f67363a2344b4162d516841ef7574);
+        
+
+        marker_852fa2ec70f300e73f596839206ca115.bindPopup(popup_9b128ad82fdf1be110f814b8ab8282f2)
+        ;
+
+        
+    
+    
+            var marker_789c0570b3a6050aeaca30422b9cd603 = L.marker(
+                [55.967846, 37.913294],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_4060fc618f6a77c429c641ae2d0795f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_789c0570b3a6050aeaca30422b9cd603.setIcon(icon_4060fc618f6a77c429c641ae2d0795f9);
+        
+    
+        var popup_f4d532cbb0bf3cc3d03f05cf273499d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ad535a2b1f2e6acf6cf2555eb746a8b = $(`<div id="html_4ad535a2b1f2e6acf6cf2555eb746a8b" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, городской округ Пушкинский, Ивантеевка, улица Толмачёва, 1/2</div>`)[0];
+            popup_f4d532cbb0bf3cc3d03f05cf273499d6.setContent(html_4ad535a2b1f2e6acf6cf2555eb746a8b);
+        
+
+        marker_789c0570b3a6050aeaca30422b9cd603.bindPopup(popup_f4d532cbb0bf3cc3d03f05cf273499d6)
+        ;
+
+        
+    
+    
+            var marker_1478b6dc4dd5f6a9693df95aa9d0d3ad = L.marker(
+                [55.971809, 37.895969],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_a78049384137378962e0f0d6ad736298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1478b6dc4dd5f6a9693df95aa9d0d3ad.setIcon(icon_a78049384137378962e0f0d6ad736298);
+        
+    
+        var popup_244156a5eab91c5669f83d550b0222f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14358e7d565eb2633379363b24ad7569 = $(`<div id="html_14358e7d565eb2633379363b24ad7569" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, городской округ Пушкинский, Ивантеевка, Заводская улица, 12А</div>`)[0];
+            popup_244156a5eab91c5669f83d550b0222f2.setContent(html_14358e7d565eb2633379363b24ad7569);
+        
+
+        marker_1478b6dc4dd5f6a9693df95aa9d0d3ad.bindPopup(popup_244156a5eab91c5669f83d550b0222f2)
+        ;
+
+        
+    
+    
+            var marker_946cfe41cfd56b50fbdc2767bf90c98b = L.marker(
+                [55.95881, 37.862056],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_e38adf8663274657394be7630f297423 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_946cfe41cfd56b50fbdc2767bf90c98b.setIcon(icon_e38adf8663274657394be7630f297423);
+        
+    
+        var popup_346a9df290910cae15580761c656441e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa5a434875812b165f37dc9fa2fbd65f = $(`<div id="html_fa5a434875812b165f37dc9fa2fbd65f" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, городской округ Пушкинский, посёлок Лесные Поляны, улица Ленина, 7</div>`)[0];
+            popup_346a9df290910cae15580761c656441e.setContent(html_fa5a434875812b165f37dc9fa2fbd65f);
+        
+
+        marker_946cfe41cfd56b50fbdc2767bf90c98b.bindPopup(popup_346a9df290910cae15580761c656441e)
+        ;
+
+        
+    
+    
+            var marker_805a51be00a382b143eaf916af3fc102 = L.marker(
+                [55.961374, 37.823179],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_36f5d1f201bb1ed2865d09662931744e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_805a51be00a382b143eaf916af3fc102.setIcon(icon_36f5d1f201bb1ed2865d09662931744e);
+        
+    
+        var popup_bc3dc486725beb19d4a0ac2a438b7858 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bb83eaf99ecb39d6237da3170e1ad76 = $(`<div id="html_0bb83eaf99ecb39d6237da3170e1ad76" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, городской округ Пушкинский, село Тарасовка, Вокзальный проезд, 3</div>`)[0];
+            popup_bc3dc486725beb19d4a0ac2a438b7858.setContent(html_0bb83eaf99ecb39d6237da3170e1ad76);
+        
+
+        marker_805a51be00a382b143eaf916af3fc102.bindPopup(popup_bc3dc486725beb19d4a0ac2a438b7858)
+        ;
+
+        
+    
+    
+            var marker_2872488299fefdbdbcc4dac3a8f748a4 = L.marker(
+                [55.97676, 37.903755],
+                {}
+            ).addTo(map_9cbe94198275ca1c641d046471c49316);
+        
+    
+            var icon_260f5346e88c4cf1cff2c1a080d92b38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2872488299fefdbdbcc4dac3a8f748a4.setIcon(icon_260f5346e88c4cf1cff2c1a080d92b38);
+        
+    
+        var popup_5382be8cfecb39dc402e92ca04af608d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7246f5f831a1bf2b1ed8440a37044227 = $(`<div id="html_7246f5f831a1bf2b1ed8440a37044227" style="width: 100.0%; height: 100.0%;">Ортопедический салон<br>Московская область, городской округ Пушкинский, Ивантеевка, Первомайская улица, 34</div>`)[0];
+            popup_5382be8cfecb39dc402e92ca04af608d.setContent(html_7246f5f831a1bf2b1ed8440a37044227);
+        
+
+        marker_2872488299fefdbdbcc4dac3a8f748a4.bindPopup(popup_5382be8cfecb39dc402e92ca04af608d)
+        ;
+
+        
+    
+</script>
+</html>

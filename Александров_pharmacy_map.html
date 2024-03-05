@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f237f4597fc878ce8a58a7d8ff498708 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f237f4597fc878ce8a58a7d8ff498708" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f237f4597fc878ce8a58a7d8ff498708 = L.map(
+                "map_f237f4597fc878ce8a58a7d8ff498708",
+                {
+                    center: [56.395958, 38.713337],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_86e9f2a2cb52b5e0824bd58427d42ec7 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var marker_95700de57c2e51a94f65c4705bb0ee2c = L.marker(
+                [56.395958, 38.713337],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_ad72de368dee9e3649a58061f0a846e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95700de57c2e51a94f65c4705bb0ee2c.setIcon(icon_ad72de368dee9e3649a58061f0a846e3);
+        
+    
+        var popup_4de7c477ac55e49e6caae7e1cb0a8980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88301acd7b79ad04878133594976500c = $(`<div id="html_88301acd7b79ad04878133594976500c" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Владимирская область, Александров, улица Свердлова, 3</div>`)[0];
+            popup_4de7c477ac55e49e6caae7e1cb0a8980.setContent(html_88301acd7b79ad04878133594976500c);
+        
+
+        marker_95700de57c2e51a94f65c4705bb0ee2c.bindPopup(popup_4de7c477ac55e49e6caae7e1cb0a8980)
+        ;
+
+        
+    
+    
+            var marker_f484a5924f2f08a1b311b1405b1758f0 = L.marker(
+                [56.400418, 38.720621],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_eeae4e5bb99519612b803d792eafdf84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f484a5924f2f08a1b311b1405b1758f0.setIcon(icon_eeae4e5bb99519612b803d792eafdf84);
+        
+    
+        var popup_0b861162b899f654792d44e51ecef409 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e07099212813c692b94b45e25530c58 = $(`<div id="html_2e07099212813c692b94b45e25530c58" style="width: 100.0%; height: 100.0%;">Апрель<br>Владимирская область, Александров, улица Революции, 40</div>`)[0];
+            popup_0b861162b899f654792d44e51ecef409.setContent(html_2e07099212813c692b94b45e25530c58);
+        
+
+        marker_f484a5924f2f08a1b311b1405b1758f0.bindPopup(popup_0b861162b899f654792d44e51ecef409)
+        ;
+
+        
+    
+    
+            var marker_3932ace720a135e9fbafcc3c4b5b7ff6 = L.marker(
+                [56.38742, 38.715278],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_7102f8148a13ca37987dd6368c83befa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3932ace720a135e9fbafcc3c4b5b7ff6.setIcon(icon_7102f8148a13ca37987dd6368c83befa);
+        
+    
+        var popup_e56fa34b09d1151620386df8a79f0b40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38095e1661b523cd950fdf2e26ecb70c = $(`<div id="html_38095e1661b523cd950fdf2e26ecb70c" style="width: 100.0%; height: 100.0%;">Лекарь<br>Владимирская область, Александров, Красный переулок, 23</div>`)[0];
+            popup_e56fa34b09d1151620386df8a79f0b40.setContent(html_38095e1661b523cd950fdf2e26ecb70c);
+        
+
+        marker_3932ace720a135e9fbafcc3c4b5b7ff6.bindPopup(popup_e56fa34b09d1151620386df8a79f0b40)
+        ;
+
+        
+    
+    
+            var marker_79f5c85c421bdc796ba159baab5add98 = L.marker(
+                [56.39728, 38.719168],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_3e27ec51114a8e67691f184bd364fc54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79f5c85c421bdc796ba159baab5add98.setIcon(icon_3e27ec51114a8e67691f184bd364fc54);
+        
+    
+        var popup_d7fe7ad2ca2930f59d1fec1811c04f4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_694e860ac7c0865e34426a98d1256f0e = $(`<div id="html_694e860ac7c0865e34426a98d1256f0e" style="width: 100.0%; height: 100.0%;">Столички<br>Владимирская область, Александров, улица Ленина, 26</div>`)[0];
+            popup_d7fe7ad2ca2930f59d1fec1811c04f4a.setContent(html_694e860ac7c0865e34426a98d1256f0e);
+        
+
+        marker_79f5c85c421bdc796ba159baab5add98.bindPopup(popup_d7fe7ad2ca2930f59d1fec1811c04f4a)
+        ;
+
+        
+    
+    
+            var marker_1e1b24dc8d617935caae424a6a133d36 = L.marker(
+                [56.37666, 38.712377],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_607693719dea2eeaf9d3045d379a6de1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e1b24dc8d617935caae424a6a133d36.setIcon(icon_607693719dea2eeaf9d3045d379a6de1);
+        
+    
+        var popup_48774230609f061f12fbd640bcc8237d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95e3c0e17dab36ca801d088698249d14 = $(`<div id="html_95e3c0e17dab36ca801d088698249d14" style="width: 100.0%; height: 100.0%;">Лекарь<br>Владимирская область, Александров, улица Терешковой, 14</div>`)[0];
+            popup_48774230609f061f12fbd640bcc8237d.setContent(html_95e3c0e17dab36ca801d088698249d14);
+        
+
+        marker_1e1b24dc8d617935caae424a6a133d36.bindPopup(popup_48774230609f061f12fbd640bcc8237d)
+        ;
+
+        
+    
+    
+            var marker_05b804f6243227ee98e489b86e2fb883 = L.marker(
+                [56.402135, 38.689985],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_fe75b537c47c6b7a2ff88511ff532374 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05b804f6243227ee98e489b86e2fb883.setIcon(icon_fe75b537c47c6b7a2ff88511ff532374);
+        
+    
+        var popup_303c906044c4e0f2f0a6667091894b74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a2d43677ad863e9edacbd5f5f691e69 = $(`<div id="html_2a2d43677ad863e9edacbd5f5f691e69" style="width: 100.0%; height: 100.0%;">Лекарь<br>Владимирская область, Александров, Двориковское шоссе, 23</div>`)[0];
+            popup_303c906044c4e0f2f0a6667091894b74.setContent(html_2a2d43677ad863e9edacbd5f5f691e69);
+        
+
+        marker_05b804f6243227ee98e489b86e2fb883.bindPopup(popup_303c906044c4e0f2f0a6667091894b74)
+        ;
+
+        
+    
+    
+            var marker_0e74471e9391b8aac4998872660bc1d7 = L.marker(
+                [56.389793, 38.713273],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_8de93e1e8d7ab2add070c9921ccf3d6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e74471e9391b8aac4998872660bc1d7.setIcon(icon_8de93e1e8d7ab2add070c9921ccf3d6a);
+        
+    
+        var popup_fe70b95ee77c1639d30c74712a2b7f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aebda25a0f18732e8504aa56da76a099 = $(`<div id="html_aebda25a0f18732e8504aa56da76a099" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Владимирская область, Александров, улица Горького, 1А</div>`)[0];
+            popup_fe70b95ee77c1639d30c74712a2b7f08.setContent(html_aebda25a0f18732e8504aa56da76a099);
+        
+
+        marker_0e74471e9391b8aac4998872660bc1d7.bindPopup(popup_fe70b95ee77c1639d30c74712a2b7f08)
+        ;
+
+        
+    
+    
+            var marker_8f9159743e4e5eb2a8b809f729d14d36 = L.marker(
+                [56.378389, 38.712941],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_53aa0e1763de872347656d063ad845a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f9159743e4e5eb2a8b809f729d14d36.setIcon(icon_53aa0e1763de872347656d063ad845a5);
+        
+    
+        var popup_9599545ebde3434992a74de8b4ce5551 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96a4004cbc523854bccef528caba2e4c = $(`<div id="html_96a4004cbc523854bccef528caba2e4c" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Владимирская область, Александров, улица Терешковой, 12</div>`)[0];
+            popup_9599545ebde3434992a74de8b4ce5551.setContent(html_96a4004cbc523854bccef528caba2e4c);
+        
+
+        marker_8f9159743e4e5eb2a8b809f729d14d36.bindPopup(popup_9599545ebde3434992a74de8b4ce5551)
+        ;
+
+        
+    
+    
+            var marker_f50d419faac2ac8d07d23976c3d6e220 = L.marker(
+                [56.38107, 38.713934],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_676e8d10001b7daacdcd407525de2237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f50d419faac2ac8d07d23976c3d6e220.setIcon(icon_676e8d10001b7daacdcd407525de2237);
+        
+    
+        var popup_293ea690deafdb3709a22ab66af90da4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a16a6d190b4f0ed0c06cc151fa03dc6 = $(`<div id="html_2a16a6d190b4f0ed0c06cc151fa03dc6" style="width: 100.0%; height: 100.0%;">Столички<br>Владимирская область, Александров, улица Терешковой, 6</div>`)[0];
+            popup_293ea690deafdb3709a22ab66af90da4.setContent(html_2a16a6d190b4f0ed0c06cc151fa03dc6);
+        
+
+        marker_f50d419faac2ac8d07d23976c3d6e220.bindPopup(popup_293ea690deafdb3709a22ab66af90da4)
+        ;
+
+        
+    
+    
+            var marker_97f5a9dce7b5252617b1f7d106202ebc = L.marker(
+                [56.398387, 38.71758],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_fb32696d79545ee324ebbf7f30e64484 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97f5a9dce7b5252617b1f7d106202ebc.setIcon(icon_fb32696d79545ee324ebbf7f30e64484);
+        
+    
+        var popup_94168d8075883ff8df8cb9c4f4cba4af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1022440e21b29dc93372098560ba76a8 = $(`<div id="html_1022440e21b29dc93372098560ba76a8" style="width: 100.0%; height: 100.0%;">Столички<br>Владимирская область, Александров, улица Ленина, 13/1</div>`)[0];
+            popup_94168d8075883ff8df8cb9c4f4cba4af.setContent(html_1022440e21b29dc93372098560ba76a8);
+        
+
+        marker_97f5a9dce7b5252617b1f7d106202ebc.bindPopup(popup_94168d8075883ff8df8cb9c4f4cba4af)
+        ;
+
+        
+    
+    
+            var marker_e60b558e71a663bd0f399d41fb803f42 = L.marker(
+                [56.397838, 38.725955],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_504915a51e82d773561c97d4fcf24aeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e60b558e71a663bd0f399d41fb803f42.setIcon(icon_504915a51e82d773561c97d4fcf24aeb);
+        
+    
+        var popup_59f7953baa58ca65145829f9aee45a50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd80902a89c0a9777c8f0a303edd0530 = $(`<div id="html_dd80902a89c0a9777c8f0a303edd0530" style="width: 100.0%; height: 100.0%;">Роса<br>Владимирская область, Александров, улица Ленина, 66/1</div>`)[0];
+            popup_59f7953baa58ca65145829f9aee45a50.setContent(html_dd80902a89c0a9777c8f0a303edd0530);
+        
+
+        marker_e60b558e71a663bd0f399d41fb803f42.bindPopup(popup_59f7953baa58ca65145829f9aee45a50)
+        ;
+
+        
+    
+    
+            var marker_5d989dff813ac80fe7174792e899461a = L.marker(
+                [56.398357, 38.730886],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_7960fbfe67dbbe7e1c56d1d0de04d17e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d989dff813ac80fe7174792e899461a.setIcon(icon_7960fbfe67dbbe7e1c56d1d0de04d17e);
+        
+    
+        var popup_4d8f0e609541f6958f0cee66e57bb515 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71e806a82e99a94a7ee75ad3ec06a892 = $(`<div id="html_71e806a82e99a94a7ee75ad3ec06a892" style="width: 100.0%; height: 100.0%;">Аптека<br>Владимирская область, Александров, улица Красной Молодёжи, 4</div>`)[0];
+            popup_4d8f0e609541f6958f0cee66e57bb515.setContent(html_71e806a82e99a94a7ee75ad3ec06a892);
+        
+
+        marker_5d989dff813ac80fe7174792e899461a.bindPopup(popup_4d8f0e609541f6958f0cee66e57bb515)
+        ;
+
+        
+    
+    
+            var marker_96e5438235de034944e70185c4f92378 = L.marker(
+                [56.396316, 38.711749],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_0ac38ac42209decc18bdac1e4796d798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96e5438235de034944e70185c4f92378.setIcon(icon_0ac38ac42209decc18bdac1e4796d798);
+        
+    
+        var popup_804a6b7eb8ac388b91a06414133be119 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68ade440a317be8202142aaebfaefb50 = $(`<div id="html_68ade440a317be8202142aaebfaefb50" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Владимирская область, Александров, улица Ленина, 14</div>`)[0];
+            popup_804a6b7eb8ac388b91a06414133be119.setContent(html_68ade440a317be8202142aaebfaefb50);
+        
+
+        marker_96e5438235de034944e70185c4f92378.bindPopup(popup_804a6b7eb8ac388b91a06414133be119)
+        ;
+
+        
+    
+    
+            var marker_f342fdb23deed34fced94c9dbba733f0 = L.marker(
+                [56.398197, 38.713695],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_bae8e424e57d4765dc9c150f0603e238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f342fdb23deed34fced94c9dbba733f0.setIcon(icon_bae8e424e57d4765dc9c150f0603e238);
+        
+    
+        var popup_7f86233602b04d8bde2b3975d1c26ceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06ba8345358f91829da839d7674b4d40 = $(`<div id="html_06ba8345358f91829da839d7674b4d40" style="width: 100.0%; height: 100.0%;">Изида<br>Владимирская область, Александров, Красный переулок, 11</div>`)[0];
+            popup_7f86233602b04d8bde2b3975d1c26ceb.setContent(html_06ba8345358f91829da839d7674b4d40);
+        
+
+        marker_f342fdb23deed34fced94c9dbba733f0.bindPopup(popup_7f86233602b04d8bde2b3975d1c26ceb)
+        ;
+
+        
+    
+    
+            var marker_77114277705d91b0be2c1fffa2d602e4 = L.marker(
+                [56.397588, 38.724457],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_b7d8769eb97e7e3071c95f8bfbb4211b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77114277705d91b0be2c1fffa2d602e4.setIcon(icon_b7d8769eb97e7e3071c95f8bfbb4211b);
+        
+    
+        var popup_30f6d55332b3ff850aa39abf2ffa2d7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3657b28038a4786d10384db111bf8690 = $(`<div id="html_3657b28038a4786d10384db111bf8690" style="width: 100.0%; height: 100.0%;">Центральная аптека<br>Владимирская область, Александров, улица Ануфриева, 10</div>`)[0];
+            popup_30f6d55332b3ff850aa39abf2ffa2d7b.setContent(html_3657b28038a4786d10384db111bf8690);
+        
+
+        marker_77114277705d91b0be2c1fffa2d602e4.bindPopup(popup_30f6d55332b3ff850aa39abf2ffa2d7b)
+        ;
+
+        
+    
+    
+            var marker_ff3258e03c924968c0fdc544fc7a493a = L.marker(
+                [56.375425, 38.716261],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_dc2559944fc3806ff323e4d25c913e79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff3258e03c924968c0fdc544fc7a493a.setIcon(icon_dc2559944fc3806ff323e4d25c913e79);
+        
+    
+        var popup_032fbc4f6db6786481c892f0d5df9d9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a114cc19d1fa20a8c1311cc39b9074f = $(`<div id="html_9a114cc19d1fa20a8c1311cc39b9074f" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Владимирская область, Александров, улица Королёва, 6А</div>`)[0];
+            popup_032fbc4f6db6786481c892f0d5df9d9d.setContent(html_9a114cc19d1fa20a8c1311cc39b9074f);
+        
+
+        marker_ff3258e03c924968c0fdc544fc7a493a.bindPopup(popup_032fbc4f6db6786481c892f0d5df9d9d)
+        ;
+
+        
+    
+    
+            var marker_0fefafb07b231ad32b25ffb4e241364c = L.marker(
+                [56.399987, 38.716945],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_0973bb8b8c318fbc41922c27b717168e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0fefafb07b231ad32b25ffb4e241364c.setIcon(icon_0973bb8b8c318fbc41922c27b717168e);
+        
+    
+        var popup_9577097eef6c93f30a1f2e6167e841ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4a328623da041ed6c69486c296f1596 = $(`<div id="html_e4a328623da041ed6c69486c296f1596" style="width: 100.0%; height: 100.0%;">Медилон-Фармимэкс<br>Владимирская область, Александров, улица Революции, 34</div>`)[0];
+            popup_9577097eef6c93f30a1f2e6167e841ec.setContent(html_e4a328623da041ed6c69486c296f1596);
+        
+
+        marker_0fefafb07b231ad32b25ffb4e241364c.bindPopup(popup_9577097eef6c93f30a1f2e6167e841ec)
+        ;
+
+        
+    
+    
+            var marker_10445681757a28691b2265e43b59b1d3 = L.marker(
+                [56.401973, 38.714532],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_68f346b90388d2197812cb45c1f5057e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_10445681757a28691b2265e43b59b1d3.setIcon(icon_68f346b90388d2197812cb45c1f5057e);
+        
+    
+        var popup_a09f0e0c3930557ddfe698eef89d3d84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb92063ee539da0d56e54d9a87a0c107 = $(`<div id="html_bb92063ee539da0d56e54d9a87a0c107" style="width: 100.0%; height: 100.0%;">Здоровые люди<br>Владимирская область, Александров, улица Восстания 1905 года, 17</div>`)[0];
+            popup_a09f0e0c3930557ddfe698eef89d3d84.setContent(html_bb92063ee539da0d56e54d9a87a0c107);
+        
+
+        marker_10445681757a28691b2265e43b59b1d3.bindPopup(popup_a09f0e0c3930557ddfe698eef89d3d84)
+        ;
+
+        
+    
+    
+            var marker_11f18b847922ca603ca7b5fd6accaeb0 = L.marker(
+                [56.397808, 38.708765],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_4f7c066333c9947c03c50c61f9fd023c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11f18b847922ca603ca7b5fd6accaeb0.setIcon(icon_4f7c066333c9947c03c50c61f9fd023c);
+        
+    
+        var popup_f89dbeddfd77986603385c66ec9ec0ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_333f54dad5a70afdc6e331e633074fd5 = $(`<div id="html_333f54dad5a70afdc6e331e633074fd5" style="width: 100.0%; height: 100.0%;">Надежда-Фарм<br>Владимирская область, Александров, улица Ленина, 1</div>`)[0];
+            popup_f89dbeddfd77986603385c66ec9ec0ac.setContent(html_333f54dad5a70afdc6e331e633074fd5);
+        
+
+        marker_11f18b847922ca603ca7b5fd6accaeb0.bindPopup(popup_f89dbeddfd77986603385c66ec9ec0ac)
+        ;
+
+        
+    
+    
+            var marker_3991412fc5ecd8a1909cc92f6a46495e = L.marker(
+                [56.400109, 38.720663],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_7721b2f6a1747ff12458903833e58421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3991412fc5ecd8a1909cc92f6a46495e.setIcon(icon_7721b2f6a1747ff12458903833e58421);
+        
+    
+        var popup_e47b539eaa4a29acbdea4be2939afd16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_822856ef3c034eeb5eeee9666ba331fc = $(`<div id="html_822856ef3c034eeb5eeee9666ba331fc" style="width: 100.0%; height: 100.0%;">Руденко<br>Владимирская область, Александров, Казарменный переулок, 1</div>`)[0];
+            popup_e47b539eaa4a29acbdea4be2939afd16.setContent(html_822856ef3c034eeb5eeee9666ba331fc);
+        
+
+        marker_3991412fc5ecd8a1909cc92f6a46495e.bindPopup(popup_e47b539eaa4a29acbdea4be2939afd16)
+        ;
+
+        
+    
+    
+            var marker_86587475e7b491da061a9f8f3e3a09fd = L.marker(
+                [56.390418, 38.700369],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_658eb06da9f649ba9d8a5f4a23977a2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_86587475e7b491da061a9f8f3e3a09fd.setIcon(icon_658eb06da9f649ba9d8a5f4a23977a2d);
+        
+    
+        var popup_4b5cd34815d7b53d17c51b2bf6b6fc6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38d6360dc8cb63f34b8a1005c3993923 = $(`<div id="html_38d6360dc8cb63f34b8a1005c3993923" style="width: 100.0%; height: 100.0%;">Лекарь<br>Владимирская область, Александров, Институтская улица, 34</div>`)[0];
+            popup_4b5cd34815d7b53d17c51b2bf6b6fc6a.setContent(html_38d6360dc8cb63f34b8a1005c3993923);
+        
+
+        marker_86587475e7b491da061a9f8f3e3a09fd.bindPopup(popup_4b5cd34815d7b53d17c51b2bf6b6fc6a)
+        ;
+
+        
+    
+    
+            var marker_49b18d7592c7d0f668a74ccaf3cceb72 = L.marker(
+                [56.397803, 38.717488],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_37a523180f4f7e9571c6d29c5d2982dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49b18d7592c7d0f668a74ccaf3cceb72.setIcon(icon_37a523180f4f7e9571c6d29c5d2982dd);
+        
+    
+        var popup_3a1a571bbd0945740828e1f5726c0eae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42000aaca745998f650191d7ad22cc71 = $(`<div id="html_42000aaca745998f650191d7ad22cc71" style="width: 100.0%; height: 100.0%;">Аптечество<br>Владимирская область, Александров, улица Ленина, 13</div>`)[0];
+            popup_3a1a571bbd0945740828e1f5726c0eae.setContent(html_42000aaca745998f650191d7ad22cc71);
+        
+
+        marker_49b18d7592c7d0f668a74ccaf3cceb72.bindPopup(popup_3a1a571bbd0945740828e1f5726c0eae)
+        ;
+
+        
+    
+    
+            var marker_349e26ab0567b4e839517323b7b7c558 = L.marker(
+                [56.402785, 38.693518],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_a3f98f712e31d678dcd26cf8c987ef97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_349e26ab0567b4e839517323b7b7c558.setIcon(icon_a3f98f712e31d678dcd26cf8c987ef97);
+        
+    
+        var popup_3ef43aced0f882cabe7f620f77c2bf1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0bfcdd7034a5f40a17908b5a9276e45 = $(`<div id="html_c0bfcdd7034a5f40a17908b5a9276e45" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Владимирская область, Александров, Двориковское шоссе, 15</div>`)[0];
+            popup_3ef43aced0f882cabe7f620f77c2bf1a.setContent(html_c0bfcdd7034a5f40a17908b5a9276e45);
+        
+
+        marker_349e26ab0567b4e839517323b7b7c558.bindPopup(popup_3ef43aced0f882cabe7f620f77c2bf1a)
+        ;
+
+        
+    
+    
+            var marker_50065d965dda811ad0c952ce41f1bea1 = L.marker(
+                [56.378282, 38.714111],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_d1ab6f5465cc2344e0671eec1736faf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50065d965dda811ad0c952ce41f1bea1.setIcon(icon_d1ab6f5465cc2344e0671eec1736faf3);
+        
+    
+        var popup_baf014b90aa54ef9a37d393a5be0bdfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a643a93e92646c49da00b977ad919363 = $(`<div id="html_a643a93e92646c49da00b977ad919363" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Владимирская область, Александров, улица Кубасова, 2А</div>`)[0];
+            popup_baf014b90aa54ef9a37d393a5be0bdfd.setContent(html_a643a93e92646c49da00b977ad919363);
+        
+
+        marker_50065d965dda811ad0c952ce41f1bea1.bindPopup(popup_baf014b90aa54ef9a37d393a5be0bdfd)
+        ;
+
+        
+    
+    
+            var marker_d07a7ece78865bfb9fc6be57ce03fecf = L.marker(
+                [56.397247, 38.717016],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_460d8cdfe4002a02dbf12444e5de942f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d07a7ece78865bfb9fc6be57ce03fecf.setIcon(icon_460d8cdfe4002a02dbf12444e5de942f);
+        
+    
+        var popup_213c3040053788de5b2d274233cee47d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_218ba814700024a60cf998447a2b862f = $(`<div id="html_218ba814700024a60cf998447a2b862f" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Владимирская область, Александров, улица Ленина, 22</div>`)[0];
+            popup_213c3040053788de5b2d274233cee47d.setContent(html_218ba814700024a60cf998447a2b862f);
+        
+
+        marker_d07a7ece78865bfb9fc6be57ce03fecf.bindPopup(popup_213c3040053788de5b2d274233cee47d)
+        ;
+
+        
+    
+    
+            var marker_575ff8cf4eac162a32ce3bf148768097 = L.marker(
+                [56.383995, 38.714943],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_21619a22f27a0cbf2fc597fd647a4d5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_575ff8cf4eac162a32ce3bf148768097.setIcon(icon_21619a22f27a0cbf2fc597fd647a4d5e);
+        
+    
+        var popup_2484296d1172111b39ef3affb5cb088a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbba403bd33ebac86296cf9fac82bfa8 = $(`<div id="html_cbba403bd33ebac86296cf9fac82bfa8" style="width: 100.0%; height: 100.0%;">Апрель<br>Владимирская область, Александров, улица Терешковой, 2</div>`)[0];
+            popup_2484296d1172111b39ef3affb5cb088a.setContent(html_cbba403bd33ebac86296cf9fac82bfa8);
+        
+
+        marker_575ff8cf4eac162a32ce3bf148768097.bindPopup(popup_2484296d1172111b39ef3affb5cb088a)
+        ;
+
+        
+    
+    
+            var marker_4e1e5c5038887d872cae180562464fd3 = L.marker(
+                [56.39704, 38.711532],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_31f91eda26f7d8c2eb1e57f14d54412f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e1e5c5038887d872cae180562464fd3.setIcon(icon_31f91eda26f7d8c2eb1e57f14d54412f);
+        
+    
+        var popup_13ea9de49c328c4cdc36b8035020e369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6e5540ca3b0631be6568ed229d5c587 = $(`<div id="html_a6e5540ca3b0631be6568ed229d5c587" style="width: 100.0%; height: 100.0%;">Апрель<br>Владимирская область, Александров, улица Ленина, 14</div>`)[0];
+            popup_13ea9de49c328c4cdc36b8035020e369.setContent(html_a6e5540ca3b0631be6568ed229d5c587);
+        
+
+        marker_4e1e5c5038887d872cae180562464fd3.bindPopup(popup_13ea9de49c328c4cdc36b8035020e369)
+        ;
+
+        
+    
+    
+            var marker_b82ce5a20ea1cce9051446a539ccf87c = L.marker(
+                [56.397278, 38.70664],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_1db02e1457c1175c935e246b3f146237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b82ce5a20ea1cce9051446a539ccf87c.setIcon(icon_1db02e1457c1175c935e246b3f146237);
+        
+    
+        var popup_9f252ff2214129054f38b51f0e67ccb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44a326385de075b505dc76201dd32d87 = $(`<div id="html_44a326385de075b505dc76201dd32d87" style="width: 100.0%; height: 100.0%;">Аптечный пункт<br>Владимирская область, Александров, Октябрьская улица, 6</div>`)[0];
+            popup_9f252ff2214129054f38b51f0e67ccb3.setContent(html_44a326385de075b505dc76201dd32d87);
+        
+
+        marker_b82ce5a20ea1cce9051446a539ccf87c.bindPopup(popup_9f252ff2214129054f38b51f0e67ccb3)
+        ;
+
+        
+    
+    
+            var marker_94dec560853aa6b15c9c241fd01b688c = L.marker(
+                [56.398292, 38.730567],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_adc264799fd4a43bb128f06032221e49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94dec560853aa6b15c9c241fd01b688c.setIcon(icon_adc264799fd4a43bb128f06032221e49);
+        
+    
+        var popup_676960498f89875e47eeb2c1436cd33f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_274b136e9ba15aa650f71a864b39dad0 = $(`<div id="html_274b136e9ba15aa650f71a864b39dad0" style="width: 100.0%; height: 100.0%;">Фармоптикум<br>Владимирская область, Александров, улица Красной Молодежи, 4</div>`)[0];
+            popup_676960498f89875e47eeb2c1436cd33f.setContent(html_274b136e9ba15aa650f71a864b39dad0);
+        
+
+        marker_94dec560853aa6b15c9c241fd01b688c.bindPopup(popup_676960498f89875e47eeb2c1436cd33f)
+        ;
+
+        
+    
+    
+            var marker_85d860bdd987bdb83afc55c660044763 = L.marker(
+                [56.396877, 38.704327],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_12485b4e495d02f743a242e86820db4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85d860bdd987bdb83afc55c660044763.setIcon(icon_12485b4e495d02f743a242e86820db4a);
+        
+    
+        var popup_d5a2865aa2e074b50aec8c802f9d6a2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eceed9a7fb1603b120f55c1a67b9e414 = $(`<div id="html_eceed9a7fb1603b120f55c1a67b9e414" style="width: 100.0%; height: 100.0%;">Апрель<br>Владимирская область, Александров, Вокзальная улица, 7с2</div>`)[0];
+            popup_d5a2865aa2e074b50aec8c802f9d6a2a.setContent(html_eceed9a7fb1603b120f55c1a67b9e414);
+        
+
+        marker_85d860bdd987bdb83afc55c660044763.bindPopup(popup_d5a2865aa2e074b50aec8c802f9d6a2a)
+        ;
+
+        
+    
+    
+            var marker_6838c85749266d3fcc0d1ae9ad33765f = L.marker(
+                [56.375552, 38.714673],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_a2d69428fad4cfb0c0345ed757b23de3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6838c85749266d3fcc0d1ae9ad33765f.setIcon(icon_a2d69428fad4cfb0c0345ed757b23de3);
+        
+    
+        var popup_3a9943186f286025024486b7ad749cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84d21c116bad6ccb38406606b2a4cb7d = $(`<div id="html_84d21c116bad6ccb38406606b2a4cb7d" style="width: 100.0%; height: 100.0%;">Апрель<br>Владимирская область, Александров, улица Королёва, 4, корп. 2</div>`)[0];
+            popup_3a9943186f286025024486b7ad749cc7.setContent(html_84d21c116bad6ccb38406606b2a4cb7d);
+        
+
+        marker_6838c85749266d3fcc0d1ae9ad33765f.bindPopup(popup_3a9943186f286025024486b7ad749cc7)
+        ;
+
+        
+    
+    
+            var marker_19c3d50b14b2b2949dce8f24de8d4ea3 = L.marker(
+                [56.402344, 38.716255],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_17e0839db756545721a3bef5f8967ce0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19c3d50b14b2b2949dce8f24de8d4ea3.setIcon(icon_17e0839db756545721a3bef5f8967ce0);
+        
+    
+        var popup_3716c52580014dd694e1a7a2c5d43253 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29e5b19f401fb3add653e5b28169acec = $(`<div id="html_29e5b19f401fb3add653e5b28169acec" style="width: 100.0%; height: 100.0%;">Фарт<br>Владимирская область, Александров, улица Восстания 1905 года, 13А</div>`)[0];
+            popup_3716c52580014dd694e1a7a2c5d43253.setContent(html_29e5b19f401fb3add653e5b28169acec);
+        
+
+        marker_19c3d50b14b2b2949dce8f24de8d4ea3.bindPopup(popup_3716c52580014dd694e1a7a2c5d43253)
+        ;
+
+        
+    
+    
+            var marker_e3a2dcaa37c0274d57e331ea356e962c = L.marker(
+                [56.40015, 38.720632],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_5f75305d900384a98c2d1b62567aff86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e3a2dcaa37c0274d57e331ea356e962c.setIcon(icon_5f75305d900384a98c2d1b62567aff86);
+        
+    
+        var popup_cbd851abff7f3acacafcaadcc858e9e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b70623d401d6ac4e4141a0371304ea6 = $(`<div id="html_6b70623d401d6ac4e4141a0371304ea6" style="width: 100.0%; height: 100.0%;">Лавка Жизни<br>Владимирская область, Александров, Казарменный переулок, 1</div>`)[0];
+            popup_cbd851abff7f3acacafcaadcc858e9e4.setContent(html_6b70623d401d6ac4e4141a0371304ea6);
+        
+
+        marker_e3a2dcaa37c0274d57e331ea356e962c.bindPopup(popup_cbd851abff7f3acacafcaadcc858e9e4)
+        ;
+
+        
+    
+    
+            var marker_cc49170781725b7144c3c232a1afe3dc = L.marker(
+                [56.382825, 38.714406],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_b148da31be362a675c5aee55b5401c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc49170781725b7144c3c232a1afe3dc.setIcon(icon_b148da31be362a675c5aee55b5401c98);
+        
+    
+        var popup_0efcd6ed3eca81c518e8c25f561b9422 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f832987a49d1293ba9110795233c35c = $(`<div id="html_6f832987a49d1293ba9110795233c35c" style="width: 100.0%; height: 100.0%;">Аптека<br>Владимирская область, Александров, улица Ческа-Липа, 10</div>`)[0];
+            popup_0efcd6ed3eca81c518e8c25f561b9422.setContent(html_6f832987a49d1293ba9110795233c35c);
+        
+
+        marker_cc49170781725b7144c3c232a1afe3dc.bindPopup(popup_0efcd6ed3eca81c518e8c25f561b9422)
+        ;
+
+        
+    
+    
+            var marker_4c35be890e4701b340275423ac82cedc = L.marker(
+                [56.399058, 38.714995],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_491a371fb897a7e83105515c00ee023c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c35be890e4701b340275423ac82cedc.setIcon(icon_491a371fb897a7e83105515c00ee023c);
+        
+    
+        var popup_afb5f1aa26edc154d0b478aa3a43806a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcf8331e9cff0e924c5dfa4f28c04c65 = $(`<div id="html_bcf8331e9cff0e924c5dfa4f28c04c65" style="width: 100.0%; height: 100.0%;">Аптека и оптика<br>Владимирская область, Александров, Красный переулок, 2</div>`)[0];
+            popup_afb5f1aa26edc154d0b478aa3a43806a.setContent(html_bcf8331e9cff0e924c5dfa4f28c04c65);
+        
+
+        marker_4c35be890e4701b340275423ac82cedc.bindPopup(popup_afb5f1aa26edc154d0b478aa3a43806a)
+        ;
+
+        
+    
+    
+            var marker_290c8b4e92ac885c8e80eae66a32dfa4 = L.marker(
+                [56.397195, 38.715606],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_4f80b2d18113e3684132a71ffa5c5cea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_290c8b4e92ac885c8e80eae66a32dfa4.setIcon(icon_4f80b2d18113e3684132a71ffa5c5cea);
+        
+    
+        var popup_8a0d4fdc71389fd1b4a1129a50cbdc70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f8440382d594f464f1c3561da987fc7 = $(`<div id="html_1f8440382d594f464f1c3561da987fc7" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Владимирская область, Александров, улица Ленина, 20А</div>`)[0];
+            popup_8a0d4fdc71389fd1b4a1129a50cbdc70.setContent(html_1f8440382d594f464f1c3561da987fc7);
+        
+
+        marker_290c8b4e92ac885c8e80eae66a32dfa4.bindPopup(popup_8a0d4fdc71389fd1b4a1129a50cbdc70)
+        ;
+
+        
+    
+    
+            var marker_f5f93ee672576113a635140de5f5b48f = L.marker(
+                [56.395019, 38.715082],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_c24d8be9510735e4e6924408d9969748 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f5f93ee672576113a635140de5f5b48f.setIcon(icon_c24d8be9510735e4e6924408d9969748);
+        
+    
+        var popup_bb174a968245797f9d4bf2be1acf66d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be24c425cedc82d488bf0379b861f71e = $(`<div id="html_be24c425cedc82d488bf0379b861f71e" style="width: 100.0%; height: 100.0%;">Аптека<br>Владимирская область, Александров, Красный переулок, 6А, стр. 3</div>`)[0];
+            popup_bb174a968245797f9d4bf2be1acf66d9.setContent(html_be24c425cedc82d488bf0379b861f71e);
+        
+
+        marker_f5f93ee672576113a635140de5f5b48f.bindPopup(popup_bb174a968245797f9d4bf2be1acf66d9)
+        ;
+
+        
+    
+    
+            var marker_1ffb0ad125ad67e4de3b0e4ebcc3a3b7 = L.marker(
+                [56.395893, 38.714713],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_eb93a0bbb5a0155ac2b42c0b09213f49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ffb0ad125ad67e4de3b0e4ebcc3a3b7.setIcon(icon_eb93a0bbb5a0155ac2b42c0b09213f49);
+        
+    
+        var popup_411f4b6d056e7281cd4e64f54a355781 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cefedd7614b19fc26819a763cacb391 = $(`<div id="html_1cefedd7614b19fc26819a763cacb391" style="width: 100.0%; height: 100.0%;">Аптека<br>Владимирская область, Александров, Красный переулок, 38</div>`)[0];
+            popup_411f4b6d056e7281cd4e64f54a355781.setContent(html_1cefedd7614b19fc26819a763cacb391);
+        
+
+        marker_1ffb0ad125ad67e4de3b0e4ebcc3a3b7.bindPopup(popup_411f4b6d056e7281cd4e64f54a355781)
+        ;
+
+        
+    
+    
+            var marker_22d22389a3924a15c3a2134992e87bcf = L.marker(
+                [56.395141, 38.713979],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_7060340636aec387ee2073af720707dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22d22389a3924a15c3a2134992e87bcf.setIcon(icon_7060340636aec387ee2073af720707dc);
+        
+    
+        var popup_c9100566060330b88c6364c164bac4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87c70291396feffd3a4783a63d260ab4 = $(`<div id="html_87c70291396feffd3a4783a63d260ab4" style="width: 100.0%; height: 100.0%;">Будьте здоровы<br>Владимирская область, Александров, Институтская улица, 2</div>`)[0];
+            popup_c9100566060330b88c6364c164bac4d4.setContent(html_87c70291396feffd3a4783a63d260ab4);
+        
+
+        marker_22d22389a3924a15c3a2134992e87bcf.bindPopup(popup_c9100566060330b88c6364c164bac4d4)
+        ;
+
+        
+    
+    
+            var marker_1cce1c17c1212e2fb613db05b6be1bf6 = L.marker(
+                [56.394582, 38.71332],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_7461e7ab620541d17284ddd15586d1f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1cce1c17c1212e2fb613db05b6be1bf6.setIcon(icon_7461e7ab620541d17284ddd15586d1f1);
+        
+    
+        var popup_0805fb8f2dd93981f867d26084c88d6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3be6335ce76103294d0938cdeccd457b = $(`<div id="html_3be6335ce76103294d0938cdeccd457b" style="width: 100.0%; height: 100.0%;">Лекарь<br>Владимирская область, Александров, Институтская улица, 1</div>`)[0];
+            popup_0805fb8f2dd93981f867d26084c88d6e.setContent(html_3be6335ce76103294d0938cdeccd457b);
+        
+
+        marker_1cce1c17c1212e2fb613db05b6be1bf6.bindPopup(popup_0805fb8f2dd93981f867d26084c88d6e)
+        ;
+
+        
+    
+    
+            var marker_f4f6ffc801db0b370e8d2d20fcba4ad3 = L.marker(
+                [56.375574, 38.716133],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_a0e94e09a4e7f4d1c288cd9964a670db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f4f6ffc801db0b370e8d2d20fcba4ad3.setIcon(icon_a0e94e09a4e7f4d1c288cd9964a670db);
+        
+    
+        var popup_4eb4d51c44d7bdfd43795e45004aa895 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfb02a37069ae7eca0ff6033a881d358 = $(`<div id="html_dfb02a37069ae7eca0ff6033a881d358" style="width: 100.0%; height: 100.0%;">Союз<br>Владимирская область, Александров, улица Королёва, 6А</div>`)[0];
+            popup_4eb4d51c44d7bdfd43795e45004aa895.setContent(html_dfb02a37069ae7eca0ff6033a881d358);
+        
+
+        marker_f4f6ffc801db0b370e8d2d20fcba4ad3.bindPopup(popup_4eb4d51c44d7bdfd43795e45004aa895)
+        ;
+
+        
+    
+    
+            var marker_d136e06e1fb1a8c7f82122a3aba8d285 = L.marker(
+                [56.380638, 38.713776],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_2baa271a78e8f54865b045482c553b23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d136e06e1fb1a8c7f82122a3aba8d285.setIcon(icon_2baa271a78e8f54865b045482c553b23);
+        
+    
+        var popup_f36e6a30d143206375ecc2b02233ca31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30cf8a85d31dc8d952dfcbb4dbffa590 = $(`<div id="html_30cf8a85d31dc8d952dfcbb4dbffa590" style="width: 100.0%; height: 100.0%;">Медилон<br>Владимирская область, Александров, улица Терешковой, 6</div>`)[0];
+            popup_f36e6a30d143206375ecc2b02233ca31.setContent(html_30cf8a85d31dc8d952dfcbb4dbffa590);
+        
+
+        marker_d136e06e1fb1a8c7f82122a3aba8d285.bindPopup(popup_f36e6a30d143206375ecc2b02233ca31)
+        ;
+
+        
+    
+    
+            var marker_13d2a595086376f36e9d375633d021ef = L.marker(
+                [56.378786, 38.712572],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_b635d220d180136be4b87c20bd894f06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_13d2a595086376f36e9d375633d021ef.setIcon(icon_b635d220d180136be4b87c20bd894f06);
+        
+    
+        var popup_94a5488f6f18d25c8d2c131113342925 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_816345e9cf503aa9dc068e52a87efa24 = $(`<div id="html_816345e9cf503aa9dc068e52a87efa24" style="width: 100.0%; height: 100.0%;">Апрель<br>Владимирская область, Александров, улица Кубасова, 3</div>`)[0];
+            popup_94a5488f6f18d25c8d2c131113342925.setContent(html_816345e9cf503aa9dc068e52a87efa24);
+        
+
+        marker_13d2a595086376f36e9d375633d021ef.bindPopup(popup_94a5488f6f18d25c8d2c131113342925)
+        ;
+
+        
+    
+    
+            var marker_937ad0cff69eafacaf17e15911ac79cf = L.marker(
+                [56.397525, 38.713266],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_43c380401d9e11005aa6c81eb768829f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_937ad0cff69eafacaf17e15911ac79cf.setIcon(icon_43c380401d9e11005aa6c81eb768829f);
+        
+    
+        var popup_c65c79e32b55f6c049c79d6d6a5ac195 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9183dce268d7e2e6a9898ea996a20904 = $(`<div id="html_9183dce268d7e2e6a9898ea996a20904" style="width: 100.0%; height: 100.0%;">Апрель<br>Владимирская область, Александров, улица Ленина, 7</div>`)[0];
+            popup_c65c79e32b55f6c049c79d6d6a5ac195.setContent(html_9183dce268d7e2e6a9898ea996a20904);
+        
+
+        marker_937ad0cff69eafacaf17e15911ac79cf.bindPopup(popup_c65c79e32b55f6c049c79d6d6a5ac195)
+        ;
+
+        
+    
+    
+            var marker_322fd039bdf8ecfbb29f6b272248f303 = L.marker(
+                [56.399891, 38.718925],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_4972bfc3343442fbee719cc800811796 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_322fd039bdf8ecfbb29f6b272248f303.setIcon(icon_4972bfc3343442fbee719cc800811796);
+        
+    
+        var popup_b0feb56e4a3f1ab57b87b866745904ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ac0381452089a5cb7c8d7e70d904aad = $(`<div id="html_2ac0381452089a5cb7c8d7e70d904aad" style="width: 100.0%; height: 100.0%;">Аптечество<br>Владимирская область, Александров, улица Революции, 38</div>`)[0];
+            popup_b0feb56e4a3f1ab57b87b866745904ac.setContent(html_2ac0381452089a5cb7c8d7e70d904aad);
+        
+
+        marker_322fd039bdf8ecfbb29f6b272248f303.bindPopup(popup_b0feb56e4a3f1ab57b87b866745904ac)
+        ;
+
+        
+    
+    
+            var marker_69dfe09474e0a407aeb76859c8c279af = L.marker(
+                [56.39757, 38.713041],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_612d627087779d526c6acfd24baeefa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69dfe09474e0a407aeb76859c8c279af.setIcon(icon_612d627087779d526c6acfd24baeefa6);
+        
+    
+        var popup_43f5182045dbbb407fd45eff1fadaf0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c55311505c6fe9c5e6e29f8df515f5c = $(`<div id="html_5c55311505c6fe9c5e6e29f8df515f5c" style="width: 100.0%; height: 100.0%;">Максавит<br>Владимирская область, Александров, улица Ленина, 7</div>`)[0];
+            popup_43f5182045dbbb407fd45eff1fadaf0d.setContent(html_5c55311505c6fe9c5e6e29f8df515f5c);
+        
+
+        marker_69dfe09474e0a407aeb76859c8c279af.bindPopup(popup_43f5182045dbbb407fd45eff1fadaf0d)
+        ;
+
+        
+    
+    
+            var marker_8f4a8490a4ef93957e6f797867a5e1ee = L.marker(
+                [56.402472, 38.716055],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_17337466c2ea5b1284df5e475d870ff7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f4a8490a4ef93957e6f797867a5e1ee.setIcon(icon_17337466c2ea5b1284df5e475d870ff7);
+        
+    
+        var popup_2e53138cc07aec2c4794c718c468543a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a47e5038f7c6bd982afc33c357dd8bc6 = $(`<div id="html_a47e5038f7c6bd982afc33c357dd8bc6" style="width: 100.0%; height: 100.0%;">Фарм 1<br>Владимирская область, Александров, улица Восстания 1905 года, 13А</div>`)[0];
+            popup_2e53138cc07aec2c4794c718c468543a.setContent(html_a47e5038f7c6bd982afc33c357dd8bc6);
+        
+
+        marker_8f4a8490a4ef93957e6f797867a5e1ee.bindPopup(popup_2e53138cc07aec2c4794c718c468543a)
+        ;
+
+        
+    
+    
+            var marker_fcf341332e1f16d9f051c71266ac9d34 = L.marker(
+                [56.395875, 38.714685],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_d9755073b03f93e5c8d602b0f6daa26b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fcf341332e1f16d9f051c71266ac9d34.setIcon(icon_d9755073b03f93e5c8d602b0f6daa26b);
+        
+    
+        var popup_df4e0c103f7f899db73f6cc3909584b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7733ef2784496559a6d4eb6455646d5 = $(`<div id="html_e7733ef2784496559a6d4eb6455646d5" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Владимирская область, Александров, Красный переулок, 6А</div>`)[0];
+            popup_df4e0c103f7f899db73f6cc3909584b3.setContent(html_e7733ef2784496559a6d4eb6455646d5);
+        
+
+        marker_fcf341332e1f16d9f051c71266ac9d34.bindPopup(popup_df4e0c103f7f899db73f6cc3909584b3)
+        ;
+
+        
+    
+    
+            var marker_e4cbf8f6f3e01eca8730647748b15552 = L.marker(
+                [56.383337, 38.714556],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_b252334fd1e8daff489347530c67b4e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e4cbf8f6f3e01eca8730647748b15552.setIcon(icon_b252334fd1e8daff489347530c67b4e4);
+        
+    
+        var popup_4664c2212cf1e3f2bcd496a10e73e220 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_231fe5138c68b4cf1a93e98ad5f89070 = $(`<div id="html_231fe5138c68b4cf1a93e98ad5f89070" style="width: 100.0%; height: 100.0%;">Максавит<br>Владимирская область, Александров, улица Ческа-Липа, 12/1</div>`)[0];
+            popup_4664c2212cf1e3f2bcd496a10e73e220.setContent(html_231fe5138c68b4cf1a93e98ad5f89070);
+        
+
+        marker_e4cbf8f6f3e01eca8730647748b15552.bindPopup(popup_4664c2212cf1e3f2bcd496a10e73e220)
+        ;
+
+        
+    
+    
+            var marker_ec12a8a05968780905083c464bf0a0b8 = L.marker(
+                [56.396896, 38.712209],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_d87386e1c095a33c03d10904d913bebd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec12a8a05968780905083c464bf0a0b8.setIcon(icon_d87386e1c095a33c03d10904d913bebd);
+        
+    
+        var popup_3fcbf6ec8ed3b5f8f6e28987a99d9e2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d427dc9a8bbbeecbe6059f5ffca648d = $(`<div id="html_5d427dc9a8bbbeecbe6059f5ffca648d" style="width: 100.0%; height: 100.0%;">Аптека<br>Владимирская область, Александров, улица Ленина, 16</div>`)[0];
+            popup_3fcbf6ec8ed3b5f8f6e28987a99d9e2a.setContent(html_5d427dc9a8bbbeecbe6059f5ffca648d);
+        
+
+        marker_ec12a8a05968780905083c464bf0a0b8.bindPopup(popup_3fcbf6ec8ed3b5f8f6e28987a99d9e2a)
+        ;
+
+        
+    
+    
+            var marker_b5964bac02d1a74e4ae1b078b1a8c45d = L.marker(
+                [56.398026, 38.719145],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_085233830c17b8f0f66736b8fa4711e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5964bac02d1a74e4ae1b078b1a8c45d.setIcon(icon_085233830c17b8f0f66736b8fa4711e8);
+        
+    
+        var popup_8a6a6598cbb18fc5600349fdcf2ca9da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a488704a5e37b8b951e71c5e0e52a637 = $(`<div id="html_a488704a5e37b8b951e71c5e0e52a637" style="width: 100.0%; height: 100.0%;">56.397943, 38.719140<br>Владимирская область, Александров, улица Ленина, 13/6</div>`)[0];
+            popup_8a6a6598cbb18fc5600349fdcf2ca9da.setContent(html_a488704a5e37b8b951e71c5e0e52a637);
+        
+
+        marker_b5964bac02d1a74e4ae1b078b1a8c45d.bindPopup(popup_8a6a6598cbb18fc5600349fdcf2ca9da)
+        ;
+
+        
+    
+    
+            var marker_b79ecf92e5847a06aa20ae9fc6d0dd8d = L.marker(
+                [56.395502, 38.762296],
+                {}
+            ).addTo(map_f237f4597fc878ce8a58a7d8ff498708);
+        
+    
+            var icon_e7ee2cbc20efefb545149792c0dfdb39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b79ecf92e5847a06aa20ae9fc6d0dd8d.setIcon(icon_e7ee2cbc20efefb545149792c0dfdb39);
+        
+    
+        var popup_f5068a439cdd628c316a0c40d321952d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_589d556857648043290c55fe3e040d80 = $(`<div id="html_589d556857648043290c55fe3e040d80" style="width: 100.0%; height: 100.0%;">Антей<br>Владимирская область, Александров, Кольчугинская улица, 48</div>`)[0];
+            popup_f5068a439cdd628c316a0c40d321952d.setContent(html_589d556857648043290c55fe3e040d80);
+        
+
+        marker_b79ecf92e5847a06aa20ae9fc6d0dd8d.bindPopup(popup_f5068a439cdd628c316a0c40d321952d)
+        ;
+
+        
+    
+</script>
+</html>

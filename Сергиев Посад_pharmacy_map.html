@@ -1,0 +1,2268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3ffa1bca35adcd1f9bb95eafc5f6b2de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3ffa1bca35adcd1f9bb95eafc5f6b2de" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3ffa1bca35adcd1f9bb95eafc5f6b2de = L.map(
+                "map_3ffa1bca35adcd1f9bb95eafc5f6b2de",
+                {
+                    center: [56.316021, 38.136587],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_01fda9cfa008995a7abf93b5898e21ca = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var marker_97f7e3af94d2bf979cc44b537fdae5ea = L.marker(
+                [56.316021, 38.136587],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_15161d9623736ebdd89003e2d94b9907 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97f7e3af94d2bf979cc44b537fdae5ea.setIcon(icon_15161d9623736ebdd89003e2d94b9907);
+        
+    
+        var popup_fbd1ae494ef80f72bb924343dd49fc33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32f67c1044ed70fe5b5a225d1c6c8ea7 = $(`<div id="html_32f67c1044ed70fe5b5a225d1c6c8ea7" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Сергиев Посад, проспект Красной Армии, 171</div>`)[0];
+            popup_fbd1ae494ef80f72bb924343dd49fc33.setContent(html_32f67c1044ed70fe5b5a225d1c6c8ea7);
+        
+
+        marker_97f7e3af94d2bf979cc44b537fdae5ea.bindPopup(popup_fbd1ae494ef80f72bb924343dd49fc33)
+        ;
+
+        
+    
+    
+            var marker_634700274fde1bb41a45a953ac95831a = L.marker(
+                [56.32289, 38.134828],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_84179272159867a899cbb827aaa00a3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_634700274fde1bb41a45a953ac95831a.setIcon(icon_84179272159867a899cbb827aaa00a3c);
+        
+    
+        var popup_2dbbdd798707813f4ab02001189a3954 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a71f299dde35361b255bc802231d9fd = $(`<div id="html_3a71f299dde35361b255bc802231d9fd" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Сергиев Посад, Новоугличское шоссе, 15А</div>`)[0];
+            popup_2dbbdd798707813f4ab02001189a3954.setContent(html_3a71f299dde35361b255bc802231d9fd);
+        
+
+        marker_634700274fde1bb41a45a953ac95831a.bindPopup(popup_2dbbdd798707813f4ab02001189a3954)
+        ;
+
+        
+    
+    
+            var marker_87cbdfc5daca033ef23399367afe3258 = L.marker(
+                [56.317039, 38.141892],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_14b44099fde6af7c8db3ce7991e20152 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87cbdfc5daca033ef23399367afe3258.setIcon(icon_14b44099fde6af7c8db3ce7991e20152);
+        
+    
+        var popup_b7cf0fcfc90cb579e100ba886e8a0d54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_953ed439b1f3e6c51557fa60ead935a1 = $(`<div id="html_953ed439b1f3e6c51557fa60ead935a1" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Сергиев Посад, Бероунская улица, 5</div>`)[0];
+            popup_b7cf0fcfc90cb579e100ba886e8a0d54.setContent(html_953ed439b1f3e6c51557fa60ead935a1);
+        
+
+        marker_87cbdfc5daca033ef23399367afe3258.bindPopup(popup_b7cf0fcfc90cb579e100ba886e8a0d54)
+        ;
+
+        
+    
+    
+            var marker_356ca1d5d2f16b1513a7a0874c7b0542 = L.marker(
+                [56.304502, 38.134393],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_272d0951c5b8cf92bedca6b04b6365f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_356ca1d5d2f16b1513a7a0874c7b0542.setIcon(icon_272d0951c5b8cf92bedca6b04b6365f6);
+        
+    
+        var popup_2b097271b7e216d9759d14f8d77d441a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaed84864ac33d33a4114ea41a2ac986 = $(`<div id="html_eaed84864ac33d33a4114ea41a2ac986" style="width: 100.0%; height: 100.0%;">Посадский лекарь<br>Московская область, Сергиев Посад, 1-я Рыбная улица, 10</div>`)[0];
+            popup_2b097271b7e216d9759d14f8d77d441a.setContent(html_eaed84864ac33d33a4114ea41a2ac986);
+        
+
+        marker_356ca1d5d2f16b1513a7a0874c7b0542.bindPopup(popup_2b097271b7e216d9759d14f8d77d441a)
+        ;
+
+        
+    
+    
+            var marker_79e272cf99f7b75c9ff187e52bdcd197 = L.marker(
+                [56.327097, 38.150986],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_77e3647e3e0d9ff482c0a034c6032b7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79e272cf99f7b75c9ff187e52bdcd197.setIcon(icon_77e3647e3e0d9ff482c0a034c6032b7b);
+        
+    
+        var popup_b55fc182151ad165047067ca51fe27a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d85fb647c9f9fae9e2475cc20b119752 = $(`<div id="html_d85fb647c9f9fae9e2475cc20b119752" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Сергиев Посад, проспект Красной Армии, 218</div>`)[0];
+            popup_b55fc182151ad165047067ca51fe27a6.setContent(html_d85fb647c9f9fae9e2475cc20b119752);
+        
+
+        marker_79e272cf99f7b75c9ff187e52bdcd197.bindPopup(popup_b55fc182151ad165047067ca51fe27a6)
+        ;
+
+        
+    
+    
+            var marker_a95abc820438ce43a1c395e551efdd2c = L.marker(
+                [56.329556, 38.153736],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_27c4c8960738f3b860904f278069c36d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a95abc820438ce43a1c395e551efdd2c.setIcon(icon_27c4c8960738f3b860904f278069c36d);
+        
+    
+        var popup_d3dc738a6bdc3e5807bc07eeb57485be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51e1a602f6113f516fa9f60a6d5aa9e6 = $(`<div id="html_51e1a602f6113f516fa9f60a6d5aa9e6" style="width: 100.0%; height: 100.0%;">Государственная аптека № 326 ГБУ МО Мособлмедсервис<br>Московская область, Сергиев Посад, проспект Красной Армии, 234, корп. 6</div>`)[0];
+            popup_d3dc738a6bdc3e5807bc07eeb57485be.setContent(html_51e1a602f6113f516fa9f60a6d5aa9e6);
+        
+
+        marker_a95abc820438ce43a1c395e551efdd2c.bindPopup(popup_d3dc738a6bdc3e5807bc07eeb57485be)
+        ;
+
+        
+    
+    
+            var marker_5c47ebd5e5fd81655f269fcde3dcd295 = L.marker(
+                [56.325529, 38.133897],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_ecf929c653e66142e263c3aa6999e72c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c47ebd5e5fd81655f269fcde3dcd295.setIcon(icon_ecf929c653e66142e263c3aa6999e72c);
+        
+    
+        var popup_a085a7413645f6d68d873fdc93fc553f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72eeec49bbddd35d604d891073db31ad = $(`<div id="html_72eeec49bbddd35d604d891073db31ad" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Сергиев Посад, Новоугличское шоссе, 42А</div>`)[0];
+            popup_a085a7413645f6d68d873fdc93fc553f.setContent(html_72eeec49bbddd35d604d891073db31ad);
+        
+
+        marker_5c47ebd5e5fd81655f269fcde3dcd295.bindPopup(popup_a085a7413645f6d68d873fdc93fc553f)
+        ;
+
+        
+    
+    
+            var marker_38b72203feb0df69c57f09399fcbc825 = L.marker(
+                [56.327993, 38.148416],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_002e2fccd0a4eef4500d9dde86634eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38b72203feb0df69c57f09399fcbc825.setIcon(icon_002e2fccd0a4eef4500d9dde86634eee);
+        
+    
+        var popup_3c2c7983a9962873f120843ac47f637c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_415de2c1722bffe96e71d2c5f5ccf9e3 = $(`<div id="html_415de2c1722bffe96e71d2c5f5ccf9e3" style="width: 100.0%; height: 100.0%;">Ваша аптека<br>Московская область, Сергиев Посад, улица Глинки, 8А</div>`)[0];
+            popup_3c2c7983a9962873f120843ac47f637c.setContent(html_415de2c1722bffe96e71d2c5f5ccf9e3);
+        
+
+        marker_38b72203feb0df69c57f09399fcbc825.bindPopup(popup_3c2c7983a9962873f120843ac47f637c)
+        ;
+
+        
+    
+    
+            var marker_25984c69c09844be49bd67af171e03cc = L.marker(
+                [56.311959, 38.133037],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_b4afabe8789c76e71d9a0cc9f6a4fe61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25984c69c09844be49bd67af171e03cc.setIcon(icon_b4afabe8789c76e71d9a0cc9f6a4fe61);
+        
+    
+        var popup_9fd88d2346cf6ef705490256a65e7b66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b069fae363d025ac319a7980b5cf2705 = $(`<div id="html_b069fae363d025ac319a7980b5cf2705" style="width: 100.0%; height: 100.0%;">Аптека № 33<br>Московская область, Сергиев Посад, Красногорская площадь, 1</div>`)[0];
+            popup_9fd88d2346cf6ef705490256a65e7b66.setContent(html_b069fae363d025ac319a7980b5cf2705);
+        
+
+        marker_25984c69c09844be49bd67af171e03cc.bindPopup(popup_9fd88d2346cf6ef705490256a65e7b66)
+        ;
+
+        
+    
+    
+            var marker_d9f76c3d243500be459fe88749957629 = L.marker(
+                [56.295365, 38.127309],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_6395ba69d854005670c0d438bff1b517 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9f76c3d243500be459fe88749957629.setIcon(icon_6395ba69d854005670c0d438bff1b517);
+        
+    
+        var popup_99852c975f2717059f5a6d910531b7f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a23930103bb016618193ec9414edd34 = $(`<div id="html_4a23930103bb016618193ec9414edd34" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Сергиев Посад, проспект Красной Армии, 3</div>`)[0];
+            popup_99852c975f2717059f5a6d910531b7f2.setContent(html_4a23930103bb016618193ec9414edd34);
+        
+
+        marker_d9f76c3d243500be459fe88749957629.bindPopup(popup_99852c975f2717059f5a6d910531b7f2)
+        ;
+
+        
+    
+    
+            var marker_a197457f1c752ccf7eed61df0ed864c4 = L.marker(
+                [56.323791, 38.141351],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_28d5398d373038ee4960f9092ceb0c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a197457f1c752ccf7eed61df0ed864c4.setIcon(icon_28d5398d373038ee4960f9092ceb0c4f);
+        
+    
+        var popup_239d46cf45a5f1048579cc441be13322 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cb1bc7a95535138c3f48808c5d53e18 = $(`<div id="html_9cb1bc7a95535138c3f48808c5d53e18" style="width: 100.0%; height: 100.0%;">Сиафарм<br>Московская область, Сергиев Посад, Инженерная улица, 8</div>`)[0];
+            popup_239d46cf45a5f1048579cc441be13322.setContent(html_9cb1bc7a95535138c3f48808c5d53e18);
+        
+
+        marker_a197457f1c752ccf7eed61df0ed864c4.bindPopup(popup_239d46cf45a5f1048579cc441be13322)
+        ;
+
+        
+    
+    
+            var marker_3e1c52c957188bf50767ce1154f99aad = L.marker(
+                [56.316194, 38.137988],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_4a29d1ba6172998d60b7a393212ac50b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e1c52c957188bf50767ce1154f99aad.setIcon(icon_4a29d1ba6172998d60b7a393212ac50b);
+        
+    
+        var popup_3776c55894f591fa0abaa60bbc9b5180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a1dd30e4df0ff5fb32bedd6b8289c41 = $(`<div id="html_8a1dd30e4df0ff5fb32bedd6b8289c41" style="width: 100.0%; height: 100.0%;">Здоров.ру<br>Московская область, Сергиев Посад, проспект Красной Армии, 182</div>`)[0];
+            popup_3776c55894f591fa0abaa60bbc9b5180.setContent(html_8a1dd30e4df0ff5fb32bedd6b8289c41);
+        
+
+        marker_3e1c52c957188bf50767ce1154f99aad.bindPopup(popup_3776c55894f591fa0abaa60bbc9b5180)
+        ;
+
+        
+    
+    
+            var marker_fb246c1342b0f0b9ea827a0f0384b21f = L.marker(
+                [56.298365, 38.174948],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_5849de51075dd3b3c4c03a88b061c83e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fb246c1342b0f0b9ea827a0f0384b21f.setIcon(icon_5849de51075dd3b3c4c03a88b061c83e);
+        
+    
+        var popup_46232130fef2deecb04ac9221d7aaa91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_307a91eca736a951094d16a97c54a02a = $(`<div id="html_307a91eca736a951094d16a97c54a02a" style="width: 100.0%; height: 100.0%;">Самфарм<br>Московская область, Сергиев Посад, посёлок Птицеград, Птицеградская улица, 2Б</div>`)[0];
+            popup_46232130fef2deecb04ac9221d7aaa91.setContent(html_307a91eca736a951094d16a97c54a02a);
+        
+
+        marker_fb246c1342b0f0b9ea827a0f0384b21f.bindPopup(popup_46232130fef2deecb04ac9221d7aaa91)
+        ;
+
+        
+    
+    
+            var marker_6651e030e59b10d3d153c40ac6df22f8 = L.marker(
+                [56.326957, 38.131705],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_0f41b789e30513e8c1a90346920f2068 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6651e030e59b10d3d153c40ac6df22f8.setIcon(icon_0f41b789e30513e8c1a90346920f2068);
+        
+    
+        var popup_2ff8c4c6100e1149a2c8ff82ddd090ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe43c05b8f7201748f75f9362e444c1f = $(`<div id="html_fe43c05b8f7201748f75f9362e444c1f" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Сергиев Посад, Новоугличское шоссе, 57</div>`)[0];
+            popup_2ff8c4c6100e1149a2c8ff82ddd090ed.setContent(html_fe43c05b8f7201748f75f9362e444c1f);
+        
+
+        marker_6651e030e59b10d3d153c40ac6df22f8.bindPopup(popup_2ff8c4c6100e1149a2c8ff82ddd090ed)
+        ;
+
+        
+    
+    
+            var marker_1ff1a469cac8346d34e0e79c78f836fd = L.marker(
+                [56.30292, 38.13494],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_6dd051eb88baa9eb3e80b5f670df909d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ff1a469cac8346d34e0e79c78f836fd.setIcon(icon_6dd051eb88baa9eb3e80b5f670df909d);
+        
+    
+        var popup_dac04edcb5287cad634b9ca690af2fea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a3f7531f743909b3d240aa0f4ed8762 = $(`<div id="html_1a3f7531f743909b3d240aa0f4ed8762" style="width: 100.0%; height: 100.0%;">Посадский лекарь<br>Московская область, Сергиев Посад, Вознесенская улица, 55</div>`)[0];
+            popup_dac04edcb5287cad634b9ca690af2fea.setContent(html_1a3f7531f743909b3d240aa0f4ed8762);
+        
+
+        marker_1ff1a469cac8346d34e0e79c78f836fd.bindPopup(popup_dac04edcb5287cad634b9ca690af2fea)
+        ;
+
+        
+    
+    
+            var marker_a53d914b2949db036cc35b4254d3c379 = L.marker(
+                [56.304275, 38.136326],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_6eae77d47f63f72be2bd93b2566ac95c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a53d914b2949db036cc35b4254d3c379.setIcon(icon_6eae77d47f63f72be2bd93b2566ac95c);
+        
+    
+        var popup_e263623b13f1d300dc11d75e45fddbe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc83fbdefc162e887ad35e1cd4182100 = $(`<div id="html_bc83fbdefc162e887ad35e1cd4182100" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Сергиев Посад, 1-я Рыбная улица, 18/2</div>`)[0];
+            popup_e263623b13f1d300dc11d75e45fddbe1.setContent(html_bc83fbdefc162e887ad35e1cd4182100);
+        
+
+        marker_a53d914b2949db036cc35b4254d3c379.bindPopup(popup_e263623b13f1d300dc11d75e45fddbe1)
+        ;
+
+        
+    
+    
+            var marker_0a5230b48d88289acf384878aa8f594d = L.marker(
+                [56.331822, 38.154577],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_ed5e48587d748f8eb968aa74f9ce5bf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a5230b48d88289acf384878aa8f594d.setIcon(icon_ed5e48587d748f8eb968aa74f9ce5bf5);
+        
+    
+        var popup_e22ee1e739ad7d9c62babe3bbd7d5288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3f8111f038525881e5d0eb215cf3191 = $(`<div id="html_d3f8111f038525881e5d0eb215cf3191" style="width: 100.0%; height: 100.0%;">Домашний Доктор<br>Московская область, Сергиев Посад, проспект Красной Армии, 247</div>`)[0];
+            popup_e22ee1e739ad7d9c62babe3bbd7d5288.setContent(html_d3f8111f038525881e5d0eb215cf3191);
+        
+
+        marker_0a5230b48d88289acf384878aa8f594d.bindPopup(popup_e22ee1e739ad7d9c62babe3bbd7d5288)
+        ;
+
+        
+    
+    
+            var marker_cbb910f8bbd5d3fb32ad492ae8895dd3 = L.marker(
+                [56.290688, 38.149618],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_7a8ac40d0f2e357137c51fd7dd05230d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbb910f8bbd5d3fb32ad492ae8895dd3.setIcon(icon_7a8ac40d0f2e357137c51fd7dd05230d);
+        
+    
+        var popup_3c95b898b304a677379db5224c2bd20d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27b08a3529a5ed6a616310fecd6327bb = $(`<div id="html_27b08a3529a5ed6a616310fecd6327bb" style="width: 100.0%; height: 100.0%;">Будь Здоров!<br>Московская область, Сергиев Посад, Центральная улица, 60</div>`)[0];
+            popup_3c95b898b304a677379db5224c2bd20d.setContent(html_27b08a3529a5ed6a616310fecd6327bb);
+        
+
+        marker_cbb910f8bbd5d3fb32ad492ae8895dd3.bindPopup(popup_3c95b898b304a677379db5224c2bd20d)
+        ;
+
+        
+    
+    
+            var marker_f54afffee5df03adc3b377490aef3f34 = L.marker(
+                [56.302787, 38.135873],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_d7c03f7be1bdf0d2b6a70a901ee7b1d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f54afffee5df03adc3b377490aef3f34.setIcon(icon_d7c03f7be1bdf0d2b6a70a901ee7b1d2);
+        
+    
+        var popup_5b87a1a3f60b44b78abf52311f31ca99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1900973735d8b43dedcf59781e8931c = $(`<div id="html_a1900973735d8b43dedcf59781e8931c" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Сергиев Посад, Вокзальная площадь, 1</div>`)[0];
+            popup_5b87a1a3f60b44b78abf52311f31ca99.setContent(html_a1900973735d8b43dedcf59781e8931c);
+        
+
+        marker_f54afffee5df03adc3b377490aef3f34.bindPopup(popup_5b87a1a3f60b44b78abf52311f31ca99)
+        ;
+
+        
+    
+    
+            var marker_b0308d7ab71a4e7488e243475da2b949 = L.marker(
+                [56.317123, 38.138883],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_8a6da168a9dec4fab3ff58104caa4a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0308d7ab71a4e7488e243475da2b949.setIcon(icon_8a6da168a9dec4fab3ff58104caa4a24);
+        
+    
+        var popup_ab6f26156c5a84aae7d76428eef6e4d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52c297408892a24fac1a2ee470cdfe96 = $(`<div id="html_52c297408892a24fac1a2ee470cdfe96" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Сергиев Посад, проспект Красной Армии, 186/2</div>`)[0];
+            popup_ab6f26156c5a84aae7d76428eef6e4d8.setContent(html_52c297408892a24fac1a2ee470cdfe96);
+        
+
+        marker_b0308d7ab71a4e7488e243475da2b949.bindPopup(popup_ab6f26156c5a84aae7d76428eef6e4d8)
+        ;
+
+        
+    
+    
+            var marker_e56e22eb45fbe224039d480976e97fe8 = L.marker(
+                [56.297473, 38.128935],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_feede8eeb5021b23eb1746979b9e2185 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e56e22eb45fbe224039d480976e97fe8.setIcon(icon_feede8eeb5021b23eb1746979b9e2185);
+        
+    
+        var popup_33a1c018b374c041777988b3650a74f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a41b4580c2a1c843d233d5018ad17adc = $(`<div id="html_a41b4580c2a1c843d233d5018ad17adc" style="width: 100.0%; height: 100.0%;">Городская аптека<br>Московская область, Сергиев Посад, проспект Красной Армии, 12</div>`)[0];
+            popup_33a1c018b374c041777988b3650a74f1.setContent(html_a41b4580c2a1c843d233d5018ad17adc);
+        
+
+        marker_e56e22eb45fbe224039d480976e97fe8.bindPopup(popup_33a1c018b374c041777988b3650a74f1)
+        ;
+
+        
+    
+    
+            var marker_1edc7c870948a31050b4528bf0d840a5 = L.marker(
+                [56.328858, 38.132361],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_58f7d3653cfde01d80e67fb888e91791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1edc7c870948a31050b4528bf0d840a5.setIcon(icon_58f7d3653cfde01d80e67fb888e91791);
+        
+    
+        var popup_bd747913cd0c639e309e4bd63df3dbaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66c22687ce9a235285d6feebd5d16ecd = $(`<div id="html_66c22687ce9a235285d6feebd5d16ecd" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Сергиев Посад, Новоугличское шоссе, 50</div>`)[0];
+            popup_bd747913cd0c639e309e4bd63df3dbaf.setContent(html_66c22687ce9a235285d6feebd5d16ecd);
+        
+
+        marker_1edc7c870948a31050b4528bf0d840a5.bindPopup(popup_bd747913cd0c639e309e4bd63df3dbaf)
+        ;
+
+        
+    
+    
+            var marker_381337d42bb56560c749bf0e93da6900 = L.marker(
+                [56.298081, 38.175039],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_85ed7b83835ebe28e7b1f4c58aad77cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_381337d42bb56560c749bf0e93da6900.setIcon(icon_85ed7b83835ebe28e7b1f4c58aad77cb);
+        
+    
+        var popup_a8228a6f61311b6bc8feb609fd8b77bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_337f126c61173f2902cc0db118d1fe59 = $(`<div id="html_337f126c61173f2902cc0db118d1fe59" style="width: 100.0%; height: 100.0%;">Магнит Аптека<br>Московская область, Сергиев Посад, посёлок Птицеград, Птицеградская улица, 2Б</div>`)[0];
+            popup_a8228a6f61311b6bc8feb609fd8b77bf.setContent(html_337f126c61173f2902cc0db118d1fe59);
+        
+
+        marker_381337d42bb56560c749bf0e93da6900.bindPopup(popup_a8228a6f61311b6bc8feb609fd8b77bf)
+        ;
+
+        
+    
+    
+            var marker_50be6345b581d4edef7d034c48a799a3 = L.marker(
+                [56.317254, 38.13781],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_8a7e0612beecb65bd5ead9b012be0798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50be6345b581d4edef7d034c48a799a3.setIcon(icon_8a7e0612beecb65bd5ead9b012be0798);
+        
+    
+        var popup_4ec68e94d98dccb1d05114e060464cef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6647d7e70820730f2c03a5c3793e667 = $(`<div id="html_b6647d7e70820730f2c03a5c3793e667" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Сергиев Посад, проспект Красной Армии, 185В</div>`)[0];
+            popup_4ec68e94d98dccb1d05114e060464cef.setContent(html_b6647d7e70820730f2c03a5c3793e667);
+        
+
+        marker_50be6345b581d4edef7d034c48a799a3.bindPopup(popup_4ec68e94d98dccb1d05114e060464cef)
+        ;
+
+        
+    
+    
+            var marker_14b8950cd69129d57e5e5f35cceb5305 = L.marker(
+                [56.285082, 38.125856],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_b3748c8e033c1a23f9d97e2cef25c189 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14b8950cd69129d57e5e5f35cceb5305.setIcon(icon_b3748c8e033c1a23f9d97e2cef25c189);
+        
+    
+        var popup_346ec0ddb0d648fd45f5f263ef9db925 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17ff1d6c3aea582a4f5d09995b19593e = $(`<div id="html_17ff1d6c3aea582a4f5d09995b19593e" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Сергиев Посад, Московское шоссе, 17</div>`)[0];
+            popup_346ec0ddb0d648fd45f5f263ef9db925.setContent(html_17ff1d6c3aea582a4f5d09995b19593e);
+        
+
+        marker_14b8950cd69129d57e5e5f35cceb5305.bindPopup(popup_346ec0ddb0d648fd45f5f263ef9db925)
+        ;
+
+        
+    
+    
+            var marker_d2d0bbe75169b6ab82c9b03d67f265b4 = L.marker(
+                [56.330248, 38.154514],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_315d7e55a83b63c94a72a6f312599845 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2d0bbe75169b6ab82c9b03d67f265b4.setIcon(icon_315d7e55a83b63c94a72a6f312599845);
+        
+    
+        var popup_e16e1103e00364e057624e32c3f2c4c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7022f0e8fd0d34b6509003f9aaff3c19 = $(`<div id="html_7022f0e8fd0d34b6509003f9aaff3c19" style="width: 100.0%; height: 100.0%;">Медтехника<br>Московская область, Сергиев Посад, проспект Красной Армии, 234к6</div>`)[0];
+            popup_e16e1103e00364e057624e32c3f2c4c3.setContent(html_7022f0e8fd0d34b6509003f9aaff3c19);
+        
+
+        marker_d2d0bbe75169b6ab82c9b03d67f265b4.bindPopup(popup_e16e1103e00364e057624e32c3f2c4c3)
+        ;
+
+        
+    
+    
+            var marker_f4c52215d2a5d61e68e83f68f1936f97 = L.marker(
+                [56.322808, 38.145774],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_6348ecd3bb8b946343b6fb84d2c60993 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f4c52215d2a5d61e68e83f68f1936f97.setIcon(icon_6348ecd3bb8b946343b6fb84d2c60993);
+        
+    
+        var popup_05f8958d90998de0724e176fba24b033 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87230f44c120d06be22868e737a6f134 = $(`<div id="html_87230f44c120d06be22868e737a6f134" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Сергиев Посад, проспект Красной Армии, 212А</div>`)[0];
+            popup_05f8958d90998de0724e176fba24b033.setContent(html_87230f44c120d06be22868e737a6f134);
+        
+
+        marker_f4c52215d2a5d61e68e83f68f1936f97.bindPopup(popup_05f8958d90998de0724e176fba24b033)
+        ;
+
+        
+    
+    
+            var marker_22f97709d374cbb3804ef802d4ff9fd6 = L.marker(
+                [56.290254, 38.176402],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_b93aa9c6a996a6682da4ebec07e05d3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22f97709d374cbb3804ef802d4ff9fd6.setIcon(icon_b93aa9c6a996a6682da4ebec07e05d3a);
+        
+    
+        var popup_cdde52b7695d0b43b591e799ce6624d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76ceb884da14252c22771a1a618e0eaf = $(`<div id="html_76ceb884da14252c22771a1a618e0eaf" style="width: 100.0%; height: 100.0%;">Виола<br>Московская область, Сергиев Посад, посёлок Птицеград, Птицеградская улица, 14</div>`)[0];
+            popup_cdde52b7695d0b43b591e799ce6624d0.setContent(html_76ceb884da14252c22771a1a618e0eaf);
+        
+
+        marker_22f97709d374cbb3804ef802d4ff9fd6.bindPopup(popup_cdde52b7695d0b43b591e799ce6624d0)
+        ;
+
+        
+    
+    
+            var marker_5fba136baa1cd4f7b9073264b72d0d23 = L.marker(
+                [56.295415, 38.121767],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_5863409a85fce636f42eb44dbc6e226a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5fba136baa1cd4f7b9073264b72d0d23.setIcon(icon_5863409a85fce636f42eb44dbc6e226a);
+        
+    
+        var popup_932925aa989b1b3455e5feb097f7aff1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9d967d7dcde9ed6fc68278015fac5de = $(`<div id="html_b9d967d7dcde9ed6fc68278015fac5de" style="width: 100.0%; height: 100.0%;">Твоя аптека<br>Московская область, Сергиев Посад, Хотьковский проезд, 38А</div>`)[0];
+            popup_932925aa989b1b3455e5feb097f7aff1.setContent(html_b9d967d7dcde9ed6fc68278015fac5de);
+        
+
+        marker_5fba136baa1cd4f7b9073264b72d0d23.bindPopup(popup_932925aa989b1b3455e5feb097f7aff1)
+        ;
+
+        
+    
+    
+            var marker_6908db0b71a88c068aaaf706426e7b76 = L.marker(
+                [56.303854, 38.13294],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_c14ae3e5043bbe3ef694406c47be2d06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6908db0b71a88c068aaaf706426e7b76.setIcon(icon_c14ae3e5043bbe3ef694406c47be2d06);
+        
+    
+        var popup_7ac3f6f6d51cc51b9e15eea19e57c384 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_826734e0e9bf98bfca144f55bf65dd9c = $(`<div id="html_826734e0e9bf98bfca144f55bf65dd9c" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Сергиев Посад, Вознесенская улица, 32А</div>`)[0];
+            popup_7ac3f6f6d51cc51b9e15eea19e57c384.setContent(html_826734e0e9bf98bfca144f55bf65dd9c);
+        
+
+        marker_6908db0b71a88c068aaaf706426e7b76.bindPopup(popup_7ac3f6f6d51cc51b9e15eea19e57c384)
+        ;
+
+        
+    
+    
+            var marker_53707ea1edf3418dd063a3c73f6e7b5e = L.marker(
+                [56.324108, 38.139838],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_c833219b8f217915f6b14540e585a4f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53707ea1edf3418dd063a3c73f6e7b5e.setIcon(icon_c833219b8f217915f6b14540e585a4f4);
+        
+    
+        var popup_db504c06825ea77d2d6454b3577b894d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc3e597148eb044878ab4682c6545c77 = $(`<div id="html_fc3e597148eb044878ab4682c6545c77" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Сергиев Посад, Инженерная улица, 21</div>`)[0];
+            popup_db504c06825ea77d2d6454b3577b894d.setContent(html_fc3e597148eb044878ab4682c6545c77);
+        
+
+        marker_53707ea1edf3418dd063a3c73f6e7b5e.bindPopup(popup_db504c06825ea77d2d6454b3577b894d)
+        ;
+
+        
+    
+    
+            var marker_24ccdc95827332545c8f29bf9a8df1fa = L.marker(
+                [56.340136, 38.123926],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_286cacf6f9fc73b148c04209c4fdc230 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24ccdc95827332545c8f29bf9a8df1fa.setIcon(icon_286cacf6f9fc73b148c04209c4fdc230);
+        
+    
+        var popup_dcb78409f0315ef04a2d33f4a5a78f4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23785f7540528bdca64ac3620e6b3913 = $(`<div id="html_23785f7540528bdca64ac3620e6b3913" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Сергиев Посад, Новоугличское шоссе, 85</div>`)[0];
+            popup_dcb78409f0315ef04a2d33f4a5a78f4f.setContent(html_23785f7540528bdca64ac3620e6b3913);
+        
+
+        marker_24ccdc95827332545c8f29bf9a8df1fa.bindPopup(popup_dcb78409f0315ef04a2d33f4a5a78f4f)
+        ;
+
+        
+    
+    
+            var marker_b35282dc570743c805198b9f19c84d88 = L.marker(
+                [56.303487, 38.190787],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_0311767df0884b144d2b876cc47f8546 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b35282dc570743c805198b9f19c84d88.setIcon(icon_0311767df0884b144d2b876cc47f8546);
+        
+    
+        var popup_489c5394bd14aa59ac4bcd36c2c0e0a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecce3dff5823a7510cddba344ecf98d7 = $(`<div id="html_ecce3dff5823a7510cddba344ecf98d7" style="width: 100.0%; height: 100.0%;">Сиа-фарм<br>Московская область, Сергиев Посад, Озёрная улица, 8Б</div>`)[0];
+            popup_489c5394bd14aa59ac4bcd36c2c0e0a7.setContent(html_ecce3dff5823a7510cddba344ecf98d7);
+        
+
+        marker_b35282dc570743c805198b9f19c84d88.bindPopup(popup_489c5394bd14aa59ac4bcd36c2c0e0a7)
+        ;
+
+        
+    
+    
+            var marker_686363dcbd0dfbe511fd5a806c1c69da = L.marker(
+                [56.246849, 38.119264],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_552271aa27574fdfd5b77b109469c9c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_686363dcbd0dfbe511fd5a806c1c69da.setIcon(icon_552271aa27574fdfd5b77b109469c9c2);
+        
+    
+        var popup_678bfe20d3dd897ceb663fd7be69ee4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f81dcbd7b5368f854801fff89a628a2 = $(`<div id="html_7f81dcbd7b5368f854801fff89a628a2" style="width: 100.0%; height: 100.0%;">305 аптека<br>Московская область, Сергиево-Посадский городской округ, территория Сергиев Посад-6, улица Корявина, 1А</div>`)[0];
+            popup_678bfe20d3dd897ceb663fd7be69ee4e.setContent(html_7f81dcbd7b5368f854801fff89a628a2);
+        
+
+        marker_686363dcbd0dfbe511fd5a806c1c69da.bindPopup(popup_678bfe20d3dd897ceb663fd7be69ee4e)
+        ;
+
+        
+    
+    
+            var marker_bafa9504327cad1e17b643077edc2db9 = L.marker(
+                [56.299717, 38.175264],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_2c7970fba7bc6a648668d51f9c1d0e08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bafa9504327cad1e17b643077edc2db9.setIcon(icon_2c7970fba7bc6a648668d51f9c1d0e08);
+        
+    
+        var popup_7a075d1c3029646b9432cb61a5318b2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_480b8f8ddab3d35642ea3c8f9ead5da6 = $(`<div id="html_480b8f8ddab3d35642ea3c8f9ead5da6" style="width: 100.0%; height: 100.0%;">Домашний Доктор<br>Московская область, Сергиев Посад, улица Мира, 2Б</div>`)[0];
+            popup_7a075d1c3029646b9432cb61a5318b2a.setContent(html_480b8f8ddab3d35642ea3c8f9ead5da6);
+        
+
+        marker_bafa9504327cad1e17b643077edc2db9.bindPopup(popup_7a075d1c3029646b9432cb61a5318b2a)
+        ;
+
+        
+    
+    
+            var marker_4955f5326519ef458f0ef4edd04b8441 = L.marker(
+                [56.304492, 38.137014],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_75eba725b9f17286c4a859ce52a4bf88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4955f5326519ef458f0ef4edd04b8441.setIcon(icon_75eba725b9f17286c4a859ce52a4bf88);
+        
+    
+        var popup_17711dc98be53817605b5b31b4162122 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_045c5df33b9d81e35545727dcc4a6ae6 = $(`<div id="html_045c5df33b9d81e35545727dcc4a6ae6" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Сергиев Посад, 1-я Рыбная улица, 19/22</div>`)[0];
+            popup_17711dc98be53817605b5b31b4162122.setContent(html_045c5df33b9d81e35545727dcc4a6ae6);
+        
+
+        marker_4955f5326519ef458f0ef4edd04b8441.bindPopup(popup_17711dc98be53817605b5b31b4162122)
+        ;
+
+        
+    
+    
+            var marker_d7ab5179de0dac8bb85abfeed83219f7 = L.marker(
+                [56.313502, 38.14606],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_e210762857bb22ace36ddb67be4a7a64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7ab5179de0dac8bb85abfeed83219f7.setIcon(icon_e210762857bb22ace36ddb67be4a7a64);
+        
+    
+        var popup_2caa9b1f33415989216190ed856c7bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b703736113d3b5ccbbdc5f5e7b4c0dc = $(`<div id="html_6b703736113d3b5ccbbdc5f5e7b4c0dc" style="width: 100.0%; height: 100.0%;">Столетник<br>Московская область, Сергиев Посад, улица Карла Либкнехта, 6/27</div>`)[0];
+            popup_2caa9b1f33415989216190ed856c7bda.setContent(html_6b703736113d3b5ccbbdc5f5e7b4c0dc);
+        
+
+        marker_d7ab5179de0dac8bb85abfeed83219f7.bindPopup(popup_2caa9b1f33415989216190ed856c7bda)
+        ;
+
+        
+    
+    
+            var marker_c759936e118cc4a7da20e41d8d512659 = L.marker(
+                [56.306619, 38.100921],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_1b3ec773b9e2f7f4156e2d122d278c76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c759936e118cc4a7da20e41d8d512659.setIcon(icon_1b3ec773b9e2f7f4156e2d122d278c76);
+        
+    
+        var popup_a846d2b02465728e3c9b8209fd84e64d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be7151482049e8eb10ded0b11f3f61df = $(`<div id="html_be7151482049e8eb10ded0b11f3f61df" style="width: 100.0%; height: 100.0%;">Прокси Фарм<br>Московская область, Сергиев Посад, улица Семашко, 1Б</div>`)[0];
+            popup_a846d2b02465728e3c9b8209fd84e64d.setContent(html_be7151482049e8eb10ded0b11f3f61df);
+        
+
+        marker_c759936e118cc4a7da20e41d8d512659.bindPopup(popup_a846d2b02465728e3c9b8209fd84e64d)
+        ;
+
+        
+    
+    
+            var marker_f972126ecf864dcdf38a38052f1ef7ed = L.marker(
+                [56.291243, 38.150532],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_1d00b47954ac073a5e6e280c02ab092c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f972126ecf864dcdf38a38052f1ef7ed.setIcon(icon_1d00b47954ac073a5e6e280c02ab092c);
+        
+    
+        var popup_eefd33bb6e7f7303c00b62c31bdf0365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe206c155597fa049f0e07961bfec519 = $(`<div id="html_fe206c155597fa049f0e07961bfec519" style="width: 100.0%; height: 100.0%;">Фарма Медикал<br>Московская область, Сергиев Посад, Центральная улица, 7</div>`)[0];
+            popup_eefd33bb6e7f7303c00b62c31bdf0365.setContent(html_fe206c155597fa049f0e07961bfec519);
+        
+
+        marker_f972126ecf864dcdf38a38052f1ef7ed.bindPopup(popup_eefd33bb6e7f7303c00b62c31bdf0365)
+        ;
+
+        
+    
+    
+            var marker_1d036300f74af51c1e7cffbb4b8b69be = L.marker(
+                [56.31977, 38.136457],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_e77e8241207cd75114ee7c4c3ed63814 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d036300f74af51c1e7cffbb4b8b69be.setIcon(icon_e77e8241207cd75114ee7c4c3ed63814);
+        
+    
+        var popup_b6d80c78acb657b47fd6c9d7f1590ec1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ff4069ed12b8bfd42f9a4ba4a0b85e2 = $(`<div id="html_1ff4069ed12b8bfd42f9a4ba4a0b85e2" style="width: 100.0%; height: 100.0%;">Медтехника<br>Московская область, Сергиев Посад, бульвар Кузнецова, 6</div>`)[0];
+            popup_b6d80c78acb657b47fd6c9d7f1590ec1.setContent(html_1ff4069ed12b8bfd42f9a4ba4a0b85e2);
+        
+
+        marker_1d036300f74af51c1e7cffbb4b8b69be.bindPopup(popup_b6d80c78acb657b47fd6c9d7f1590ec1)
+        ;
+
+        
+    
+    
+            var marker_32a141e85ee1bbc24b953c717ce55ce6 = L.marker(
+                [56.299861, 38.146357],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_ce848b8f96e91925e22433cdbcaec7f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32a141e85ee1bbc24b953c717ce55ce6.setIcon(icon_ce848b8f96e91925e22433cdbcaec7f2);
+        
+    
+        var popup_caeb8fd9197003b381872d4bbeb78617 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7961858c23a7202696084e223e6edd70 = $(`<div id="html_7961858c23a7202696084e223e6edd70" style="width: 100.0%; height: 100.0%;">Фарма Медикал<br>Московская область, Сергиев Посад, улица Академика Силина, 3</div>`)[0];
+            popup_caeb8fd9197003b381872d4bbeb78617.setContent(html_7961858c23a7202696084e223e6edd70);
+        
+
+        marker_32a141e85ee1bbc24b953c717ce55ce6.bindPopup(popup_caeb8fd9197003b381872d4bbeb78617)
+        ;
+
+        
+    
+    
+            var marker_7bf928bef94c468b6c8bcb48366d9775 = L.marker(
+                [56.332188, 38.132437],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_382cd02a0a92c22051145faf427ff85a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7bf928bef94c468b6c8bcb48366d9775.setIcon(icon_382cd02a0a92c22051145faf427ff85a);
+        
+    
+        var popup_5a337b224b57c5203c4303a995684fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37f750653bae56d9917fd3994ba2c53b = $(`<div id="html_37f750653bae56d9917fd3994ba2c53b" style="width: 100.0%; height: 100.0%;">Прамикс<br>Московская область, Сергиев Посад, Новоугличское шоссе, 58Б</div>`)[0];
+            popup_5a337b224b57c5203c4303a995684fb0.setContent(html_37f750653bae56d9917fd3994ba2c53b);
+        
+
+        marker_7bf928bef94c468b6c8bcb48366d9775.bindPopup(popup_5a337b224b57c5203c4303a995684fb0)
+        ;
+
+        
+    
+    
+            var marker_980cfeaeb67ad05e1d3effb6f3795fcf = L.marker(
+                [56.327098, 38.149454],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_8e3218dda5a77fcf7f07eba0909f2f10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_980cfeaeb67ad05e1d3effb6f3795fcf.setIcon(icon_8e3218dda5a77fcf7f07eba0909f2f10);
+        
+    
+        var popup_3bd2973cacc2a57155b8e9b0a1c91c4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf22c6cb8b7b3d8cac2186bd5a54441e = $(`<div id="html_cf22c6cb8b7b3d8cac2186bd5a54441e" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, Сергиев Посад, проспект Красной Армии, 209</div>`)[0];
+            popup_3bd2973cacc2a57155b8e9b0a1c91c4a.setContent(html_cf22c6cb8b7b3d8cac2186bd5a54441e);
+        
+
+        marker_980cfeaeb67ad05e1d3effb6f3795fcf.bindPopup(popup_3bd2973cacc2a57155b8e9b0a1c91c4a)
+        ;
+
+        
+    
+    
+            var marker_55b91eb94bb53b579717a97ba0444dc5 = L.marker(
+                [56.328, 38.152205],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_7bf983675500cbe9c6655d7cafd94620 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55b91eb94bb53b579717a97ba0444dc5.setIcon(icon_7bf983675500cbe9c6655d7cafd94620);
+        
+    
+        var popup_93776e116d70b16ef8e61062256f21af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8452740ab0ffc57db1814cd1ebc5076f = $(`<div id="html_8452740ab0ffc57db1814cd1ebc5076f" style="width: 100.0%; height: 100.0%;">ЕАПТЕКА<br>Московская область, Сергиев Посад, проспект Красной Армии, 218</div>`)[0];
+            popup_93776e116d70b16ef8e61062256f21af.setContent(html_8452740ab0ffc57db1814cd1ebc5076f);
+        
+
+        marker_55b91eb94bb53b579717a97ba0444dc5.bindPopup(popup_93776e116d70b16ef8e61062256f21af)
+        ;
+
+        
+    
+    
+            var marker_bb164005bbfc53cb52d70575456d9716 = L.marker(
+                [56.328206, 38.15284],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_48c36215e3e13bfb722b2feeb107da2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb164005bbfc53cb52d70575456d9716.setIcon(icon_48c36215e3e13bfb722b2feeb107da2a);
+        
+    
+        var popup_94bc5e9920d46a1e28b8bfd5ff434098 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_008f0b344c69a1b42d81a53e7c510ad3 = $(`<div id="html_008f0b344c69a1b42d81a53e7c510ad3" style="width: 100.0%; height: 100.0%;">Аллея здоровья<br>Московская область, Сергиев Посад, проспект Красной Армии, 218</div>`)[0];
+            popup_94bc5e9920d46a1e28b8bfd5ff434098.setContent(html_008f0b344c69a1b42d81a53e7c510ad3);
+        
+
+        marker_bb164005bbfc53cb52d70575456d9716.bindPopup(popup_94bc5e9920d46a1e28b8bfd5ff434098)
+        ;
+
+        
+    
+    
+            var marker_4d47d938b24eb2c6dba9c3236d1b3600 = L.marker(
+                [56.319189, 38.132407],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_1c9522a7364d2822be2d0428d03ae398 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d47d938b24eb2c6dba9c3236d1b3600.setIcon(icon_1c9522a7364d2822be2d0428d03ae398);
+        
+    
+        var popup_fd34a2611ea4125acc73d77a1cb462b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2033cc21d388f8db4edac9c185ff036b = $(`<div id="html_2033cc21d388f8db4edac9c185ff036b" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, Зелёный переулок, 13</div>`)[0];
+            popup_fd34a2611ea4125acc73d77a1cb462b2.setContent(html_2033cc21d388f8db4edac9c185ff036b);
+        
+
+        marker_4d47d938b24eb2c6dba9c3236d1b3600.bindPopup(popup_fd34a2611ea4125acc73d77a1cb462b2)
+        ;
+
+        
+    
+    
+            var marker_3fb05b075aa73c3c7fdb57baad41a1b8 = L.marker(
+                [56.297283, 38.128022],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_a8f1cd12ed9d6e1cbb0bb8a7406e36ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3fb05b075aa73c3c7fdb57baad41a1b8.setIcon(icon_a8f1cd12ed9d6e1cbb0bb8a7406e36ca);
+        
+    
+        var popup_b62307d1e0992aee5bca07469508ab61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76477f01d0192ca9d643d994c4c1b073 = $(`<div id="html_76477f01d0192ca9d643d994c4c1b073" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Сергиев Посад, проспект Красной Армии, 7</div>`)[0];
+            popup_b62307d1e0992aee5bca07469508ab61.setContent(html_76477f01d0192ca9d643d994c4c1b073);
+        
+
+        marker_3fb05b075aa73c3c7fdb57baad41a1b8.bindPopup(popup_b62307d1e0992aee5bca07469508ab61)
+        ;
+
+        
+    
+    
+            var marker_c725aeb59d9de18990b65effd0d353a5 = L.marker(
+                [56.292954, 38.150779],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_2fd00b51452b51aa43242cebf47485e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c725aeb59d9de18990b65effd0d353a5.setIcon(icon_2fd00b51452b51aa43242cebf47485e5);
+        
+    
+        var popup_7676ebc92685e0dc8891b8f8f43bde82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7abd4bae66b8476e31d7147caf3ce65 = $(`<div id="html_c7abd4bae66b8476e31d7147caf3ce65" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Сергиев Посад, Клубная улица, 1</div>`)[0];
+            popup_7676ebc92685e0dc8891b8f8f43bde82.setContent(html_c7abd4bae66b8476e31d7147caf3ce65);
+        
+
+        marker_c725aeb59d9de18990b65effd0d353a5.bindPopup(popup_7676ebc92685e0dc8891b8f8f43bde82)
+        ;
+
+        
+    
+    
+            var marker_b9e2f34edde2d1ac965f654bf0ed7633 = L.marker(
+                [56.316035, 38.131906],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_a98bbf2a2a52ce7e7ba3ebafb9259c58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9e2f34edde2d1ac965f654bf0ed7633.setIcon(icon_a98bbf2a2a52ce7e7ba3ebafb9259c58);
+        
+    
+        var popup_7a38c667d1da93c1328c325d1ec88988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_821aa564124d77f2c710eaa73075207e = $(`<div id="html_821aa564124d77f2c710eaa73075207e" style="width: 100.0%; height: 100.0%;">Витамед<br>Московская область, Сергиев Посад, улица 1-й Ударной Армии, 12</div>`)[0];
+            popup_7a38c667d1da93c1328c325d1ec88988.setContent(html_821aa564124d77f2c710eaa73075207e);
+        
+
+        marker_b9e2f34edde2d1ac965f654bf0ed7633.bindPopup(popup_7a38c667d1da93c1328c325d1ec88988)
+        ;
+
+        
+    
+    
+            var marker_737b3d494ffe89ef9ef0faaaee849c84 = L.marker(
+                [56.33377, 38.132283],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_77b8dc59a82194555b50fe08e6c24d65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_737b3d494ffe89ef9ef0faaaee849c84.setIcon(icon_77b8dc59a82194555b50fe08e6c24d65);
+        
+    
+        var popup_8ae8d8c84fe24dd9823365446dab31b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_948d803dca527ecd0768505d3e08ffb9 = $(`<div id="html_948d803dca527ecd0768505d3e08ffb9" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Сергиев Посад, Новоугличское шоссе, 62А</div>`)[0];
+            popup_8ae8d8c84fe24dd9823365446dab31b4.setContent(html_948d803dca527ecd0768505d3e08ffb9);
+        
+
+        marker_737b3d494ffe89ef9ef0faaaee849c84.bindPopup(popup_8ae8d8c84fe24dd9823365446dab31b4)
+        ;
+
+        
+    
+    
+            var marker_e1eacd23a3a9fa10cbbb67341772ba78 = L.marker(
+                [56.299677, 38.15468],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_0dbcce849b720c5242744e5e493a363f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e1eacd23a3a9fa10cbbb67341772ba78.setIcon(icon_0dbcce849b720c5242744e5e493a363f);
+        
+    
+        var popup_65a81af4ff20a4ddf7783c6c8973db1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6135caca4801ec35f5752b2e41dc9bc = $(`<div id="html_e6135caca4801ec35f5752b2e41dc9bc" style="width: 100.0%; height: 100.0%;">Сиа-фарм<br>Московская область, Сергиев Посад, Железнодорожная улица, 37А</div>`)[0];
+            popup_65a81af4ff20a4ddf7783c6c8973db1d.setContent(html_e6135caca4801ec35f5752b2e41dc9bc);
+        
+
+        marker_e1eacd23a3a9fa10cbbb67341772ba78.bindPopup(popup_65a81af4ff20a4ddf7783c6c8973db1d)
+        ;
+
+        
+    
+    
+            var marker_2f731e36df0208724f921967b532fa44 = L.marker(
+                [56.300999, 38.178351],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_85f25fe9156588f2d6a7d5109f5648f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f731e36df0208724f921967b532fa44.setIcon(icon_85f25fe9156588f2d6a7d5109f5648f4);
+        
+    
+        var popup_1b3ce49a41cf5ee3b610381e19ed5f38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67e76d1fe6012a2f110586b19fd82a87 = $(`<div id="html_67e76d1fe6012a2f110586b19fd82a87" style="width: 100.0%; height: 100.0%;">Домашний доктор<br>Московская область, Сергиев Посад, Солнечная улица, 4</div>`)[0];
+            popup_1b3ce49a41cf5ee3b610381e19ed5f38.setContent(html_67e76d1fe6012a2f110586b19fd82a87);
+        
+
+        marker_2f731e36df0208724f921967b532fa44.bindPopup(popup_1b3ce49a41cf5ee3b610381e19ed5f38)
+        ;
+
+        
+    
+    
+            var marker_29410af66e8e708e3871e089ec44e00a = L.marker(
+                [56.326237, 38.13336],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_e9155cb85512df5fc59ac8fdedca09ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_29410af66e8e708e3871e089ec44e00a.setIcon(icon_e9155cb85512df5fc59ac8fdedca09ed);
+        
+    
+        var popup_6cfb8c4c9c2b9bf690da60a21d77d89b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5d7759375b3998d388145c61f2c111a = $(`<div id="html_b5d7759375b3998d388145c61f2c111a" style="width: 100.0%; height: 100.0%;">Авиценна<br>Московская область, Сергиев Посад, Новоугличское шоссе, 46</div>`)[0];
+            popup_6cfb8c4c9c2b9bf690da60a21d77d89b.setContent(html_b5d7759375b3998d388145c61f2c111a);
+        
+
+        marker_29410af66e8e708e3871e089ec44e00a.bindPopup(popup_6cfb8c4c9c2b9bf690da60a21d77d89b)
+        ;
+
+        
+    
+    
+            var marker_cf89e0a9a931a08339a8ca0e0b74b2fd = L.marker(
+                [56.303959, 38.13759],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_9f390bbc95364e54c497197bd7cab4cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf89e0a9a931a08339a8ca0e0b74b2fd.setIcon(icon_9f390bbc95364e54c497197bd7cab4cc);
+        
+    
+        var popup_f5f4d7fe77bfca6eedda67cc11175c01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e29c298a73c6911523ff18ba79feb9fd = $(`<div id="html_e29c298a73c6911523ff18ba79feb9fd" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Сергиев Посад, Вокзальная площадь, 2Б</div>`)[0];
+            popup_f5f4d7fe77bfca6eedda67cc11175c01.setContent(html_e29c298a73c6911523ff18ba79feb9fd);
+        
+
+        marker_cf89e0a9a931a08339a8ca0e0b74b2fd.bindPopup(popup_f5f4d7fe77bfca6eedda67cc11175c01)
+        ;
+
+        
+    
+    
+            var marker_51f140361eb0ee3bdbaecfc5e72b5da4 = L.marker(
+                [56.303362, 38.136099],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_69a9b3b3cb0e344edfe313819c052c73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51f140361eb0ee3bdbaecfc5e72b5da4.setIcon(icon_69a9b3b3cb0e344edfe313819c052c73);
+        
+    
+        var popup_8a258023aa5c69f80f62cfa4e29c3d3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b3212d08bf0f6efe68e5e1043e349e6 = $(`<div id="html_1b3212d08bf0f6efe68e5e1043e349e6" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Сергиев Посад, Вокзальная площадь, 1Б</div>`)[0];
+            popup_8a258023aa5c69f80f62cfa4e29c3d3d.setContent(html_1b3212d08bf0f6efe68e5e1043e349e6);
+        
+
+        marker_51f140361eb0ee3bdbaecfc5e72b5da4.bindPopup(popup_8a258023aa5c69f80f62cfa4e29c3d3d)
+        ;
+
+        
+    
+    
+            var marker_a1e56d1da4356d440bb68b88cfffab49 = L.marker(
+                [56.303009, 38.13503],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_4ab3b13d04526ac6ae1dee2432ac9c0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a1e56d1da4356d440bb68b88cfffab49.setIcon(icon_4ab3b13d04526ac6ae1dee2432ac9c0e);
+        
+    
+        var popup_6c222972057da2efc6061275a79b333b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9be67b49e9d540f53f185e7aece6ae90 = $(`<div id="html_9be67b49e9d540f53f185e7aece6ae90" style="width: 100.0%; height: 100.0%;">Фарма Медикал<br>Московская область, Сергиев Посад, Вознесенская улица, 55</div>`)[0];
+            popup_6c222972057da2efc6061275a79b333b.setContent(html_9be67b49e9d540f53f185e7aece6ae90);
+        
+
+        marker_a1e56d1da4356d440bb68b88cfffab49.bindPopup(popup_6c222972057da2efc6061275a79b333b)
+        ;
+
+        
+    
+    
+            var marker_87f78f7de1b0c44b4690299a4a12c729 = L.marker(
+                [56.332694, 38.134572],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_2d11738f765a78e8392f230a53cab949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87f78f7de1b0c44b4690299a4a12c729.setIcon(icon_2d11738f765a78e8392f230a53cab949);
+        
+    
+        var popup_882a9f412f076335af46ccd3d5429f56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a1a8b3d3b3c6097b1db0c69f845a8f9 = $(`<div id="html_4a1a8b3d3b3c6097b1db0c69f845a8f9" style="width: 100.0%; height: 100.0%;">Домашний доктор<br>Московская область, Сергиев Посад, улица Дружбы, 14А</div>`)[0];
+            popup_882a9f412f076335af46ccd3d5429f56.setContent(html_4a1a8b3d3b3c6097b1db0c69f845a8f9);
+        
+
+        marker_87f78f7de1b0c44b4690299a4a12c729.bindPopup(popup_882a9f412f076335af46ccd3d5429f56)
+        ;
+
+        
+    
+    
+            var marker_8b6c236631e3275a7f11a458e77fdc11 = L.marker(
+                [56.316308, 38.138101],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_4f67656590705b819e5615f0b3b9f0f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b6c236631e3275a7f11a458e77fdc11.setIcon(icon_4f67656590705b819e5615f0b3b9f0f6);
+        
+    
+        var popup_a975ff95ca4d1e9dbbdc9898bb91820a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a4edcbf8ef576d8af54a3f8e04bbdd9 = $(`<div id="html_1a4edcbf8ef576d8af54a3f8e04bbdd9" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, Сергиев Посад, проспект Красной Армии, 182</div>`)[0];
+            popup_a975ff95ca4d1e9dbbdc9898bb91820a.setContent(html_1a4edcbf8ef576d8af54a3f8e04bbdd9);
+        
+
+        marker_8b6c236631e3275a7f11a458e77fdc11.bindPopup(popup_a975ff95ca4d1e9dbbdc9898bb91820a)
+        ;
+
+        
+    
+    
+            var marker_85fe3423288f5bc8f184f45472078d14 = L.marker(
+                [56.291638, 38.150729],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_f0022e32f2e303bd979d724f3715c33d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85fe3423288f5bc8f184f45472078d14.setIcon(icon_f0022e32f2e303bd979d724f3715c33d);
+        
+    
+        var popup_d60d23aa94aa147ac56dccd125b976fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6fbe956b1340dec23300a849a78db9a = $(`<div id="html_d6fbe956b1340dec23300a849a78db9a" style="width: 100.0%; height: 100.0%;">Столетник<br>Московская область, Сергиев Посад, Центральная улица, 9</div>`)[0];
+            popup_d60d23aa94aa147ac56dccd125b976fa.setContent(html_d6fbe956b1340dec23300a849a78db9a);
+        
+
+        marker_85fe3423288f5bc8f184f45472078d14.bindPopup(popup_d60d23aa94aa147ac56dccd125b976fa)
+        ;
+
+        
+    
+    
+            var marker_964b843ea1396cd106ee3b75ee08442a = L.marker(
+                [56.328801, 38.143312],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_71620f3c81f520ce0abed0f04fe772d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_964b843ea1396cd106ee3b75ee08442a.setIcon(icon_71620f3c81f520ce0abed0f04fe772d0);
+        
+    
+        var popup_7c3657dcc20d5e329fccb89270b9ba1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa70e675106b97e1322000d10ac70b02 = $(`<div id="html_fa70e675106b97e1322000d10ac70b02" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Сергиев Посад, улица Дружбы, 9А</div>`)[0];
+            popup_7c3657dcc20d5e329fccb89270b9ba1e.setContent(html_fa70e675106b97e1322000d10ac70b02);
+        
+
+        marker_964b843ea1396cd106ee3b75ee08442a.bindPopup(popup_7c3657dcc20d5e329fccb89270b9ba1e)
+        ;
+
+        
+    
+    
+            var marker_00a3b75feeeb181c41b690c7c25d86cd = L.marker(
+                [56.331148, 38.140671],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_0f9acdda88a56dbc33f40f4ed8958a0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00a3b75feeeb181c41b690c7c25d86cd.setIcon(icon_0f9acdda88a56dbc33f40f4ed8958a0a);
+        
+    
+        var popup_6e3a51e425d15563c171e9ea04fc83c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39337569d8c53fafdc787db032a3c5f2 = $(`<div id="html_39337569d8c53fafdc787db032a3c5f2" style="width: 100.0%; height: 100.0%;">Советская аптека<br>Московская область, Сергиев Посад, улица Дружбы, 15Б</div>`)[0];
+            popup_6e3a51e425d15563c171e9ea04fc83c6.setContent(html_39337569d8c53fafdc787db032a3c5f2);
+        
+
+        marker_00a3b75feeeb181c41b690c7c25d86cd.bindPopup(popup_6e3a51e425d15563c171e9ea04fc83c6)
+        ;
+
+        
+    
+    
+            var marker_0b1ded8fb617f8117bf52d75ce42c204 = L.marker(
+                [56.328144, 38.147372],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_7f109aacdcf83046b4d91cafd94d69f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b1ded8fb617f8117bf52d75ce42c204.setIcon(icon_7f109aacdcf83046b4d91cafd94d69f1);
+        
+    
+        var popup_77e8261de3159b525963c48c688c622e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f2aa8da7847f393398e858c7e1508e6 = $(`<div id="html_1f2aa8da7847f393398e858c7e1508e6" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Сергиев Посад, улица Глинки, 10Б</div>`)[0];
+            popup_77e8261de3159b525963c48c688c622e.setContent(html_1f2aa8da7847f393398e858c7e1508e6);
+        
+
+        marker_0b1ded8fb617f8117bf52d75ce42c204.bindPopup(popup_77e8261de3159b525963c48c688c622e)
+        ;
+
+        
+    
+    
+            var marker_68fe57c909e01c4c75db7c69faeda8ce = L.marker(
+                [56.284833, 38.12563],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_1fd255605eb8d582c84aa46fa0f8b697 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_68fe57c909e01c4c75db7c69faeda8ce.setIcon(icon_1fd255605eb8d582c84aa46fa0f8b697);
+        
+    
+        var popup_ab2751033318611fbe9a6a6c7071afe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2d0e16faeed903194f84c6bf4a4684e = $(`<div id="html_e2d0e16faeed903194f84c6bf4a4684e" style="width: 100.0%; height: 100.0%;">Домашний Доктор<br>Московская область, Сергиев Посад, Московское шоссе, 17</div>`)[0];
+            popup_ab2751033318611fbe9a6a6c7071afe1.setContent(html_e2d0e16faeed903194f84c6bf4a4684e);
+        
+
+        marker_68fe57c909e01c4c75db7c69faeda8ce.bindPopup(popup_ab2751033318611fbe9a6a6c7071afe1)
+        ;
+
+        
+    
+    
+            var marker_b6152ffab8ec528fab6037b8ce75db29 = L.marker(
+                [56.28853, 38.178198],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_a166027b3dde59b8884ae9fa68090dad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b6152ffab8ec528fab6037b8ce75db29.setIcon(icon_a166027b3dde59b8884ae9fa68090dad);
+        
+    
+        var popup_c4d56ae459e88cfd2b275ccb188af9fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f04e1a15498f4abd1a15eac0c955483 = $(`<div id="html_8f04e1a15498f4abd1a15eac0c955483" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, улица Маслиева, 7</div>`)[0];
+            popup_c4d56ae459e88cfd2b275ccb188af9fd.setContent(html_8f04e1a15498f4abd1a15eac0c955483);
+        
+
+        marker_b6152ffab8ec528fab6037b8ce75db29.bindPopup(popup_c4d56ae459e88cfd2b275ccb188af9fd)
+        ;
+
+        
+    
+    
+            var marker_5f6c7384f29d1120a290ed3c52e22996 = L.marker(
+                [56.327719, 38.15492],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_4a8a412b0542c84ebc6a0036fdef7ad1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f6c7384f29d1120a290ed3c52e22996.setIcon(icon_4a8a412b0542c84ebc6a0036fdef7ad1);
+        
+    
+        var popup_2a9dc733a3524ccec6d1a7e6a873c324 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62c2c5d29de95f0a17ee0212599e0089 = $(`<div id="html_62c2c5d29de95f0a17ee0212599e0089" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Сергиев Посад, улица Осипенко, 4А</div>`)[0];
+            popup_2a9dc733a3524ccec6d1a7e6a873c324.setContent(html_62c2c5d29de95f0a17ee0212599e0089);
+        
+
+        marker_5f6c7384f29d1120a290ed3c52e22996.bindPopup(popup_2a9dc733a3524ccec6d1a7e6a873c324)
+        ;
+
+        
+    
+    
+            var marker_d990628685f95afb8e01cc89d1a0411f = L.marker(
+                [56.301792, 38.135322],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_d0da9a4383e7b89e2d3db6acf81f6324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d990628685f95afb8e01cc89d1a0411f.setIcon(icon_d0da9a4383e7b89e2d3db6acf81f6324);
+        
+    
+        var popup_87a865526224d44e6fd728f40c826aeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_979c3da53397aa4cd85dde3896261442 = $(`<div id="html_979c3da53397aa4cd85dde3896261442" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, Сергиев Посад, Кооперативная улица, 4</div>`)[0];
+            popup_87a865526224d44e6fd728f40c826aeb.setContent(html_979c3da53397aa4cd85dde3896261442);
+        
+
+        marker_d990628685f95afb8e01cc89d1a0411f.bindPopup(popup_87a865526224d44e6fd728f40c826aeb)
+        ;
+
+        
+    
+    
+            var marker_249a026f0bd60272c386cb117ca5b930 = L.marker(
+                [56.332282, 38.139473],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_9f9c91c7392af1e988b1a82c4a5fef6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_249a026f0bd60272c386cb117ca5b930.setIcon(icon_9f9c91c7392af1e988b1a82c4a5fef6e);
+        
+    
+        var popup_8fcba9152ba3716dd2910526632d471e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98c669664f688f0d758c4b048f7b9d40 = $(`<div id="html_98c669664f688f0d758c4b048f7b9d40" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, улица Дружбы, 15В</div>`)[0];
+            popup_8fcba9152ba3716dd2910526632d471e.setContent(html_98c669664f688f0d758c4b048f7b9d40);
+        
+
+        marker_249a026f0bd60272c386cb117ca5b930.bindPopup(popup_8fcba9152ba3716dd2910526632d471e)
+        ;
+
+        
+    
+    
+            var marker_c0fca4f0347943e4f15bd73401f17456 = L.marker(
+                [56.301736, 38.180428],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_f13be50527ac6c83608d575b0b42ae59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c0fca4f0347943e4f15bd73401f17456.setIcon(icon_f13be50527ac6c83608d575b0b42ae59);
+        
+    
+        var popup_a8563961e13630ae2618688cf6a8be4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8142550c5eb93bd8eb8605a4b1c74fc5 = $(`<div id="html_8142550c5eb93bd8eb8605a4b1c74fc5" style="width: 100.0%; height: 100.0%;">Домашний Доктор<br>Московская область, Сергиев Посад, улица Победы, 6</div>`)[0];
+            popup_a8563961e13630ae2618688cf6a8be4d.setContent(html_8142550c5eb93bd8eb8605a4b1c74fc5);
+        
+
+        marker_c0fca4f0347943e4f15bd73401f17456.bindPopup(popup_a8563961e13630ae2618688cf6a8be4d)
+        ;
+
+        
+    
+    
+            var marker_ce7df64369101223c320be8a7fcedfde = L.marker(
+                [56.295151, 38.127234],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_2fdaebb5f6e0ba82606112a2e8397bb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ce7df64369101223c320be8a7fcedfde.setIcon(icon_2fdaebb5f6e0ba82606112a2e8397bb0);
+        
+    
+        var popup_7f088dc6032dcb95c94876a3e704fd51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea260963ccbd2e844889198fafce2cac = $(`<div id="html_ea260963ccbd2e844889198fafce2cac" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, проспект Красной Армии, 3</div>`)[0];
+            popup_7f088dc6032dcb95c94876a3e704fd51.setContent(html_ea260963ccbd2e844889198fafce2cac);
+        
+
+        marker_ce7df64369101223c320be8a7fcedfde.bindPopup(popup_7f088dc6032dcb95c94876a3e704fd51)
+        ;
+
+        
+    
+    
+            var marker_dedc53a9d6ce769c4d78f6aa535ded44 = L.marker(
+                [56.302902, 38.140697],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_68f168921539ac1bf1b148e9e7e500b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dedc53a9d6ce769c4d78f6aa535ded44.setIcon(icon_68f168921539ac1bf1b148e9e7e500b7);
+        
+    
+        var popup_d4bb0d9231ec1c6ff26fd252c1f64076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a143d0409aae6df7c6c31dc33339958 = $(`<div id="html_6a143d0409aae6df7c6c31dc33339958" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, улица Симоненкова, 7А</div>`)[0];
+            popup_d4bb0d9231ec1c6ff26fd252c1f64076.setContent(html_6a143d0409aae6df7c6c31dc33339958);
+        
+
+        marker_dedc53a9d6ce769c4d78f6aa535ded44.bindPopup(popup_d4bb0d9231ec1c6ff26fd252c1f64076)
+        ;
+
+        
+    
+    
+            var marker_2491f48ffda34250df666b95c4f5cd86 = L.marker(
+                [56.304342, 38.135903],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_4c6f4eff53b2d1cda5dc82de0a8cbfdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2491f48ffda34250df666b95c4f5cd86.setIcon(icon_4c6f4eff53b2d1cda5dc82de0a8cbfdf);
+        
+    
+        var popup_3449e803ab47f6a63031a21bb2d2944f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae0aa7b8cce740adb244032a631601bb = $(`<div id="html_ae0aa7b8cce740adb244032a631601bb" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, 1-я Рыбная улица, 18/2</div>`)[0];
+            popup_3449e803ab47f6a63031a21bb2d2944f.setContent(html_ae0aa7b8cce740adb244032a631601bb);
+        
+
+        marker_2491f48ffda34250df666b95c4f5cd86.bindPopup(popup_3449e803ab47f6a63031a21bb2d2944f)
+        ;
+
+        
+    
+    
+            var marker_3d45cd0d596230423cf2d674595c8e71 = L.marker(
+                [56.300505, 38.149303],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_d61e8fa65bc86afd6f44615952b777ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3d45cd0d596230423cf2d674595c8e71.setIcon(icon_d61e8fa65bc86afd6f44615952b777ba);
+        
+    
+        var popup_658770de9bc2cc25129aa7dd6918f1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2356da80e5a90b810328f6277c94d98 = $(`<div id="html_a2356da80e5a90b810328f6277c94d98" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, Институтская улица, 8А</div>`)[0];
+            popup_658770de9bc2cc25129aa7dd6918f1f3.setContent(html_a2356da80e5a90b810328f6277c94d98);
+        
+
+        marker_3d45cd0d596230423cf2d674595c8e71.bindPopup(popup_658770de9bc2cc25129aa7dd6918f1f3)
+        ;
+
+        
+    
+    
+            var marker_625305fcb82c44eb8f2f58639f613655 = L.marker(
+                [56.315815, 38.14438],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_f07fd4ffa1bd6766509e649315d65ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_625305fcb82c44eb8f2f58639f613655.setIcon(icon_f07fd4ffa1bd6766509e649315d65ff6);
+        
+    
+        var popup_6994d7199c1dd84f0d31dbea49a26175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f66e35c9d80f470a0d9b13be7576df73 = $(`<div id="html_f66e35c9d80f470a0d9b13be7576df73" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Сергиев Посад, улица Леонида Булавина, 2/10</div>`)[0];
+            popup_6994d7199c1dd84f0d31dbea49a26175.setContent(html_f66e35c9d80f470a0d9b13be7576df73);
+        
+
+        marker_625305fcb82c44eb8f2f58639f613655.bindPopup(popup_6994d7199c1dd84f0d31dbea49a26175)
+        ;
+
+        
+    
+    
+            var marker_2f8e4afbf8c6d42e81e07e837e779a62 = L.marker(
+                [56.328765, 38.143668],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_0443b2ef3ee25116588fc7082c90302b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f8e4afbf8c6d42e81e07e837e779a62.setIcon(icon_0443b2ef3ee25116588fc7082c90302b);
+        
+    
+        var popup_ef1f6c60c3c3916a46bb785f3de7ce42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_287038f82f19cad1057d71967b8187bb = $(`<div id="html_287038f82f19cad1057d71967b8187bb" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Сергиев Посад, улица Дружбы, 9А</div>`)[0];
+            popup_ef1f6c60c3c3916a46bb785f3de7ce42.setContent(html_287038f82f19cad1057d71967b8187bb);
+        
+
+        marker_2f8e4afbf8c6d42e81e07e837e779a62.bindPopup(popup_ef1f6c60c3c3916a46bb785f3de7ce42)
+        ;
+
+        
+    
+    
+            var marker_4d131f0d4dc73948d4d19def1dc98048 = L.marker(
+                [56.296232, 38.127912],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_2f26a2bf0849d1b3de90a16c6f4735f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d131f0d4dc73948d4d19def1dc98048.setIcon(icon_2f26a2bf0849d1b3de90a16c6f4735f8);
+        
+    
+        var popup_a8b6fced4b752620d9dab155334c286a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0a702382717669ad58eaa7f92466d58 = $(`<div id="html_b0a702382717669ad58eaa7f92466d58" style="width: 100.0%; height: 100.0%;">ГОРЗДРАВ<br>Московская область, Сергиев Посад, проспект Красной Армии, 5А</div>`)[0];
+            popup_a8b6fced4b752620d9dab155334c286a.setContent(html_b0a702382717669ad58eaa7f92466d58);
+        
+
+        marker_4d131f0d4dc73948d4d19def1dc98048.bindPopup(popup_a8b6fced4b752620d9dab155334c286a)
+        ;
+
+        
+    
+    
+            var marker_b01d10e30bdb7072e3d36357ab569222 = L.marker(
+                [56.301226, 38.12875],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_156f4f8daa704feb7c9e2bd3011132a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b01d10e30bdb7072e3d36357ab569222.setIcon(icon_156f4f8daa704feb7c9e2bd3011132a1);
+        
+    
+        var popup_015d6a74701cdc8f3276c755f410d1bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_519dee9783b7a39a5ced57a267645614 = $(`<div id="html_519dee9783b7a39a5ced57a267645614" style="width: 100.0%; height: 100.0%;">Посадский лекарь<br>Московская область, Сергиев Посад, проспект Красной Армии, 81А, стр. 1</div>`)[0];
+            popup_015d6a74701cdc8f3276c755f410d1bc.setContent(html_519dee9783b7a39a5ced57a267645614);
+        
+
+        marker_b01d10e30bdb7072e3d36357ab569222.bindPopup(popup_015d6a74701cdc8f3276c755f410d1bc)
+        ;
+
+        
+    
+    
+            var marker_7c08903b296c7da7aed24355c47e670a = L.marker(
+                [56.294097, 38.153446],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_0e587cc66803c032f3c6710b844e93db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c08903b296c7da7aed24355c47e670a.setIcon(icon_0e587cc66803c032f3c6710b844e93db);
+        
+    
+        var popup_e5ca061ee7f197edc3016a18bc62abab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d908ff42d8a4a645b9d939931d4d660a = $(`<div id="html_d908ff42d8a4a645b9d939931d4d660a" style="width: 100.0%; height: 100.0%;">Домашний Доктор<br>Московская область, Сергиев Посад, посёлок Скобяной, Кирпичная улица, 20</div>`)[0];
+            popup_e5ca061ee7f197edc3016a18bc62abab.setContent(html_d908ff42d8a4a645b9d939931d4d660a);
+        
+
+        marker_7c08903b296c7da7aed24355c47e670a.bindPopup(popup_e5ca061ee7f197edc3016a18bc62abab)
+        ;
+
+        
+    
+    
+            var marker_bd295e9e5edd81373538e45648f27b48 = L.marker(
+                [56.301329, 38.134346],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_4d1c5ae852d2924c14e339c546f09f01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd295e9e5edd81373538e45648f27b48.setIcon(icon_4d1c5ae852d2924c14e339c546f09f01);
+        
+    
+        var popup_3973b4159614714581c9370e5db330f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_607a35a68af229af3df2a2884c1d1a3b = $(`<div id="html_607a35a68af229af3df2a2884c1d1a3b" style="width: 100.0%; height: 100.0%;">Здравсити<br>Московская область, Сергиев Посад, Кооперативная улица, 3</div>`)[0];
+            popup_3973b4159614714581c9370e5db330f6.setContent(html_607a35a68af229af3df2a2884c1d1a3b);
+        
+
+        marker_bd295e9e5edd81373538e45648f27b48.bindPopup(popup_3973b4159614714581c9370e5db330f6)
+        ;
+
+        
+    
+    
+            var marker_9ce4bcd7f6d864b28032d1e763be53a6 = L.marker(
+                [56.303189, 38.137246],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_63af876ee92df240591616e346191aab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ce4bcd7f6d864b28032d1e763be53a6.setIcon(icon_63af876ee92df240591616e346191aab);
+        
+    
+        var popup_7bce179fab52687bc39a356bf4b726bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0c7c565b2c256e3777aa8adc95c2759 = $(`<div id="html_b0c7c565b2c256e3777aa8adc95c2759" style="width: 100.0%; height: 100.0%;">Сиа-фарм<br>Московская область, Сергиев Посад, Вокзальная площадь, 2</div>`)[0];
+            popup_7bce179fab52687bc39a356bf4b726bf.setContent(html_b0c7c565b2c256e3777aa8adc95c2759);
+        
+
+        marker_9ce4bcd7f6d864b28032d1e763be53a6.bindPopup(popup_7bce179fab52687bc39a356bf4b726bf)
+        ;
+
+        
+    
+    
+            var marker_4dca2140eae1d1ffa470ee9d1bdb22c5 = L.marker(
+                [56.322514, 38.145701],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_8f287ffb4839b34be8f5ac0fc826ac2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4dca2140eae1d1ffa470ee9d1bdb22c5.setIcon(icon_8f287ffb4839b34be8f5ac0fc826ac2d);
+        
+    
+        var popup_dc8b85505a431c138947e0bf153a5248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45cee427e31565b6650463688166d14f = $(`<div id="html_45cee427e31565b6650463688166d14f" style="width: 100.0%; height: 100.0%;">Фарм 2<br>Московская область, Сергиев Посад, проспект Красной Армии, 212А</div>`)[0];
+            popup_dc8b85505a431c138947e0bf153a5248.setContent(html_45cee427e31565b6650463688166d14f);
+        
+
+        marker_4dca2140eae1d1ffa470ee9d1bdb22c5.bindPopup(popup_dc8b85505a431c138947e0bf153a5248)
+        ;
+
+        
+    
+    
+            var marker_c23b59fc85863747d2f561eeff6329ef = L.marker(
+                [56.322172, 38.143888],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_97add251fab4ae92c701c844e0f29f18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c23b59fc85863747d2f561eeff6329ef.setIcon(icon_97add251fab4ae92c701c844e0f29f18);
+        
+    
+        var popup_d1892a608013e0949247abda2d5263d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a68dc05a30ff7afae2a27277c45b6b8c = $(`<div id="html_a68dc05a30ff7afae2a27277c45b6b8c" style="width: 100.0%; height: 100.0%;">Апрель<br>Московская область, Сергиев Посад, проспект Красной Армии, 203А</div>`)[0];
+            popup_d1892a608013e0949247abda2d5263d0.setContent(html_a68dc05a30ff7afae2a27277c45b6b8c);
+        
+
+        marker_c23b59fc85863747d2f561eeff6329ef.bindPopup(popup_d1892a608013e0949247abda2d5263d0)
+        ;
+
+        
+    
+    
+            var marker_b1b8b115061729bad0fe53c1cb8b595a = L.marker(
+                [56.303351, 38.136102],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_3a3a73fb6d691fc58a18ed3c2837893f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1b8b115061729bad0fe53c1cb8b595a.setIcon(icon_3a3a73fb6d691fc58a18ed3c2837893f);
+        
+    
+        var popup_b58078793c16e4240c3d99e0290a08df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfe283f0abe6bc05c478783fd488bb8d = $(`<div id="html_cfe283f0abe6bc05c478783fd488bb8d" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Сергиев Посад, Вокзальная площадь, 1Б</div>`)[0];
+            popup_b58078793c16e4240c3d99e0290a08df.setContent(html_cfe283f0abe6bc05c478783fd488bb8d);
+        
+
+        marker_b1b8b115061729bad0fe53c1cb8b595a.bindPopup(popup_b58078793c16e4240c3d99e0290a08df)
+        ;
+
+        
+    
+    
+            var marker_88b17885f07eddb10d8abe03b2b3eb21 = L.marker(
+                [56.313127, 38.135451],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_81c9fb8447e6453f2bcb3ee6cf003ff5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88b17885f07eddb10d8abe03b2b3eb21.setIcon(icon_81c9fb8447e6453f2bcb3ee6cf003ff5);
+        
+    
+        var popup_5eff1c489e34ae8b6c6798f47aeb1811 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caa0b8bf909aa7b10604e37ef90f411c = $(`<div id="html_caa0b8bf909aa7b10604e37ef90f411c" style="width: 100.0%; height: 100.0%;">Грин фарм<br>Московская область, Сергиев Посад, проспект Красной Армии, 148</div>`)[0];
+            popup_5eff1c489e34ae8b6c6798f47aeb1811.setContent(html_caa0b8bf909aa7b10604e37ef90f411c);
+        
+
+        marker_88b17885f07eddb10d8abe03b2b3eb21.bindPopup(popup_5eff1c489e34ae8b6c6798f47aeb1811)
+        ;
+
+        
+    
+    
+            var marker_0397a66fc5ac5e59dde891340ac20fc1 = L.marker(
+                [56.304497, 38.136923],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_472479b38c7194c4bd5e3c5968ccac43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0397a66fc5ac5e59dde891340ac20fc1.setIcon(icon_472479b38c7194c4bd5e3c5968ccac43);
+        
+    
+        var popup_ab5ab158506630c656b36630cb33037a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7905e4c350d8cf93b012f376de4a8ca = $(`<div id="html_e7905e4c350d8cf93b012f376de4a8ca" style="width: 100.0%; height: 100.0%;">Русские Корни<br>Московская область, Сергиев Посад, 1-я Рыбная улица, 19/22</div>`)[0];
+            popup_ab5ab158506630c656b36630cb33037a.setContent(html_e7905e4c350d8cf93b012f376de4a8ca);
+        
+
+        marker_0397a66fc5ac5e59dde891340ac20fc1.bindPopup(popup_ab5ab158506630c656b36630cb33037a)
+        ;
+
+        
+    
+    
+            var marker_4a5895cbbfcd90e32f13306d4a24ab67 = L.marker(
+                [56.261286, 38.21538],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_354a9f3af5000b839cc38afd156a7719 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a5895cbbfcd90e32f13306d4a24ab67.setIcon(icon_354a9f3af5000b839cc38afd156a7719);
+        
+    
+        var popup_f6890201dac92a47d230e0010c116466 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3c9cacaa7f250b8ee094a07639124ec = $(`<div id="html_d3c9cacaa7f250b8ee094a07639124ec" style="width: 100.0%; height: 100.0%;">Фармапро<br>Московская область, Сергиево-Посадский городской округ, посёлок Лоза, 45</div>`)[0];
+            popup_f6890201dac92a47d230e0010c116466.setContent(html_d3c9cacaa7f250b8ee094a07639124ec);
+        
+
+        marker_4a5895cbbfcd90e32f13306d4a24ab67.bindPopup(popup_f6890201dac92a47d230e0010c116466)
+        ;
+
+        
+    
+    
+            var marker_10c6cf9a5fa3950500978abd5152f221 = L.marker(
+                [56.304527, 38.137091],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_f45d2185ecf57aae09f9ca540b14053f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_10c6cf9a5fa3950500978abd5152f221.setIcon(icon_f45d2185ecf57aae09f9ca540b14053f);
+        
+    
+        var popup_0c400596a010e35eda8699c88536c18b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abd45a130a9001b99b516d4527c7af0f = $(`<div id="html_abd45a130a9001b99b516d4527c7af0f" style="width: 100.0%; height: 100.0%;">Аптека<br>Московская область, Сергиев Посад, 1-я Рыбная улица, 19/22</div>`)[0];
+            popup_0c400596a010e35eda8699c88536c18b.setContent(html_abd45a130a9001b99b516d4527c7af0f);
+        
+
+        marker_10c6cf9a5fa3950500978abd5152f221.bindPopup(popup_0c400596a010e35eda8699c88536c18b)
+        ;
+
+        
+    
+    
+            var marker_667a47684d801671d2329a6abdfdac04 = L.marker(
+                [56.302465, 38.135229],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_fdc2bd6f211ef165ca6859e843bf82f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_667a47684d801671d2329a6abdfdac04.setIcon(icon_fdc2bd6f211ef165ca6859e843bf82f8);
+        
+    
+        var popup_8cbf5fd79958a587b77f40046fb72413 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_380672c0ffbf9fc233094e39a9c6b007 = $(`<div id="html_380672c0ffbf9fc233094e39a9c6b007" style="width: 100.0%; height: 100.0%;">Городская аптека<br>Московская область, Сергиев Посад, Вознесенская улица, 67А</div>`)[0];
+            popup_8cbf5fd79958a587b77f40046fb72413.setContent(html_380672c0ffbf9fc233094e39a9c6b007);
+        
+
+        marker_667a47684d801671d2329a6abdfdac04.bindPopup(popup_8cbf5fd79958a587b77f40046fb72413)
+        ;
+
+        
+    
+    
+            var marker_51d0f11333d206cc4b1936cd7af23024 = L.marker(
+                [56.301222, 38.135082],
+                {}
+            ).addTo(map_3ffa1bca35adcd1f9bb95eafc5f6b2de);
+        
+    
+            var icon_7f2aa90c5dc96c24b50cbb549e5476d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51d0f11333d206cc4b1936cd7af23024.setIcon(icon_7f2aa90c5dc96c24b50cbb549e5476d7);
+        
+    
+        var popup_c60d3566e9f41165af6272cd87ebec2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dc4d202c412b61e47e12a51957b5891 = $(`<div id="html_9dc4d202c412b61e47e12a51957b5891" style="width: 100.0%; height: 100.0%;">Аптечный пункт<br>Московская область, Сергиев Посад, Кооперативная улица, 3</div>`)[0];
+            popup_c60d3566e9f41165af6272cd87ebec2c.setContent(html_9dc4d202c412b61e47e12a51957b5891);
+        
+
+        marker_51d0f11333d206cc4b1936cd7af23024.bindPopup(popup_c60d3566e9f41165af6272cd87ebec2c)
+        ;
+
+        
+    
+</script>
+</html>

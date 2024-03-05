@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_959a2b785541ec46f5bee88ec5fb6cb8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_959a2b785541ec46f5bee88ec5fb6cb8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_959a2b785541ec46f5bee88ec5fb6cb8 = L.map(
+                "map_959a2b785541ec46f5bee88ec5fb6cb8",
+                {
+                    center: [55.952454, 38.046235],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_233d9c08470c02be14804ce719e9c347 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var marker_fedb6998ddf911fa9d3f80dccf92b291 = L.marker(
+                [55.952454, 38.046235],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_ad8416d68ccff0f379ef733409fea69c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fedb6998ddf911fa9d3f80dccf92b291.setIcon(icon_ad8416d68ccff0f379ef733409fea69c);
+        
+    
+        var popup_b9042d41e5eb64a2b36623e6cb73b55c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cf1f257d50196e88619d056afa912b0 = $(`<div id="html_0cf1f257d50196e88619d056afa912b0" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, Советская улица, 1В</div>`)[0];
+            popup_b9042d41e5eb64a2b36623e6cb73b55c.setContent(html_0cf1f257d50196e88619d056afa912b0);
+        
+
+        marker_fedb6998ddf911fa9d3f80dccf92b291.bindPopup(popup_b9042d41e5eb64a2b36623e6cb73b55c)
+        ;
+
+        
+    
+    
+            var marker_de5cb42ffbd238758755b3d3f78319b3 = L.marker(
+                [55.958813, 38.036582],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_017f948b694c0958eed445e9d35972ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_de5cb42ffbd238758755b3d3f78319b3.setIcon(icon_017f948b694c0958eed445e9d35972ad);
+        
+    
+        var popup_4204b0bf85390fb34433db1fa297ae16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87fed9a5f172ee70089b737032b7f458 = $(`<div id="html_87fed9a5f172ee70089b737032b7f458" style="width: 100.0%; height: 100.0%;">Аптека № 1<br>Московская область, Фрязино, улица Горького, 5</div>`)[0];
+            popup_4204b0bf85390fb34433db1fa297ae16.setContent(html_87fed9a5f172ee70089b737032b7f458);
+        
+
+        marker_de5cb42ffbd238758755b3d3f78319b3.bindPopup(popup_4204b0bf85390fb34433db1fa297ae16)
+        ;
+
+        
+    
+    
+            var marker_eb40d28ce74747e085b6d096b02cacc5 = L.marker(
+                [55.958925, 38.034993],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_a500ab7e423e4fd18bf711178a7cf542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb40d28ce74747e085b6d096b02cacc5.setIcon(icon_a500ab7e423e4fd18bf711178a7cf542);
+        
+    
+        var popup_a4948287578a82990d204014f998d377 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae49aa487884f4001a8de3f2d0a62739 = $(`<div id="html_ae49aa487884f4001a8de3f2d0a62739" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, улица Горького, 7</div>`)[0];
+            popup_a4948287578a82990d204014f998d377.setContent(html_ae49aa487884f4001a8de3f2d0a62739);
+        
+
+        marker_eb40d28ce74747e085b6d096b02cacc5.bindPopup(popup_a4948287578a82990d204014f998d377)
+        ;
+
+        
+    
+    
+            var marker_3ced016d6c07df26226b19219f54e660 = L.marker(
+                [55.955678, 38.044935],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_f36d9c39a2a44269974f0dc2e65b0c8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ced016d6c07df26226b19219f54e660.setIcon(icon_f36d9c39a2a44269974f0dc2e65b0c8f);
+        
+    
+        var popup_6169572ab1be9153766e59f72bd9d7dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8256de32584dc9f01d6ee6d28ec85c2b = $(`<div id="html_8256de32584dc9f01d6ee6d28ec85c2b" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Фрязино, Октябрьская улица, 10</div>`)[0];
+            popup_6169572ab1be9153766e59f72bd9d7dc.setContent(html_8256de32584dc9f01d6ee6d28ec85c2b);
+        
+
+        marker_3ced016d6c07df26226b19219f54e660.bindPopup(popup_6169572ab1be9153766e59f72bd9d7dc)
+        ;
+
+        
+    
+    
+            var marker_4473e0b791a32e5af2ebd7ef876d3c88 = L.marker(
+                [55.946804, 38.0639],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_9026e1ee9f68fa0cb219d6532f30687e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4473e0b791a32e5af2ebd7ef876d3c88.setIcon(icon_9026e1ee9f68fa0cb219d6532f30687e);
+        
+    
+        var popup_29def48594232239edb0edcb8395da6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d265b6300ed830de105ca4a3636f2d7 = $(`<div id="html_1d265b6300ed830de105ca4a3636f2d7" style="width: 100.0%; height: 100.0%;">Диалог<br>Московская область, Фрязино, Полевая улица, 23А</div>`)[0];
+            popup_29def48594232239edb0edcb8395da6d.setContent(html_1d265b6300ed830de105ca4a3636f2d7);
+        
+
+        marker_4473e0b791a32e5af2ebd7ef876d3c88.bindPopup(popup_29def48594232239edb0edcb8395da6d)
+        ;
+
+        
+    
+    
+            var marker_1f55c573321d7f3f5d578e81dbbd6862 = L.marker(
+                [55.954495, 38.05752],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_0854cf4074b7da101bca5c0ca6133df1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f55c573321d7f3f5d578e81dbbd6862.setIcon(icon_0854cf4074b7da101bca5c0ca6133df1);
+        
+    
+        var popup_df49d1c29ffabd495e8584f46be1ba64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e74052b2d26f8054cec6c7451bc7207a = $(`<div id="html_e74052b2d26f8054cec6c7451bc7207a" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, проспект Мира, 18, корп. 4</div>`)[0];
+            popup_df49d1c29ffabd495e8584f46be1ba64.setContent(html_e74052b2d26f8054cec6c7451bc7207a);
+        
+
+        marker_1f55c573321d7f3f5d578e81dbbd6862.bindPopup(popup_df49d1c29ffabd495e8584f46be1ba64)
+        ;
+
+        
+    
+    
+            var marker_03716dd49c888634da8f522e3d8ce06a = L.marker(
+                [55.953469, 38.0549],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_5ec157e80e1bc5287515371243dfafe3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03716dd49c888634da8f522e3d8ce06a.setIcon(icon_5ec157e80e1bc5287515371243dfafe3);
+        
+    
+        var popup_2e6378c30c227b8b947f24c00e5a03c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66da053c01427133c6743f83591356cd = $(`<div id="html_66da053c01427133c6743f83591356cd" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_2e6378c30c227b8b947f24c00e5a03c7.setContent(html_66da053c01427133c6743f83591356cd);
+        
+
+        marker_03716dd49c888634da8f522e3d8ce06a.bindPopup(popup_2e6378c30c227b8b947f24c00e5a03c7)
+        ;
+
+        
+    
+    
+            var marker_065b807997167f7830542ad6940b16f5 = L.marker(
+                [55.949325, 38.060228],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_5f936652c139474d5cf22d33d378b9f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_065b807997167f7830542ad6940b16f5.setIcon(icon_5f936652c139474d5cf22d33d378b9f9);
+        
+    
+        var popup_6c87242244d9982bd9744e65dfffa780 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32e9b178121f4b104c70830151c0c005 = $(`<div id="html_32e9b178121f4b104c70830151c0c005" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, улица 60 лет СССР, 10</div>`)[0];
+            popup_6c87242244d9982bd9744e65dfffa780.setContent(html_32e9b178121f4b104c70830151c0c005);
+        
+
+        marker_065b807997167f7830542ad6940b16f5.bindPopup(popup_6c87242244d9982bd9744e65dfffa780)
+        ;
+
+        
+    
+    
+            var marker_72c6dfc12a1baf51ee51b14b98249c0f = L.marker(
+                [55.954896, 38.058336],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_10b40729300c088b5b0c1ba521a404ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_72c6dfc12a1baf51ee51b14b98249c0f.setIcon(icon_10b40729300c088b5b0c1ba521a404ef);
+        
+    
+        var popup_373e91be41bac9d68fa5670794c285bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40dec1563caf045c63ed05c530efeee = $(`<div id="html_b40dec1563caf045c63ed05c530efeee" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Фрязино, проспект Мира, 20Б</div>`)[0];
+            popup_373e91be41bac9d68fa5670794c285bc.setContent(html_b40dec1563caf045c63ed05c530efeee);
+        
+
+        marker_72c6dfc12a1baf51ee51b14b98249c0f.bindPopup(popup_373e91be41bac9d68fa5670794c285bc)
+        ;
+
+        
+    
+    
+            var marker_2a357a3c55dcd3d0716f2cc4cf97222b = L.marker(
+                [55.96076, 38.046814],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_b11d7c4e972930f56e9eb6c345008acd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a357a3c55dcd3d0716f2cc4cf97222b.setIcon(icon_b11d7c4e972930f56e9eb6c345008acd);
+        
+    
+        var popup_0ef1a3f34f403a7ef2885cdcef082301 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f330e5f33d5ef6067c0fc8ff82de03 = $(`<div id="html_77f330e5f33d5ef6067c0fc8ff82de03" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Фрязино, Вокзальная улица, 15</div>`)[0];
+            popup_0ef1a3f34f403a7ef2885cdcef082301.setContent(html_77f330e5f33d5ef6067c0fc8ff82de03);
+        
+
+        marker_2a357a3c55dcd3d0716f2cc4cf97222b.bindPopup(popup_0ef1a3f34f403a7ef2885cdcef082301)
+        ;
+
+        
+    
+    
+            var marker_891c020911fac4449905ae3d6c9514a9 = L.marker(
+                [55.953587, 38.043057],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_3be5df78fa9b367893245344bb3b46da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_891c020911fac4449905ae3d6c9514a9.setIcon(icon_3be5df78fa9b367893245344bb3b46da);
+        
+    
+        var popup_ad586427e2fe2e3d3ac2a2023473d132 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c75fbe4f12fb49fcf4ed0f105ec7ccc6 = $(`<div id="html_c75fbe4f12fb49fcf4ed0f105ec7ccc6" style="width: 100.0%; height: 100.0%;">СОВЕТСКАЯ АПТЕКА<br>Московская область, Фрязино, Советская улица, 10А</div>`)[0];
+            popup_ad586427e2fe2e3d3ac2a2023473d132.setContent(html_c75fbe4f12fb49fcf4ed0f105ec7ccc6);
+        
+
+        marker_891c020911fac4449905ae3d6c9514a9.bindPopup(popup_ad586427e2fe2e3d3ac2a2023473d132)
+        ;
+
+        
+    
+    
+            var marker_46be8e354f389990e509bd13f7931a06 = L.marker(
+                [55.955413, 38.051826],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_34e015d43dc2c4b72e0a2019ba5432d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46be8e354f389990e509bd13f7931a06.setIcon(icon_34e015d43dc2c4b72e0a2019ba5432d4);
+        
+    
+        var popup_58d76386874cd0cd2a20354f4f345f5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d4d4c2deb756c1446781ec3d5f6825 = $(`<div id="html_77d4d4c2deb756c1446781ec3d5f6825" style="width: 100.0%; height: 100.0%;">Ригла<br>Московская область, Фрязино, Школьная улица, 1</div>`)[0];
+            popup_58d76386874cd0cd2a20354f4f345f5e.setContent(html_77d4d4c2deb756c1446781ec3d5f6825);
+        
+
+        marker_46be8e354f389990e509bd13f7931a06.bindPopup(popup_58d76386874cd0cd2a20354f4f345f5e)
+        ;
+
+        
+    
+    
+            var marker_dee349c54994c6d1231da2915d46a457 = L.marker(
+                [55.961234, 38.043952],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_ccb4ff49efee12cc25997afa76c01218 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dee349c54994c6d1231da2915d46a457.setIcon(icon_ccb4ff49efee12cc25997afa76c01218);
+        
+    
+        var popup_f391dad365bf7f2a7f00412985c9491c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5f634a9e6402254941cb7370fe4b4c4 = $(`<div id="html_b5f634a9e6402254941cb7370fe4b4c4" style="width: 100.0%; height: 100.0%;">Столетник<br>Московская область, Фрязино, Вокзальная улица, 17</div>`)[0];
+            popup_f391dad365bf7f2a7f00412985c9491c.setContent(html_b5f634a9e6402254941cb7370fe4b4c4);
+        
+
+        marker_dee349c54994c6d1231da2915d46a457.bindPopup(popup_f391dad365bf7f2a7f00412985c9491c)
+        ;
+
+        
+    
+    
+            var marker_806ec1965d98f9b78ec0cb66be1e9024 = L.marker(
+                [55.957013, 38.052922],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_1cd5bb11035ef9166dbef73e7ab8aa75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_806ec1965d98f9b78ec0cb66be1e9024.setIcon(icon_1cd5bb11035ef9166dbef73e7ab8aa75);
+        
+    
+        var popup_96398ab96c008376427565ee2e297dd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d141becdc0f861c9dbe5f04ec50f1e5 = $(`<div id="html_8d141becdc0f861c9dbe5f04ec50f1e5" style="width: 100.0%; height: 100.0%;">Соби-Фарм<br>Московская область, Фрязино, Московская улица, 2</div>`)[0];
+            popup_96398ab96c008376427565ee2e297dd7.setContent(html_8d141becdc0f861c9dbe5f04ec50f1e5);
+        
+
+        marker_806ec1965d98f9b78ec0cb66be1e9024.bindPopup(popup_96398ab96c008376427565ee2e297dd7)
+        ;
+
+        
+    
+    
+            var marker_2bf1ea0e61724ea33f77abf6fc9515d0 = L.marker(
+                [55.961268, 38.044],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_cf30ee7d053b75dec459d637f749ba96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2bf1ea0e61724ea33f77abf6fc9515d0.setIcon(icon_cf30ee7d053b75dec459d637f749ba96);
+        
+    
+        var popup_53ec256b2128749011857611b9bb2757 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab24649a9d57efc41094414318615dcb = $(`<div id="html_ab24649a9d57efc41094414318615dcb" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Фрязино, Вокзальная улица, 17</div>`)[0];
+            popup_53ec256b2128749011857611b9bb2757.setContent(html_ab24649a9d57efc41094414318615dcb);
+        
+
+        marker_2bf1ea0e61724ea33f77abf6fc9515d0.bindPopup(popup_53ec256b2128749011857611b9bb2757)
+        ;
+
+        
+    
+    
+            var marker_1195255ee9aa3f9be1c0062133758926 = L.marker(
+                [55.954793, 38.05913],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_3f45d7ebad00c91a831152de5ecbdda8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1195255ee9aa3f9be1c0062133758926.setIcon(icon_3f45d7ebad00c91a831152de5ecbdda8);
+        
+    
+        var popup_fe77ef35daf44edd108f6b6718c11663 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7586a78cece63c7678a690d0bc30634 = $(`<div id="html_c7586a78cece63c7678a690d0bc30634" style="width: 100.0%; height: 100.0%;">ЕАПТЕКА<br>Московская область, Фрязино, проспект Мира, 20</div>`)[0];
+            popup_fe77ef35daf44edd108f6b6718c11663.setContent(html_c7586a78cece63c7678a690d0bc30634);
+        
+
+        marker_1195255ee9aa3f9be1c0062133758926.bindPopup(popup_fe77ef35daf44edd108f6b6718c11663)
+        ;
+
+        
+    
+    
+            var marker_0331568ceb2f34993f993f02dc31f963 = L.marker(
+                [55.95057, 38.060123],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_8073033918bfe061fee71aa1ee295b75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0331568ceb2f34993f993f02dc31f963.setIcon(icon_8073033918bfe061fee71aa1ee295b75);
+        
+    
+        var popup_0b7e2d00c72a142b5df637c7ff408045 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e000256b4ad5d65516ee47aa2fb2842 = $(`<div id="html_5e000256b4ad5d65516ee47aa2fb2842" style="width: 100.0%; height: 100.0%;">Будь Здоров<br>Московская область, Фрязино, Полевая улица, 13А</div>`)[0];
+            popup_0b7e2d00c72a142b5df637c7ff408045.setContent(html_5e000256b4ad5d65516ee47aa2fb2842);
+        
+
+        marker_0331568ceb2f34993f993f02dc31f963.bindPopup(popup_0b7e2d00c72a142b5df637c7ff408045)
+        ;
+
+        
+    
+    
+            var marker_f849780225f4a8c3845791467b1e00f8 = L.marker(
+                [55.952873, 38.054178],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_f87efbde1e82eee8d12c81d3f273eab1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f849780225f4a8c3845791467b1e00f8.setIcon(icon_f87efbde1e82eee8d12c81d3f273eab1);
+        
+    
+        var popup_dae43ddbadf24c76138b2f3ffd4cde9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d03e1cdf518175c2d4a0cd1d79654004 = $(`<div id="html_d03e1cdf518175c2d4a0cd1d79654004" style="width: 100.0%; height: 100.0%;">АптекаПлюс<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_dae43ddbadf24c76138b2f3ffd4cde9a.setContent(html_d03e1cdf518175c2d4a0cd1d79654004);
+        
+
+        marker_f849780225f4a8c3845791467b1e00f8.bindPopup(popup_dae43ddbadf24c76138b2f3ffd4cde9a)
+        ;
+
+        
+    
+    
+            var marker_588c50573e3dd5721ac045ec21c01278 = L.marker(
+                [55.952504, 38.053571],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_aaa6be73dd3909ccdf9fdde9ccb9a7d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_588c50573e3dd5721ac045ec21c01278.setIcon(icon_aaa6be73dd3909ccdf9fdde9ccb9a7d1);
+        
+    
+        var popup_1a0c621e9d1d4bac17cb869d950b09b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e6c3926499deb2255fa671286b75c8c = $(`<div id="html_8e6c3926499deb2255fa671286b75c8c" style="width: 100.0%; height: 100.0%;">Народная аптека<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_1a0c621e9d1d4bac17cb869d950b09b8.setContent(html_8e6c3926499deb2255fa671286b75c8c);
+        
+
+        marker_588c50573e3dd5721ac045ec21c01278.bindPopup(popup_1a0c621e9d1d4bac17cb869d950b09b8)
+        ;
+
+        
+    
+    
+            var marker_9c30269905c8c4dd8bb90bf2c83bba83 = L.marker(
+                [55.956169, 38.058304],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_9ebc46e18fa583719c659fa77ac7b9a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c30269905c8c4dd8bb90bf2c83bba83.setIcon(icon_9ebc46e18fa583719c659fa77ac7b9a0);
+        
+    
+        var popup_e649ecacb1429094966da0ebcc18c2d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cbf931b32d125e569191b271c4760fd = $(`<div id="html_7cbf931b32d125e569191b271c4760fd" style="width: 100.0%; height: 100.0%;">Superapteka.ru<br>Московская область, Фрязино, проспект Мира, 17</div>`)[0];
+            popup_e649ecacb1429094966da0ebcc18c2d7.setContent(html_7cbf931b32d125e569191b271c4760fd);
+        
+
+        marker_9c30269905c8c4dd8bb90bf2c83bba83.bindPopup(popup_e649ecacb1429094966da0ebcc18c2d7)
+        ;
+
+        
+    
+    
+            var marker_59d1603e9bce3482c75bb4f4f81088dc = L.marker(
+                [55.950273, 38.053637],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_b6d84ee1668678a71bb39de04a01f76a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_59d1603e9bce3482c75bb4f4f81088dc.setIcon(icon_b6d84ee1668678a71bb39de04a01f76a);
+        
+    
+        var popup_e6afbb9a6f8cc34a16712ab740222e1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1563fd491180c477204d8324a51a951f = $(`<div id="html_1563fd491180c477204d8324a51a951f" style="width: 100.0%; height: 100.0%;">ФармаТ<br>Московская область, Фрязино, Полевая улица, 6</div>`)[0];
+            popup_e6afbb9a6f8cc34a16712ab740222e1f.setContent(html_1563fd491180c477204d8324a51a951f);
+        
+
+        marker_59d1603e9bce3482c75bb4f4f81088dc.bindPopup(popup_e6afbb9a6f8cc34a16712ab740222e1f)
+        ;
+
+        
+    
+    
+            var marker_5449a2d807a6c9128891bb62e1a10a0d = L.marker(
+                [55.958865, 38.054639],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_1c212fff906640f7cf7e9b816efed954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5449a2d807a6c9128891bb62e1a10a0d.setIcon(icon_1c212fff906640f7cf7e9b816efed954);
+        
+    
+        var popup_3e4a138c79871008660d4d4cb0c7ad71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6a438d467f19bc030c430fe84bbd2cb = $(`<div id="html_e6a438d467f19bc030c430fe84bbd2cb" style="width: 100.0%; height: 100.0%;">Аптечество<br>Московская область, Фрязино, Новая улица, 4</div>`)[0];
+            popup_3e4a138c79871008660d4d4cb0c7ad71.setContent(html_e6a438d467f19bc030c430fe84bbd2cb);
+        
+
+        marker_5449a2d807a6c9128891bb62e1a10a0d.bindPopup(popup_3e4a138c79871008660d4d4cb0c7ad71)
+        ;
+
+        
+    
+    
+            var marker_388205bbda238ab1de5921bd1507d05f = L.marker(
+                [55.952321, 38.053395],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_fe3b76ebde623b0420cc6c25a444fd62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_388205bbda238ab1de5921bd1507d05f.setIcon(icon_fe3b76ebde623b0420cc6c25a444fd62);
+        
+    
+        var popup_5454cdb4c9dc36e2eb1ffe337d355b67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19ba09d5d31986859defebb7b73fcc91 = $(`<div id="html_19ba09d5d31986859defebb7b73fcc91" style="width: 100.0%; height: 100.0%;">Столички<br>Московская область, Фрязино, проспект Мира, 8</div>`)[0];
+            popup_5454cdb4c9dc36e2eb1ffe337d355b67.setContent(html_19ba09d5d31986859defebb7b73fcc91);
+        
+
+        marker_388205bbda238ab1de5921bd1507d05f.bindPopup(popup_5454cdb4c9dc36e2eb1ffe337d355b67)
+        ;
+
+        
+    
+    
+            var marker_fbb0412cf9baa7cac8915e28f1ee244e = L.marker(
+                [55.951262, 38.053442],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_f674b63c93336362766e9af6a20c41b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbb0412cf9baa7cac8915e28f1ee244e.setIcon(icon_f674b63c93336362766e9af6a20c41b7);
+        
+    
+        var popup_ccc6f9d5f48121d5a63aace6ea35c319 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee3ea401283571503055d5ef1758e095 = $(`<div id="html_ee3ea401283571503055d5ef1758e095" style="width: 100.0%; height: 100.0%;">Планета здоровья<br>Московская область, Фрязино, Полевая улица, 1</div>`)[0];
+            popup_ccc6f9d5f48121d5a63aace6ea35c319.setContent(html_ee3ea401283571503055d5ef1758e095);
+        
+
+        marker_fbb0412cf9baa7cac8915e28f1ee244e.bindPopup(popup_ccc6f9d5f48121d5a63aace6ea35c319)
+        ;
+
+        
+    
+    
+            var marker_02f7e52e991e3dd21b76b85fc8e82ccc = L.marker(
+                [55.954975, 38.059605],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_1a19e416ae78c32e92e708ede190f637 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_02f7e52e991e3dd21b76b85fc8e82ccc.setIcon(icon_1a19e416ae78c32e92e708ede190f637);
+        
+    
+        var popup_3b6271d4bf639c9f73898bd56b5f5a30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41d76a6aac9c0bbd254dbc246a68f962 = $(`<div id="html_41d76a6aac9c0bbd254dbc246a68f962" style="width: 100.0%; height: 100.0%;">Эконом<br>Московская область, Фрязино, проспект Мира, 20</div>`)[0];
+            popup_3b6271d4bf639c9f73898bd56b5f5a30.setContent(html_41d76a6aac9c0bbd254dbc246a68f962);
+        
+
+        marker_02f7e52e991e3dd21b76b85fc8e82ccc.bindPopup(popup_3b6271d4bf639c9f73898bd56b5f5a30)
+        ;
+
+        
+    
+    
+            var marker_67273fe4ef9ec27dfbb71c6e289295e3 = L.marker(
+                [55.956636, 38.054722],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_4d1fcfb30bbcd149ff43a5736dee9a97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67273fe4ef9ec27dfbb71c6e289295e3.setIcon(icon_4d1fcfb30bbcd149ff43a5736dee9a97);
+        
+    
+        var popup_034b0344f874736477907b2acd4138a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2442df5719e793740f1a7a4ad454a9ff = $(`<div id="html_2442df5719e793740f1a7a4ad454a9ff" style="width: 100.0%; height: 100.0%;">Мособлмедсервис<br>Московская область, Фрязино, Московская улица, 7</div>`)[0];
+            popup_034b0344f874736477907b2acd4138a8.setContent(html_2442df5719e793740f1a7a4ad454a9ff);
+        
+
+        marker_67273fe4ef9ec27dfbb71c6e289295e3.bindPopup(popup_034b0344f874736477907b2acd4138a8)
+        ;
+
+        
+    
+    
+            var marker_de702fc05caea321d0801d8ed4a42dae = L.marker(
+                [55.956015, 38.031157],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_82ace2fadf048cb5e23e2d26b63137f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_de702fc05caea321d0801d8ed4a42dae.setIcon(icon_82ace2fadf048cb5e23e2d26b63137f3);
+        
+    
+        var popup_e9bba9d79b8e712c097a265f2e5ea9a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75ecb60af2ba828b00e0debf1113552a = $(`<div id="html_75ecb60af2ba828b00e0debf1113552a" style="width: 100.0%; height: 100.0%;">Ланас<br>Московская область, Фрязино, улица Нахимова, 23</div>`)[0];
+            popup_e9bba9d79b8e712c097a265f2e5ea9a8.setContent(html_75ecb60af2ba828b00e0debf1113552a);
+        
+
+        marker_de702fc05caea321d0801d8ed4a42dae.bindPopup(popup_e9bba9d79b8e712c097a265f2e5ea9a8)
+        ;
+
+        
+    
+    
+            var marker_4eb0c8c612329f81ec917d22f4d7b3ba = L.marker(
+                [55.954807, 38.058869],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_55d1bbf8607a5b22dbb387ac499b5ea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4eb0c8c612329f81ec917d22f4d7b3ba.setIcon(icon_55d1bbf8607a5b22dbb387ac499b5ea5);
+        
+    
+        var popup_26763ae2a673cb52933d6d6eece30c9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02268e9a623f90e69658b2509d694437 = $(`<div id="html_02268e9a623f90e69658b2509d694437" style="width: 100.0%; height: 100.0%;">Будь здоров!<br>Московская область, Фрязино, проспект Мира, 20</div>`)[0];
+            popup_26763ae2a673cb52933d6d6eece30c9e.setContent(html_02268e9a623f90e69658b2509d694437);
+        
+
+        marker_4eb0c8c612329f81ec917d22f4d7b3ba.bindPopup(popup_26763ae2a673cb52933d6d6eece30c9e)
+        ;
+
+        
+    
+    
+            var marker_80fa96ee60e1d47cb32c742565792586 = L.marker(
+                [55.956123, 38.031187],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_9b9341364d22f2494e653f4b979ebcdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80fa96ee60e1d47cb32c742565792586.setIcon(icon_9b9341364d22f2494e653f4b979ebcdc);
+        
+    
+        var popup_438209c1b2eb47e53dada2a6fa3591ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_181b17cc4f2513b0b8768d39bdb4549c = $(`<div id="html_181b17cc4f2513b0b8768d39bdb4549c" style="width: 100.0%; height: 100.0%;">Миллениум-Ф<br>Московская область, Фрязино, улица Нахимова, 23</div>`)[0];
+            popup_438209c1b2eb47e53dada2a6fa3591ed.setContent(html_181b17cc4f2513b0b8768d39bdb4549c);
+        
+
+        marker_80fa96ee60e1d47cb32c742565792586.bindPopup(popup_438209c1b2eb47e53dada2a6fa3591ed)
+        ;
+
+        
+    
+    
+            var marker_65eaf2592e504e2b8b4446cf561b1507 = L.marker(
+                [55.950517, 38.05549],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_bc0943309b7c9c2cc17efa0fdb39c2ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_65eaf2592e504e2b8b4446cf561b1507.setIcon(icon_bc0943309b7c9c2cc17efa0fdb39c2ae);
+        
+    
+        var popup_294a3b025a39d7b20981eb9432938765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0768986fffae7a3996cd1e6f77f147ed = $(`<div id="html_0768986fffae7a3996cd1e6f77f147ed" style="width: 100.0%; height: 100.0%;">Фармленд<br>Московская область, Фрязино, Полевая улица, 3</div>`)[0];
+            popup_294a3b025a39d7b20981eb9432938765.setContent(html_0768986fffae7a3996cd1e6f77f147ed);
+        
+
+        marker_65eaf2592e504e2b8b4446cf561b1507.bindPopup(popup_294a3b025a39d7b20981eb9432938765)
+        ;
+
+        
+    
+    
+            var marker_7ba5b89cb515515e3b7be485a1bdf7eb = L.marker(
+                [55.950434, 38.053736],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_17c7fd8625e83d14fda6b5ca5e27ced5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ba5b89cb515515e3b7be485a1bdf7eb.setIcon(icon_17c7fd8625e83d14fda6b5ca5e27ced5);
+        
+    
+        var popup_54fa5a52a9a425933a164b2f082f80ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89ab225c652834b3374fb92c55e0c2a0 = $(`<div id="html_89ab225c652834b3374fb92c55e0c2a0" style="width: 100.0%; height: 100.0%;">БиоЛайф<br>Московская область, Фрязино, Полевая улица, 6</div>`)[0];
+            popup_54fa5a52a9a425933a164b2f082f80ec.setContent(html_89ab225c652834b3374fb92c55e0c2a0);
+        
+
+        marker_7ba5b89cb515515e3b7be485a1bdf7eb.bindPopup(popup_54fa5a52a9a425933a164b2f082f80ec)
+        ;
+
+        
+    
+    
+            var marker_95d80de9c7bdf9d0b4ad1e4e58780d1a = L.marker(
+                [55.953115, 38.041874],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_262ca10a1b70d9902daed19221f5402d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95d80de9c7bdf9d0b4ad1e4e58780d1a.setIcon(icon_262ca10a1b70d9902daed19221f5402d);
+        
+    
+        var popup_1d548b0dcf72446206e16708aab9e8fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38b2f06fa24bfe8b5145ca4282452347 = $(`<div id="html_38b2f06fa24bfe8b5145ca4282452347" style="width: 100.0%; height: 100.0%;">Аптечный Дом<br>Московская область, Фрязино, Советская улица, 17</div>`)[0];
+            popup_1d548b0dcf72446206e16708aab9e8fe.setContent(html_38b2f06fa24bfe8b5145ca4282452347);
+        
+
+        marker_95d80de9c7bdf9d0b4ad1e4e58780d1a.bindPopup(popup_1d548b0dcf72446206e16708aab9e8fe)
+        ;
+
+        
+    
+    
+            var marker_9d442f29324edf1dd55db2e6001e4823 = L.marker(
+                [55.950297, 38.053848],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_ef960861d9155b0801d833292a7249a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d442f29324edf1dd55db2e6001e4823.setIcon(icon_ef960861d9155b0801d833292a7249a3);
+        
+    
+        var popup_e95655c60af011b6c8528489d4d51e45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41e7eeb08877b646f3eb2076b39a914c = $(`<div id="html_41e7eeb08877b646f3eb2076b39a914c" style="width: 100.0%; height: 100.0%;">Антей<br>Московская область, Фрязино, Полевая улица, 6</div>`)[0];
+            popup_e95655c60af011b6c8528489d4d51e45.setContent(html_41e7eeb08877b646f3eb2076b39a914c);
+        
+
+        marker_9d442f29324edf1dd55db2e6001e4823.bindPopup(popup_e95655c60af011b6c8528489d4d51e45)
+        ;
+
+        
+    
+    
+            var marker_107fa5c42e76061f1770bcfecbd8b8ba = L.marker(
+                [55.958164, 38.070817],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_8f4b6a2f4408b905124a85a6a71df3f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_107fa5c42e76061f1770bcfecbd8b8ba.setIcon(icon_8f4b6a2f4408b905124a85a6a71df3f8);
+        
+    
+        var popup_103afbfd635f118a0294abcf0a3803bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6faaa9031a043d44c47e3f383d4cd49a = $(`<div id="html_6faaa9031a043d44c47e3f383d4cd49a" style="width: 100.0%; height: 100.0%;">Синергия<br>Московская область, городской округ Щёлково, деревня Ново, 23А</div>`)[0];
+            popup_103afbfd635f118a0294abcf0a3803bc.setContent(html_6faaa9031a043d44c47e3f383d4cd49a);
+        
+
+        marker_107fa5c42e76061f1770bcfecbd8b8ba.bindPopup(popup_103afbfd635f118a0294abcf0a3803bc)
+        ;
+
+        
+    
+    
+            var marker_70033e8c5bc4e41d1cc3aafd0b6d19b6 = L.marker(
+                [55.939267, 38.033852],
+                {}
+            ).addTo(map_959a2b785541ec46f5bee88ec5fb6cb8);
+        
+    
+            var icon_3e584b3ac06a346227702825a4db45b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_70033e8c5bc4e41d1cc3aafd0b6d19b6.setIcon(icon_3e584b3ac06a346227702825a4db45b6);
+        
+    
+        var popup_92024eb58b285a049af6c1f0e7b26b10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd5176d8273d42e2b80107d63876e827 = $(`<div id="html_bd5176d8273d42e2b80107d63876e827" style="width: 100.0%; height: 100.0%;">Альтаир<br>Московская область, Щёлково, Фряновское шоссе, 64, корп. 1</div>`)[0];
+            popup_92024eb58b285a049af6c1f0e7b26b10.setContent(html_bd5176d8273d42e2b80107d63876e827);
+        
+
+        marker_70033e8c5bc4e41d1cc3aafd0b6d19b6.bindPopup(popup_92024eb58b285a049af6c1f0e7b26b10)
+        ;
+
+        
+    
+</script>
+</html>
